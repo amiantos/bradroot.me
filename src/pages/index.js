@@ -3,12 +3,15 @@ import GatsbyLink from 'gatsby-link';
 import Helmet from 'react-helmet';
 
 import Link from '../components/Link';
+import Bio from '../components/Bio'
 
 import '../css/index.css';
 
 export default function Index({ data }) {
   const { edges: posts } = data.allMarkdownRemark;
   return (
+    <div>
+    <Bio />
     <div className="blog-posts">
       {posts
         .filter(post => post.node.frontmatter.title.length > 0)
@@ -30,6 +33,7 @@ export default function Index({ data }) {
             </div>
           );
         })}
+    </div>
     </div>
   );
 }

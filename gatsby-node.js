@@ -62,6 +62,10 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
             title
           }
         }
+      },
+    	group(field: frontmatter___tags) {
+        fieldValue
+        totalCount
       }
     }
   }`)

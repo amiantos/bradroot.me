@@ -1,7 +1,7 @@
 ---
 path: "/best-of-2017-music"
 title: Best of 2017 - Music
-date: "2018-04-28T22:25:05"
+date: "2018-04-28"
 tags: ['best-of', 'music', 'list']
 ---
 
@@ -16,19 +16,31 @@ My cup truly runneth over with music in 2017, further cemented with the release 
 **The Black Angels** - *Death Song*
 
 
-Bodies of Water - Spear in the City
-Holy Fuck - Bird Brains
-Nine Inch Nails - Add Violence (EP)
-Posse - Horse Blanket
-Charly Bliss - Guppy
-Sacred Paws - Strike a Match
-EMA - Exile in the Outer Ring
-Beck - Colors
-Meat Wave - The Incessant
-Chain and The Gang - Experimental Music
-METZ - Strange Peace
-The War on Drugs - A Deeper Understanding
-Dope Smoker - Legalize It
+**Bodies of Water** - *Spear in the City*
+
+**Holy Fuck** - *Bird Brains*
+
+**Nine Inch Nails** - *Add Violence*
+
+**Posse** - *Horse Blanket*
+
+**Charly Bliss** - *Guppy*
+
+**Sacred Paws** - *Strike a Match*
+
+**EMA** - *Exile in the Outer Ring*
+
+**Beck** - *Colors*
+
+**Meat Wave** - *The Incessant*
+
+**Chain and The Gang** - *Experimental Music*
+
+**METZ** - *Strange Peace*
+
+**The War on Drugs** - *A Deeper Understanding*
+
+**Dope Smoker** - *Legalize It*
 
 
 

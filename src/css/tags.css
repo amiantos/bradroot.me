@@ -1,7 +1,7 @@
 .tag-list {
     margin:0;
     display:block;
-    border-top:1px solid darkred;
+    border-top:1px solid #eee;
     padding-top:1rem;
     padding-bottom:1rem;
 }
@@ -19,4 +19,20 @@
 
 .tag-list li a:hover {
     color:black;
+}
+
+.tags-post-list .title {
+    margin-bottom:0px;
+}
+  
+.tags-post-list .title a {
+    text-decoration:none;
+    color:darkred;
+}
+
+.tags-post-list {
+    margin:0;
+}
+.tags-post-list li {
+    list-style:none;
 }
