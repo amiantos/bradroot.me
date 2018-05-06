@@ -18,15 +18,15 @@ export default class Template extends React.Component {
     return (
       <div>
         <Helmet
-          title="Gatsby Default (Blog) Starter"
+          title="bradroot.me"
           meta={[
-            { name: 'description', content: 'Sample' },
-            { name: 'keywords', content: 'sample, something' },
+            { name: 'description', content: 'Personal website of Brad Root' },
+            { name: 'keywords', content: 'blog, programming, music' },
           ]}
         />
         <div
           style={{
-            background: `rebeccapurple`,
+            background: `darkred`,
             marginBottom: `1.45rem`,
           }}
         >
@@ -45,7 +45,7 @@ export default class Template extends React.Component {
                   textDecoration: 'none',
                 }}
               >
-                Gatsby Blog
+                bradroot.me
               </Link>
             </h1>
           </div>
