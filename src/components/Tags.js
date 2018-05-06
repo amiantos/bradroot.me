@@ -6,6 +6,7 @@ import '../css/tags.css';
 export default function Tags({ list = [] }) {
   return (
     <ul className="tag-list">
+    {`Tags: `}
       {list.map(tag =>
         <li key={tag}>
           <Link to={`/tags/${tag}`}>

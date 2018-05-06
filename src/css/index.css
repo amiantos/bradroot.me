@@ -2,7 +2,6 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  justify-content: center;
   padding: 1rem 0.25rem;
   border-bottom: 2px solid #EEE;
 }
@@ -11,11 +10,22 @@
   border-bottom-width: 0;
 }
 
-.blog-post-preview .title, .blog-post-preview .date, .blog-post-preview .link {
-  margin: 0 auto;
+.blog-post-preview .title {
+  margin-bottom:0px;
+}
+
+.blog-post-preview .title a {
+  text-decoration:none;
+  color:darkred;
 }
 
 .blog-post-preview .date {
   color: #555;
   margin-bottom: 1rem;
+  font-size: 1rem;
+  font-weight:200;
+}
+
+.blog-post-preview p {
+  font-family: sans-serif;
 }
