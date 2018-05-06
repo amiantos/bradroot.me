@@ -15,6 +15,7 @@ My cup truly runneth over with music in 2017, further cemented with the release 
 
 **The Black Angels** - *Death Song*
 
+A triumphant return to form, The Black Angels bless us with another record of dark & psychdelic tunes.
 
 **Bodies of Water** - *Spear in the City*
 

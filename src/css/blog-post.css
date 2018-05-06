@@ -7,7 +7,7 @@
 }
 
 .blog-post .navigation {
-  border-top:1px solid #eee;
+  border-top:2px solid #eee;
   padding-top:1rem;
   margin-top:0;
   min-height: 60px;
@@ -28,7 +28,7 @@
   font-size: 1rem;
   font-weight:200;
   padding-bottom:1rem;
-  border-bottom:1px solid #eee;
+  border-bottom:2px solid #eee;
 }
 
 .blog-post p {

@@ -12,7 +12,7 @@ class Bio extends React.Component {
             <strong>
                 Who? What?
             </strong>{' '}
-            I'm just some dude living in Los Angeles. I build{' '}
+            I'm just some dude. I build{' '}
             <a href="https://www.numutracker.com">
               Numu Tracker
             </a>{' '}
