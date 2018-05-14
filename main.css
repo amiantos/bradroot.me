@@ -95,3 +95,22 @@ body {
 .content p a:active {
     color:darkred;
 }
+
+.quote {
+    background-color:#333;
+    color:#ddd;
+}
+
+.quote p a {
+    color:#aaa;
+}
+
+blockquote {
+    margin-top:15px;
+    margin-left:10px;
+    margin-right:10px;
+    margin-bottom:0px;
+    font-size:80%;
+    font-family: 'Libre Baskerville', serif;
+    line-height:1.7em;
+}
