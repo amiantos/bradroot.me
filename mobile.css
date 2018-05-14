@@ -16,5 +16,10 @@
         display:block;
     }
 
+    .text-container h3 {
+        padding-bottom:20px;
+        border-bottom:1px solid #ddd;
+    }
+
 
 }
