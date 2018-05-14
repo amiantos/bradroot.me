@@ -11,6 +11,7 @@ body {
 .header {
     display:table;
     margin-top:30px;
+    margin-bottom:30px;
 }
 
 .logo-container {
@@ -18,9 +19,9 @@ body {
     background-color:#333;
     padding:30px;
     width:220px;
-    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5)  ; 
-	-webkit-box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5)  ; 
-    -moz-box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5)  ; 
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1); 
+	-webkit-box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1); 
+    -moz-box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1); 
 }
 
 .logo-container img {
@@ -62,6 +63,32 @@ body {
     color:#aaa;
 }
 
-.text-container p {
+.content {
+    max-width:500px;
+    padding:20px 30px;
+    margin:0 auto;
+    background-color:rgb(245, 245, 245);
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1); 
+	-webkit-box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1); 
+    -moz-box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1); 
+}
+
+.content p {
     font-family: 'Open Sans', sans-serif;
+    font-weight:200;
+    color:#555;
+}
+
+.content p a {
+    color:#333;
+    font-weight:600;
+    line-height:1.8em;
+}
+
+.content p a:hover {
+    color:#888;
+}
+
+.content p a:active {
+    color:darkred;
 }
