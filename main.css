@@ -24,6 +24,11 @@ body {
     float:left;
 }
 
+.logo-container img {
+    position:relative;
+    width:100%;
+}
+
 .text-container {
     display:table-cell;
     width:100%;
