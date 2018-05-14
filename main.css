@@ -9,7 +9,9 @@ body {
 }
 
 .header {
+    max-width:500px;
     display:table;
+    margin:0 auto;
     margin-top:30px;
     margin-bottom:30px;
 }
