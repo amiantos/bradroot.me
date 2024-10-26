@@ -1,0 +1,117 @@
+* {
+    box-sizing:border-box;
+}
+
+body {
+    margin:0;
+    padding:0;
+    background-color:#eee;
+}
+
+.header {
+    max-width:500px;
+    display:table;
+    margin:0 auto;
+    margin-top:30px;
+    margin-bottom:30px;
+}
+
+.logo-container {
+    display:table-cell;
+    background-color:#333;
+    padding:30px;
+    width:220px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1); 
+	-webkit-box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1); 
+    -moz-box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1); 
+}
+
+.logo-container img {
+    width:160px;
+}
+
+.text-container {
+    display:table-cell;
+    width:100%;
+    padding:30px;
+    padding-top:45px;
+    vertical-align: middle;
+}
+
+.text-container h1, h2, h3 {
+    width:100%;
+    margin:0;
+    padding:0;
+    line-height:1em;
+    font-family: 'Rubik', sans-serif;
+    text-align:center;
+    font-weight:400;
+}
+
+.text-container h1 {
+    font-size: 250%;
+    border-bottom:1px solid #ddd;
+    padding-bottom:10px;
+    font-weight:600;
+}
+
+.text-container h2 {
+    margin-top:15px;
+    margin-bottom:15px;
+    color:#555;
+}
+
+.text-container h3 {
+    color:#aaa;
+}
+
+.content {
+    max-width:500px;
+    padding:20px 30px;
+    margin:0 auto;
+    background-color:rgb(245, 245, 245);
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1); 
+	-webkit-box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1); 
+    -moz-box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1); 
+    margin-bottom:30px;        
+}
+
+.content p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight:200;
+    color:#555;
+}
+
+.content p a {
+    color:#333;
+    font-weight:600;
+    line-height:1.8em;
+}
+
+.content p a:hover {
+    color:#888;
+}
+
+.content p a:active {
+    color:darkred;
+}
+
+.quote {
+    background-color:#333;
+    color:#ddd;
+}
+
+.quote p a {
+    color:#ccc;
+}
+
+blockquote {
+    font-weight:100;
+    margin-top:15px;
+    margin-left:10px;
+    margin-right:10px;
+    margin-bottom:0px;
+    font-size:80%;
+    font-family: 'Libre Baskerville', serif;
+    line-height:1.7em;
+}
