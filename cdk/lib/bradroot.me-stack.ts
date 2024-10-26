@@ -42,7 +42,7 @@ export class BradrootMeStack extends cdk.Stack {
 
     new s3Deploy.BucketDeployment(this, 'BradRootWebsiteBucketDeployment', {
       sources: [
-        s3Deploy.Source.asset(path.join(__dirname, '../website')),
+        s3Deploy.Source.asset(path.join(__dirname, '../../website')),
       ],
       destinationBucket: bucket
     });
