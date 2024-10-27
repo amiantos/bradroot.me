@@ -1,0 +1,48 @@
+@media (min-width: 850px) {
+
+    .header {
+        max-width:900px;
+        margin:40px auto;
+    }
+    
+    .logo-container img.photo {
+        width:320px;
+        margin:0px 40px;
+        margin-bottom:12px;
+    }
+
+    .icon {
+        width:70px;
+        height:70px;
+        margin:3px;
+    }
+
+    .text-container {
+        margin:40px;
+        padding-right:40px;
+        font-size:1.2em;
+    }
+
+    .name2 {
+        margin-bottom:-8px;
+    }
+
+    .object {
+        max-width:900px;
+        margin:40px auto;
+    }
+
+    .object .image img {
+        height:300px;
+        max-width:420px;
+        margin:0px 40px;
+        margin-bottom:12px;
+    }
+
+    .object .description {
+        margin:40px;
+        padding-right:40px;
+        font-size:1.2em;
+    }
+
+}
