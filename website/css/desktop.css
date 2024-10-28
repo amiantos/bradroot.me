@@ -69,4 +69,12 @@
     .container-container {
         background-color:#eee;
     }
+
+    .word-divider {
+        display:block;
+        text-align:right;
+        margin-top:200px;
+        margin-bottom:200px;
+        margin-right:-5px;
+    }
 }
