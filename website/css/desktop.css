@@ -1,7 +1,10 @@
 @media (min-width: 1024px) {
     .container {
-        border-left:8px solid black;
         border-right:8px solid black;
+    }
+
+    .object-container {
+        border-left:8px solid black;
     }
 }
 
