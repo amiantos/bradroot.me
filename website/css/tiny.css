@@ -29,8 +29,12 @@
         padding:0px 16px;
     }
 
+    .name {
+        margin-top:-6px;
+    }
+
     .name2 {
-        margin-bottom:-5px;
+        margin-bottom:-6px;
     }
 
     .divider2 {
