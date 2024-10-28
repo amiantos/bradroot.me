@@ -138,6 +138,20 @@ body {
     padding:20px 0px;
 }
 
+.object .app-icon {
+    display:block;
+    margin-bottom:15px;
+}
+
+.object img.app-icon {
+    width:80px;
+    height:80px;
+    margin:0px auto;
+    margin-bottom:10px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
 .object a {
     color:black;
 }
