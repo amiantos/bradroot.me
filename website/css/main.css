@@ -119,10 +119,10 @@ body {
 }
 
 .footer {
-    background-color:black;
+    background-color:#eee;
     margin:0px;
     padding:10px 10px;
-    color:#9a9a9a;
+    color:black;
     font-family: monospace;
     text-align:right;
     vertical-align: bottom;
