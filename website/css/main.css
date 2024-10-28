@@ -138,9 +138,9 @@ body {
     padding:20px 0px;
 }
 
-.object .app-icon {
+.object .description .app-icon {
     display:block;
-    margin-bottom:15px;
+    margin-bottom:20px;
 }
 
 .object img.app-icon {
@@ -178,6 +178,15 @@ body {
     padding-right:20px;
     font-family:monospace;
     line-height:1.5em;
+}
+
+.container {
+    margin:0px auto;
+    background-color:#eee;
+}
+
+.container-container {
+    background-color:#eee;
 }
 
 /* 
