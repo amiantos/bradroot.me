@@ -158,6 +158,15 @@ body {
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
 }
 
+.object img.app-tv-icon {
+    width:133px;
+    height:80px;
+    margin:0px auto;
+    margin-bottom:10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
 .object a {
     color:black;
 }
