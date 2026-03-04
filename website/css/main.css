@@ -297,66 +297,6 @@ img {
   margin-top: 8px;
 }
 
-/* --- Work Section --- */
-.work-item {
-  display: flex;
-  align-items: flex-start;
-  gap: 20px;
-  padding: 24px;
-  background: var(--surface);
-}
-
-.work-item__icon {
-  width: 64px;
-  height: 64px;
-  border-radius: 14px;
-  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
-  flex-shrink: 0;
-}
-
-.work-item__info {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  min-width: 0;
-}
-
-.work-item__name {
-  font-size: 1.4rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  margin-bottom: 4px;
-}
-
-.work-item__role {
-  font-size: 0.85rem;
-  color: var(--text-muted);
-  margin-bottom: 12px;
-}
-
-.work-item__desc {
-  line-height: 1.7;
-  margin-bottom: 16px;
-}
-
-.work-item__link {
-  font-size: 0.8rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  padding: 4px 10px;
-  border: 2px solid var(--text);
-  text-decoration: none;
-  display: inline-block;
-  transition: background-color 0.2s, color 0.2s;
-}
-
-.work-item__link:hover {
-  background-color: var(--text);
-  color: var(--bg);
-}
-
 /* --- Other Projects Grid --- */
 .projects-grid {
   display: grid;
