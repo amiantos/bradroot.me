@@ -47,16 +47,15 @@
           <div class="section-header__shape section-header__shape--circle" style="background-color: var(--red);"></div>
           <h2>Work</h2>
         </div>
-        <div class="work-item">
-          <div class="work-item__media">
-            <img src="images/lingo-icon.png" alt="Lingo" class="work-item__icon">
-            <img src="images/lingo-2.png" alt="Lingo screenshot" class="work-item__screenshot">
-          </div>
-          <div class="work-item__info">
-            <h3 class="work-item__name">Lingo</h3>
-            <p class="work-item__role">Digital Asset Manager</p>
-            <p class="work-item__desc">Since 2018, I've been the backend engineer, devops guy, all-around problem solver, and occasional copywriter for Lingo, a digital asset manager used by Reddit, Duolingo, Snap, and other brands you know and love.</p>
-            <a href="https://lingoapp.com" class="work-item__link">Visit Website</a>
+        <div class="featured-project">
+          <img src="images/lingo-icon.png" alt="Lingo" class="featured-project__icon">
+          <div class="featured-project__info">
+            <h3 class="featured-project__name">Lingo</h3>
+            <p class="featured-project__tagline">Digital Asset Manager</p>
+            <p class="featured-project__desc">Since 2018, I've been the backend engineer, devops guy, all-around problem solver, and occasional copywriter for Lingo, a digital asset manager used by Reddit, Duolingo, Snap, and other brands you know and love.</p>
+            <div class="featured-project__links">
+              <a href="https://lingoapp.com">Visit Website</a>
+            </div>
           </div>
         </div>
       </div>
@@ -72,10 +71,7 @@
         </div>
         {% for project in featured_projects %}
         <div class="featured-project">
-          <div class="featured-project__media">
-            <img src="{{ project.icon }}" alt="{{ project.name }}" class="featured-project__icon">
-            <img src="{{ project.screenshot }}" alt="{{ project.name }} screenshot" class="featured-project__screenshot">
-          </div>
+          <img src="{{ project.icon }}" alt="{{ project.name }}" class="featured-project__icon">
           <div class="featured-project__info">
             <h3 class="featured-project__name">{{ project.name }}</h3>
             <p class="featured-project__tagline">{{ project.tagline }}</p>
@@ -137,23 +133,42 @@
         </div>
         <div class="blog-grid">
           <div class="blog-card">
-            <img src="images/staires.org screenshot.png" alt="staires.org" class="blog-card__screenshot">
             <div class="blog-card__info">
               <h3 class="blog-card__name"><a href="https://staires.org">ſtaires!</a></h3>
-              <p class="blog-card__desc">Since 2008, ſtaires! an adventure in listening is a music blog where I write about music I like. Nothing more, nothing less. Previously syndicated by The Hype Machine.</p>
+              <p class="blog-card__desc">Since 2008, <em>ſtaires! an adventure in listening</em> is a music blog where I write about music I like. Nothing more, nothing less. Previously syndicated by The Hype Machine.</p>
+              {% if staires_songs and staires_songs.length > 0 %}
+              <ul class="blog-card__posts">
+                {% for song in staires_songs %}
+                <li><a href="{{ song.link }}">{{ song.title }}</a> <span class="blog-card__date">{{ song.pubDate_formatted }}</span></li>
+                {% endfor %}
+              </ul>
+              {% endif %}
             </div>
           </div>
           <div class="blog-card">
-            <img src="images/amiantos.net screenshot.png" alt="amiantos.net" class="blog-card__screenshot">
             <div class="blog-card__info">
               <h3 class="blog-card__name"><a href="https://amiantos.net">amiantos.net</a></h3>
-              <p class="blog-card__desc">Amiantos.net is my personal blog where I write about my ongoing projects, slap together tutorials, and throw up my opinions on all the latest happenings in technology.</p>
+              <p class="blog-card__desc"><em>Amiantos.net</em> is my personal blog where I write about my ongoing projects, slap together tutorials, and throw up my opinions on all the latest happenings in technology.</p>
+              {% if amiantos_posts and amiantos_posts.length > 0 %}
+              <ul class="blog-card__posts">
+                {% for post in amiantos_posts %}
+                <li><a href="{{ post.link }}">{{ post.title }}</a> <span class="blog-card__date">{{ post.pubDate_formatted }}</span></li>
+                {% endfor %}
+              </ul>
+              {% endif %}
             </div>
           </div>
           <div class="blog-card">
             <div class="blog-card__info">
               <h3 class="blog-card__name"><a href="https://ihavebeenfloated.org">ihavebeenfloated.org</a></h3>
-              <p class="blog-card__desc">A collection of writing about floating, sensory deprivation, and the float tank experience.</p>
+              <p class="blog-card__desc">Since 2004, <em>i have been floated</em>em> is my microblog where I write about myself, my thoughts, my interests, and anything else I care to spew out onto the internet lazily.</p>
+              {% if floated_posts and floated_posts.length > 0 %}
+              <ul class="blog-card__posts">
+                {% for post in floated_posts %}
+                <li><a href="{{ post.link }}">{{ post.title }}</a> <span class="blog-card__date">{{ post.pubDate_formatted }}</span></li>
+                {% endfor %}
+              </ul>
+              {% endif %}
             </div>
           </div>
         </div>
@@ -170,96 +185,135 @@
         </div>
         <div class="dashboard-grid">
 
-          {# Recent Repos #}
-          {% if recent_repos and recent_repos.length > 0 %}
-          <div class="dashboard-card">
-            <h3 class="dashboard-card__title">Recent Repos</h3>
-            <ul class="dashboard-card__list">
-              {% for repo in recent_repos %}
-              <li><a href="{{ repo.html_url }}">{{ repo.name }}</a> — {{ repo.pushed_at_formatted }}</li>
-              {% endfor %}
-            </ul>
-          </div>
-          {% endif %}
+          {# Row 1: Recent Repos + Discourse (side by side) #}
+          <div class="dashboard-row dashboard-row--half">
 
-          {# Recently Starred #}
-          {% if starred_repos and starred_repos.length > 0 %}
-          <div class="dashboard-card">
-            <h3 class="dashboard-card__title">Recently Starred</h3>
-            <ul class="dashboard-card__list">
-              {% for repo in starred_repos %}
-              <li><a href="{{ repo.html_url }}">{{ repo.full_name }}</a></li>
-              {% endfor %}
-            </ul>
-          </div>
-          {% endif %}
-
-          {# Discourse #}
-          {% if discourse %}
-          <div class="dashboard-card">
-            <h3 class="dashboard-card__title">Discourse Forum</h3>
-            <div class="dashboard-stat-row">
-              <div>
-                <div class="dashboard-card__stat">{{ discourse.topics | default("—") }}</div>
-                <div class="dashboard-card__stat-label">Topics</div>
+            {# GitHub Activity #}
+            {% if recent_repos and recent_repos.length > 0 %}
+            <div class="dashboard-card">
+              <h3 class="dashboard-card__title"><a href="https://github.com/amiantos">GitHub Activity</a></h3>
+              <div class="dashboard-stat-row">
+                <div>
+                  <div class="dashboard-card__stat">{{ github_stats.repos | abbreviate }}</div>
+                  <div class="dashboard-card__stat-label">Repos</div>
+                </div>
+                <div>
+                  <div class="dashboard-card__stat">{{ github_stats.stars | abbreviate }}</div>
+                  <div class="dashboard-card__stat-label">Stars</div>
+                </div>
+                <div>
+                  <div class="dashboard-card__stat">{{ github_stats.forks | abbreviate }}</div>
+                  <div class="dashboard-card__stat-label">Forks</div>
+                </div>
               </div>
-              <div>
-                <div class="dashboard-card__stat">{{ discourse.posts | default("—") }}</div>
-                <div class="dashboard-card__stat-label">Posts</div>
-              </div>
-              <div>
-                <div class="dashboard-card__stat">{{ discourse.users | default("—") }}</div>
-                <div class="dashboard-card__stat-label">Users</div>
-              </div>
+              <ul class="dashboard-card__list">
+                {% for repo in recent_repos %}
+                <li><a href="{{ repo.html_url }}">{{ repo.name }}</a> <span class="dashboard-card__date">updated {{ repo.pushed_at_formatted }}</span></li>
+                {% endfor %}
+              </ul>
             </div>
-          </div>
-          {% endif %}
+            {% endif %}
 
-          {# AI Horde / Ealain #}
-          {% if aihorde %}
-          <div class="dashboard-card">
-            <h3 class="dashboard-card__title">Ealain / AI Horde</h3>
-            <div class="dashboard-stat-row">
-              <div>
-                <div class="dashboard-card__stat">{{ aihorde.images_generated | default("—") }}</div>
-                <div class="dashboard-card__stat-label">Images Created</div>
+            {# Discourse #}
+            {% if discourse %}
+            <div class="dashboard-card">
+              <h3 class="dashboard-card__title"><a href="https://discuss.bradroot.me">Discourse Forum</a></h3>
+              <div class="dashboard-stat-row">
+                <div>
+                  <div class="dashboard-card__stat">{{ discourse.topics | default("—") | abbreviate }}</div>
+                  <div class="dashboard-card__stat-label">Topics</div>
+                </div>
+                <div>
+                  <div class="dashboard-card__stat">{{ discourse.posts | default("—") | abbreviate }}</div>
+                  <div class="dashboard-card__stat-label">Posts</div>
+                </div>
+                <div>
+                  <div class="dashboard-card__stat">{{ discourse.users | default("—") | abbreviate }}</div>
+                  <div class="dashboard-card__stat-label">Users</div>
+                </div>
               </div>
-              {% if aihorde.kudos %}
-              <div>
-                <div class="dashboard-card__stat">{{ aihorde.kudos }}</div>
-                <div class="dashboard-card__stat-label">Kudos Used</div>
+              {% if discourse_topics and discourse_topics.length > 0 %}
+              <ul class="dashboard-card__list">
+                {% for topic in discourse_topics %}
+                <li><a href="https://discuss.bradroot.me/t/{{ topic.slug }}/{{ topic.id }}">{{ topic.title }}</a> <span class="dashboard-card__date">{{ topic.last_posted_at_formatted }}</span></li>
+                {% endfor %}
+              </ul>
+              {% endif %}
+            </div>
+            {% endif %}
+
+          </div>
+
+          {# Row 2: Playing + Listening + Ealain (three columns) #}
+          <div class="dashboard-row dashboard-row--third">
+
+            {# Playing #}
+            <div class="dashboard-card">
+              <h3 class="dashboard-card__title">Playing</h3>
+              {% if games and games.length > 0 %}
+              <div class="dashboard-card__media">
+                {% if games[0].image %}
+                <img src="{{ games[0].image }}" alt="{{ games[0].name }}">
+                {% endif %}
+              </div>
+              <div class="dashboard-game__name">
+                {% if games[0].link %}
+                <a href="{{ games[0].link }}">{{ games[0].name }}</a>
+                {% else %}
+                {{ games[0].name }}
+                {% endif %}
+              </div>
+              {% else %}
+              <div class="dashboard-card__media dashboard-card__media--placeholder"></div>
+              <p class="dashboard-card__empty">Nothing right now</p>
+              {% endif %}
+            </div>
+
+            {# Listening — Latest staires.org song #}
+            <div class="dashboard-card">
+              <h3 class="dashboard-card__title">Listening</h3>
+              {% if staires_songs and staires_songs.length > 0 %}
+              <div class="dashboard-card__media">
+                {% if staires_songs[0].youtubeId %}
+                <iframe src="https://www.youtube.com/embed/{{ staires_songs[0].youtubeId }}" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                {% endif %}
+              </div>
+              <div class="dashboard-game__name">
+                <a href="{{ staires_songs[0].link }}">{{ staires_songs[0].title }}</a>
+              </div>
+              {% else %}
+              <div class="dashboard-card__media dashboard-card__media--placeholder"></div>
+              <p class="dashboard-card__empty">Nothing right now</p>
+              {% endif %}
+            </div>
+
+            {# Ealain #}
+            <div class="dashboard-card">
+              <h3 class="dashboard-card__title">Ealain / AI Horde</h3>
+              {% if ealain_images and ealain_images.length > 1 %}
+              <div class="dashboard-card__media ealain-slideshow" data-images='{{ ealain_images | dump | safe }}'>
+                <img class="ealain-slideshow__bottom" src="{{ ealain_images[0] }}" alt="Ealain">
+                <img class="ealain-slideshow__top" src="{{ ealain_images[1] }}" alt="Ealain">
+              </div>
+              {% else %}
+              <div class="dashboard-card__media dashboard-card__media--placeholder"></div>
+              {% endif %}
+              {% if aihorde %}
+              <div class="dashboard-stat-row">
+                <div>
+                  <div class="dashboard-card__stat">{{ aihorde.images_generated | default("—") | abbreviate }}</div>
+                  <div class="dashboard-card__stat-label">Images Created</div>
+                </div>
+                {% if aihorde.kudos %}
+                <div>
+                  <div class="dashboard-card__stat">{{ aihorde.kudos | abbreviate }}</div>
+                  <div class="dashboard-card__stat-label">Kudos Used</div>
+                </div>
+                {% endif %}
               </div>
               {% endif %}
             </div>
-          </div>
-          {% endif %}
 
-          {# Playing #}
-          <div class="dashboard-card">
-            <h3 class="dashboard-card__title">Playing</h3>
-            {% if games and games.length > 0 %}
-            <ul class="dashboard-card__list">
-              {% for game in games %}
-              <li>{{ game }}</li>
-              {% endfor %}
-            </ul>
-            {% else %}
-            <p class="dashboard-card__empty">Nothing right now</p>
-            {% endif %}
-          </div>
-
-          {# Listening #}
-          <div class="dashboard-card">
-            <h3 class="dashboard-card__title">Listening</h3>
-            {% if music and music.length > 0 %}
-            <ul class="dashboard-card__list">
-              {% for item in music %}
-              <li>{{ item }}</li>
-              {% endfor %}
-            </ul>
-            {% else %}
-            <p class="dashboard-card__empty">Nothing right now</p>
-            {% endif %}
           </div>
 
         </div>
@@ -278,6 +332,7 @@
   </div>
 
   <script src="js/bauhaus-bg.js"></script>
+  <script src="js/ealain-slideshow.js"></script>
   <script async defer src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
   <noscript><img src="https://queue.simpleanalyticscdn.com/noscript.gif" alt="" referrerpolicy="no-referrer-when-downgrade"></noscript>
 </body>

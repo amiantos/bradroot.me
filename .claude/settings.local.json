@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:discuss.bradroot.me)",
+      "WebSearch",
+      "Bash(gh api:*)",
+      "WebFetch(domain:bradroot.me)",
+      "WebFetch(domain:stablehorde.net)",
+      "WebFetch(domain:docs.github.com)",
+      "Bash(node:*)",
+      "WebFetch(domain:staires.org)",
+      "WebFetch(domain:ihavebeenfloated.org)",
+      "WebFetch(domain:amiantos.net)"
+    ]
+  }
+}

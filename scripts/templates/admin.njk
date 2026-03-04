@@ -41,15 +41,13 @@
       margin-bottom: 8px;
       margin-top: 24px;
     }
-    textarea {
+    input[type="text"], input[type="url"] {
       width: 100%;
-      min-height: 120px;
       font-family: inherit;
       font-size: 0.9rem;
-      padding: 12px;
+      padding: 10px 12px;
       border: 2px solid #1A1A1A;
       background: #E5E1DB;
-      resize: vertical;
     }
     .hint {
       font-size: 0.75rem;
@@ -85,6 +83,46 @@
       background: #D32F2F;
       color: white;
     }
+    .game-row {
+      background: #E5E1DB;
+      border: 2px solid #1A1A1A;
+      padding: 12px;
+      margin-bottom: 8px;
+    }
+    .game-row input {
+      margin-bottom: 6px;
+    }
+    .game-row .remove-btn {
+      font-size: 0.75rem;
+      padding: 4px 10px;
+      border-width: 2px;
+      color: #D32F2F;
+      border-color: #D32F2F;
+      margin-top: 4px;
+    }
+    .game-row .remove-btn:hover {
+      background: #D32F2F;
+      color: white;
+    }
+    .add-btn {
+      font-size: 0.75rem;
+      padding: 6px 14px;
+      margin-top: 8px;
+    }
+    .field-label {
+      font-size: 0.7rem;
+      color: #555;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-bottom: 2px;
+      margin-top: 6px;
+    }
+    .field-label:first-child { margin-top: 0; }
+    hr {
+      border: none;
+      border-top: 2px solid #1A1A1A;
+      margin: 30px 0;
+    }
   </style>
 </head>
 <body>
@@ -96,13 +134,42 @@
   {% endif %}
 
   <form method="POST" action="/save">
-    <label for="games">Currently Playing</label>
-    <textarea name="games" id="games">{{ games | join('\n') }}</textarea>
-    <p class="hint">One game per line</p>
 
-    <label for="music">Currently Listening</label>
-    <textarea name="music" id="music">{{ music | join('\n') }}</textarea>
-    <p class="hint">One artist or album per line</p>
+    <label>Currently Playing</label>
+    <div id="games-list">
+      {% for game in games %}
+      <div class="game-row">
+        <div class="field-label">Name</div>
+        <input type="text" name="game_name[]" value="{{ game.name }}" placeholder="Game name">
+        <div class="field-label">Image URL (paste to download, leave blank to keep existing)</div>
+        <input type="url" name="game_image_url[]" value="" placeholder="https://example.com/image.jpg">
+        <input type="hidden" name="game_existing_image[]" value="{{ game.image }}">
+        {% if game.image %}
+        <div class="hint">Current: {{ game.image }}</div>
+        {% endif %}
+        <div class="field-label">Link</div>
+        <input type="url" name="game_link[]" value="{{ game.link }}" placeholder="https://store.steampowered.com/...">
+        <button type="button" class="remove-btn" onclick="this.closest('.game-row').remove()">Remove</button>
+      </div>
+      {% endfor %}
+    </div>
+    <button type="button" class="add-btn" onclick="addGame()">+ Add Game</button>
+
+    <hr>
+
+    <label>Hidden Repos</label>
+    <p class="hint" style="margin-bottom: 12px;">Check repos to hide them from the "Other Projects" section.</p>
+    {% if eligible_repos | length %}
+    {% for repo in eligible_repos %}
+    <label style="display: flex; align-items: center; gap: 8px; margin-top: 6px; cursor: pointer;">
+      <input type="checkbox" name="hidden_repos[]" value="{{ repo.name }}" style="width: 16px; height: 16px;"
+        {% if repo.name in hidden_repos %}checked{% endif %}>
+      <span style="font-weight: 400; text-transform: none; letter-spacing: 0;">{{ repo.name }} ({{ repo.stargazers_count }} ★)</span>
+    </label>
+    {% endfor %}
+    {% else %}
+    <p class="hint">No eligible repos found. Run a build to fetch repo data.</p>
+    {% endif %}
 
     <div class="actions">
       <button type="submit">Save</button>
@@ -110,7 +177,33 @@
   </form>
 
   <form method="POST" action="/build" style="margin-top: 16px;">
-    <button type="submit" class="build">Trigger Build</button>
+    <label style="margin-top: 0; display: flex; align-items: center; gap: 8px; cursor: pointer;">
+      <input type="checkbox" name="git_push" value="1" style="width: 16px; height: 16px;">
+      <span style="font-weight: 400; text-transform: none; letter-spacing: 0;">Push to GitHub after build</span>
+    </label>
+    <label style="margin-top: 8px; display: flex; align-items: center; gap: 8px; cursor: pointer;">
+      <input type="checkbox" name="bypass_cache" value="1" style="width: 16px; height: 16px;">
+      <span style="font-weight: 400; text-transform: none; letter-spacing: 0;">Bypass data cache (force fresh fetch)</span>
+    </label>
+    <button type="submit" class="build" style="margin-top: 8px;">Trigger Build</button>
   </form>
+
+  <script>
+    function addGame() {
+      const row = document.createElement('div');
+      row.className = 'game-row';
+      row.innerHTML = `
+        <div class="field-label">Name</div>
+        <input type="text" name="game_name[]" placeholder="Game name">
+        <div class="field-label">Image URL</div>
+        <input type="url" name="game_image_url[]" placeholder="https://example.com/image.jpg">
+        <input type="hidden" name="game_existing_image[]" value="">
+        <div class="field-label">Link</div>
+        <input type="url" name="game_link[]" placeholder="https://store.steampowered.com/...">
+        <button type="button" class="remove-btn" onclick="this.closest('.game-row').remove()">Remove</button>
+      `;
+      document.getElementById('games-list').appendChild(row);
+    }
+  </script>
 </body>
 </html>

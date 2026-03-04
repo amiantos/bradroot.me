@@ -1,5 +1,5 @@
 import { execSync } from 'child_process';
-import { writeFileSync } from 'fs';
+import { readFileSync, writeFileSync } from 'fs';
 import { fileURLToPath } from 'url';
 import { dirname, join } from 'path';
 import { fetchAllData } from './fetch-data.js';
@@ -13,25 +13,37 @@ function run(cmd, opts = {}) {
   return execSync(cmd, { cwd: ROOT_DIR, encoding: 'utf-8', ...opts });
 }
 
-export async function build({ gitPush = false } = {}) {
+export async function build({ gitPush = false, bypassCache = false } = {}) {
   console.log('=== Starting build ===');
 
-  // 1. Fetch data
+  // 1. Fetch data (with 24-hour cache)
   let siteData;
-  try {
-    siteData = await fetchAllData();
-    // Cache fetched data for debugging
-    writeFileSync(
-      join(__dirname, 'data', 'site_data.json'),
-      JSON.stringify(siteData, null, 2)
-    );
-  } catch (err) {
-    console.error('Data fetch failed, building with cached/empty data:', err.message);
+  const cacheFile = join(__dirname, 'data', 'site_data.json');
+  let useCache = false;
+
+  if (!bypassCache) {
     try {
-      const { readFileSync } = await import('fs');
-      siteData = JSON.parse(readFileSync(join(__dirname, 'data', 'site_data.json'), 'utf-8'));
-    } catch {
-      siteData = {};
+      const cached = JSON.parse(readFileSync(cacheFile, 'utf-8'));
+      if (cached._fetchedAt && (Date.now() - cached._fetchedAt) < 24 * 60 * 60 * 1000) {
+        siteData = cached;
+        useCache = true;
+        console.log('Using cached data (fetched', new Date(cached._fetchedAt).toLocaleString(), ')');
+      }
+    } catch {}
+  }
+
+  if (!useCache) {
+    try {
+      siteData = await fetchAllData();
+      siteData._fetchedAt = Date.now();
+      writeFileSync(cacheFile, JSON.stringify(siteData, null, 2));
+    } catch (err) {
+      console.error('Data fetch failed, building with cached/empty data:', err.message);
+      try {
+        siteData = JSON.parse(readFileSync(cacheFile, 'utf-8'));
+      } catch {
+        siteData = {};
+      }
     }
   }
 

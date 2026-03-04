@@ -1,5 +1,16 @@
 [
   {
+    "name": "Postalgic",
+    "repo": "postalgic-ios",
+    "tagline": "Pocket Blogger",
+    "description": "A pocket-sized, decentralized micro-blogging app for iOS. Write short posts, share photos, and own your content — deploy wherever you like.",
+    "icon": "images/postalgic-icon.png",
+    "links": {
+      "appStore": "https://apps.apple.com/us/app/postalgic-pocket-blogger/id6446164693",
+      "github": "https://github.com/amiantos/postalgic-ios"
+    }
+  },
+  {
     "name": "Inneal",
     "repo": "inneal",
     "tagline": "AI Character Tavern",

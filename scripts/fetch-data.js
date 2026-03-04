@@ -33,18 +33,6 @@ export async function fetchGitHubRepos(username) {
   return repos;
 }
 
-export async function fetchStarredRepos(username, count = 10) {
-  const url = `https://api.github.com/users/${username}/starred?per_page=${count}&sort=created&direction=desc`;
-  const res = await fetch(url, { headers: githubHeaders() });
-  if (!res.ok) {
-    console.error(`GitHub starred API error: ${res.status}`);
-    return [];
-  }
-  const data = await res.json();
-  console.log(`Fetched ${data.length} starred repos`);
-  return data;
-}
-
 export async function fetchDiscourseStats() {
   try {
     const res = await fetch('https://discuss.bradroot.me/about.json', {
@@ -65,6 +53,152 @@ export async function fetchDiscourseStats() {
   } catch (err) {
     console.error('Discourse fetch failed:', err.message);
     return null;
+  }
+}
+
+export async function fetchDiscourseTopics() {
+  try {
+    const res = await fetch('https://discuss.bradroot.me/latest.json', {
+      headers: { 'Accept': 'application/json' },
+    });
+    if (!res.ok) {
+      console.error(`Discourse topics API error: ${res.status}`);
+      return [];
+    }
+    const data = await res.json();
+    const topics = (data.topic_list?.topics || [])
+      .slice(0, 6)
+      .map(t => ({
+        title: t.title,
+        slug: t.slug,
+        id: t.id,
+        last_posted_at: t.last_posted_at,
+        last_posted_at_formatted: new Date(t.last_posted_at).toLocaleDateString('en-US', {
+          month: 'short', day: 'numeric',
+        }),
+      }));
+    console.log(`Fetched ${topics.length} Discourse topics`);
+    return topics;
+  } catch (err) {
+    console.error('Discourse topics fetch failed:', err.message);
+    return [];
+  }
+}
+
+function decodeHTMLEntities(str) {
+  return str
+    .replace(/&#(\d+);/g, (_, code) => String.fromCharCode(code))
+    .replace(/&#x([0-9a-fA-F]+);/g, (_, code) => String.fromCharCode(parseInt(code, 16)))
+    .replace(/&amp;/g, '&')
+    .replace(/&lt;/g, '<')
+    .replace(/&gt;/g, '>')
+    .replace(/&quot;/g, '"')
+    .replace(/&apos;/g, "'");
+}
+
+function parseRSSItems(xml) {
+  const items = [];
+  const itemRegex = /<item>([\s\S]*?)<\/item>/g;
+  let match;
+  while ((match = itemRegex.exec(xml)) !== null) {
+    const itemXml = match[1];
+    const title = (itemXml.match(/<title>(?:<!\[CDATA\[)?([\s\S]*?)(?:\]\]>)?<\/title>/) || [])[1]?.trim() || '';
+    const link = (itemXml.match(/<link>([\s\S]*?)<\/link>/) || [])[1]?.trim() || '';
+    const pubDate = (itemXml.match(/<pubDate>([\s\S]*?)<\/pubDate>/) || [])[1]?.trim() || '';
+    items.push({ title: decodeHTMLEntities(title), link, pubDate });
+  }
+  return items;
+}
+
+export async function fetchStairesRSS() {
+  try {
+    const res = await fetch('https://staires.org/rss.xml');
+    if (!res.ok) {
+      console.error(`staires.org RSS error: ${res.status}`);
+      return [];
+    }
+    const xml = await res.text();
+    const items = parseRSSItems(xml).slice(0, 3);
+
+    // Try to extract YouTube video ID from description CDATA
+    const itemRegex = /<item>([\s\S]*?)<\/item>/g;
+    let match;
+    let i = 0;
+    while ((match = itemRegex.exec(xml)) !== null && i < 3) {
+      const desc = match[1];
+      const ytMatch = desc.match(/youtube\.com\/embed\/([A-Za-z0-9_-]+)/);
+      if (ytMatch && items[i]) {
+        items[i].youtubeId = ytMatch[1];
+      }
+      i++;
+    }
+
+    // Format dates
+    for (const item of items) {
+      if (item.pubDate) {
+        item.pubDate_formatted = new Date(item.pubDate).toLocaleDateString('en-US', {
+          month: 'short', day: 'numeric',
+        });
+      }
+    }
+
+    console.log(`Fetched ${items.length} staires.org songs`);
+    return items;
+  } catch (err) {
+    console.error('staires.org RSS fetch failed:', err.message);
+    return [];
+  }
+}
+
+export async function fetchFloatedRSS() {
+  try {
+    const res = await fetch('https://ihavebeenfloated.org/rss.xml');
+    if (!res.ok) {
+      console.error(`ihavebeenfloated.org RSS error: ${res.status}`);
+      return [];
+    }
+    const xml = await res.text();
+    const items = parseRSSItems(xml).slice(0, 3);
+
+    for (const item of items) {
+      if (item.pubDate) {
+        item.pubDate_formatted = new Date(item.pubDate).toLocaleDateString('en-US', {
+          month: 'short', day: 'numeric',
+        });
+      }
+    }
+
+    console.log(`Fetched ${items.length} ihavebeenfloated.org posts`);
+    return items;
+  } catch (err) {
+    console.error('ihavebeenfloated.org RSS fetch failed:', err.message);
+    return [];
+  }
+}
+
+export async function fetchAmiantosRSS() {
+  try {
+    const res = await fetch('https://amiantos.net/feed/index.xml');
+    if (!res.ok) {
+      console.error(`amiantos.net RSS error: ${res.status}`);
+      return [];
+    }
+    const xml = await res.text();
+    const items = parseRSSItems(xml).slice(0, 3);
+
+    for (const item of items) {
+      if (item.pubDate) {
+        item.pubDate_formatted = new Date(item.pubDate).toLocaleDateString('en-US', {
+          month: 'short', day: 'numeric',
+        });
+      }
+    }
+
+    console.log(`Fetched ${items.length} amiantos.net posts`);
+    return items;
+  } catch (err) {
+    console.error('amiantos.net RSS fetch failed:', err.message);
+    return [];
   }
 }
 
@@ -94,20 +228,23 @@ export function loadManualData() {
   try {
     return JSON.parse(readFileSync(join(DATA_DIR, 'manual.json'), 'utf-8'));
   } catch {
-    return { games: [], music: [] };
+    return { games: [] };
   }
 }
 
 export async function fetchAllData() {
   console.log('Fetching all data...');
-  const [repos, starred, discourse, aihorde] = await Promise.all([
+  const [repos, discourse, discourseTopics, aihorde, stairesSongs, floatedPosts, amiantosPosts] = await Promise.all([
     fetchGitHubRepos('amiantos'),
-    fetchStarredRepos('amiantos', 10),
     fetchDiscourseStats(),
+    fetchDiscourseTopics(),
     fetchAIHordeStats(),
+    fetchStairesRSS(),
+    fetchFloatedRSS(),
+    fetchAmiantosRSS(),
   ]);
 
-  return { repos, starred, discourse, aihorde };
+  return { repos, discourse, discourseTopics, aihorde, stairesSongs, floatedPosts, amiantosPosts };
 }
 
 // Run directly for testing
