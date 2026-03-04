@@ -221,11 +221,11 @@ img {
   padding: 50px 0;
 }
 
-/* --- Featured Project (icon + info side-by-side) --- */
+/* --- Featured Project (two-row layout) --- */
 .featured-project {
   display: flex;
-  align-items: flex-start;
-  gap: 20px;
+  flex-direction: column;
+  gap: 16px;
   margin-bottom: 30px;
   padding: 24px;
   background: var(--surface);
@@ -233,6 +233,12 @@ img {
 
 .featured-project:last-child {
   margin-bottom: 0;
+}
+
+.featured-project__header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
 }
 
 .featured-project__icon {
@@ -243,25 +249,17 @@ img {
   flex-shrink: 0;
 }
 
-.featured-project__info {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  min-width: 0;
-}
-
 .featured-project__name {
   font-size: 1.4rem;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  margin-bottom: 4px;
+  margin-bottom: 2px;
 }
 
 .featured-project__tagline {
   font-size: 0.85rem;
   color: var(--text-muted);
-  margin-bottom: 12px;
 }
 
 .featured-project__desc {
