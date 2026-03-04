@@ -67,6 +67,7 @@ export async function fetchDiscourseTopics() {
     }
     const data = await res.json();
     const topics = (data.topic_list?.topics || [])
+      .filter(t => !t.pinned && !t.pinned_globally)
       .slice(0, 6)
       .map(t => ({
         title: t.title,

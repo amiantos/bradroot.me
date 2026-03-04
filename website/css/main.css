@@ -373,28 +373,6 @@ img {
   line-height: 1.5;
 }
 
-.blog-card__posts {
-  list-style: none;
-  margin-top: 12px;
-  padding-top: 12px;
-  border-top: 1px solid rgba(0, 0, 0, 0.1);
-}
-
-.blog-card__posts li {
-  padding: 4px 0;
-  font-size: 0.8rem;
-}
-
-.blog-card__posts a {
-  text-decoration: none;
-  font-weight: 700;
-}
-
-.blog-card__date {
-  color: var(--text-muted);
-  font-size: 0.75rem;
-}
-
 .blog-card__featured {
   margin-top: 12px;
   padding-top: 12px;
@@ -504,6 +482,10 @@ img {
 }
 
 .dashboard-card__list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 12px;
   padding: 6px 0;
   font-size: 0.85rem;
   border-bottom: 1px solid rgba(0, 0, 0, 0.08);
@@ -521,6 +503,8 @@ img {
 .dashboard-card__date {
   color: var(--text-muted);
   font-size: 0.75rem;
+  flex-shrink: 0;
+  text-align: right;
 }
 
 .dashboard-card__sub {

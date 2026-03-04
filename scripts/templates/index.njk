@@ -137,9 +137,9 @@
               <h3 class="blog-card__name"><a href="https://staires.org">ſtaires!</a></h3>
               <p class="blog-card__desc">Since 2008, <em>ſtaires! an adventure in listening</em> is a music blog where I write about music I like. Nothing more, nothing less. Previously syndicated by The Hype Machine.</p>
               {% if staires_songs and staires_songs.length > 0 %}
-              <ul class="blog-card__posts">
+              <ul class="dashboard-card__list">
                 {% for song in staires_songs %}
-                <li><a href="{{ song.link }}">{{ song.title }}</a> <span class="blog-card__date">{{ song.pubDate_formatted }}</span></li>
+                <li><a href="{{ song.link }}">{{ song.title }}</a> <span class="dashboard-card__date">{{ song.pubDate_formatted }}</span></li>
                 {% endfor %}
               </ul>
               {% endif %}
@@ -150,9 +150,9 @@
               <h3 class="blog-card__name"><a href="https://amiantos.net">amiantos.net</a></h3>
               <p class="blog-card__desc"><em>Amiantos.net</em> is my personal blog where I write about my ongoing projects, slap together tutorials, and throw up my opinions on all the latest happenings in technology.</p>
               {% if amiantos_posts and amiantos_posts.length > 0 %}
-              <ul class="blog-card__posts">
+              <ul class="dashboard-card__list">
                 {% for post in amiantos_posts %}
-                <li><a href="{{ post.link }}">{{ post.title }}</a> <span class="blog-card__date">{{ post.pubDate_formatted }}</span></li>
+                <li><a href="{{ post.link }}">{{ post.title }}</a> <span class="dashboard-card__date">{{ post.pubDate_formatted }}</span></li>
                 {% endfor %}
               </ul>
               {% endif %}
@@ -163,9 +163,9 @@
               <h3 class="blog-card__name"><a href="https://ihavebeenfloated.org">ihavebeenfloated.org</a></h3>
               <p class="blog-card__desc">Since 2004, <em>i have been floated</em>em> is my microblog where I write about myself, my thoughts, my interests, and anything else I care to spew out onto the internet lazily.</p>
               {% if floated_posts and floated_posts.length > 0 %}
-              <ul class="blog-card__posts">
+              <ul class="dashboard-card__list">
                 {% for post in floated_posts %}
-                <li><a href="{{ post.link }}">{{ post.title }}</a> <span class="blog-card__date">{{ post.pubDate_formatted }}</span></li>
+                <li><a href="{{ post.link }}">{{ post.title }}</a> <span class="dashboard-card__date">{{ post.pubDate_formatted }}</span></li>
                 {% endfor %}
               </ul>
               {% endif %}
