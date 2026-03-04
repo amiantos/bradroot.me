@@ -161,7 +161,7 @@
           <div class="blog-card">
             <div class="blog-card__info">
               <h3 class="blog-card__name"><a href="https://ihavebeenfloated.org">ihavebeenfloated.org</a></h3>
-              <p class="blog-card__desc">Since 2004, <em>i have been floated</em>em> is my microblog where I write about myself, my thoughts, my interests, and anything else I care to spew out onto the internet lazily.</p>
+              <p class="blog-card__desc">Since 2004, <em>i have been floated</em> is my microblog where I write about myself, my thoughts, my interests, and anything else I care to spew out onto the internet lazily.</p>
               {% if floated_posts and floated_posts.length > 0 %}
               <ul class="dashboard-card__list">
                 {% for post in floated_posts %}
@@ -278,8 +278,16 @@
                 <iframe src="https://www.youtube.com/embed/{{ staires_songs[0].youtubeId }}" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 {% endif %}
               </div>
-              <div class="dashboard-game__name">
-                <a href="{{ staires_songs[0].link }}">{{ staires_songs[0].title }}</a>
+              {% set parts = staires_songs[0].title.split(' - ') %}
+              <div class="listening-info">
+                <div class="listening-info__row">
+                  <span class="listening-info__label">Artist</span>
+                  <span class="listening-info__value">{{ parts[0] }}</span>
+                </div>
+                <div class="listening-info__row">
+                  <span class="listening-info__label">Song</span>
+                  <span class="listening-info__value"><a href="{{ staires_songs[0].link }}">{{ parts | slice(1) | first | join(' - ') if parts.length > 2 else parts[1] }}</a></span>
+                </div>
               </div>
               {% else %}
               <div class="dashboard-card__media dashboard-card__media--placeholder"></div>
