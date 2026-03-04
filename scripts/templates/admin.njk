@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>bradroot.me — Admin</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'IBM Plex Mono', monospace;
+      background: #F0EDE8;
+      color: #1A1A1A;
+      padding: 40px 20px;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    h1 {
+      font-size: 1.8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.15em;
+      margin-bottom: 8px;
+    }
+    .subtitle {
+      color: #555;
+      font-size: 0.85rem;
+      margin-bottom: 30px;
+    }
+    .message {
+      background: #1565C0;
+      color: white;
+      padding: 12px 16px;
+      margin-bottom: 20px;
+      font-size: 0.85rem;
+    }
+    label {
+      display: block;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      font-size: 0.85rem;
+      margin-bottom: 8px;
+      margin-top: 24px;
+    }
+    textarea {
+      width: 100%;
+      min-height: 120px;
+      font-family: inherit;
+      font-size: 0.9rem;
+      padding: 12px;
+      border: 2px solid #1A1A1A;
+      background: #E5E1DB;
+      resize: vertical;
+    }
+    .hint {
+      font-size: 0.75rem;
+      color: #555;
+      margin-top: 4px;
+    }
+    .actions {
+      margin-top: 30px;
+      display: flex;
+      gap: 12px;
+    }
+    button {
+      font-family: inherit;
+      font-size: 0.85rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      padding: 10px 24px;
+      border: 3px solid #1A1A1A;
+      background: none;
+      cursor: pointer;
+      transition: background-color 0.2s, color 0.2s;
+    }
+    button:hover {
+      background: #1A1A1A;
+      color: #F0EDE8;
+    }
+    button.build {
+      border-color: #D32F2F;
+      color: #D32F2F;
+    }
+    button.build:hover {
+      background: #D32F2F;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <h1>Admin</h1>
+  <p class="subtitle">bradroot.me dashboard editor</p>
+
+  {% if message %}
+  <div class="message">{{ message }}</div>
+  {% endif %}
+
+  <form method="POST" action="/save">
+    <label for="games">Currently Playing</label>
+    <textarea name="games" id="games">{{ games | join('\n') }}</textarea>
+    <p class="hint">One game per line</p>
+
+    <label for="music">Currently Listening</label>
+    <textarea name="music" id="music">{{ music | join('\n') }}</textarea>
+    <p class="hint">One artist or album per line</p>
+
+    <div class="actions">
+      <button type="submit">Save</button>
+    </div>
+  </form>
+
+  <form method="POST" action="/build" style="margin-top: 16px;">
+    <button type="submit" class="build">Trigger Build</button>
+  </form>
+</body>
+</html>

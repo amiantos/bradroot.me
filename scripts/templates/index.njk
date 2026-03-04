@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Brad Root — Software Engineer</title>
+  <meta name="description" content="Brad Root is a software engineer, artist, tech enthusiast, music aficionado, video game junkie, and occasional unicyclist, living in Irvine, California.">
+  <meta property="og:title" content="Brad Root — Software Engineer">
+  <meta property="og:description" content="Brad Root is a software engineer, artist, tech enthusiast, music aficionado, video game junkie, and occasional unicyclist.">
+  <meta property="og:image" content="https://bradroot.me/images/social-share.jpg">
+  <meta property="og:url" content="https://bradroot.me">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Brad Root — Software Engineer">
+  <meta name="twitter:description" content="Brad Root is a software engineer, artist, tech enthusiast, music aficionado, video game junkie, and occasional unicyclist.">
+  <meta name="twitter:image" content="https://bradroot.me/images/social-share.jpg">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <canvas id="bauhaus-canvas"></canvas>
+  <div class="site-content">
+
+    {# ===== HERO ===== #}
+    <section class="hero">
+      <div class="container">
+        <div class="hero__photo-frame">
+          <img src="images/bradroot-photo.jpeg" alt="Brad Root" class="hero__photo">
+        </div>
+        <h1 class="hero__name">Brad Root</h1>
+        <p class="hero__title">Software Engineer — Irvine, CA</p>
+        <p class="hero__bio">Software engineer, artist, tech enthusiast, music aficionado, video game junkie, and occasional unicyclist.</p>
+        <div class="social-links">
+          <a href="https://github.com/amiantos"><img src="images/iconmonstr-github-3.svg" alt="">GitHub</a>
+          <a href="https://www.linkedin.com/in/amiantos/"><img src="images/iconmonstr-linkedin-3.svg" alt="">LinkedIn</a>
+          <a href="http://twitch.tv/amiantos"><img src="images/iconmonstr-twitch-3.svg" alt="">Twitch</a>
+          <a href="https://www.youtube.com/@amiantos"><img src="images/iconmonstr-youtube-8.svg" alt="">YouTube</a>
+          <a href="mailto:bradroot@me.com"><img src="images/iconmonstr-gmail-3.svg" alt="">Email</a>
+        </div>
+      </div>
+    </section>
+
+    {# ===== WORK ===== #}
+    <div class="section-divider section-divider--red"></div>
+    <section class="section" id="work">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-header__shape section-header__shape--circle" style="background-color: var(--red);"></div>
+          <h2>Work</h2>
+        </div>
+        <div class="work-item">
+          <div class="work-item__media">
+            <img src="images/lingo-icon.png" alt="Lingo" class="work-item__icon">
+            <img src="images/lingo-2.png" alt="Lingo screenshot" class="work-item__screenshot">
+          </div>
+          <div class="work-item__info">
+            <h3 class="work-item__name">Lingo</h3>
+            <p class="work-item__role">Digital Asset Manager</p>
+            <p class="work-item__desc">Since 2018, I've been the backend engineer, devops guy, all-around problem solver, and occasional copywriter for Lingo, a digital asset manager used by Reddit, Duolingo, Snap, and other brands you know and love.</p>
+            <a href="https://lingoapp.com" class="work-item__link">Visit Website</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    {# ===== FEATURED PROJECTS ===== #}
+    <div class="section-divider section-divider--blue"></div>
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-header__shape section-header__shape--square" style="background-color: var(--blue);"></div>
+          <h2>Featured Projects</h2>
+        </div>
+        {% for project in featured_projects %}
+        <div class="featured-project">
+          <div class="featured-project__media">
+            <img src="{{ project.icon }}" alt="{{ project.name }}" class="featured-project__icon">
+            <img src="{{ project.screenshot }}" alt="{{ project.name }} screenshot" class="featured-project__screenshot">
+          </div>
+          <div class="featured-project__info">
+            <h3 class="featured-project__name">{{ project.name }}</h3>
+            <p class="featured-project__tagline">{{ project.tagline }}</p>
+            <p class="featured-project__desc">{{ project.description }}</p>
+            <div class="featured-project__links">
+              {% if project.links.appStore %}
+              <a href="{{ project.links.appStore }}">App Store</a>
+              {% endif %}
+              {% if project.links.github %}
+              <a href="{{ project.links.github }}">GitHub</a>
+              {% endif %}
+              {% if project.links.demo %}
+              <a href="{{ project.links.demo }}">Demo</a>
+              {% endif %}
+            </div>
+            {% if project.stars %}
+            <p class="featured-project__stars">★ {{ project.stars }} stars on GitHub</p>
+            {% endif %}
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </section>
+
+    {# ===== OTHER PROJECTS ===== #}
+    {% if other_repos and other_repos.length > 0 %}
+    <div class="section-divider section-divider--yellow"></div>
+    <section class="section" id="other-projects">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-header__shape section-header__shape--triangle"></div>
+          <h2>Other Projects</h2>
+        </div>
+        <div class="projects-grid">
+          {% for repo in other_repos %}
+          <div class="project-card">
+            <h3 class="project-card__name"><a href="{{ repo.html_url }}">{{ repo.name }}</a></h3>
+            {% if repo.description %}
+            <p class="project-card__desc">{{ repo.description }}</p>
+            {% endif %}
+            <div class="project-card__meta">
+              {% if repo.language %}<span>{{ repo.language }}</span>{% endif %}
+              <span>★ {{ repo.stargazers_count }}</span>
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+    </section>
+    {% endif %}
+
+    {# ===== BLOGS ===== #}
+    <div class="section-divider section-divider--red"></div>
+    <section class="section" id="blogs">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-header__shape section-header__shape--circle" style="background-color: var(--red);"></div>
+          <h2>Blogs</h2>
+        </div>
+        <div class="blog-grid">
+          <div class="blog-card">
+            <img src="images/staires.org screenshot.png" alt="staires.org" class="blog-card__screenshot">
+            <div class="blog-card__info">
+              <h3 class="blog-card__name"><a href="https://staires.org">ſtaires!</a></h3>
+              <p class="blog-card__desc">Since 2008, ſtaires! an adventure in listening is a music blog where I write about music I like. Nothing more, nothing less. Previously syndicated by The Hype Machine.</p>
+            </div>
+          </div>
+          <div class="blog-card">
+            <img src="images/amiantos.net screenshot.png" alt="amiantos.net" class="blog-card__screenshot">
+            <div class="blog-card__info">
+              <h3 class="blog-card__name"><a href="https://amiantos.net">amiantos.net</a></h3>
+              <p class="blog-card__desc">Amiantos.net is my personal blog where I write about my ongoing projects, slap together tutorials, and throw up my opinions on all the latest happenings in technology.</p>
+            </div>
+          </div>
+          <div class="blog-card">
+            <div class="blog-card__info">
+              <h3 class="blog-card__name"><a href="https://ihavebeenfloated.org">ihavebeenfloated.org</a></h3>
+              <p class="blog-card__desc">A collection of writing about floating, sensory deprivation, and the float tank experience.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    {# ===== DASHBOARD ===== #}
+    <div class="section-divider section-divider--blue"></div>
+    <section class="section" id="dashboard">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-header__shape section-header__shape--square" style="background-color: var(--blue);"></div>
+          <h2>What's Happening</h2>
+        </div>
+        <div class="dashboard-grid">
+
+          {# Recent Repos #}
+          {% if recent_repos and recent_repos.length > 0 %}
+          <div class="dashboard-card">
+            <h3 class="dashboard-card__title">Recent Repos</h3>
+            <ul class="dashboard-card__list">
+              {% for repo in recent_repos %}
+              <li><a href="{{ repo.html_url }}">{{ repo.name }}</a> — {{ repo.pushed_at_formatted }}</li>
+              {% endfor %}
+            </ul>
+          </div>
+          {% endif %}
+
+          {# Recently Starred #}
+          {% if starred_repos and starred_repos.length > 0 %}
+          <div class="dashboard-card">
+            <h3 class="dashboard-card__title">Recently Starred</h3>
+            <ul class="dashboard-card__list">
+              {% for repo in starred_repos %}
+              <li><a href="{{ repo.html_url }}">{{ repo.full_name }}</a></li>
+              {% endfor %}
+            </ul>
+          </div>
+          {% endif %}
+
+          {# Discourse #}
+          {% if discourse %}
+          <div class="dashboard-card">
+            <h3 class="dashboard-card__title">Discourse Forum</h3>
+            <div class="dashboard-stat-row">
+              <div>
+                <div class="dashboard-card__stat">{{ discourse.topics | default("—") }}</div>
+                <div class="dashboard-card__stat-label">Topics</div>
+              </div>
+              <div>
+                <div class="dashboard-card__stat">{{ discourse.posts | default("—") }}</div>
+                <div class="dashboard-card__stat-label">Posts</div>
+              </div>
+              <div>
+                <div class="dashboard-card__stat">{{ discourse.users | default("—") }}</div>
+                <div class="dashboard-card__stat-label">Users</div>
+              </div>
+            </div>
+          </div>
+          {% endif %}
+
+          {# AI Horde / Ealain #}
+          {% if aihorde %}
+          <div class="dashboard-card">
+            <h3 class="dashboard-card__title">Ealain / AI Horde</h3>
+            <div class="dashboard-stat-row">
+              <div>
+                <div class="dashboard-card__stat">{{ aihorde.images_generated | default("—") }}</div>
+                <div class="dashboard-card__stat-label">Images Created</div>
+              </div>
+              {% if aihorde.kudos %}
+              <div>
+                <div class="dashboard-card__stat">{{ aihorde.kudos }}</div>
+                <div class="dashboard-card__stat-label">Kudos Used</div>
+              </div>
+              {% endif %}
+            </div>
+          </div>
+          {% endif %}
+
+          {# Playing #}
+          <div class="dashboard-card">
+            <h3 class="dashboard-card__title">Playing</h3>
+            {% if games and games.length > 0 %}
+            <ul class="dashboard-card__list">
+              {% for game in games %}
+              <li>{{ game }}</li>
+              {% endfor %}
+            </ul>
+            {% else %}
+            <p class="dashboard-card__empty">Nothing right now</p>
+            {% endif %}
+          </div>
+
+          {# Listening #}
+          <div class="dashboard-card">
+            <h3 class="dashboard-card__title">Listening</h3>
+            {% if music and music.length > 0 %}
+            <ul class="dashboard-card__list">
+              {% for item in music %}
+              <li>{{ item }}</li>
+              {% endfor %}
+            </ul>
+            {% else %}
+            <p class="dashboard-card__empty">Nothing right now</p>
+            {% endif %}
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    {# ===== FOOTER ===== #}
+    <div class="section-divider section-divider--black"></div>
+    <footer class="footer">
+      <div class="container">
+        <p>&copy; {{ year }} Brad Root</p>
+        <p>Last updated {{ build_date }}</p>
+      </div>
+    </footer>
+
+  </div>
+
+  <script src="js/bauhaus-bg.js"></script>
+  <script async defer src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
+  <noscript><img src="https://queue.simpleanalyticscdn.com/noscript.gif" alt="" referrerpolicy="no-referrer-when-downgrade"></noscript>
+</body>
+</html>

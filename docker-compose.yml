@@ -1,0 +1,17 @@
+services:
+  bradroot-site:
+    build: .
+    ports:
+      - "5050:5050"
+    volumes:
+      - manual-data:/app/data
+      - ssh-keys:/root/.ssh:ro
+    environment:
+      - GIT_AUTHOR_NAME=Brad Root
+      - GIT_AUTHOR_EMAIL=bradroot@me.com
+      - GITHUB_TOKEN=${GITHUB_TOKEN}
+    restart: unless-stopped
+
+volumes:
+  manual-data:
+  ssh-keys:

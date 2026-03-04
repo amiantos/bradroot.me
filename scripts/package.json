@@ -1,0 +1,17 @@
+{
+  "name": "bradroot-me-scripts",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node build.js",
+    "render": "node render.js",
+    "fetch": "node fetch-data.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.0",
+    "node-cron": "^3.0.3",
+    "nunjucks": "^3.2.4"
+  }
+}

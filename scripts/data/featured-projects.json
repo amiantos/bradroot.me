@@ -1,0 +1,88 @@
+[
+  {
+    "name": "Inneal",
+    "repo": "inneal",
+    "tagline": "AI Character Tavern",
+    "description": "A LLM-powered chatbot client specifically built for the AI Horde. Import or craft Tavern-compatible character cards, and chat with them for free, powered by open source LLMs, with compute provided by enthusiastic volunteers around the world.",
+    "icon": "images/inneal-icon.jpg",
+    "screenshot": "images/Inneal Screenshots-2.png",
+    "links": {
+      "appStore": "https://apps.apple.com/us/app/inneal-ai-character-tavern/id6482289560",
+      "github": "https://github.com/amiantos/inneal"
+    }
+  },
+  {
+    "name": "Aislingeach",
+    "repo": "aislingeach",
+    "tagline": "Generative Art Client",
+    "description": "A generative art client specifically built for the AI Horde. Generate art, graphics, photographs, and more, all for free, powered by open source diffusion models, with compute provided by enthusiastic volunteers around the world.",
+    "icon": "images/aislingeach-icon.png",
+    "screenshot": "images/Aisligneach Screenshots.png",
+    "links": {
+      "appStore": "https://apps.apple.com/us/app/aislingeach/id6449862063",
+      "github": "https://github.com/amiantos/aislingeach"
+    }
+  },
+  {
+    "name": "Ealain",
+    "repo": "ealain",
+    "tagline": "Infinite Art Display",
+    "description": "A macOS screensaver, Apple TV and Vision Pro app that displays modern art created by artists who have never existed. All works are generated using open source image diffusion models, and new works are generated all the time.",
+    "icon": "images/Ealain Icon.png",
+    "screenshot": "images/ealain-examples.jpg",
+    "links": {
+      "appStore": "https://apps.apple.com/us/app/ealain-infinite-art/id6478051097",
+      "github": "https://github.com/amiantos/ealain",
+      "demo": "https://www.youtube.com/watch?v=_fCzlelNhCs"
+    }
+  },
+  {
+    "name": "Gamebook Engine",
+    "repo": "gamebookengine",
+    "tagline": "Interactive Fiction Creator",
+    "description": "A fully featured app for creating and playing gamebooks, a type of interactive fiction where the player gets to make decisions that influence the story.",
+    "icon": "images/gamebook-icon.png",
+    "screenshot": "images/Gamebook Screenshots.png",
+    "links": {
+      "appStore": "https://apps.apple.com/us/app/gamebook-engine/id1478537871",
+      "github": "https://github.com/amiantos/gamebookengine"
+    }
+  },
+  {
+    "name": "Life Saver",
+    "repo": "lifesaver",
+    "tagline": "Conway's Game of Life Screensaver",
+    "description": "A macOS screensaver and Apple TV app that displays an artistic implementation of Conway's Game of Life, using the cellular automaton to generate pleasing, abstract art that is always changing and evolving, kind of like a cyberpunk fireplace sim.",
+    "icon": "images/Lifesaver Icon.png",
+    "screenshot": "images/Lifesaver Screenshots.png",
+    "links": {
+      "appStore": "https://apps.apple.com/us/app/life-saver-tv/id1470667717",
+      "github": "https://github.com/amiantos/lifesaver",
+      "demo": "https://www.youtube.com/watch?v=Vv9rDZ1LMSk"
+    }
+  },
+  {
+    "name": "PiBar",
+    "repo": "pibar",
+    "tagline": "Pi-hole Menu Bar Manager",
+    "description": "A macOS menu bar app for managing your Pi-hole(s). Compatible with macOS 10.12 (and later). Download for free via brew install pibar or buy on the Mac App Store.",
+    "icon": "images/pibar_icon_512px.png",
+    "screenshot": "images/pibar-ss.png",
+    "links": {
+      "appStore": "https://apps.apple.com/us/app/pibar-for-pi-hole/id1514292645?mt=12",
+      "github": "https://github.com/amiantos/pibar"
+    }
+  },
+  {
+    "name": "dotBeat",
+    "repo": "dotbeat",
+    "tagline": "Swatch Internet Time",
+    "description": "dotBeat gives you Swatch Internet Time right in your macOS menu bar! But, that's not all, it also has an interesting UX for viewing most timezones on earth, for when you're planning global meetings.",
+    "icon": "images/dotbeat-icon.png",
+    "screenshot": "images/dotbeat-ss.png",
+    "links": {
+      "appStore": "https://apps.apple.com/us/app/dotbeat-internet-time/id1599168929?mt=12",
+      "github": "https://github.com/amiantos/dotbeat"
+    }
+  }
+]

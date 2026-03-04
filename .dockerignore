@@ -1,6 +1,8 @@
-node_modules/
+node_modules
+.git
+.claude
 .DS_Store
-
-# Build artifacts / cached data
+*.md
+scripts/node_modules
 scripts/data/manual.json
 scripts/data/site_data.json
