@@ -83,7 +83,7 @@
             </div>
           </div>
           <div class="featured-project__body">
-            <p class="featured-project__desc">{{ project.description }}</p>
+            <p class="featured-project__desc">{{ project.description | safe }}</p>
             <div class="featured-project__links">
               {% if project.links.appStore %}
               <a href="{{ project.links.appStore }}">App Store</a>
