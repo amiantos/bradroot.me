@@ -1,0 +1,18 @@
+{
+  "games": [
+    {
+      "name": "Project Gorgon",
+      "image": "images/games/project-gorgon.jpg",
+      "link": "https://projectgorgon.com"
+    }
+  ],
+  "hidden_repos": [
+    "AI-Horde-Styles-Previews",
+    "multiclock-playdate",
+    "langtonsmap",
+    "textlike",
+    "zzz-agents",
+    "postalgic",
+    "tyler"
+  ]
+}

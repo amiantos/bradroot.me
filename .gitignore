@@ -2,6 +2,5 @@ node_modules/
 .DS_Store
 .env
 
-# Build artifacts / cached data
-scripts/data/manual.json
+# Cached API data (rebuilt automatically)
 scripts/data/site_data.json
