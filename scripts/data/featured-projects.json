@@ -76,7 +76,7 @@
     "name": "PiBar",
     "repo": "pibar",
     "tagline": "Pi-hole Menu Bar Manager",
-    "description": "A macOS menu bar app for managing your Pi-hole(s). Compatible with macOS 10.12 (and later). Download for free via brew install pibar or buy on the Mac App Store.",
+    "description": "A macOS menu bar app for managing your Pi-hole(s). Compatible with macOS 10.12 (and later). Download for free via <code>brew install pibar</code> or buy on the Mac App Store.",
     "icon": "images/pibar_icon_512px.png",
     "screenshot": "images/pibar-ss.png",
     "links": {

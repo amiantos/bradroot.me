@@ -48,10 +48,14 @@
           <h2>Work</h2>
         </div>
         <div class="featured-project">
-          <img src="images/lingo-icon.png" alt="Lingo" class="featured-project__icon">
-          <div class="featured-project__info">
-            <h3 class="featured-project__name">Lingo</h3>
-            <p class="featured-project__tagline">Digital Asset Manager</p>
+          <div class="featured-project__header">
+            <img src="images/lingo-icon.png" alt="Lingo" class="featured-project__icon">
+            <div>
+              <h3 class="featured-project__name">Lingo</h3>
+              <p class="featured-project__tagline">Digital Asset Manager</p>
+            </div>
+          </div>
+          <div class="featured-project__body">
             <p class="featured-project__desc">Since 2018, I've been the backend engineer, devops guy, all-around problem solver, and occasional copywriter for Lingo, a digital asset manager used by Reddit, Duolingo, Snap, and other brands you know and love.</p>
             <div class="featured-project__links">
               <a href="https://lingoapp.com">Visit Website</a>
@@ -71,10 +75,14 @@
         </div>
         {% for project in featured_projects %}
         <div class="featured-project">
-          <img src="{{ project.icon }}" alt="{{ project.name }}" class="featured-project__icon">
-          <div class="featured-project__info">
-            <h3 class="featured-project__name">{{ project.name }}</h3>
-            <p class="featured-project__tagline">{{ project.tagline }}</p>
+          <div class="featured-project__header">
+            <img src="{{ project.icon }}" alt="{{ project.name }}" class="featured-project__icon">
+            <div>
+              <h3 class="featured-project__name">{{ project.name }}</h3>
+              <p class="featured-project__tagline">{{ project.tagline }}</p>
+            </div>
+          </div>
+          <div class="featured-project__body">
             <p class="featured-project__desc">{{ project.description }}</p>
             <div class="featured-project__links">
               {% if project.links.appStore %}
