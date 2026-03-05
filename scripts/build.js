@@ -53,9 +53,9 @@ export async function build({ gitPush = false, bypassCache = false } = {}) {
   // 3. Git commit + push if requested
   if (gitPush) {
     try {
-      const status = run('git status --porcelain website/');
+      const status = run('git status --porcelain website/ scripts/data/');
       if (status.trim()) {
-        run('git add website/');
+        run('git add website/ scripts/data/');
         const date = new Date().toISOString().split('T')[0];
         run(`git commit -m "Build site ${date}"`);
         run('git push');
