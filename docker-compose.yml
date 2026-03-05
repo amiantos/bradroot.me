@@ -5,13 +5,10 @@ services:
       - "5050:5050"
     volumes:
       - .:/app
-      - node_modules:/app/scripts/node_modules
+      - /app/scripts/node_modules
       - ~/.ssh:/root/.ssh:ro
     environment:
       - GIT_AUTHOR_NAME=Brad Root
       - GIT_AUTHOR_EMAIL=bradroot@me.com
       - GITHUB_TOKEN=${GITHUB_TOKEN}
     restart: unless-stopped
-
-volumes:
-  node_modules:
