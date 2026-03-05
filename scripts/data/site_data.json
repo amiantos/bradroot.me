@@ -1057,8 +1057,8 @@
       "releases_url": "https://api.github.com/repos/amiantos/bradroot.me/releases{/id}",
       "deployments_url": "https://api.github.com/repos/amiantos/bradroot.me/deployments",
       "created_at": "2018-05-06T02:16:59Z",
-      "updated_at": "2026-03-05T19:40:01Z",
-      "pushed_at": "2026-03-05T19:39:57Z",
+      "updated_at": "2026-03-05T19:49:00Z",
+      "pushed_at": "2026-03-05T19:48:57Z",
       "git_url": "git://github.com/amiantos/bradroot.me.git",
       "ssh_url": "git@github.com:amiantos/bradroot.me.git",
       "clone_url": "https://github.com/amiantos/bradroot.me.git",
@@ -5551,5 +5551,5 @@
       "pubDate_formatted": "Oct 8"
     }
   ],
-  "_fetchedAt": 1772740121484
+  "_fetchedAt": 1772740184087
 }
