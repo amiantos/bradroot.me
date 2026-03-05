@@ -6,10 +6,12 @@ services:
     volumes:
       - .:/app
       - /app/scripts/node_modules
-      - ~/.ssh:/root/.ssh:ro
+      - ~/.ssh/id_ed25519:/root/.ssh/id_ed25519:ro
+      - ~/.ssh/known_hosts:/root/.ssh/known_hosts:ro
     environment:
       - GIT_AUTHOR_NAME=Brad Root
       - GIT_AUTHOR_EMAIL=bradroot@me.com
       - GIT_COMMITTER_NAME=Brad Root
       - GIT_COMMITTER_EMAIL=bradroot@me.com
+      - GIT_SSH_COMMAND=ssh -i /root/.ssh/id_ed25519 -o StrictHostKeyChecking=accept-new
     restart: unless-stopped
