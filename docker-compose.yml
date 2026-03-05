@@ -7,4 +7,9 @@ services:
       - .:/app
       - /app/scripts/node_modules
       - ~/.ssh:/root/.ssh:ro
+    environment:
+      - GIT_AUTHOR_NAME=Brad Root
+      - GIT_AUTHOR_EMAIL=bradroot@me.com
+      - GIT_COMMITTER_NAME=Brad Root
+      - GIT_COMMITTER_EMAIL=bradroot@me.com
     restart: unless-stopped
