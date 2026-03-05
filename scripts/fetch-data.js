@@ -75,7 +75,7 @@ export async function fetchDiscourseTopics() {
         id: t.id,
         last_posted_at: t.last_posted_at,
         last_posted_at_formatted: new Date(t.last_posted_at).toLocaleDateString('en-US', {
-          month: 'short', day: 'numeric',
+          month: 'short', day: 'numeric', timeZone: 'America/Los_Angeles', timeZone: 'America/Los_Angeles',
         }),
       }));
     console.log(`Fetched ${topics.length} Discourse topics`);
@@ -138,7 +138,7 @@ export async function fetchStairesRSS() {
     for (const item of items) {
       if (item.pubDate) {
         item.pubDate_formatted = new Date(item.pubDate).toLocaleDateString('en-US', {
-          month: 'short', day: 'numeric',
+          month: 'short', day: 'numeric', timeZone: 'America/Los_Angeles',
         });
       }
     }
@@ -164,7 +164,7 @@ export async function fetchFloatedRSS() {
     for (const item of items) {
       if (item.pubDate) {
         item.pubDate_formatted = new Date(item.pubDate).toLocaleDateString('en-US', {
-          month: 'short', day: 'numeric',
+          month: 'short', day: 'numeric', timeZone: 'America/Los_Angeles',
         });
       }
     }
@@ -190,7 +190,7 @@ export async function fetchAmiantosRSS() {
     for (const item of items) {
       if (item.pubDate) {
         item.pubDate_formatted = new Date(item.pubDate).toLocaleDateString('en-US', {
-          month: 'short', day: 'numeric',
+          month: 'short', day: 'numeric', timeZone: 'America/Los_Angeles',
         });
       }
     }

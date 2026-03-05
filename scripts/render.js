@@ -66,7 +66,7 @@ export function render(siteData = {}) {
     .map(r => ({
       ...r,
       pushed_at_formatted: new Date(r.pushed_at).toLocaleDateString('en-US', {
-        month: 'short', day: 'numeric',
+        month: 'short', day: 'numeric', timeZone: 'America/Los_Angeles',
       }),
     }));
 
@@ -105,7 +105,7 @@ export function render(siteData = {}) {
     },
     year: now.getFullYear(),
     build_date: now.toLocaleDateString('en-US', {
-      year: 'numeric', month: 'long', day: 'numeric',
+      year: 'numeric', month: 'long', day: 'numeric', timeZone: 'America/Los_Angeles',
     }),
   };
 

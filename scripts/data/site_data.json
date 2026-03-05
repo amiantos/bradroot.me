@@ -1057,8 +1057,8 @@
       "releases_url": "https://api.github.com/repos/amiantos/bradroot.me/releases{/id}",
       "deployments_url": "https://api.github.com/repos/amiantos/bradroot.me/deployments",
       "created_at": "2018-05-06T02:16:59Z",
-      "updated_at": "2026-03-05T19:38:21Z",
-      "pushed_at": "2026-03-05T19:38:17Z",
+      "updated_at": "2026-03-05T19:40:01Z",
+      "pushed_at": "2026-03-05T19:39:57Z",
       "git_url": "git://github.com/amiantos/bradroot.me.git",
       "ssh_url": "git@github.com:amiantos/bradroot.me.git",
       "clone_url": "https://github.com/amiantos/bradroot.me.git",
@@ -5501,14 +5501,14 @@
       "link": "https://staires.org/2026/02/23/toth-easy/",
       "pubDate": "Tue, 24 Feb 2026 04:27:00 GMT",
       "youtubeId": "JtFf-k2_39I",
-      "pubDate_formatted": "Feb 24"
+      "pubDate_formatted": "Feb 23"
     },
     {
       "title": "Victor Jones - Go to Work",
       "link": "https://staires.org/2026/02/21/victor-jones-go-to-work/",
       "pubDate": "Sun, 22 Feb 2026 05:30:00 GMT",
       "youtubeId": "WL3ZLLoIBCk",
-      "pubDate_formatted": "Feb 22"
+      "pubDate_formatted": "Feb 21"
     }
   ],
   "floatedPosts": [
@@ -5522,7 +5522,7 @@
       "title": "I'm 41 today! How did this happen!?",
       "link": "https://ihavebeenfloated.org/2026/03/01/i-m-41-today-how-did-this-happen/",
       "pubDate": "Mon, 02 Mar 2026 00:04:00 GMT",
-      "pubDate_formatted": "Mar 2"
+      "pubDate_formatted": "Mar 1"
     },
     {
       "title": "Man, I was ahead of the time on cancelling my...",
@@ -5551,5 +5551,5 @@
       "pubDate_formatted": "Oct 8"
     }
   ],
-  "_fetchedAt": 1772739595386
+  "_fetchedAt": 1772740121484
 }
