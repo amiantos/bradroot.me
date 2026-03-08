@@ -635,8 +635,8 @@
       "releases_url": "https://api.github.com/repos/amiantos/amiantos/releases{/id}",
       "deployments_url": "https://api.github.com/repos/amiantos/amiantos/deployments",
       "created_at": "2022-01-09T08:54:16Z",
-      "updated_at": "2026-03-03T05:02:52Z",
-      "pushed_at": "2026-03-03T05:02:48Z",
+      "updated_at": "2026-03-08T23:26:03Z",
+      "pushed_at": "2026-03-08T23:26:00Z",
       "git_url": "git://github.com/amiantos/amiantos.git",
       "ssh_url": "git@github.com:amiantos/amiantos.git",
       "clone_url": "https://github.com/amiantos/amiantos.git",
@@ -1057,14 +1057,14 @@
       "releases_url": "https://api.github.com/repos/amiantos/bradroot.me/releases{/id}",
       "deployments_url": "https://api.github.com/repos/amiantos/bradroot.me/deployments",
       "created_at": "2018-05-06T02:16:59Z",
-      "updated_at": "2026-03-06T06:00:06Z",
-      "pushed_at": "2026-03-06T06:00:02Z",
+      "updated_at": "2026-03-08T23:56:47Z",
+      "pushed_at": "2026-03-08T23:56:42Z",
       "git_url": "git://github.com/amiantos/bradroot.me.git",
       "ssh_url": "git@github.com:amiantos/bradroot.me.git",
       "clone_url": "https://github.com/amiantos/bradroot.me.git",
       "svn_url": "https://github.com/amiantos/bradroot.me",
       "homepage": "https://bradroot.me",
-      "size": 16809,
+      "size": 16872,
       "stargazers_count": 0,
       "watchers_count": 0,
       "language": "HTML",
@@ -1090,6 +1090,122 @@
       "forks": 0,
       "open_issues": 0,
       "watchers": 0,
+      "default_branch": "main"
+    },
+    {
+      "id": 1176333955,
+      "node_id": "R_kgDORh1ugw",
+      "name": "c64u-viewer",
+      "full_name": "amiantos/c64u-viewer",
+      "private": false,
+      "owner": {
+        "login": "amiantos",
+        "id": 1126616,
+        "node_id": "MDQ6VXNlcjExMjY2MTY=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/1126616?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/amiantos",
+        "html_url": "https://github.com/amiantos",
+        "followers_url": "https://api.github.com/users/amiantos/followers",
+        "following_url": "https://api.github.com/users/amiantos/following{/other_user}",
+        "gists_url": "https://api.github.com/users/amiantos/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/amiantos/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/amiantos/subscriptions",
+        "organizations_url": "https://api.github.com/users/amiantos/orgs",
+        "repos_url": "https://api.github.com/users/amiantos/repos",
+        "events_url": "https://api.github.com/users/amiantos/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/amiantos/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/amiantos/c64u-viewer",
+      "description": "Native macOS app to view Commodore 64 Ultimate video/audio streams with CRT effects",
+      "fork": false,
+      "url": "https://api.github.com/repos/amiantos/c64u-viewer",
+      "forks_url": "https://api.github.com/repos/amiantos/c64u-viewer/forks",
+      "keys_url": "https://api.github.com/repos/amiantos/c64u-viewer/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/amiantos/c64u-viewer/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/amiantos/c64u-viewer/teams",
+      "hooks_url": "https://api.github.com/repos/amiantos/c64u-viewer/hooks",
+      "issue_events_url": "https://api.github.com/repos/amiantos/c64u-viewer/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/amiantos/c64u-viewer/events",
+      "assignees_url": "https://api.github.com/repos/amiantos/c64u-viewer/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/amiantos/c64u-viewer/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/amiantos/c64u-viewer/tags",
+      "blobs_url": "https://api.github.com/repos/amiantos/c64u-viewer/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/amiantos/c64u-viewer/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/amiantos/c64u-viewer/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/amiantos/c64u-viewer/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/amiantos/c64u-viewer/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/amiantos/c64u-viewer/languages",
+      "stargazers_url": "https://api.github.com/repos/amiantos/c64u-viewer/stargazers",
+      "contributors_url": "https://api.github.com/repos/amiantos/c64u-viewer/contributors",
+      "subscribers_url": "https://api.github.com/repos/amiantos/c64u-viewer/subscribers",
+      "subscription_url": "https://api.github.com/repos/amiantos/c64u-viewer/subscription",
+      "commits_url": "https://api.github.com/repos/amiantos/c64u-viewer/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/amiantos/c64u-viewer/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/amiantos/c64u-viewer/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/amiantos/c64u-viewer/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/amiantos/c64u-viewer/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/amiantos/c64u-viewer/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/amiantos/c64u-viewer/merges",
+      "archive_url": "https://api.github.com/repos/amiantos/c64u-viewer/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/amiantos/c64u-viewer/downloads",
+      "issues_url": "https://api.github.com/repos/amiantos/c64u-viewer/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/amiantos/c64u-viewer/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/amiantos/c64u-viewer/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/amiantos/c64u-viewer/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/amiantos/c64u-viewer/labels{/name}",
+      "releases_url": "https://api.github.com/repos/amiantos/c64u-viewer/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/amiantos/c64u-viewer/deployments",
+      "created_at": "2026-03-08T23:05:53Z",
+      "updated_at": "2026-03-08T23:41:38Z",
+      "pushed_at": "2026-03-08T23:41:34Z",
+      "git_url": "git://github.com/amiantos/c64u-viewer.git",
+      "ssh_url": "git@github.com:amiantos/c64u-viewer.git",
+      "clone_url": "https://github.com/amiantos/c64u-viewer.git",
+      "svn_url": "https://github.com/amiantos/c64u-viewer",
+      "homepage": "https://discuss.bradroot.me/tags/c/projects/13/c64u-viewer/35",
+      "size": 0,
+      "stargazers_count": 1,
+      "watchers_count": 1,
+      "language": "Swift",
+      "has_issues": true,
+      "has_projects": false,
+      "has_downloads": true,
+      "has_wiki": false,
+      "has_pages": false,
+      "has_discussions": false,
+      "forks_count": 0,
+      "mirror_url": null,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 0,
+      "license": {
+        "key": "mpl-2.0",
+        "name": "Mozilla Public License 2.0",
+        "spdx_id": "MPL-2.0",
+        "url": "https://api.github.com/licenses/mpl-2.0",
+        "node_id": "MDc6TGljZW5zZTE0"
+      },
+      "allow_forking": true,
+      "is_template": false,
+      "web_commit_signoff_required": false,
+      "has_pull_requests": true,
+      "pull_request_creation_policy": "all",
+      "topics": [
+        "commodore",
+        "commodore-64",
+        "commodore-64-ultimate",
+        "crt-shader",
+        "macos",
+        "swift"
+      ],
+      "visibility": "public",
+      "forks": 0,
+      "open_issues": 0,
+      "watchers": 1,
       "default_branch": "main"
     },
     {
@@ -5436,8 +5552,8 @@
     }
   ],
   "discourse": {
-    "topics": 49,
-    "posts": 364,
+    "topics": 51,
+    "posts": 376,
     "users": 5
   },
   "discourseTopics": [
@@ -5445,48 +5561,48 @@
       "title": "C64U Viewer - Devlog",
       "slug": "c64u-viewer-devlog",
       "id": 78,
-      "last_posted_at": "2026-03-07T05:14:47.062Z",
-      "last_posted_at_formatted": "Mar 6"
+      "last_posted_at": "2026-03-08T23:04:20.503Z",
+      "last_posted_at_formatted": "Mar 8"
     },
     {
-      "title": "Commodore 64 Ultimate",
-      "slug": "commodore-64-ultimate",
-      "id": 76,
-      "last_posted_at": "2026-03-07T01:14:35.260Z",
-      "last_posted_at_formatted": "Mar 6"
+      "title": "C64U Viewer - Quick Start Guide",
+      "slug": "c64u-viewer-quick-start-guide",
+      "id": 80,
+      "last_posted_at": "2026-03-08T22:52:45.159Z",
+      "last_posted_at_formatted": "Mar 8"
+    },
+    {
+      "title": "Pet Chat & Pictures",
+      "slug": "pet-chat-pictures",
+      "id": 58,
+      "last_posted_at": "2026-03-08T15:31:42.405Z",
+      "last_posted_at_formatted": "Mar 8"
+    },
+    {
+      "title": "Video Sharing",
+      "slug": "video-sharing",
+      "id": 21,
+      "last_posted_at": "2026-03-08T05:34:27.044Z",
+      "last_posted_at_formatted": "Mar 7"
     },
     {
       "title": "Video Game Chat",
       "slug": "video-game-chat",
       "id": 55,
-      "last_posted_at": "2026-03-06T07:34:30.169Z",
-      "last_posted_at_formatted": "Mar 5"
+      "last_posted_at": "2026-03-08T04:33:05.417Z",
+      "last_posted_at_formatted": "Mar 7"
     },
     {
-      "title": "Food Chat & Sharing",
-      "slug": "food-chat-sharing",
-      "id": 56,
-      "last_posted_at": "2026-03-06T00:48:42.268Z",
-      "last_posted_at_formatted": "Mar 5"
-    },
-    {
-      "title": "Virtual Boy",
-      "slug": "virtual-boy",
-      "id": 65,
-      "last_posted_at": "2026-03-05T23:30:28.380Z",
-      "last_posted_at_formatted": "Mar 5"
-    },
-    {
-      "title": "Artificial Intelligence News & Discussion",
-      "slug": "artificial-intelligence-news-discussion",
-      "id": 53,
-      "last_posted_at": "2026-03-05T21:48:23.858Z",
-      "last_posted_at_formatted": "Mar 5"
+      "title": "Simulation theory",
+      "slug": "simulation-theory",
+      "id": 79,
+      "last_posted_at": "2026-03-08T01:33:23.330Z",
+      "last_posted_at_formatted": "Mar 7"
     }
   ],
   "aihorde": {
-    "images_generated": "27,085",
-    "kudos": "2,833,432"
+    "images_generated": "27,226",
+    "kudos": "2,849,015"
   },
   "stairesSongs": [
     {
@@ -5513,6 +5629,12 @@
   ],
   "floatedPosts": [
     {
+      "title": "I can't believe people are writing articles like...",
+      "link": "https://ihavebeenfloated.org/2026/03/07/i-can-t-believe-people-are-writing-articles-like/",
+      "pubDate": "Sat, 07 Mar 2026 09:36:00 GMT",
+      "pubDate_formatted": "Mar 7"
+    },
+    {
       "title": "John Gruber has some weird takes but I think his...",
       "link": "https://ihavebeenfloated.org/2026/03/02/john-gruber-has-some-weird-takes-but-i-think-his/",
       "pubDate": "Mon, 02 Mar 2026 18:57:00 GMT",
@@ -5523,12 +5645,6 @@
       "link": "https://ihavebeenfloated.org/2026/03/01/i-m-41-today-how-did-this-happen/",
       "pubDate": "Mon, 02 Mar 2026 00:04:00 GMT",
       "pubDate_formatted": "Mar 1"
-    },
-    {
-      "title": "Man, I was ahead of the time on cancelling my...",
-      "link": "https://ihavebeenfloated.org/2026/02/28/man-i-was-ahead-of-the-time-on-cancelling-my/",
-      "pubDate": "Sat, 28 Feb 2026 17:30:00 GMT",
-      "pubDate_formatted": "Feb 28"
     }
   ],
   "amiantosPosts": [
@@ -5551,5 +5667,5 @@
       "pubDate_formatted": "Oct 8"
     }
   ],
-  "_fetchedAt": 1772863203160
+  "_fetchedAt": 1773014296946
 }
