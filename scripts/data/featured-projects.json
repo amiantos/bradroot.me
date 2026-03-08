@@ -1,5 +1,15 @@
 [
   {
+    "name": "C64U Viewer",
+    "repo": "c64u-viewer",
+    "tagline": "Commodore 64 Ultimate Streamer",
+    "description": "A native macOS app to view Commodore 64 Ultimate video and audio streams with CRT effects.",
+    "icon": "images/c64u-viewer-icon.png",
+    "links": {
+      "github": "https://github.com/amiantos/c64u-viewer"
+    }
+  },
+  {
     "name": "Postalgic",
     "repo": "postalgic-ios",
     "tagline": "Pocket Blogger",
