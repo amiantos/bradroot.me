@@ -1057,14 +1057,14 @@
       "releases_url": "https://api.github.com/repos/amiantos/bradroot.me/releases{/id}",
       "deployments_url": "https://api.github.com/repos/amiantos/bradroot.me/deployments",
       "created_at": "2018-05-06T02:16:59Z",
-      "updated_at": "2026-03-09T06:00:07Z",
-      "pushed_at": "2026-03-09T06:00:02Z",
+      "updated_at": "2026-03-11T06:00:05Z",
+      "pushed_at": "2026-03-11T06:00:02Z",
       "git_url": "git://github.com/amiantos/bradroot.me.git",
       "ssh_url": "git@github.com:amiantos/bradroot.me.git",
       "clone_url": "https://github.com/amiantos/bradroot.me.git",
       "svn_url": "https://github.com/amiantos/bradroot.me",
       "homepage": "https://bradroot.me",
-      "size": 17055,
+      "size": 17091,
       "stargazers_count": 0,
       "watchers_count": 0,
       "language": "HTML",
@@ -5553,56 +5553,56 @@
   ],
   "discourse": {
     "topics": 51,
-    "posts": 379,
+    "posts": 389,
     "users": 5
   },
   "discourseTopics": [
     {
+      "title": "It's time for war, baby",
+      "slug": "its-time-for-war-baby",
+      "id": 69,
+      "last_posted_at": "2026-03-12T05:42:18.922Z",
+      "last_posted_at_formatted": "Mar 11"
+    },
+    {
       "title": "Commodore 64 Ultimate",
       "slug": "commodore-64-ultimate",
       "id": 76,
-      "last_posted_at": "2026-03-09T05:54:06.132Z",
-      "last_posted_at_formatted": "Mar 8"
+      "last_posted_at": "2026-03-11T23:29:15.185Z",
+      "last_posted_at_formatted": "Mar 11"
     },
     {
-      "title": "C64U Viewer - Devlog",
-      "slug": "c64u-viewer-devlog",
-      "id": 78,
-      "last_posted_at": "2026-03-09T05:44:44.282Z",
-      "last_posted_at_formatted": "Mar 8"
+      "title": "Memes",
+      "slug": "memes",
+      "id": 67,
+      "last_posted_at": "2026-03-11T20:10:44.823Z",
+      "last_posted_at_formatted": "Mar 11"
+    },
+    {
+      "title": "Live Music Chat",
+      "slug": "live-music-chat",
+      "id": 49,
+      "last_posted_at": "2026-03-11T16:41:42.519Z",
+      "last_posted_at_formatted": "Mar 11"
     },
     {
       "title": "Video Sharing",
       "slug": "video-sharing",
       "id": 21,
-      "last_posted_at": "2026-03-09T04:58:43.051Z",
-      "last_posted_at_formatted": "Mar 8"
+      "last_posted_at": "2026-03-11T08:20:02.358Z",
+      "last_posted_at_formatted": "Mar 11"
     },
     {
-      "title": "C64U Viewer - Quick Start Guide",
-      "slug": "c64u-viewer-quick-start-guide",
-      "id": 80,
-      "last_posted_at": "2026-03-08T22:52:45.159Z",
-      "last_posted_at_formatted": "Mar 8"
-    },
-    {
-      "title": "Pet Chat & Pictures",
-      "slug": "pet-chat-pictures",
-      "id": 58,
-      "last_posted_at": "2026-03-08T15:31:42.405Z",
-      "last_posted_at_formatted": "Mar 8"
-    },
-    {
-      "title": "Video Game Chat",
-      "slug": "video-game-chat",
-      "id": 55,
-      "last_posted_at": "2026-03-08T04:33:05.417Z",
-      "last_posted_at_formatted": "Mar 7"
+      "title": "C64U Viewer - Devlog",
+      "slug": "c64u-viewer-devlog",
+      "id": 78,
+      "last_posted_at": "2026-03-10T21:06:00.253Z",
+      "last_posted_at_formatted": "Mar 10"
     }
   ],
   "aihorde": {
-    "images_generated": "27,318",
-    "kudos": "2,859,096"
+    "images_generated": "27,406",
+    "kudos": "2,889,462"
   },
   "stairesSongs": [
     {
@@ -5629,22 +5629,22 @@
   ],
   "floatedPosts": [
     {
-      "title": "I can't believe people are writing articles like...",
-      "link": "https://ihavebeenfloated.org/2026/03/07/i-can-t-believe-people-are-writing-articles-like/",
-      "pubDate": "Sat, 07 Mar 2026 09:36:00 GMT",
-      "pubDate_formatted": "Mar 7"
+      "title": "I had a comment on Hacker News get a lot of...",
+      "link": "https://ihavebeenfloated.org/2026/03/11/i-had-a-comment-on-hacker-news-get-a-lot-of/",
+      "pubDate": "Thu, 12 Mar 2026 03:30:00 GMT",
+      "pubDate_formatted": "Mar 11"
     },
     {
-      "title": "John Gruber has some weird takes but I think his...",
-      "link": "https://ihavebeenfloated.org/2026/03/02/john-gruber-has-some-weird-takes-but-i-think-his/",
-      "pubDate": "Mon, 02 Mar 2026 18:57:00 GMT",
-      "pubDate_formatted": "Mar 2"
+      "title": "My wife got me a Commodore 64 Ultimate for my...",
+      "link": "https://ihavebeenfloated.org/2026/03/11/my-wife-got-me-a-commodore-64-ultimate-for-my/",
+      "pubDate": "Wed, 11 Mar 2026 18:46:00 GMT",
+      "pubDate_formatted": "Mar 11"
     },
     {
-      "title": "I'm 41 today! How did this happen!?",
-      "link": "https://ihavebeenfloated.org/2026/03/01/i-m-41-today-how-did-this-happen/",
-      "pubDate": "Mon, 02 Mar 2026 00:04:00 GMT",
-      "pubDate_formatted": "Mar 1"
+      "title": "What a strange sequence of events led me to this...",
+      "link": "https://ihavebeenfloated.org/2026/03/10/what-a-strange-sequence-of-events-led-me-to-this/",
+      "pubDate": "Wed, 11 Mar 2026 03:30:00 GMT",
+      "pubDate_formatted": "Mar 10"
     }
   ],
   "amiantosPosts": [
@@ -5667,5 +5667,5 @@
       "pubDate_formatted": "Oct 8"
     }
   ],
-  "_fetchedAt": 1773122401754
+  "_fetchedAt": 1773295201392
 }
