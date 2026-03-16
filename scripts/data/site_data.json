@@ -1057,14 +1057,14 @@
       "releases_url": "https://api.github.com/repos/amiantos/bradroot.me/releases{/id}",
       "deployments_url": "https://api.github.com/repos/amiantos/bradroot.me/deployments",
       "created_at": "2018-05-06T02:16:59Z",
-      "updated_at": "2026-03-13T06:00:05Z",
-      "pushed_at": "2026-03-13T06:00:02Z",
+      "updated_at": "2026-03-15T06:00:05Z",
+      "pushed_at": "2026-03-15T06:00:01Z",
       "git_url": "git://github.com/amiantos/bradroot.me.git",
       "ssh_url": "git@github.com:amiantos/bradroot.me.git",
       "clone_url": "https://github.com/amiantos/bradroot.me.git",
       "svn_url": "https://github.com/amiantos/bradroot.me",
       "homepage": "https://bradroot.me",
-      "size": 17127,
+      "size": 17162,
       "stargazers_count": 0,
       "watchers_count": 0,
       "language": "HTML",
@@ -1160,7 +1160,7 @@
       "releases_url": "https://api.github.com/repos/amiantos/c64u-viewer/releases{/id}",
       "deployments_url": "https://api.github.com/repos/amiantos/c64u-viewer/deployments",
       "created_at": "2026-03-08T23:05:53Z",
-      "updated_at": "2026-03-13T04:04:29Z",
+      "updated_at": "2026-03-14T19:50:31Z",
       "pushed_at": "2026-03-13T04:04:26Z",
       "git_url": "git://github.com/amiantos/c64u-viewer.git",
       "ssh_url": "git@github.com:amiantos/c64u-viewer.git",
@@ -1168,8 +1168,8 @@
       "svn_url": "https://github.com/amiantos/c64u-viewer",
       "homepage": "https://discuss.bradroot.me/tags/c/projects/13/c64u-viewer/35",
       "size": 3248,
-      "stargazers_count": 1,
-      "watchers_count": 1,
+      "stargazers_count": 2,
+      "watchers_count": 2,
       "language": "Swift",
       "has_issues": true,
       "has_projects": false,
@@ -1205,7 +1205,7 @@
       "visibility": "public",
       "forks": 0,
       "open_issues": 0,
-      "watchers": 1,
+      "watchers": 2,
       "default_branch": "main"
     },
     {
@@ -5553,7 +5553,7 @@
   ],
   "discourse": {
     "topics": 52,
-    "posts": 403,
+    "posts": 429,
     "users": 5
   },
   "discourseTopics": [
@@ -5561,8 +5561,36 @@
       "title": "PICO-8 Fantasy Console",
       "slug": "pico-8-fantasy-console",
       "id": 81,
-      "last_posted_at": "2026-03-13T22:37:24.635Z",
-      "last_posted_at_formatted": "Mar 13"
+      "last_posted_at": "2026-03-16T05:55:44.735Z",
+      "last_posted_at_formatted": "Mar 15"
+    },
+    {
+      "title": "Pet Chat & Pictures",
+      "slug": "pet-chat-pictures",
+      "id": 58,
+      "last_posted_at": "2026-03-15T22:49:32.641Z",
+      "last_posted_at_formatted": "Mar 15"
+    },
+    {
+      "title": "Video Game Chat",
+      "slug": "video-game-chat",
+      "id": 55,
+      "last_posted_at": "2026-03-15T08:23:30.957Z",
+      "last_posted_at_formatted": "Mar 15"
+    },
+    {
+      "title": "Simulation theory",
+      "slug": "simulation-theory",
+      "id": 79,
+      "last_posted_at": "2026-03-14T19:13:28.542Z",
+      "last_posted_at_formatted": "Mar 14"
+    },
+    {
+      "title": "Artificial Intelligence News & Discussion",
+      "slug": "artificial-intelligence-news-discussion",
+      "id": 53,
+      "last_posted_at": "2026-03-14T17:43:05.168Z",
+      "last_posted_at_formatted": "Mar 14"
     },
     {
       "title": "Commodore 64 Ultimate",
@@ -5570,39 +5598,11 @@
       "id": 76,
       "last_posted_at": "2026-03-13T21:23:32.219Z",
       "last_posted_at_formatted": "Mar 13"
-    },
-    {
-      "title": "Video Game Chat",
-      "slug": "video-game-chat",
-      "id": 55,
-      "last_posted_at": "2026-03-13T19:31:56.752Z",
-      "last_posted_at_formatted": "Mar 13"
-    },
-    {
-      "title": "Artificial Intelligence News & Discussion",
-      "slug": "artificial-intelligence-news-discussion",
-      "id": 53,
-      "last_posted_at": "2026-03-13T05:42:57.895Z",
-      "last_posted_at_formatted": "Mar 12"
-    },
-    {
-      "title": "Software Engineering Chat",
-      "slug": "software-engineering-chat",
-      "id": 57,
-      "last_posted_at": "2026-03-12T22:58:44.848Z",
-      "last_posted_at_formatted": "Mar 12"
-    },
-    {
-      "title": "C64U Viewer - Devlog",
-      "slug": "c64u-viewer-devlog",
-      "id": 78,
-      "last_posted_at": "2026-03-12T20:41:47.090Z",
-      "last_posted_at_formatted": "Mar 12"
     }
   ],
   "aihorde": {
-    "images_generated": "27,560",
-    "kudos": "2,912,872"
+    "images_generated": "27,781",
+    "kudos": "2,947,800"
   },
   "stairesSongs": [
     {
@@ -5667,5 +5667,5 @@
       "pubDate_formatted": "Oct 8"
     }
   ],
-  "_fetchedAt": 1773468001715
+  "_fetchedAt": 1773640801232
 }
