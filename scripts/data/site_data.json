@@ -1057,14 +1057,14 @@
       "releases_url": "https://api.github.com/repos/amiantos/bradroot.me/releases{/id}",
       "deployments_url": "https://api.github.com/repos/amiantos/bradroot.me/deployments",
       "created_at": "2018-05-06T02:16:59Z",
-      "updated_at": "2026-03-17T06:00:06Z",
-      "pushed_at": "2026-03-17T06:00:02Z",
+      "updated_at": "2026-03-18T06:01:15Z",
+      "pushed_at": "2026-03-18T06:01:12Z",
       "git_url": "git://github.com/amiantos/bradroot.me.git",
       "ssh_url": "git@github.com:amiantos/bradroot.me.git",
       "clone_url": "https://github.com/amiantos/bradroot.me.git",
       "svn_url": "https://github.com/amiantos/bradroot.me",
       "homepage": "https://bradroot.me",
-      "size": 17198,
+      "size": 17228,
       "stargazers_count": 0,
       "watchers_count": 0,
       "language": "HTML",
@@ -5553,7 +5553,7 @@
   ],
   "discourse": {
     "topics": 52,
-    "posts": 448,
+    "posts": 452,
     "users": 5
   },
   "discourseTopics": [
@@ -5561,8 +5561,8 @@
       "title": "PICO-8 Fantasy Console",
       "slug": "pico-8-fantasy-console",
       "id": 81,
-      "last_posted_at": "2026-03-18T04:57:57.634Z",
-      "last_posted_at_formatted": "Mar 17"
+      "last_posted_at": "2026-03-18T07:01:34.332Z",
+      "last_posted_at_formatted": "Mar 18"
     },
     {
       "title": "Video Game Chat",
@@ -5600,7 +5600,10 @@
       "last_posted_at_formatted": "Mar 15"
     }
   ],
-  "aihorde": null,
+  "aihorde": {
+    "images_generated": "28,030",
+    "kudos": "2,980,324"
+  },
   "stairesSongs": [
     {
       "title": "Sakanaction - Wasureararenaino",
@@ -5664,5 +5667,5 @@
       "pubDate_formatted": "Oct 8"
     }
   ],
-  "_fetchedAt": 1773813602131
+  "_fetchedAt": 1773817653452
 }
