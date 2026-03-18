@@ -1057,14 +1057,14 @@
       "releases_url": "https://api.github.com/repos/amiantos/bradroot.me/releases{/id}",
       "deployments_url": "https://api.github.com/repos/amiantos/bradroot.me/deployments",
       "created_at": "2018-05-06T02:16:59Z",
-      "updated_at": "2026-03-15T06:00:05Z",
-      "pushed_at": "2026-03-15T06:00:01Z",
+      "updated_at": "2026-03-17T06:00:06Z",
+      "pushed_at": "2026-03-17T06:00:02Z",
       "git_url": "git://github.com/amiantos/bradroot.me.git",
       "ssh_url": "git@github.com:amiantos/bradroot.me.git",
       "clone_url": "https://github.com/amiantos/bradroot.me.git",
       "svn_url": "https://github.com/amiantos/bradroot.me",
       "homepage": "https://bradroot.me",
-      "size": 17162,
+      "size": 17198,
       "stargazers_count": 0,
       "watchers_count": 0,
       "language": "HTML",
@@ -5553,7 +5553,7 @@
   ],
   "discourse": {
     "topics": 52,
-    "posts": 429,
+    "posts": 448,
     "users": 5
   },
   "discourseTopics": [
@@ -5561,8 +5561,36 @@
       "title": "PICO-8 Fantasy Console",
       "slug": "pico-8-fantasy-console",
       "id": 81,
-      "last_posted_at": "2026-03-16T05:55:44.735Z",
-      "last_posted_at_formatted": "Mar 15"
+      "last_posted_at": "2026-03-18T04:57:57.634Z",
+      "last_posted_at_formatted": "Mar 17"
+    },
+    {
+      "title": "Video Game Chat",
+      "slug": "video-game-chat",
+      "id": 55,
+      "last_posted_at": "2026-03-17T00:41:52.519Z",
+      "last_posted_at_formatted": "Mar 16"
+    },
+    {
+      "title": "It's time for war, baby",
+      "slug": "its-time-for-war-baby",
+      "id": 69,
+      "last_posted_at": "2026-03-17T00:41:17.991Z",
+      "last_posted_at_formatted": "Mar 16"
+    },
+    {
+      "title": "Software Engineering Chat",
+      "slug": "software-engineering-chat",
+      "id": 57,
+      "last_posted_at": "2026-03-16T22:47:36.861Z",
+      "last_posted_at_formatted": "Mar 16"
+    },
+    {
+      "title": "Gadget Chat",
+      "slug": "gadget-chat",
+      "id": 68,
+      "last_posted_at": "2026-03-16T18:33:41.811Z",
+      "last_posted_at_formatted": "Mar 16"
     },
     {
       "title": "Pet Chat & Pictures",
@@ -5570,40 +5598,9 @@
       "id": 58,
       "last_posted_at": "2026-03-15T22:49:32.641Z",
       "last_posted_at_formatted": "Mar 15"
-    },
-    {
-      "title": "Video Game Chat",
-      "slug": "video-game-chat",
-      "id": 55,
-      "last_posted_at": "2026-03-15T08:23:30.957Z",
-      "last_posted_at_formatted": "Mar 15"
-    },
-    {
-      "title": "Simulation theory",
-      "slug": "simulation-theory",
-      "id": 79,
-      "last_posted_at": "2026-03-14T19:13:28.542Z",
-      "last_posted_at_formatted": "Mar 14"
-    },
-    {
-      "title": "Artificial Intelligence News & Discussion",
-      "slug": "artificial-intelligence-news-discussion",
-      "id": 53,
-      "last_posted_at": "2026-03-14T17:43:05.168Z",
-      "last_posted_at_formatted": "Mar 14"
-    },
-    {
-      "title": "Commodore 64 Ultimate",
-      "slug": "commodore-64-ultimate",
-      "id": 76,
-      "last_posted_at": "2026-03-13T21:23:32.219Z",
-      "last_posted_at_formatted": "Mar 13"
     }
   ],
-  "aihorde": {
-    "images_generated": "27,781",
-    "kudos": "2,947,800"
-  },
+  "aihorde": null,
   "stairesSongs": [
     {
       "title": "Sakanaction - Wasureararenaino",
@@ -5667,5 +5664,5 @@
       "pubDate_formatted": "Oct 8"
     }
   ],
-  "_fetchedAt": 1773640801232
+  "_fetchedAt": 1773813602131
 }
