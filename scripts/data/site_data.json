@@ -1057,14 +1057,14 @@
       "releases_url": "https://api.github.com/repos/amiantos/bradroot.me/releases{/id}",
       "deployments_url": "https://api.github.com/repos/amiantos/bradroot.me/deployments",
       "created_at": "2018-05-06T02:16:59Z",
-      "updated_at": "2026-03-18T06:01:15Z",
-      "pushed_at": "2026-03-18T06:01:12Z",
+      "updated_at": "2026-03-19T06:00:05Z",
+      "pushed_at": "2026-03-19T06:00:02Z",
       "git_url": "git://github.com/amiantos/bradroot.me.git",
       "ssh_url": "git@github.com:amiantos/bradroot.me.git",
       "clone_url": "https://github.com/amiantos/bradroot.me.git",
       "svn_url": "https://github.com/amiantos/bradroot.me",
       "homepage": "https://bradroot.me",
-      "size": 17228,
+      "size": 17241,
       "stargazers_count": 0,
       "watchers_count": 0,
       "language": "HTML",
@@ -3490,7 +3490,7 @@
       "releases_url": "https://api.github.com/repos/amiantos/lifesaver/releases{/id}",
       "deployments_url": "https://api.github.com/repos/amiantos/lifesaver/deployments",
       "created_at": "2019-05-18T18:10:08Z",
-      "updated_at": "2026-02-16T06:02:42Z",
+      "updated_at": "2026-03-19T17:58:59Z",
       "pushed_at": "2026-02-18T16:56:15Z",
       "git_url": "git://github.com/amiantos/lifesaver.git",
       "ssh_url": "git@github.com:amiantos/lifesaver.git",
@@ -3498,8 +3498,8 @@
       "svn_url": "https://github.com/amiantos/lifesaver",
       "homepage": "https://discuss.bradroot.me/tags/c/projects/13/life-saver/7",
       "size": 38092,
-      "stargazers_count": 227,
-      "watchers_count": 227,
+      "stargazers_count": 228,
+      "watchers_count": 228,
       "language": "Swift",
       "has_issues": true,
       "has_projects": true,
@@ -3543,7 +3543,7 @@
       "visibility": "public",
       "forks": 12,
       "open_issues": 10,
-      "watchers": 227,
+      "watchers": 228,
       "default_branch": "master"
     },
     {
@@ -5552,24 +5552,38 @@
     }
   ],
   "discourse": {
-    "topics": 52,
-    "posts": 452,
+    "topics": 53,
+    "posts": 464,
     "users": 5
   },
   "discourseTopics": [
     {
-      "title": "PICO-8 Fantasy Console",
-      "slug": "pico-8-fantasy-console",
-      "id": 81,
-      "last_posted_at": "2026-03-18T07:01:34.332Z",
-      "last_posted_at_formatted": "Mar 18"
+      "title": "Crimson Desert",
+      "slug": "crimson-desert",
+      "id": 82,
+      "last_posted_at": "2026-03-20T02:36:39.786Z",
+      "last_posted_at_formatted": "Mar 19"
     },
     {
       "title": "Video Game Chat",
       "slug": "video-game-chat",
       "id": 55,
-      "last_posted_at": "2026-03-17T00:41:52.519Z",
-      "last_posted_at_formatted": "Mar 16"
+      "last_posted_at": "2026-03-20T01:12:41.324Z",
+      "last_posted_at_formatted": "Mar 19"
+    },
+    {
+      "title": "PICO-8 Fantasy Console",
+      "slug": "pico-8-fantasy-console",
+      "id": 81,
+      "last_posted_at": "2026-03-19T23:23:28.324Z",
+      "last_posted_at_formatted": "Mar 19"
+    },
+    {
+      "title": "Software Engineering Chat",
+      "slug": "software-engineering-chat",
+      "id": 57,
+      "last_posted_at": "2026-03-18T18:14:34.871Z",
+      "last_posted_at_formatted": "Mar 18"
     },
     {
       "title": "It's time for war, baby",
@@ -5579,30 +5593,16 @@
       "last_posted_at_formatted": "Mar 16"
     },
     {
-      "title": "Software Engineering Chat",
-      "slug": "software-engineering-chat",
-      "id": 57,
-      "last_posted_at": "2026-03-16T22:47:36.861Z",
-      "last_posted_at_formatted": "Mar 16"
-    },
-    {
       "title": "Gadget Chat",
       "slug": "gadget-chat",
       "id": 68,
       "last_posted_at": "2026-03-16T18:33:41.811Z",
       "last_posted_at_formatted": "Mar 16"
-    },
-    {
-      "title": "Pet Chat & Pictures",
-      "slug": "pet-chat-pictures",
-      "id": 58,
-      "last_posted_at": "2026-03-15T22:49:32.641Z",
-      "last_posted_at_formatted": "Mar 15"
     }
   ],
   "aihorde": {
-    "images_generated": "28,030",
-    "kudos": "2,980,324"
+    "images_generated": "28,248",
+    "kudos": "3,021,035"
   },
   "stairesSongs": [
     {
@@ -5629,22 +5629,22 @@
   ],
   "floatedPosts": [
     {
+      "title": "I am pretty hyped for Crimson Desert. I hope when...",
+      "link": "https://ihavebeenfloated.org/2026/03/19/i-am-pretty-hyped-for-crimson-desert-i-hope-when/",
+      "pubDate": "Thu, 19 Mar 2026 20:23:00 GMT",
+      "pubDate_formatted": "Mar 19"
+    },
+    {
+      "title": "AI psychosis or otherwise negative effects people...",
+      "link": "https://ihavebeenfloated.org/2026/03/18/ai-psychosis-or-otherwise-negative-effects-people/",
+      "pubDate": "Thu, 19 Mar 2026 06:42:00 GMT",
+      "pubDate_formatted": "Mar 18"
+    },
+    {
       "title": "I had a comment on Hacker News get a lot of...",
       "link": "https://ihavebeenfloated.org/2026/03/11/i-had-a-comment-on-hacker-news-get-a-lot-of/",
       "pubDate": "Thu, 12 Mar 2026 03:30:00 GMT",
       "pubDate_formatted": "Mar 11"
-    },
-    {
-      "title": "My wife got me a Commodore 64 Ultimate for my...",
-      "link": "https://ihavebeenfloated.org/2026/03/11/my-wife-got-me-a-commodore-64-ultimate-for-my/",
-      "pubDate": "Wed, 11 Mar 2026 18:46:00 GMT",
-      "pubDate_formatted": "Mar 11"
-    },
-    {
-      "title": "What a strange sequence of events led me to this...",
-      "link": "https://ihavebeenfloated.org/2026/03/10/what-a-strange-sequence-of-events-led-me-to-this/",
-      "pubDate": "Wed, 11 Mar 2026 03:30:00 GMT",
-      "pubDate_formatted": "Mar 10"
     }
   ],
   "amiantosPosts": [
@@ -5667,5 +5667,5 @@
       "pubDate_formatted": "Oct 8"
     }
   ],
-  "_fetchedAt": 1773817653452
+  "_fetchedAt": 1773986401457
 }
