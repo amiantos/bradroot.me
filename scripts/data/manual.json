@@ -1,9 +1,9 @@
 {
   "games": [
     {
-      "name": "Project Gorgon",
-      "image": "images/games/project-gorgon.jpg",
-      "link": "https://projectgorgon.com"
+      "name": "Crimson Desert",
+      "image": "images/games/crimson-desert.jpg",
+      "link": "https://store.steampowered.com/app/3321460/Crimson_Desert/"
     }
   ],
   "hidden_repos": [
