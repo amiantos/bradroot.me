@@ -1,12 +1,13 @@
 [
   {
-    "name": "C64U Viewer",
-    "repo": "c64u-viewer",
-    "tagline": "Commodore 64 Ultimate Streamer",
-    "description": "A native macOS app to view Commodore 64 Ultimate video and audio streams with CRT effects.",
+    "name": "C64 Ultimate Toolbox",
+    "repo": "c64-ultimate-toolbox",
+    "tagline": "Commodore 64 Ultimate Companion",
+    "description": "Native macOS app for streaming, viewing, and controlling your Commodore 64 Ultimate device with real-time CRT shader effects.",
     "icon": "images/c64u-viewer-icon.png",
     "links": {
-      "github": "https://github.com/amiantos/c64u-viewer"
+      "appStore": "https://apps.apple.com/us/app/c64-ultimate-toolbox/id6760209871?mt=12",
+      "github": "https://github.com/amiantos/c64-ultimate-toolbox"
     }
   },
   {
