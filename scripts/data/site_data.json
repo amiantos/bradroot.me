@@ -642,7 +642,7 @@
       "clone_url": "https://github.com/amiantos/amiantos.git",
       "svn_url": "https://github.com/amiantos/amiantos",
       "homepage": null,
-      "size": 38,
+      "size": 40,
       "stargazers_count": 0,
       "watchers_count": 0,
       "language": null,
@@ -1057,14 +1057,14 @@
       "releases_url": "https://api.github.com/repos/amiantos/bradroot.me/releases{/id}",
       "deployments_url": "https://api.github.com/repos/amiantos/bradroot.me/deployments",
       "created_at": "2018-05-06T02:16:59Z",
-      "updated_at": "2026-03-23T06:00:06Z",
-      "pushed_at": "2026-03-23T06:00:02Z",
+      "updated_at": "2026-03-24T06:00:05Z",
+      "pushed_at": "2026-03-24T06:00:02Z",
       "git_url": "git://github.com/amiantos/bradroot.me.git",
       "ssh_url": "git@github.com:amiantos/bradroot.me.git",
       "clone_url": "https://github.com/amiantos/bradroot.me.git",
       "svn_url": "https://github.com/amiantos/bradroot.me",
       "homepage": "https://bradroot.me",
-      "size": 17405,
+      "size": 17444,
       "stargazers_count": 0,
       "watchers_count": 0,
       "language": "HTML",
@@ -1167,7 +1167,7 @@
       "clone_url": "https://github.com/amiantos/c64-ultimate-toolbox.git",
       "svn_url": "https://github.com/amiantos/c64-ultimate-toolbox",
       "homepage": "https://discuss.bradroot.me/tags/c/projects/13/c64-ultimate-toolbox/36",
-      "size": 5393,
+      "size": 5396,
       "stargazers_count": 4,
       "watchers_count": 4,
       "language": "Swift",
@@ -1181,7 +1181,7 @@
       "mirror_url": null,
       "archived": false,
       "disabled": false,
-      "open_issues_count": 0,
+      "open_issues_count": 2,
       "license": {
         "key": "mpl-2.0",
         "name": "Mozilla Public License 2.0",
@@ -1204,7 +1204,7 @@
       ],
       "visibility": "public",
       "forks": 0,
-      "open_issues": 0,
+      "open_issues": 2,
       "watchers": 4,
       "default_branch": "main"
     },
@@ -3949,13 +3949,13 @@
       "deployments_url": "https://api.github.com/repos/amiantos/pibar/deployments",
       "created_at": "2020-05-17T20:12:12Z",
       "updated_at": "2026-03-10T02:57:33Z",
-      "pushed_at": "2025-03-22T18:38:17Z",
+      "pushed_at": "2026-03-24T15:32:32Z",
       "git_url": "git://github.com/amiantos/pibar.git",
       "ssh_url": "git@github.com:amiantos/pibar.git",
       "clone_url": "https://github.com/amiantos/pibar.git",
       "svn_url": "https://github.com/amiantos/pibar",
       "homepage": "",
-      "size": 10505,
+      "size": 10529,
       "stargazers_count": 327,
       "watchers_count": 327,
       "language": "Swift",
@@ -5552,59 +5552,66 @@
     }
   ],
   "discourse": {
-    "topics": 53,
-    "posts": 490,
+    "topics": 54,
+    "posts": 503,
     "users": 5
   },
   "discourseTopics": [
+    {
+      "title": "PiBar v2.0 - Devlog",
+      "slug": "pibar-v2-0-devlog",
+      "id": 83,
+      "last_posted_at": "2026-03-25T04:21:40.925Z",
+      "last_posted_at_formatted": "Mar 24"
+    },
+    {
+      "title": "Music Sharing",
+      "slug": "music-sharing",
+      "id": 40,
+      "last_posted_at": "2026-03-24T21:21:41.329Z",
+      "last_posted_at_formatted": "Mar 24"
+    },
+    {
+      "title": "Artificial Intelligence News & Discussion",
+      "slug": "artificial-intelligence-news-discussion",
+      "id": 53,
+      "last_posted_at": "2026-03-24T21:07:58.848Z",
+      "last_posted_at_formatted": "Mar 24"
+    },
+    {
+      "title": "C64 Ultimate Toolbox v1.0 - Devlog",
+      "slug": "c64-ultimate-toolbox-v1-0-devlog",
+      "id": 78,
+      "last_posted_at": "2026-03-24T16:28:24.451Z",
+      "last_posted_at_formatted": "Mar 24"
+    },
+    {
+      "title": "PICO-8 Fantasy Console",
+      "slug": "pico-8-fantasy-console",
+      "id": 81,
+      "last_posted_at": "2026-03-23T19:55:08.441Z",
+      "last_posted_at_formatted": "Mar 23"
+    },
     {
       "title": "It's time for war, baby",
       "slug": "its-time-for-war-baby",
       "id": 69,
       "last_posted_at": "2026-03-23T15:45:15.135Z",
       "last_posted_at_formatted": "Mar 23"
-    },
-    {
-      "title": "C64U Viewer / C64 Ultimate Toolbox - Devlog",
-      "slug": "c64u-viewer-c64-ultimate-toolbox-devlog",
-      "id": 78,
-      "last_posted_at": "2026-03-23T15:27:06.584Z",
-      "last_posted_at_formatted": "Mar 23"
-    },
-    {
-      "title": "Video Game Chat",
-      "slug": "video-game-chat",
-      "id": 55,
-      "last_posted_at": "2026-03-22T21:25:55.954Z",
-      "last_posted_at_formatted": "Mar 22"
-    },
-    {
-      "title": "Food Chat & Sharing",
-      "slug": "food-chat-sharing",
-      "id": 56,
-      "last_posted_at": "2026-03-22T20:58:09.743Z",
-      "last_posted_at_formatted": "Mar 22"
-    },
-    {
-      "title": "Movie Chat",
-      "slug": "movie-chat",
-      "id": 64,
-      "last_posted_at": "2026-03-22T19:52:54.888Z",
-      "last_posted_at_formatted": "Mar 22"
-    },
-    {
-      "title": "PICO-8 Fantasy Console",
-      "slug": "pico-8-fantasy-console",
-      "id": 81,
-      "last_posted_at": "2026-03-22T02:55:33.617Z",
-      "last_posted_at_formatted": "Mar 21"
     }
   ],
   "aihorde": {
-    "images_generated": "28,591",
-    "kudos": "3,099,675"
+    "images_generated": "28,754",
+    "kudos": "3,119,417"
   },
   "stairesSongs": [
+    {
+      "title": "Kristin Hersh - Your Ghost",
+      "link": "https://staires.org/2026/03/23/kristin-hersh-your-ghost/",
+      "pubDate": "Mon, 23 Mar 2026 23:06:00 GMT",
+      "youtubeId": "ZfW4-nP2G1Q",
+      "pubDate_formatted": "Mar 23"
+    },
     {
       "title": "Spoon - Chateau Blues (Live 2025)",
       "link": "https://staires.org/2026/03/22/spoon-chateau-blues-live-2025/",
@@ -5618,32 +5625,25 @@
       "pubDate": "Tue, 24 Feb 2026 21:26:00 GMT",
       "youtubeId": "BxqYUbNR-c0",
       "pubDate_formatted": "Feb 24"
-    },
-    {
-      "title": "Tōth - Easy",
-      "link": "https://staires.org/2026/02/23/toth-easy/",
-      "pubDate": "Tue, 24 Feb 2026 04:27:00 GMT",
-      "youtubeId": "JtFf-k2_39I",
-      "pubDate_formatted": "Feb 23"
     }
   ],
   "floatedPosts": [
     {
+      "title": "well i just lost a friend who said AI is morally...",
+      "link": "https://ihavebeenfloated.org/2026/03/23/well-i-just-lost-a-friend-who-said-ai-is-morally/",
+      "pubDate": "Mon, 23 Mar 2026 21:40:00 GMT",
+      "pubDate_formatted": "Mar 23"
+    },
+    {
+      "title": "amazon said 'rate 6 products and we'll tell you a...",
+      "link": "https://ihavebeenfloated.org/2026/03/23/amazon-said-rate-6-products-and-we-ll-tell-you-a/",
+      "pubDate": "Mon, 23 Mar 2026 18:23:00 GMT",
+      "pubDate_formatted": "Mar 23"
+    },
+    {
       "title": "I think the thing that annoys me about discourse...",
       "link": "https://ihavebeenfloated.org/2026/03/22/i-think-the-thing-that-annoys-me-about-discourse/",
       "pubDate": "Sun, 22 Mar 2026 21:17:00 GMT",
-      "pubDate_formatted": "Mar 22"
-    },
-    {
-      "title": "Every time I pick up my phone in here, I start...",
-      "link": "https://ihavebeenfloated.org/2026/03/22/every-time-i-pick-up-my-phone-in-here-i-start/",
-      "pubDate": "Sun, 22 Mar 2026 19:30:00 GMT",
-      "pubDate_formatted": "Mar 22"
-    },
-    {
-      "title": "Okay so first up Crimson Desert doesn’t suck....",
-      "link": "https://ihavebeenfloated.org/2026/03/22/okay-so-first-up-crimson-desert-doesn-t-suck-it-s/",
-      "pubDate": "Sun, 22 Mar 2026 19:27:00 GMT",
       "pubDate_formatted": "Mar 22"
     }
   ],
@@ -5667,5 +5667,5 @@
       "pubDate_formatted": "Oct 8"
     }
   ],
-  "_fetchedAt": 1774282991717
+  "_fetchedAt": 1774418404412
 }
