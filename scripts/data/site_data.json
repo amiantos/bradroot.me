@@ -1057,14 +1057,14 @@
       "releases_url": "https://api.github.com/repos/amiantos/bradroot.me/releases{/id}",
       "deployments_url": "https://api.github.com/repos/amiantos/bradroot.me/deployments",
       "created_at": "2018-05-06T02:16:59Z",
-      "updated_at": "2026-03-24T06:00:05Z",
-      "pushed_at": "2026-03-24T06:00:02Z",
+      "updated_at": "2026-03-25T06:00:13Z",
+      "pushed_at": "2026-03-25T06:00:06Z",
       "git_url": "git://github.com/amiantos/bradroot.me.git",
       "ssh_url": "git@github.com:amiantos/bradroot.me.git",
       "clone_url": "https://github.com/amiantos/bradroot.me.git",
       "svn_url": "https://github.com/amiantos/bradroot.me",
       "homepage": "https://bradroot.me",
-      "size": 17444,
+      "size": 17474,
       "stargazers_count": 0,
       "watchers_count": 0,
       "language": "HTML",
@@ -1181,7 +1181,7 @@
       "mirror_url": null,
       "archived": false,
       "disabled": false,
-      "open_issues_count": 2,
+      "open_issues_count": 5,
       "license": {
         "key": "mpl-2.0",
         "name": "Mozilla Public License 2.0",
@@ -1204,7 +1204,7 @@
       ],
       "visibility": "public",
       "forks": 0,
-      "open_issues": 2,
+      "open_issues": 5,
       "watchers": 4,
       "default_branch": "main"
     },
@@ -5553,10 +5553,17 @@
   ],
   "discourse": {
     "topics": 54,
-    "posts": 503,
+    "posts": 505,
     "users": 5
   },
   "discourseTopics": [
+    {
+      "title": "Software Engineering Chat",
+      "slug": "software-engineering-chat",
+      "id": 57,
+      "last_posted_at": "2026-03-25T23:05:18.977Z",
+      "last_posted_at_formatted": "Mar 25"
+    },
     {
       "title": "PiBar v2.0 - Devlog",
       "slug": "pibar-v2-0-devlog",
@@ -5591,18 +5598,11 @@
       "id": 81,
       "last_posted_at": "2026-03-23T19:55:08.441Z",
       "last_posted_at_formatted": "Mar 23"
-    },
-    {
-      "title": "It's time for war, baby",
-      "slug": "its-time-for-war-baby",
-      "id": 69,
-      "last_posted_at": "2026-03-23T15:45:15.135Z",
-      "last_posted_at_formatted": "Mar 23"
     }
   ],
   "aihorde": {
-    "images_generated": "28,754",
-    "kudos": "3,119,417"
+    "images_generated": "28,778",
+    "kudos": "3,125,771"
   },
   "stairesSongs": [
     {
@@ -5625,9 +5625,29 @@
       "pubDate": "Tue, 24 Feb 2026 21:26:00 GMT",
       "youtubeId": "BxqYUbNR-c0",
       "pubDate_formatted": "Feb 24"
+    },
+    {
+      "title": "Tōth - Easy",
+      "link": "https://staires.org/2026/02/23/toth-easy/",
+      "pubDate": "Tue, 24 Feb 2026 04:27:00 GMT",
+      "youtubeId": "JtFf-k2_39I",
+      "pubDate_formatted": "Feb 23"
+    },
+    {
+      "title": "Victor Jones - Go to Work",
+      "link": "https://staires.org/2026/02/21/victor-jones-go-to-work/",
+      "pubDate": "Sun, 22 Feb 2026 05:30:00 GMT",
+      "youtubeId": "WL3ZLLoIBCk",
+      "pubDate_formatted": "Feb 21"
     }
   ],
   "floatedPosts": [
+    {
+      "title": "I love AI or whatever but whenever there's a...",
+      "link": "https://ihavebeenfloated.org/2026/03/25/i-love-ai-or-whatever-but-whenever-there-s-a/",
+      "pubDate": "Wed, 25 Mar 2026 17:48:00 GMT",
+      "pubDate_formatted": "Mar 25"
+    },
     {
       "title": "well i just lost a friend who said AI is morally...",
       "link": "https://ihavebeenfloated.org/2026/03/23/well-i-just-lost-a-friend-who-said-ai-is-morally/",
@@ -5644,6 +5664,12 @@
       "title": "I think the thing that annoys me about discourse...",
       "link": "https://ihavebeenfloated.org/2026/03/22/i-think-the-thing-that-annoys-me-about-discourse/",
       "pubDate": "Sun, 22 Mar 2026 21:17:00 GMT",
+      "pubDate_formatted": "Mar 22"
+    },
+    {
+      "title": "Every time I pick up my phone in here, I start...",
+      "link": "https://ihavebeenfloated.org/2026/03/22/every-time-i-pick-up-my-phone-in-here-i-start/",
+      "pubDate": "Sun, 22 Mar 2026 19:30:00 GMT",
       "pubDate_formatted": "Mar 22"
     }
   ],
@@ -5665,7 +5691,19 @@
       "link": "https://amiantos.net/a-lodge-is-no-place-for-a-leftist/",
       "pubDate": "Wed, 08 Oct 2025 20:06:34 +0000",
       "pubDate_formatted": "Oct 8"
+    },
+    {
+      "title": "Introducing Postalgic",
+      "link": "https://amiantos.net/introducing-postalgic/",
+      "pubDate": "Tue, 03 Jun 2025 20:15:57 +0000",
+      "pubDate_formatted": "Jun 3"
+    },
+    {
+      "title": "Why Does Everything I Like Suck Now?",
+      "link": "https://amiantos.net/why-does-everything-i-like-suck-now/",
+      "pubDate": "Wed, 26 Feb 2025 05:25:16 +0000",
+      "pubDate_formatted": "Feb 25"
     }
   ],
-  "_fetchedAt": 1774418404412
+  "_fetchedAt": 1774482463555
 }

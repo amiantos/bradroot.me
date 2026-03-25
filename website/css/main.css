@@ -346,8 +346,8 @@ img {
 
 /* --- Blog Cards --- */
 .blog-grid {
-  display: grid;
-  grid-template-columns: 1fr;
+  display: flex;
+  flex-direction: column;
   gap: 20px;
 }
 
@@ -358,6 +358,11 @@ img {
 
 .blog-card__info {
   padding: 20px;
+  padding-bottom: 0;
+}
+
+.blog-card__posts {
+  padding: 0 20px 20px;
 }
 
 .blog-card__name {
@@ -428,6 +433,20 @@ img {
   border: none;
 }
 
+.dashboard-card__media--webcam {
+  aspect-ratio: unset;
+  margin-bottom: 0;
+}
+
+.dashboard-card__media--webcam img {
+  display: block;
+  height: auto;
+}
+
+.dashboard-card--compact {
+  padding-bottom: 12px;
+}
+
 .dashboard-card__media--placeholder {
   background: rgba(0, 0, 0, 0.08);
 }
@@ -435,6 +454,7 @@ img {
 /* --- Ealain Slideshow --- */
 .ealain-slideshow {
   position: relative;
+  margin-bottom: 15px;
 }
 
 .ealain-slideshow__bottom,
@@ -616,8 +636,34 @@ img {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .blog-grid {
-    grid-template-columns: repeat(2, 1fr);
+  .blog-card {
+    display: flex;
+  }
+
+  .blog-card__info {
+    flex: 0 0 40%;
+    padding: 20px;
+  }
+
+  .blog-card__posts {
+    flex: 1;
+    padding: 20px;
+    position: relative;
+  }
+
+  .blog-card__posts::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 20px;
+    bottom: 20px;
+    border-left: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+  .blog-card .dashboard-card__list {
+    margin-top: 0;
+    padding-top: 0;
+    border-top: none;
   }
 
   .dashboard-row--half {
@@ -640,8 +686,8 @@ img {
     grid-template-columns: repeat(3, 1fr);
   }
 
-  .blog-grid {
-    grid-template-columns: repeat(3, 1fr);
+  .blog-card__info {
+    flex: 0 0 35%;
   }
 
   .dashboard-row--third {
