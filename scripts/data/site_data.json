@@ -1057,14 +1057,14 @@
       "releases_url": "https://api.github.com/repos/amiantos/bradroot.me/releases{/id}",
       "deployments_url": "https://api.github.com/repos/amiantos/bradroot.me/deployments",
       "created_at": "2018-05-06T02:16:59Z",
-      "updated_at": "2026-03-28T06:00:05Z",
-      "pushed_at": "2026-03-28T06:00:02Z",
+      "updated_at": "2026-03-29T06:00:05Z",
+      "pushed_at": "2026-03-29T06:00:02Z",
       "git_url": "git://github.com/amiantos/bradroot.me.git",
       "ssh_url": "git@github.com:amiantos/bradroot.me.git",
       "clone_url": "https://github.com/amiantos/bradroot.me.git",
       "svn_url": "https://github.com/amiantos/bradroot.me",
       "homepage": "https://bradroot.me",
-      "size": 17653,
+      "size": 17691,
       "stargazers_count": 0,
       "watchers_count": 0,
       "language": "HTML",
@@ -5553,10 +5553,38 @@
   ],
   "discourse": {
     "topics": 54,
-    "posts": 539,
+    "posts": 549,
     "users": 5
   },
   "discourseTopics": [
+    {
+      "title": "Music",
+      "slug": "music",
+      "id": 40,
+      "last_posted_at": "2026-03-29T18:46:52.121Z",
+      "last_posted_at_formatted": "Mar 29"
+    },
+    {
+      "title": "Food",
+      "slug": "food",
+      "id": 56,
+      "last_posted_at": "2026-03-29T17:44:47.474Z",
+      "last_posted_at_formatted": "Mar 29"
+    },
+    {
+      "title": "C64 Ultimate Toolbox - Devlog",
+      "slug": "c64-ultimate-toolbox-devlog",
+      "id": 78,
+      "last_posted_at": "2026-03-29T09:37:58.680Z",
+      "last_posted_at_formatted": "Mar 29"
+    },
+    {
+      "title": "Videos",
+      "slug": "videos",
+      "id": 21,
+      "last_posted_at": "2026-03-28T22:51:36.886Z",
+      "last_posted_at_formatted": "Mar 28"
+    },
     {
       "title": "The Eye of Providence",
       "slug": "the-eye-of-providence",
@@ -5570,41 +5598,20 @@
       "id": 68,
       "last_posted_at": "2026-02-20T08:16:28.879Z",
       "last_posted_at_formatted": "Feb 20"
-    },
-    {
-      "title": "Movies",
-      "slug": "movies",
-      "id": 64,
-      "last_posted_at": "2026-03-28T20:45:31.287Z",
-      "last_posted_at_formatted": "Mar 28"
-    },
-    {
-      "title": "Software Engineering",
-      "slug": "software-engineering",
-      "id": 57,
-      "last_posted_at": "2026-03-28T17:48:22.474Z",
-      "last_posted_at_formatted": "Mar 28"
-    },
-    {
-      "title": "Memes",
-      "slug": "memes",
-      "id": 67,
-      "last_posted_at": "2026-03-28T04:51:51.371Z",
-      "last_posted_at_formatted": "Mar 27"
-    },
-    {
-      "title": "Music",
-      "slug": "music",
-      "id": 40,
-      "last_posted_at": "2026-03-28T03:42:38.969Z",
-      "last_posted_at_formatted": "Mar 27"
     }
   ],
   "aihorde": {
-    "images_generated": "29,140",
-    "kudos": "3,259,999"
+    "images_generated": "29,286",
+    "kudos": "3,329,166"
   },
   "stairesSongs": [
+    {
+      "title": "Eyehategod - Gates of Steel",
+      "link": "https://staires.org/2026/03/29/eyehategod-gates-of-steel/",
+      "pubDate": "Sun, 29 Mar 2026 18:36:00 GMT",
+      "youtubeId": "Q4gAbxyRi6k",
+      "pubDate_formatted": "Mar 29"
+    },
     {
       "title": "Surgical Meth Machine - Gates of Steel",
       "link": "https://staires.org/2026/03/27/surgical-meth-machine-gates-of-steel/",
@@ -5632,16 +5639,15 @@
       "pubDate": "Tue, 24 Feb 2026 21:26:00 GMT",
       "youtubeId": "BxqYUbNR-c0",
       "pubDate_formatted": "Feb 24"
-    },
-    {
-      "title": "Tōth - Easy",
-      "link": "https://staires.org/2026/02/23/toth-easy/",
-      "pubDate": "Tue, 24 Feb 2026 04:27:00 GMT",
-      "youtubeId": "JtFf-k2_39I",
-      "pubDate_formatted": "Feb 23"
     }
   ],
   "floatedPosts": [
+    {
+      "title": "Maaaaaaaaaan, I drank two beers and passed out...",
+      "link": "https://ihavebeenfloated.org/2026/03/29/maaaaaaaaaan-i-drank-two-beers-and-passed-out-and/",
+      "pubDate": "Mon, 30 Mar 2026 02:14:00 GMT",
+      "pubDate_formatted": "Mar 29"
+    },
     {
       "title": "I always said that I thought AI was going to...",
       "link": "https://ihavebeenfloated.org/2026/03/28/i-always-said-that-i-thought-ai-was-going-to/",
@@ -5664,12 +5670,6 @@
       "title": "well i just lost a friend who said AI is morally...",
       "link": "https://ihavebeenfloated.org/2026/03/23/well-i-just-lost-a-friend-who-said-ai-is-morally/",
       "pubDate": "Mon, 23 Mar 2026 21:40:00 GMT",
-      "pubDate_formatted": "Mar 23"
-    },
-    {
-      "title": "amazon said 'rate 6 products and we'll tell you a...",
-      "link": "https://ihavebeenfloated.org/2026/03/23/amazon-said-rate-6-products-and-we-ll-tell-you-a/",
-      "pubDate": "Mon, 23 Mar 2026 18:23:00 GMT",
       "pubDate_formatted": "Mar 23"
     }
   ],
@@ -5705,5 +5705,5 @@
       "pubDate_formatted": "Feb 25"
     }
   ],
-  "_fetchedAt": 1774736706668
+  "_fetchedAt": 1774850402311
 }
