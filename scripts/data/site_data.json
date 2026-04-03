@@ -516,7 +516,7 @@
       "releases_url": "https://api.github.com/repos/amiantos/aislingeach/releases{/id}",
       "deployments_url": "https://api.github.com/repos/amiantos/aislingeach/deployments",
       "created_at": "2023-05-27T20:26:31Z",
-      "updated_at": "2026-03-27T07:04:49Z",
+      "updated_at": "2026-04-01T11:03:22Z",
       "pushed_at": "2025-07-22T23:02:33Z",
       "git_url": "git://github.com/amiantos/aislingeach.git",
       "ssh_url": "git@github.com:amiantos/aislingeach.git",
@@ -524,8 +524,8 @@
       "svn_url": "https://github.com/amiantos/aislingeach",
       "homepage": "https://aislingeach.com",
       "size": 10272,
-      "stargazers_count": 52,
-      "watchers_count": 52,
+      "stargazers_count": 53,
+      "watchers_count": 53,
       "language": "Swift",
       "has_issues": true,
       "has_projects": true,
@@ -564,7 +564,7 @@
       "visibility": "public",
       "forks": 1,
       "open_issues": 14,
-      "watchers": 52,
+      "watchers": 53,
       "default_branch": "main"
     },
     {
@@ -1057,14 +1057,14 @@
       "releases_url": "https://api.github.com/repos/amiantos/bradroot.me/releases{/id}",
       "deployments_url": "https://api.github.com/repos/amiantos/bradroot.me/deployments",
       "created_at": "2018-05-06T02:16:59Z",
-      "updated_at": "2026-03-31T06:00:06Z",
-      "pushed_at": "2026-03-31T06:00:02Z",
+      "updated_at": "2026-04-02T06:00:06Z",
+      "pushed_at": "2026-04-02T06:00:02Z",
       "git_url": "git://github.com/amiantos/bradroot.me.git",
       "ssh_url": "git@github.com:amiantos/bradroot.me.git",
       "clone_url": "https://github.com/amiantos/bradroot.me.git",
       "svn_url": "https://github.com/amiantos/bradroot.me",
       "homepage": "https://bradroot.me",
-      "size": 17727,
+      "size": 17764,
       "stargazers_count": 0,
       "watchers_count": 0,
       "language": "HTML",
@@ -1160,16 +1160,16 @@
       "releases_url": "https://api.github.com/repos/amiantos/c64-ultimate-toolbox/releases{/id}",
       "deployments_url": "https://api.github.com/repos/amiantos/c64-ultimate-toolbox/deployments",
       "created_at": "2026-03-08T23:05:53Z",
-      "updated_at": "2026-03-30T21:21:52Z",
-      "pushed_at": "2026-03-23T15:34:39Z",
+      "updated_at": "2026-04-02T07:45:55Z",
+      "pushed_at": "2026-04-01T16:01:18Z",
       "git_url": "git://github.com/amiantos/c64-ultimate-toolbox.git",
       "ssh_url": "git@github.com:amiantos/c64-ultimate-toolbox.git",
       "clone_url": "https://github.com/amiantos/c64-ultimate-toolbox.git",
       "svn_url": "https://github.com/amiantos/c64-ultimate-toolbox",
       "homepage": "https://discuss.bradroot.me/tags/c/projects/13/c64-ultimate-toolbox/36",
-      "size": 5396,
-      "stargazers_count": 5,
-      "watchers_count": 5,
+      "size": 5399,
+      "stargazers_count": 6,
+      "watchers_count": 6,
       "language": "Swift",
       "has_issues": true,
       "has_projects": false,
@@ -1205,7 +1205,7 @@
       "visibility": "public",
       "forks": 0,
       "open_issues": 6,
-      "watchers": 5,
+      "watchers": 6,
       "default_branch": "main"
     },
     {
@@ -3717,7 +3717,7 @@
       "releases_url": "https://api.github.com/repos/amiantos/multiclock/releases{/id}",
       "deployments_url": "https://api.github.com/repos/amiantos/multiclock/deployments",
       "created_at": "2021-12-24T09:44:11Z",
-      "updated_at": "2026-03-22T10:36:23Z",
+      "updated_at": "2026-04-02T20:12:55Z",
       "pushed_at": "2023-01-25T23:09:07Z",
       "git_url": "git://github.com/amiantos/multiclock.git",
       "ssh_url": "git@github.com:amiantos/multiclock.git",
@@ -3725,8 +3725,8 @@
       "svn_url": "https://github.com/amiantos/multiclock",
       "homepage": "",
       "size": 1729,
-      "stargazers_count": 145,
-      "watchers_count": 145,
+      "stargazers_count": 146,
+      "watchers_count": 146,
       "language": "Swift",
       "has_issues": true,
       "has_projects": false,
@@ -3762,7 +3762,7 @@
       "visibility": "public",
       "forks": 6,
       "open_issues": 5,
-      "watchers": 145,
+      "watchers": 146,
       "default_branch": "main"
     },
     {
@@ -5552,57 +5552,57 @@
     }
   ],
   "discourse": {
-    "topics": 54,
-    "posts": 565,
+    "topics": 55,
+    "posts": 602,
     "users": 5
   },
   "discourseTopics": [
     {
-      "title": "Movies",
-      "slug": "movies",
-      "id": 64,
-      "last_posted_at": "2026-04-01T05:50:49.504Z",
-      "last_posted_at_formatted": "Mar 31"
-    },
-    {
-      "title": "Memes",
-      "slug": "memes",
-      "id": 67,
-      "last_posted_at": "2026-03-31T16:54:04.612Z",
-      "last_posted_at_formatted": "Mar 31"
-    },
-    {
       "title": "C64 Ultimate Toolbox - Devlog",
       "slug": "c64-ultimate-toolbox-devlog",
       "id": 78,
-      "last_posted_at": "2026-03-31T07:35:32.390Z",
-      "last_posted_at_formatted": "Mar 31"
-    },
-    {
-      "title": "Videos",
-      "slug": "videos",
-      "id": 21,
-      "last_posted_at": "2026-03-31T04:09:56.669Z",
-      "last_posted_at_formatted": "Mar 30"
-    },
-    {
-      "title": "Politics",
-      "slug": "politics",
-      "id": 69,
-      "last_posted_at": "2026-03-30T20:36:30.572Z",
-      "last_posted_at_formatted": "Mar 30"
+      "last_posted_at": "2026-04-03T05:10:28.220Z",
+      "last_posted_at_formatted": "Apr 2"
     },
     {
       "title": "Video Games",
       "slug": "video-games",
       "id": 55,
-      "last_posted_at": "2026-03-30T19:02:05.101Z",
-      "last_posted_at_formatted": "Mar 30"
+      "last_posted_at": "2026-04-03T04:48:23.977Z",
+      "last_posted_at_formatted": "Apr 2"
+    },
+    {
+      "title": "Music",
+      "slug": "music",
+      "id": 40,
+      "last_posted_at": "2026-04-03T03:33:16.081Z",
+      "last_posted_at_formatted": "Apr 2"
+    },
+    {
+      "title": "Politics",
+      "slug": "politics",
+      "id": 69,
+      "last_posted_at": "2026-04-02T17:40:09.382Z",
+      "last_posted_at_formatted": "Apr 2"
+    },
+    {
+      "title": "Television",
+      "slug": "television",
+      "id": 84,
+      "last_posted_at": "2026-04-02T15:49:49.669Z",
+      "last_posted_at_formatted": "Apr 2"
+    },
+    {
+      "title": "Movies",
+      "slug": "movies",
+      "id": 64,
+      "last_posted_at": "2026-04-02T02:27:58.451Z",
+      "last_posted_at_formatted": "Apr 1"
     }
   ],
   "aihorde": {
-    "images_generated": "29,500",
-    "kudos": "3,364,332"
+    "images_generated": "29,686",
+    "kudos": "3,398,971"
   },
   "stairesSongs": [
     {
@@ -5705,5 +5705,5 @@
       "pubDate_formatted": "Feb 25"
     }
   ],
-  "_fetchedAt": 1775023201239
+  "_fetchedAt": 1775196003665
 }
