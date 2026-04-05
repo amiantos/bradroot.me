@@ -1057,14 +1057,14 @@
       "releases_url": "https://api.github.com/repos/amiantos/bradroot.me/releases{/id}",
       "deployments_url": "https://api.github.com/repos/amiantos/bradroot.me/deployments",
       "created_at": "2018-05-06T02:16:59Z",
-      "updated_at": "2026-04-02T06:00:06Z",
-      "pushed_at": "2026-04-02T06:00:02Z",
+      "updated_at": "2026-04-04T06:00:06Z",
+      "pushed_at": "2026-04-04T06:00:02Z",
       "git_url": "git://github.com/amiantos/bradroot.me.git",
       "ssh_url": "git@github.com:amiantos/bradroot.me.git",
       "clone_url": "https://github.com/amiantos/bradroot.me.git",
       "svn_url": "https://github.com/amiantos/bradroot.me",
       "homepage": "https://bradroot.me",
-      "size": 17764,
+      "size": 17815,
       "stargazers_count": 0,
       "watchers_count": 0,
       "language": "HTML",
@@ -1160,16 +1160,16 @@
       "releases_url": "https://api.github.com/repos/amiantos/c64-ultimate-toolbox/releases{/id}",
       "deployments_url": "https://api.github.com/repos/amiantos/c64-ultimate-toolbox/deployments",
       "created_at": "2026-03-08T23:05:53Z",
-      "updated_at": "2026-04-02T07:45:55Z",
-      "pushed_at": "2026-04-01T16:01:18Z",
+      "updated_at": "2026-04-04T21:50:32Z",
+      "pushed_at": "2026-04-03T22:34:06Z",
       "git_url": "git://github.com/amiantos/c64-ultimate-toolbox.git",
       "ssh_url": "git@github.com:amiantos/c64-ultimate-toolbox.git",
       "clone_url": "https://github.com/amiantos/c64-ultimate-toolbox.git",
       "svn_url": "https://github.com/amiantos/c64-ultimate-toolbox",
       "homepage": "https://discuss.bradroot.me/tags/c/projects/13/c64-ultimate-toolbox/36",
-      "size": 5399,
-      "stargazers_count": 6,
-      "watchers_count": 6,
+      "size": 7536,
+      "stargazers_count": 14,
+      "watchers_count": 14,
       "language": "Swift",
       "has_issues": true,
       "has_projects": false,
@@ -1181,7 +1181,7 @@
       "mirror_url": null,
       "archived": false,
       "disabled": false,
-      "open_issues_count": 6,
+      "open_issues_count": 0,
       "license": {
         "key": "mpl-2.0",
         "name": "Mozilla Public License 2.0",
@@ -1195,17 +1195,20 @@
       "has_pull_requests": true,
       "pull_request_creation_policy": "all",
       "topics": [
+        "appkit",
         "commodore",
         "commodore-64",
         "commodore-64-ultimate",
         "crt-shader",
+        "liquid-glass",
         "macos",
-        "swift"
+        "swift",
+        "ultimate-64"
       ],
       "visibility": "public",
       "forks": 0,
-      "open_issues": 6,
-      "watchers": 6,
+      "open_issues": 0,
+      "watchers": 14,
       "default_branch": "main"
     },
     {
@@ -3948,7 +3951,7 @@
       "releases_url": "https://api.github.com/repos/amiantos/pibar/releases{/id}",
       "deployments_url": "https://api.github.com/repos/amiantos/pibar/deployments",
       "created_at": "2020-05-17T20:12:12Z",
-      "updated_at": "2026-03-10T02:57:33Z",
+      "updated_at": "2026-04-04T18:58:12Z",
       "pushed_at": "2026-03-24T15:32:32Z",
       "git_url": "git://github.com/amiantos/pibar.git",
       "ssh_url": "git@github.com:amiantos/pibar.git",
@@ -3956,8 +3959,8 @@
       "svn_url": "https://github.com/amiantos/pibar",
       "homepage": "",
       "size": 10529,
-      "stargazers_count": 327,
-      "watchers_count": 327,
+      "stargazers_count": 328,
+      "watchers_count": 328,
       "language": "Swift",
       "has_issues": true,
       "has_projects": false,
@@ -3997,7 +4000,7 @@
       "visibility": "public",
       "forks": 5,
       "open_issues": 21,
-      "watchers": 327,
+      "watchers": 328,
       "default_branch": "master"
     },
     {
@@ -5553,58 +5556,65 @@
   ],
   "discourse": {
     "topics": 55,
-    "posts": 602,
+    "posts": 628,
     "users": 5
   },
   "discourseTopics": [
     {
-      "title": "C64 Ultimate Toolbox - Devlog",
-      "slug": "c64-ultimate-toolbox-devlog",
-      "id": 78,
-      "last_posted_at": "2026-04-03T05:10:28.220Z",
-      "last_posted_at_formatted": "Apr 2"
-    },
-    {
       "title": "Video Games",
       "slug": "video-games",
       "id": 55,
-      "last_posted_at": "2026-04-03T04:48:23.977Z",
-      "last_posted_at_formatted": "Apr 2"
+      "last_posted_at": "2026-04-05T05:35:41.493Z",
+      "last_posted_at_formatted": "Apr 4"
     },
     {
-      "title": "Music",
-      "slug": "music",
-      "id": 40,
-      "last_posted_at": "2026-04-03T03:33:16.081Z",
-      "last_posted_at_formatted": "Apr 2"
+      "title": "Ealain Screensaver - Devlog",
+      "slug": "ealain-screensaver-devlog",
+      "id": 85,
+      "last_posted_at": "2026-04-05T04:13:48.631Z",
+      "last_posted_at_formatted": "Apr 4"
     },
     {
       "title": "Politics",
       "slug": "politics",
       "id": 69,
-      "last_posted_at": "2026-04-02T17:40:09.382Z",
-      "last_posted_at_formatted": "Apr 2"
+      "last_posted_at": "2026-04-05T03:25:07.936Z",
+      "last_posted_at_formatted": "Apr 4"
     },
     {
-      "title": "Television",
-      "slug": "television",
-      "id": 84,
-      "last_posted_at": "2026-04-02T15:49:49.669Z",
-      "last_posted_at_formatted": "Apr 2"
+      "title": "Music",
+      "slug": "music",
+      "id": 40,
+      "last_posted_at": "2026-04-04T20:10:15.461Z",
+      "last_posted_at_formatted": "Apr 4"
     },
     {
-      "title": "Movies",
-      "slug": "movies",
-      "id": 64,
-      "last_posted_at": "2026-04-02T02:27:58.451Z",
-      "last_posted_at_formatted": "Apr 1"
+      "title": "Live Music",
+      "slug": "live-music",
+      "id": 49,
+      "last_posted_at": "2026-04-04T17:00:39.915Z",
+      "last_posted_at_formatted": "Apr 4"
+    },
+    {
+      "title": "Videos",
+      "slug": "videos",
+      "id": 21,
+      "last_posted_at": "2026-04-04T07:40:05.399Z",
+      "last_posted_at_formatted": "Apr 4"
     }
   ],
   "aihorde": {
-    "images_generated": "29,686",
-    "kudos": "3,398,971"
+    "images_generated": "29,846",
+    "kudos": "3,430,226"
   },
   "stairesSongs": [
+    {
+      "title": "Toni Basil - You Gotta Problem",
+      "link": "https://staires.org/2026/04/04/toni-basil-you-gotta-problem/",
+      "pubDate": "Sat, 04 Apr 2026 19:44:00 GMT",
+      "youtubeId": "t_4L_ZIES4g",
+      "pubDate_formatted": "Apr 4"
+    },
     {
       "title": "Eyehategod - Gates of Steel",
       "link": "https://staires.org/2026/03/29/eyehategod-gates-of-steel/",
@@ -5632,16 +5642,15 @@
       "pubDate": "Sun, 22 Mar 2026 19:52:00 GMT",
       "youtubeId": "Sx2zWnJDwrg",
       "pubDate_formatted": "Mar 22"
-    },
-    {
-      "title": "Sakanaction - Wasureararenaino",
-      "link": "https://staires.org/2026/02/24/sakanaction-wasureararenaino/",
-      "pubDate": "Tue, 24 Feb 2026 21:26:00 GMT",
-      "youtubeId": "BxqYUbNR-c0",
-      "pubDate_formatted": "Feb 24"
     }
   ],
   "floatedPosts": [
+    {
+      "title": "It’s not a scientific study or anything but I can...",
+      "link": "https://ihavebeenfloated.org/2026/04/03/it-s-not-a-scientific-study-or-anything-but-i-can/",
+      "pubDate": "Fri, 03 Apr 2026 22:45:00 GMT",
+      "pubDate_formatted": "Apr 3"
+    },
     {
       "title": "Maaaaaaaaaan, I drank two beers and passed out...",
       "link": "https://ihavebeenfloated.org/2026/03/29/maaaaaaaaaan-i-drank-two-beers-and-passed-out-and/",
@@ -5665,12 +5674,6 @@
       "link": "https://ihavebeenfloated.org/2026/03/25/i-love-ai-or-whatever-but-whenever-there-s-a/",
       "pubDate": "Wed, 25 Mar 2026 17:48:00 GMT",
       "pubDate_formatted": "Mar 25"
-    },
-    {
-      "title": "well i just lost a friend who said AI is morally...",
-      "link": "https://ihavebeenfloated.org/2026/03/23/well-i-just-lost-a-friend-who-said-ai-is-morally/",
-      "pubDate": "Mon, 23 Mar 2026 21:40:00 GMT",
-      "pubDate_formatted": "Mar 23"
     }
   ],
   "amiantosPosts": [
@@ -5705,5 +5708,5 @@
       "pubDate_formatted": "Feb 25"
     }
   ],
-  "_fetchedAt": 1775196003665
+  "_fetchedAt": 1775368804618
 }
