@@ -1,9 +1,9 @@
 {
   "games": [
     {
-      "name": "Crimson Desert",
-      "image": "images/games/crimson-desert.jpg",
-      "link": "https://store.steampowered.com/app/3321460/Crimson_Desert/"
+      "name": "Ultima IV: Quest of the Avatar",
+      "image": "images/games/ultima-iv-quest-of-the-avatar.jpg",
+      "link": "https://www.gog.com/en/game/ultima_iv_quest_of_the_avatar"
     }
   ],
   "watching": [
@@ -18,8 +18,8 @@
     "multiclock-playdate",
     "langtonsmap",
     "textlike",
-    "zzz-agents",
     "postalgic",
+    "zzz-agents",
     "tyler"
   ]
 }

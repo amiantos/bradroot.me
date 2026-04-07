@@ -1057,14 +1057,14 @@
       "releases_url": "https://api.github.com/repos/amiantos/bradroot.me/releases{/id}",
       "deployments_url": "https://api.github.com/repos/amiantos/bradroot.me/deployments",
       "created_at": "2018-05-06T02:16:59Z",
-      "updated_at": "2026-04-04T06:00:06Z",
-      "pushed_at": "2026-04-04T06:00:02Z",
+      "updated_at": "2026-04-06T06:00:05Z",
+      "pushed_at": "2026-04-06T06:00:01Z",
       "git_url": "git://github.com/amiantos/bradroot.me.git",
       "ssh_url": "git@github.com:amiantos/bradroot.me.git",
       "clone_url": "https://github.com/amiantos/bradroot.me.git",
       "svn_url": "https://github.com/amiantos/bradroot.me",
       "homepage": "https://bradroot.me",
-      "size": 17815,
+      "size": 17858,
       "stargazers_count": 0,
       "watchers_count": 0,
       "language": "HTML",
@@ -1160,7 +1160,7 @@
       "releases_url": "https://api.github.com/repos/amiantos/c64-ultimate-toolbox/releases{/id}",
       "deployments_url": "https://api.github.com/repos/amiantos/c64-ultimate-toolbox/deployments",
       "created_at": "2026-03-08T23:05:53Z",
-      "updated_at": "2026-04-04T21:50:32Z",
+      "updated_at": "2026-04-05T13:38:33Z",
       "pushed_at": "2026-04-03T22:34:06Z",
       "git_url": "git://github.com/amiantos/c64-ultimate-toolbox.git",
       "ssh_url": "git@github.com:amiantos/c64-ultimate-toolbox.git",
@@ -1168,8 +1168,8 @@
       "svn_url": "https://github.com/amiantos/c64-ultimate-toolbox",
       "homepage": "https://discuss.bradroot.me/tags/c/projects/13/c64-ultimate-toolbox/36",
       "size": 7536,
-      "stargazers_count": 14,
-      "watchers_count": 14,
+      "stargazers_count": 15,
+      "watchers_count": 15,
       "language": "Swift",
       "has_issues": true,
       "has_projects": false,
@@ -1208,7 +1208,7 @@
       "visibility": "public",
       "forks": 0,
       "open_issues": 0,
-      "watchers": 14,
+      "watchers": 15,
       "default_branch": "main"
     },
     {
@@ -5556,58 +5556,65 @@
   ],
   "discourse": {
     "topics": 55,
-    "posts": 628,
+    "posts": 644,
     "users": 5
   },
   "discourseTopics": [
     {
+      "title": "Food",
+      "slug": "food",
+      "id": 56,
+      "last_posted_at": "2026-04-07T04:18:11.187Z",
+      "last_posted_at_formatted": "Apr 6"
+    },
+    {
       "title": "Video Games",
       "slug": "video-games",
       "id": 55,
-      "last_posted_at": "2026-04-05T05:35:41.493Z",
-      "last_posted_at_formatted": "Apr 4"
+      "last_posted_at": "2026-04-06T20:57:07.106Z",
+      "last_posted_at_formatted": "Apr 6"
     },
     {
-      "title": "Ealain Screensaver - Devlog",
-      "slug": "ealain-screensaver-devlog",
-      "id": 85,
-      "last_posted_at": "2026-04-05T04:13:48.631Z",
-      "last_posted_at_formatted": "Apr 4"
+      "title": "C64 Ultimate Toolbox - Devlog",
+      "slug": "c64-ultimate-toolbox-devlog",
+      "id": 78,
+      "last_posted_at": "2026-04-06T20:55:17.149Z",
+      "last_posted_at_formatted": "Apr 6"
     },
     {
-      "title": "Politics",
-      "slug": "politics",
-      "id": 69,
-      "last_posted_at": "2026-04-05T03:25:07.936Z",
-      "last_posted_at_formatted": "Apr 4"
+      "title": "Artificial Intelligence",
+      "slug": "artificial-intelligence",
+      "id": 53,
+      "last_posted_at": "2026-04-06T06:16:02.388Z",
+      "last_posted_at_formatted": "Apr 5"
     },
     {
       "title": "Music",
       "slug": "music",
       "id": 40,
-      "last_posted_at": "2026-04-04T20:10:15.461Z",
-      "last_posted_at_formatted": "Apr 4"
-    },
-    {
-      "title": "Live Music",
-      "slug": "live-music",
-      "id": 49,
-      "last_posted_at": "2026-04-04T17:00:39.915Z",
-      "last_posted_at_formatted": "Apr 4"
+      "last_posted_at": "2026-04-06T04:15:52.892Z",
+      "last_posted_at_formatted": "Apr 5"
     },
     {
       "title": "Videos",
       "slug": "videos",
       "id": 21,
-      "last_posted_at": "2026-04-04T07:40:05.399Z",
-      "last_posted_at_formatted": "Apr 4"
+      "last_posted_at": "2026-04-06T03:36:38.406Z",
+      "last_posted_at_formatted": "Apr 5"
     }
   ],
   "aihorde": {
-    "images_generated": "29,846",
-    "kudos": "3,430,226"
+    "images_generated": "29,979",
+    "kudos": "3,446,574"
   },
   "stairesSongs": [
+    {
+      "title": "Devo - Big Mess",
+      "link": "https://staires.org/2026/04/05/devo-big-mess/",
+      "pubDate": "Mon, 06 Apr 2026 04:00:00 GMT",
+      "youtubeId": "FQvwhgcOMdM",
+      "pubDate_formatted": "Apr 5"
+    },
     {
       "title": "Toni Basil - You Gotta Problem",
       "link": "https://staires.org/2026/04/04/toni-basil-you-gotta-problem/",
@@ -5635,16 +5642,15 @@
       "pubDate": "Mon, 23 Mar 2026 23:06:00 GMT",
       "youtubeId": "ZfW4-nP2G1Q",
       "pubDate_formatted": "Mar 23"
-    },
-    {
-      "title": "Spoon - Chateau Blues (Live 2025)",
-      "link": "https://staires.org/2026/03/22/spoon-chateau-blues-live-2025/",
-      "pubDate": "Sun, 22 Mar 2026 19:52:00 GMT",
-      "youtubeId": "Sx2zWnJDwrg",
-      "pubDate_formatted": "Mar 22"
     }
   ],
   "floatedPosts": [
+    {
+      "title": "Tuesday will be Power Plant Day, and Bridge Day,...",
+      "link": "https://ihavebeenfloated.org/2026/04/05/tuesday-will-be-power-plant-day-and-bridge-day/",
+      "pubDate": "Sun, 05 Apr 2026 16:05:00 GMT",
+      "pubDate_formatted": "Apr 5"
+    },
     {
       "title": "It’s not a scientific study or anything but I can...",
       "link": "https://ihavebeenfloated.org/2026/04/03/it-s-not-a-scientific-study-or-anything-but-i-can/",
@@ -5668,15 +5674,15 @@
       "link": "https://ihavebeenfloated.org/2026/03/27/boy-i-hope-all-those-trump-supporting-dipshits-i/",
       "pubDate": "Fri, 27 Mar 2026 19:29:00 GMT",
       "pubDate_formatted": "Mar 27"
-    },
-    {
-      "title": "I love AI or whatever but whenever there's a...",
-      "link": "https://ihavebeenfloated.org/2026/03/25/i-love-ai-or-whatever-but-whenever-there-s-a/",
-      "pubDate": "Wed, 25 Mar 2026 17:48:00 GMT",
-      "pubDate_formatted": "Mar 25"
     }
   ],
   "amiantosPosts": [
+    {
+      "title": "Introducing C64 Ultimate Toolbox",
+      "link": "https://amiantos.net/introducing-c64-ultimate-toolbox/",
+      "pubDate": "Tue, 07 Apr 2026 05:23:34 +0000",
+      "pubDate_formatted": "Apr 6"
+    },
     {
       "title": "Life Saver TV v1.2",
       "link": "https://amiantos.net/life-saver-tv-v1-2/",
@@ -5700,13 +5706,7 @@
       "link": "https://amiantos.net/introducing-postalgic/",
       "pubDate": "Tue, 03 Jun 2025 20:15:57 +0000",
       "pubDate_formatted": "Jun 3"
-    },
-    {
-      "title": "Why Does Everything I Like Suck Now?",
-      "link": "https://amiantos.net/why-does-everything-i-like-suck-now/",
-      "pubDate": "Wed, 26 Feb 2025 05:25:16 +0000",
-      "pubDate_formatted": "Feb 25"
     }
   ],
-  "_fetchedAt": 1775368804618
+  "_fetchedAt": 1775539784526
 }
