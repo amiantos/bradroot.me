@@ -1057,14 +1057,14 @@
       "releases_url": "https://api.github.com/repos/amiantos/bradroot.me/releases{/id}",
       "deployments_url": "https://api.github.com/repos/amiantos/bradroot.me/deployments",
       "created_at": "2018-05-06T02:16:59Z",
-      "updated_at": "2026-04-06T06:00:05Z",
-      "pushed_at": "2026-04-06T06:00:01Z",
+      "updated_at": "2026-04-07T06:00:06Z",
+      "pushed_at": "2026-04-07T06:00:01Z",
       "git_url": "git://github.com/amiantos/bradroot.me.git",
       "ssh_url": "git@github.com:amiantos/bradroot.me.git",
       "clone_url": "https://github.com/amiantos/bradroot.me.git",
       "svn_url": "https://github.com/amiantos/bradroot.me",
       "homepage": "https://bradroot.me",
-      "size": 17858,
+      "size": 17975,
       "stargazers_count": 0,
       "watchers_count": 0,
       "language": "HTML",
@@ -1160,7 +1160,7 @@
       "releases_url": "https://api.github.com/repos/amiantos/c64-ultimate-toolbox/releases{/id}",
       "deployments_url": "https://api.github.com/repos/amiantos/c64-ultimate-toolbox/deployments",
       "created_at": "2026-03-08T23:05:53Z",
-      "updated_at": "2026-04-05T13:38:33Z",
+      "updated_at": "2026-04-07T19:33:56Z",
       "pushed_at": "2026-04-03T22:34:06Z",
       "git_url": "git://github.com/amiantos/c64-ultimate-toolbox.git",
       "ssh_url": "git@github.com:amiantos/c64-ultimate-toolbox.git",
@@ -1168,8 +1168,8 @@
       "svn_url": "https://github.com/amiantos/c64-ultimate-toolbox",
       "homepage": "https://discuss.bradroot.me/tags/c/projects/13/c64-ultimate-toolbox/36",
       "size": 7536,
-      "stargazers_count": 15,
-      "watchers_count": 15,
+      "stargazers_count": 17,
+      "watchers_count": 17,
       "language": "Swift",
       "has_issues": true,
       "has_projects": false,
@@ -1208,7 +1208,7 @@
       "visibility": "public",
       "forks": 0,
       "open_issues": 0,
-      "watchers": 15,
+      "watchers": 17,
       "default_branch": "main"
     },
     {
@@ -5556,37 +5556,37 @@
   ],
   "discourse": {
     "topics": 55,
-    "posts": 644,
+    "posts": 652,
     "users": 5
   },
   "discourseTopics": [
     {
+      "title": "Artificial Intelligence",
+      "slug": "artificial-intelligence",
+      "id": 53,
+      "last_posted_at": "2026-04-07T20:34:52.899Z",
+      "last_posted_at_formatted": "Apr 7"
+    },
+    {
       "title": "Food",
       "slug": "food",
       "id": 56,
-      "last_posted_at": "2026-04-07T04:18:11.187Z",
-      "last_posted_at_formatted": "Apr 6"
+      "last_posted_at": "2026-04-07T17:18:04.799Z",
+      "last_posted_at_formatted": "Apr 7"
     },
     {
       "title": "Video Games",
       "slug": "video-games",
       "id": 55,
-      "last_posted_at": "2026-04-06T20:57:07.106Z",
+      "last_posted_at": "2026-04-07T06:56:55.478Z",
       "last_posted_at_formatted": "Apr 6"
     },
     {
       "title": "C64 Ultimate Toolbox - Devlog",
       "slug": "c64-ultimate-toolbox-devlog",
       "id": 78,
-      "last_posted_at": "2026-04-06T20:55:17.149Z",
+      "last_posted_at": "2026-04-07T05:31:21.093Z",
       "last_posted_at_formatted": "Apr 6"
-    },
-    {
-      "title": "Artificial Intelligence",
-      "slug": "artificial-intelligence",
-      "id": 53,
-      "last_posted_at": "2026-04-06T06:16:02.388Z",
-      "last_posted_at_formatted": "Apr 5"
     },
     {
       "title": "Music",
@@ -5604,8 +5604,8 @@
     }
   ],
   "aihorde": {
-    "images_generated": "29,979",
-    "kudos": "3,446,574"
+    "images_generated": "30,097",
+    "kudos": "3,456,575"
   },
   "stairesSongs": [
     {
@@ -5708,5 +5708,5 @@
       "pubDate_formatted": "Jun 3"
     }
   ],
-  "_fetchedAt": 1775539784526
+  "_fetchedAt": 1775628002783
 }
