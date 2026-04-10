@@ -1057,14 +1057,14 @@
       "releases_url": "https://api.github.com/repos/amiantos/bradroot.me/releases{/id}",
       "deployments_url": "https://api.github.com/repos/amiantos/bradroot.me/deployments",
       "created_at": "2018-05-06T02:16:59Z",
-      "updated_at": "2026-04-07T06:00:06Z",
-      "pushed_at": "2026-04-07T06:00:01Z",
+      "updated_at": "2026-04-08T06:00:11Z",
+      "pushed_at": "2026-04-08T06:00:04Z",
       "git_url": "git://github.com/amiantos/bradroot.me.git",
       "ssh_url": "git@github.com:amiantos/bradroot.me.git",
       "clone_url": "https://github.com/amiantos/bradroot.me.git",
       "svn_url": "https://github.com/amiantos/bradroot.me",
       "homepage": "https://bradroot.me",
-      "size": 17975,
+      "size": 18004,
       "stargazers_count": 0,
       "watchers_count": 0,
       "language": "HTML",
@@ -2073,7 +2073,7 @@
       "mirror_url": null,
       "archived": false,
       "disabled": false,
-      "open_issues_count": 18,
+      "open_issues_count": 19,
       "license": {
         "key": "mpl-2.0",
         "name": "Mozilla Public License 2.0",
@@ -2098,7 +2098,7 @@
       ],
       "visibility": "public",
       "forks": 7,
-      "open_issues": 18,
+      "open_issues": 19,
       "watchers": 103,
       "default_branch": "master"
     },
@@ -5556,10 +5556,38 @@
   ],
   "discourse": {
     "topics": 55,
-    "posts": 652,
-    "users": 5
+    "posts": 660,
+    "users": 6
   },
   "discourseTopics": [
+    {
+      "title": "Movies",
+      "slug": "movies",
+      "id": 64,
+      "last_posted_at": "2026-04-09T21:06:32.955Z",
+      "last_posted_at_formatted": "Apr 9"
+    },
+    {
+      "title": "C64 Ultimate Toolbox - Devlog",
+      "slug": "c64-ultimate-toolbox-devlog",
+      "id": 78,
+      "last_posted_at": "2026-04-09T02:44:03.741Z",
+      "last_posted_at_formatted": "Apr 8"
+    },
+    {
+      "title": "Video Games",
+      "slug": "video-games",
+      "id": 55,
+      "last_posted_at": "2026-04-08T23:51:57.182Z",
+      "last_posted_at_formatted": "Apr 8"
+    },
+    {
+      "title": "Videos",
+      "slug": "videos",
+      "id": 21,
+      "last_posted_at": "2026-04-08T22:41:37.910Z",
+      "last_posted_at_formatted": "Apr 8"
+    },
     {
       "title": "Artificial Intelligence",
       "slug": "artificial-intelligence",
@@ -5573,39 +5601,11 @@
       "id": 56,
       "last_posted_at": "2026-04-07T17:18:04.799Z",
       "last_posted_at_formatted": "Apr 7"
-    },
-    {
-      "title": "Video Games",
-      "slug": "video-games",
-      "id": 55,
-      "last_posted_at": "2026-04-07T06:56:55.478Z",
-      "last_posted_at_formatted": "Apr 6"
-    },
-    {
-      "title": "C64 Ultimate Toolbox - Devlog",
-      "slug": "c64-ultimate-toolbox-devlog",
-      "id": 78,
-      "last_posted_at": "2026-04-07T05:31:21.093Z",
-      "last_posted_at_formatted": "Apr 6"
-    },
-    {
-      "title": "Music",
-      "slug": "music",
-      "id": 40,
-      "last_posted_at": "2026-04-06T04:15:52.892Z",
-      "last_posted_at_formatted": "Apr 5"
-    },
-    {
-      "title": "Videos",
-      "slug": "videos",
-      "id": 21,
-      "last_posted_at": "2026-04-06T03:36:38.406Z",
-      "last_posted_at_formatted": "Apr 5"
     }
   ],
   "aihorde": {
-    "images_generated": "30,097",
-    "kudos": "3,456,575"
+    "images_generated": "30,207",
+    "kudos": "3,494,559"
   },
   "stairesSongs": [
     {
@@ -5646,6 +5646,18 @@
   ],
   "floatedPosts": [
     {
+      "title": "Man, I wish I liked Jon Bernthal as the Punisher....",
+      "link": "https://ihavebeenfloated.org/2026/04/09/man-i-wish-i-liked-jon-bernthal-as-the-punisher/",
+      "pubDate": "Thu, 09 Apr 2026 18:11:00 GMT",
+      "pubDate_formatted": "Apr 9"
+    },
+    {
+      "title": "Nobody tells this to people who are beginners, I...",
+      "link": "https://ihavebeenfloated.org/2026/04/08/nobody-tells-this-to-people-who-are-beginners-i/",
+      "pubDate": "Wed, 08 Apr 2026 17:57:00 GMT",
+      "pubDate_formatted": "Apr 8"
+    },
+    {
       "title": "Tuesday will be Power Plant Day, and Bridge Day,...",
       "link": "https://ihavebeenfloated.org/2026/04/05/tuesday-will-be-power-plant-day-and-bridge-day/",
       "pubDate": "Sun, 05 Apr 2026 16:05:00 GMT",
@@ -5662,18 +5674,6 @@
       "link": "https://ihavebeenfloated.org/2026/03/29/maaaaaaaaaan-i-drank-two-beers-and-passed-out-and/",
       "pubDate": "Mon, 30 Mar 2026 02:14:00 GMT",
       "pubDate_formatted": "Mar 29"
-    },
-    {
-      "title": "I always said that I thought AI was going to...",
-      "link": "https://ihavebeenfloated.org/2026/03/28/i-always-said-that-i-thought-ai-was-going-to/",
-      "pubDate": "Sat, 28 Mar 2026 08:25:00 GMT",
-      "pubDate_formatted": "Mar 28"
-    },
-    {
-      "title": "Boy I hope all those Trump supporting dipshits I...",
-      "link": "https://ihavebeenfloated.org/2026/03/27/boy-i-hope-all-those-trump-supporting-dipshits-i/",
-      "pubDate": "Fri, 27 Mar 2026 19:29:00 GMT",
-      "pubDate_formatted": "Mar 27"
     }
   ],
   "amiantosPosts": [
@@ -5708,5 +5708,5 @@
       "pubDate_formatted": "Jun 3"
     }
   ],
-  "_fetchedAt": 1775628002783
+  "_fetchedAt": 1775800802069
 }
