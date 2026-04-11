@@ -1057,14 +1057,14 @@
       "releases_url": "https://api.github.com/repos/amiantos/bradroot.me/releases{/id}",
       "deployments_url": "https://api.github.com/repos/amiantos/bradroot.me/deployments",
       "created_at": "2018-05-06T02:16:59Z",
-      "updated_at": "2026-04-08T06:00:11Z",
-      "pushed_at": "2026-04-08T06:00:04Z",
+      "updated_at": "2026-04-10T06:00:09Z",
+      "pushed_at": "2026-04-10T06:00:03Z",
       "git_url": "git://github.com/amiantos/bradroot.me.git",
       "ssh_url": "git@github.com:amiantos/bradroot.me.git",
       "clone_url": "https://github.com/amiantos/bradroot.me.git",
       "svn_url": "https://github.com/amiantos/bradroot.me",
       "homepage": "https://bradroot.me",
-      "size": 18004,
+      "size": 18012,
       "stargazers_count": 0,
       "watchers_count": 0,
       "language": "HTML",
@@ -1160,7 +1160,7 @@
       "releases_url": "https://api.github.com/repos/amiantos/c64-ultimate-toolbox/releases{/id}",
       "deployments_url": "https://api.github.com/repos/amiantos/c64-ultimate-toolbox/deployments",
       "created_at": "2026-03-08T23:05:53Z",
-      "updated_at": "2026-04-07T19:33:56Z",
+      "updated_at": "2026-04-10T14:35:53Z",
       "pushed_at": "2026-04-03T22:34:06Z",
       "git_url": "git://github.com/amiantos/c64-ultimate-toolbox.git",
       "ssh_url": "git@github.com:amiantos/c64-ultimate-toolbox.git",
@@ -1168,8 +1168,8 @@
       "svn_url": "https://github.com/amiantos/c64-ultimate-toolbox",
       "homepage": "https://discuss.bradroot.me/tags/c/projects/13/c64-ultimate-toolbox/36",
       "size": 7536,
-      "stargazers_count": 17,
-      "watchers_count": 17,
+      "stargazers_count": 18,
+      "watchers_count": 18,
       "language": "Swift",
       "has_issues": true,
       "has_projects": false,
@@ -1208,7 +1208,7 @@
       "visibility": "public",
       "forks": 0,
       "open_issues": 0,
-      "watchers": 17,
+      "watchers": 18,
       "default_branch": "main"
     },
     {
@@ -2657,7 +2657,7 @@
         "site_admin": false
       },
       "html_url": "https://github.com/amiantos/impostor",
-      "description": "Impostor is a AI-powered Discord autonomous chatbot",
+      "description": "Impostor is a AI-powered IRC autonomous chatbot",
       "fork": false,
       "url": "https://api.github.com/repos/amiantos/impostor",
       "forks_url": "https://api.github.com/repos/amiantos/impostor/forks",
@@ -2697,14 +2697,14 @@
       "releases_url": "https://api.github.com/repos/amiantos/impostor/releases{/id}",
       "deployments_url": "https://api.github.com/repos/amiantos/impostor/deployments",
       "created_at": "2023-05-21T01:26:01Z",
-      "updated_at": "2026-02-01T00:28:11Z",
-      "pushed_at": "2026-02-01T00:28:07Z",
+      "updated_at": "2026-04-11T05:13:39Z",
+      "pushed_at": "2026-04-11T05:13:36Z",
       "git_url": "git://github.com/amiantos/impostor.git",
       "ssh_url": "git@github.com:amiantos/impostor.git",
       "clone_url": "https://github.com/amiantos/impostor.git",
       "svn_url": "https://github.com/amiantos/impostor",
       "homepage": "",
-      "size": 405,
+      "size": 434,
       "stargazers_count": 2,
       "watchers_count": 2,
       "language": "JavaScript",
@@ -2732,9 +2732,8 @@
       "has_pull_requests": true,
       "pull_request_creation_policy": "all",
       "topics": [
-        "discord",
-        "discord-bot",
-        "discord-js"
+        "irc",
+        "irc-bot"
       ],
       "visibility": "public",
       "forks": 2,
@@ -4071,7 +4070,7 @@
       "releases_url": "https://api.github.com/repos/amiantos/postalgic/releases{/id}",
       "deployments_url": "https://api.github.com/repos/amiantos/postalgic/deployments",
       "created_at": "2023-03-09T08:20:49Z",
-      "updated_at": "2026-03-28T00:50:47Z",
+      "updated_at": "2026-04-11T02:47:32Z",
       "pushed_at": "2026-03-03T04:59:36Z",
       "git_url": "git://github.com/amiantos/postalgic.git",
       "ssh_url": "git@github.com:amiantos/postalgic.git",
@@ -5556,10 +5555,38 @@
   ],
   "discourse": {
     "topics": 55,
-    "posts": 660,
+    "posts": 675,
     "users": 6
   },
   "discourseTopics": [
+    {
+      "title": "Gadgets & Technology",
+      "slug": "gadgets-technology",
+      "id": 68,
+      "last_posted_at": "2026-04-11T02:52:56.523Z",
+      "last_posted_at_formatted": "Apr 10"
+    },
+    {
+      "title": "Video Games",
+      "slug": "video-games",
+      "id": 55,
+      "last_posted_at": "2026-04-10T21:01:09.174Z",
+      "last_posted_at_formatted": "Apr 10"
+    },
+    {
+      "title": "Videos",
+      "slug": "videos",
+      "id": 21,
+      "last_posted_at": "2026-04-10T16:22:58.428Z",
+      "last_posted_at_formatted": "Apr 10"
+    },
+    {
+      "title": "Music",
+      "slug": "music",
+      "id": 40,
+      "last_posted_at": "2026-04-10T16:19:13.123Z",
+      "last_posted_at_formatted": "Apr 10"
+    },
     {
       "title": "Movies",
       "slug": "movies",
@@ -5573,39 +5600,11 @@
       "id": 78,
       "last_posted_at": "2026-04-09T02:44:03.741Z",
       "last_posted_at_formatted": "Apr 8"
-    },
-    {
-      "title": "Video Games",
-      "slug": "video-games",
-      "id": 55,
-      "last_posted_at": "2026-04-08T23:51:57.182Z",
-      "last_posted_at_formatted": "Apr 8"
-    },
-    {
-      "title": "Videos",
-      "slug": "videos",
-      "id": 21,
-      "last_posted_at": "2026-04-08T22:41:37.910Z",
-      "last_posted_at_formatted": "Apr 8"
-    },
-    {
-      "title": "Artificial Intelligence",
-      "slug": "artificial-intelligence",
-      "id": 53,
-      "last_posted_at": "2026-04-07T20:34:52.899Z",
-      "last_posted_at_formatted": "Apr 7"
-    },
-    {
-      "title": "Food",
-      "slug": "food",
-      "id": 56,
-      "last_posted_at": "2026-04-07T17:18:04.799Z",
-      "last_posted_at_formatted": "Apr 7"
     }
   ],
   "aihorde": {
-    "images_generated": "30,207",
-    "kudos": "3,494,559"
+    "images_generated": "30,233",
+    "kudos": "3,511,349"
   },
   "stairesSongs": [
     {
@@ -5708,5 +5707,5 @@
       "pubDate_formatted": "Jun 3"
     }
   ],
-  "_fetchedAt": 1775800802069
+  "_fetchedAt": 1775884430094
 }

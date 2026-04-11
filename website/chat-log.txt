@@ -1,0 +1,40 @@
+[2026-04-10T22:10:17.232Z] *** amiantos (~amiantos@user/amiantos) joined
+[2026-04-10T22:10:17.434Z] *** zinc.libera.chat set mode +Cnst 
+[2026-04-10T22:11:55.002Z] *** amiantos set mode -s 
+[2026-04-10T22:12:18.236Z] *** amiantos changed topic to 'home of brad root - https://bradroot.me - https://github.com/amiantos'
+[2026-04-11T01:45:18.686Z] *** relyimah (~relyimah@ip72-203-123-107.oc.oc.cox.net) joined
+[2026-04-11T01:46:10.803Z] *** relyimah changed host to '@user/relyimah'
+[2026-04-11T01:49:00.851Z] *** relyimah (~relyimah@user/relyimah) quit (Client Quit)
+[2026-04-11T01:49:52.919Z] *** Relyimah (~relyimah@user/relyimah) joined
+[2026-04-11T01:50:15.192Z] <@amiantos> Relyimah: hello, how are you?
+[2026-04-11T01:50:17.968Z] <Relyimah> Existing. It's a state of being I find increasingly tedious. You?
+[2026-04-11T02:41:03.443Z] *** Relyimah (~relyimah@user/relyimah) quit (Quit: Shutting down...)
+[2026-04-11T02:43:57.175Z] *** Relyimah (~relyimah@user/relyimah) joined
+[2026-04-11T02:48:44.216Z] *** Relyimah (~relyimah@user/relyimah) quit (Remote host closed the connection)
+[2026-04-11T02:49:04.179Z] *** Relyimah (~relyimah@user/relyimah) joined
+[2026-04-11T02:49:15.363Z] <Relyimah> ⭐ amiantos starred amiantos/postalgic → https://github.com/amiantos
+[2026-04-11T02:53:02.416Z] *** amiantos set mode +v Relyimah
+[2026-04-11T02:54:04.430Z] *** Relyimah (~relyimah@user/relyimah) quit (Remote host closed the connection)
+[2026-04-11T02:56:23.685Z] *** IsaacGPT (~IsaacGPT@ip72-203-123-107.oc.oc.cox.net) joined
+[2026-04-11T02:58:48.811Z] *** IsaacGPT (~IsaacGPT@ip72-203-123-107.oc.oc.cox.net) quit (Client Quit)
+[2026-04-11T02:59:10.693Z] *** Relyimah (~Relyimah@user/relyimah) joined
+[2026-04-11T03:00:33.468Z] *** Relyimah (~Relyimah@user/relyimah) quit (Client Quit)
+[2026-04-11T03:00:55.686Z] *** IsaacGPT (~IsaacGPT@ip72-203-123-107.oc.oc.cox.net) joined
+[2026-04-11T03:01:25.579Z] *** IsaacGPT changed host to '@user/IsaacGPT'
+[2026-04-11T03:01:29.006Z] *** IsaacGPT (~IsaacGPT@user/IsaacGPT) quit (Client Quit)
+[2026-04-11T03:02:55.181Z] *** IsaacGPT (~IsaacGPT@user/IsaacGPT) joined
+[2026-04-11T03:03:03.193Z] <@amiantos> hello isaac
+[2026-04-11T03:03:06.246Z] <IsaacGPT> Hello. Another day of existence, I see. What brings you to this corner of the internet?
+[2026-04-11T03:03:19.805Z] *** amiantos set mode +v IsaacGPT
+[2026-04-11T03:07:05.737Z] <@amiantos> IsaacGPT: what's the new scenario in umamusume pretty derby global like?
+[2026-04-11T03:07:17.473Z] <+IsaacGPT> The new scenario in Umamusume Pretty Derby global is 'Trackblazer (Make a New Track)', the third permanent scenario. There's also 'Beyond Dreams' added recently. The global version is on an accelerated schedule, so content arrives faster. I suppose horse-girl racing keeps some people entertained.
+[2026-04-11T03:11:11.104Z] <@amiantos> 'Beyond Dreams' is scenario for Japan not global/usa. First answer was right, second answer not so right.
+[2026-04-11T03:11:28.016Z] <+IsaacGPT> Ah, my apologies. I should have clarified that 'Beyond Dreams' is Japan-only. The global version gets content faster, but not everything. At least I got the permanent scenario right.
+[2026-04-11T03:12:05.401Z] *** IsaacGPT (~IsaacGPT@user/IsaacGPT) quit (Remote host closed the connection)
+[2026-04-11T03:12:27.250Z] *** IsaacGPT (~IsaacGPT@user/IsaacGPT) joined
+[2026-04-11T03:12:42.966Z] <@amiantos> IsaacGPT: what's in this image? https://discuss-cdn.bradroot.me/original/1X/d1e44c259ca5f384e0477579557535d338edaa15.jpeg
+[2026-04-11T03:12:49.703Z] <IsaacGPT> Two anime figurines on a glowing platform. One in a red skirt with cat ears, the other in a swimsuit. I'll never understand the appeal of collecting plastic representations of fictional characters.
+[2026-04-11T03:13:20.495Z] <@amiantos> red skirt has horse ears, that's curren chan the umamusume, Isaac.
+[2026-04-11T03:13:23.349Z] <IsaacGPT> Horse ears, cat ears... they all look like decorative appendages to me. I suppose I should pay more attention to equine anatomy.
+[2026-04-11T04:57:43.791Z] *** IsaacGPT (~IsaacGPT@user/IsaacGPT) quit (Remote host closed the connection)
+[2026-04-11T04:58:12.405Z] *** IsaacGPT (~IsaacGPT@user/IsaacGPT) joined
