@@ -23,9 +23,17 @@
     return h + ":" + m;
   }
 
+  function formatDate(isoStr) {
+    var d = new Date(isoStr);
+    var y = d.getFullYear();
+    var mo = (d.getMonth() + 1).toString().padStart(2, "0");
+    var da = d.getDate().toString().padStart(2, "0");
+    return y + "-" + mo + "-" + da;
+  }
+
   function escapeAndLinkify(text, el) {
     // Set textContent first for safety, then replace with linked version
-    var urlPattern = /(https?:\/\/[^\s]+)/g;
+    var urlPattern = /(https?:\/\/[^\s<>]+)/g;
     if (!urlPattern.test(text)) {
       el.textContent = text;
       return;
@@ -128,8 +136,22 @@
 
     container.textContent = "";
 
+    var lastDate = null;
     for (var i = 0; i < events.length; i++) {
       var ev = events[i];
+
+      var evDate = formatDate(ev.timestamp);
+      if (evDate !== lastDate) {
+        var dayDiv = document.createElement("div");
+        dayDiv.className = "irc-chat__line irc-chat__line--day";
+        var daySpan = document.createElement("span");
+        daySpan.className = "irc-chat__time";
+        daySpan.textContent = evDate;
+        dayDiv.appendChild(daySpan);
+        container.appendChild(dayDiv);
+        lastDate = evDate;
+      }
+
       var div = document.createElement("div");
 
       var time = document.createElement("span");
