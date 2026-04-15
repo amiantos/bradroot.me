@@ -1057,14 +1057,14 @@
       "releases_url": "https://api.github.com/repos/amiantos/bradroot.me/releases{/id}",
       "deployments_url": "https://api.github.com/repos/amiantos/bradroot.me/deployments",
       "created_at": "2018-05-06T02:16:59Z",
-      "updated_at": "2026-04-13T06:00:09Z",
-      "pushed_at": "2026-04-13T06:00:01Z",
+      "updated_at": "2026-04-14T06:00:06Z",
+      "pushed_at": "2026-04-14T06:00:02Z",
       "git_url": "git://github.com/amiantos/bradroot.me.git",
       "ssh_url": "git@github.com:amiantos/bradroot.me.git",
       "clone_url": "https://github.com/amiantos/bradroot.me.git",
       "svn_url": "https://github.com/amiantos/bradroot.me",
       "homepage": "https://bradroot.me",
-      "size": 17234,
+      "size": 17272,
       "stargazers_count": 0,
       "watchers_count": 0,
       "language": "HTML",
@@ -1160,7 +1160,7 @@
       "releases_url": "https://api.github.com/repos/amiantos/c64-ultimate-toolbox/releases{/id}",
       "deployments_url": "https://api.github.com/repos/amiantos/c64-ultimate-toolbox/deployments",
       "created_at": "2026-03-08T23:05:53Z",
-      "updated_at": "2026-04-10T14:35:53Z",
+      "updated_at": "2026-04-14T02:27:46Z",
       "pushed_at": "2026-04-03T22:34:06Z",
       "git_url": "git://github.com/amiantos/c64-ultimate-toolbox.git",
       "ssh_url": "git@github.com:amiantos/c64-ultimate-toolbox.git",
@@ -1168,8 +1168,8 @@
       "svn_url": "https://github.com/amiantos/c64-ultimate-toolbox",
       "homepage": "https://discuss.bradroot.me/tags/c/projects/13/c64-ultimate-toolbox/36",
       "size": 7536,
-      "stargazers_count": 18,
-      "watchers_count": 18,
+      "stargazers_count": 19,
+      "watchers_count": 19,
       "language": "Swift",
       "has_issues": true,
       "has_projects": false,
@@ -1208,7 +1208,7 @@
       "visibility": "public",
       "forks": 0,
       "open_issues": 0,
-      "watchers": 18,
+      "watchers": 19,
       "default_branch": "main"
     },
     {
@@ -2052,14 +2052,14 @@
       "releases_url": "https://api.github.com/repos/amiantos/gamebookengine/releases{/id}",
       "deployments_url": "https://api.github.com/repos/amiantos/gamebookengine/deployments",
       "created_at": "2019-08-16T01:11:37Z",
-      "updated_at": "2026-03-27T12:00:19Z",
-      "pushed_at": "2025-10-23T06:33:09Z",
+      "updated_at": "2026-04-13T23:14:36Z",
+      "pushed_at": "2026-04-13T23:14:31Z",
       "git_url": "git://github.com/amiantos/gamebookengine.git",
       "ssh_url": "git@github.com:amiantos/gamebookengine.git",
       "clone_url": "https://github.com/amiantos/gamebookengine.git",
       "svn_url": "https://github.com/amiantos/gamebookengine",
       "homepage": "",
-      "size": 13142,
+      "size": 13134,
       "stargazers_count": 103,
       "watchers_count": 103,
       "language": "Swift",
@@ -2069,11 +2069,11 @@
       "has_wiki": true,
       "has_pages": true,
       "has_discussions": false,
-      "forks_count": 7,
+      "forks_count": 6,
       "mirror_url": null,
       "archived": false,
       "disabled": false,
-      "open_issues_count": 19,
+      "open_issues_count": 17,
       "license": {
         "key": "mpl-2.0",
         "name": "Mozilla Public License 2.0",
@@ -2097,8 +2097,8 @@
         "swift"
       ],
       "visibility": "public",
-      "forks": 7,
-      "open_issues": 19,
+      "forks": 6,
+      "open_issues": 17,
       "watchers": 103,
       "default_branch": "master"
     },
@@ -2704,7 +2704,7 @@
       "clone_url": "https://github.com/amiantos/impostor.git",
       "svn_url": "https://github.com/amiantos/impostor",
       "homepage": "",
-      "size": 580,
+      "size": 592,
       "stargazers_count": 2,
       "watchers_count": 2,
       "language": "JavaScript",
@@ -3493,13 +3493,13 @@
       "deployments_url": "https://api.github.com/repos/amiantos/lifesaver/deployments",
       "created_at": "2019-05-18T18:10:08Z",
       "updated_at": "2026-04-13T06:05:37Z",
-      "pushed_at": "2026-04-13T02:37:54Z",
+      "pushed_at": "2026-04-13T07:04:49Z",
       "git_url": "git://github.com/amiantos/lifesaver.git",
       "ssh_url": "git@github.com:amiantos/lifesaver.git",
       "clone_url": "https://github.com/amiantos/lifesaver.git",
       "svn_url": "https://github.com/amiantos/lifesaver",
       "homepage": "https://discuss.bradroot.me/tags/c/projects/13/life-saver/7",
-      "size": 38093,
+      "size": 38122,
       "stargazers_count": 228,
       "watchers_count": 228,
       "language": "Swift",
@@ -3513,7 +3513,7 @@
       "mirror_url": null,
       "archived": false,
       "disabled": false,
-      "open_issues_count": 10,
+      "open_issues_count": 11,
       "license": {
         "key": "mpl-2.0",
         "name": "Mozilla Public License 2.0",
@@ -3544,7 +3544,7 @@
       ],
       "visibility": "public",
       "forks": 12,
-      "open_issues": 10,
+      "open_issues": 11,
       "watchers": 228,
       "default_branch": "master"
     },
@@ -3951,13 +3951,13 @@
       "deployments_url": "https://api.github.com/repos/amiantos/pibar/deployments",
       "created_at": "2020-05-17T20:12:12Z",
       "updated_at": "2026-04-04T18:58:12Z",
-      "pushed_at": "2026-03-24T15:32:32Z",
+      "pushed_at": "2026-04-14T06:50:27Z",
       "git_url": "git://github.com/amiantos/pibar.git",
       "ssh_url": "git@github.com:amiantos/pibar.git",
       "clone_url": "https://github.com/amiantos/pibar.git",
       "svn_url": "https://github.com/amiantos/pibar",
       "homepage": "",
-      "size": 10529,
+      "size": 10862,
       "stargazers_count": 328,
       "watchers_count": 328,
       "language": "Swift",
@@ -3971,7 +3971,7 @@
       "mirror_url": null,
       "archived": false,
       "disabled": false,
-      "open_issues_count": 21,
+      "open_issues_count": 22,
       "license": {
         "key": "mpl-2.0",
         "name": "Mozilla Public License 2.0",
@@ -3998,7 +3998,7 @@
       ],
       "visibility": "public",
       "forks": 5,
-      "open_issues": 21,
+      "open_issues": 22,
       "watchers": 328,
       "default_branch": "master"
     },
@@ -5664,56 +5664,56 @@
   ],
   "discourse": {
     "topics": 56,
-    "posts": 690,
+    "posts": 724,
     "users": 6
   },
   "discourseTopics": [
     {
-      "title": "Gadgets & Technology",
-      "slug": "gadgets-technology",
-      "id": 68,
-      "last_posted_at": "2026-04-13T06:32:25.372Z",
-      "last_posted_at_formatted": "Apr 12"
-    },
-    {
-      "title": "Life Saver Screensaver - Devlog",
-      "slug": "life-saver-screensaver-devlog",
-      "id": 86,
-      "last_posted_at": "2026-04-13T06:09:32.171Z",
-      "last_posted_at_formatted": "Apr 12"
+      "title": "C64 Ultimate Toolbox - Devlog",
+      "slug": "c64-ultimate-toolbox-devlog",
+      "id": 78,
+      "last_posted_at": "2026-04-15T02:11:25.740Z",
+      "last_posted_at_formatted": "Apr 14"
     },
     {
       "title": "Video Games",
       "slug": "video-games",
       "id": 55,
-      "last_posted_at": "2026-04-12T21:19:59.653Z",
-      "last_posted_at_formatted": "Apr 12"
+      "last_posted_at": "2026-04-14T20:38:26.104Z",
+      "last_posted_at_formatted": "Apr 14"
     },
     {
-      "title": "Movies",
-      "slug": "movies",
-      "id": 64,
-      "last_posted_at": "2026-04-12T20:53:30.990Z",
-      "last_posted_at_formatted": "Apr 12"
+      "title": "PiBar v1.2 - Devlog",
+      "slug": "pibar-v1-2-devlog",
+      "id": 83,
+      "last_posted_at": "2026-04-14T15:53:35.000Z",
+      "last_posted_at_formatted": "Apr 14"
     },
     {
-      "title": "Memes",
-      "slug": "memes",
+      "title": "Life Saver Screensaver - Devlog",
+      "slug": "life-saver-screensaver-devlog",
+      "id": 86,
+      "last_posted_at": "2026-04-14T06:43:17.133Z",
+      "last_posted_at_formatted": "Apr 13"
+    },
+    {
+      "title": "Gadgets & Technology",
+      "slug": "gadgets-technology",
+      "id": 68,
+      "last_posted_at": "2026-04-14T04:23:22.912Z",
+      "last_posted_at_formatted": "Apr 13"
+    },
+    {
+      "title": "Memes / Jokes",
+      "slug": "memes-jokes",
       "id": 67,
-      "last_posted_at": "2026-04-12T08:06:32.389Z",
-      "last_posted_at_formatted": "Apr 12"
-    },
-    {
-      "title": "Videos",
-      "slug": "videos",
-      "id": 21,
-      "last_posted_at": "2026-04-12T05:15:00.183Z",
-      "last_posted_at_formatted": "Apr 11"
+      "last_posted_at": "2026-04-14T02:49:48.931Z",
+      "last_posted_at_formatted": "Apr 13"
     }
   ],
   "aihorde": {
-    "images_generated": "30,449",
-    "kudos": "3,541,337"
+    "images_generated": "30,721",
+    "kudos": "3,583,416"
   },
   "stairesSongs": [
     {
@@ -5754,6 +5754,18 @@
   ],
   "floatedPosts": [
     {
+      "title": "\"I hate everything related to AI and I always...",
+      "link": "https://ihavebeenfloated.org/2026/04/14/i-hate-everything-related-to-ai-and-i-always-will/",
+      "pubDate": "Wed, 15 Apr 2026 03:18:00 GMT",
+      "pubDate_formatted": "Apr 14"
+    },
+    {
+      "title": "Listen, I didn’t have children, so I’m entitled...",
+      "link": "https://ihavebeenfloated.org/2026/04/13/listen-i-didn-t-have-children-so-i-m-entitled-to/",
+      "pubDate": "Mon, 13 Apr 2026 18:27:00 GMT",
+      "pubDate_formatted": "Apr 13"
+    },
+    {
       "title": "A friend of mine is at a crossroads in their...",
       "link": "https://ihavebeenfloated.org/2026/04/11/a-friend-of-mine-is-at-a-crossroads-in-their/",
       "pubDate": "Sat, 11 Apr 2026 20:53:00 GMT",
@@ -5770,21 +5782,15 @@
       "link": "https://ihavebeenfloated.org/2026/04/08/nobody-tells-this-to-people-who-are-beginners-i/",
       "pubDate": "Wed, 08 Apr 2026 17:57:00 GMT",
       "pubDate_formatted": "Apr 8"
-    },
-    {
-      "title": "Tuesday will be Power Plant Day, and Bridge Day,...",
-      "link": "https://ihavebeenfloated.org/2026/04/05/tuesday-will-be-power-plant-day-and-bridge-day/",
-      "pubDate": "Sun, 05 Apr 2026 16:05:00 GMT",
-      "pubDate_formatted": "Apr 5"
-    },
-    {
-      "title": "It’s not a scientific study or anything but I can...",
-      "link": "https://ihavebeenfloated.org/2026/04/03/it-s-not-a-scientific-study-or-anything-but-i-can/",
-      "pubDate": "Fri, 03 Apr 2026 22:45:00 GMT",
-      "pubDate_formatted": "Apr 3"
     }
   ],
   "amiantosPosts": [
+    {
+      "title": "Sven Trümper is Not a Nice Person",
+      "link": "https://amiantos.net/sven-trumper-is-not-a-nice-person/",
+      "pubDate": "Wed, 15 Apr 2026 00:16:09 +0000",
+      "pubDate_formatted": "Apr 14"
+    },
     {
       "title": "Introducing C64 Ultimate Toolbox",
       "link": "https://amiantos.net/introducing-c64-ultimate-toolbox/",
@@ -5808,13 +5814,7 @@
       "link": "https://amiantos.net/a-lodge-is-no-place-for-a-leftist/",
       "pubDate": "Wed, 08 Oct 2025 20:06:34 +0000",
       "pubDate_formatted": "Oct 8"
-    },
-    {
-      "title": "Introducing Postalgic",
-      "link": "https://amiantos.net/introducing-postalgic/",
-      "pubDate": "Tue, 03 Jun 2025 20:15:57 +0000",
-      "pubDate_formatted": "Jun 3"
     }
   ],
-  "_fetchedAt": 1776063321135
+  "_fetchedAt": 1776232801700
 }
