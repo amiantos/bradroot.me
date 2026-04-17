@@ -1057,14 +1057,14 @@
       "releases_url": "https://api.github.com/repos/amiantos/bradroot.me/releases{/id}",
       "deployments_url": "https://api.github.com/repos/amiantos/bradroot.me/deployments",
       "created_at": "2018-05-06T02:16:59Z",
-      "updated_at": "2026-04-14T06:00:06Z",
-      "pushed_at": "2026-04-14T06:00:02Z",
+      "updated_at": "2026-04-16T06:00:06Z",
+      "pushed_at": "2026-04-16T06:00:02Z",
       "git_url": "git://github.com/amiantos/bradroot.me.git",
       "ssh_url": "git@github.com:amiantos/bradroot.me.git",
       "clone_url": "https://github.com/amiantos/bradroot.me.git",
       "svn_url": "https://github.com/amiantos/bradroot.me",
       "homepage": "https://bradroot.me",
-      "size": 17272,
+      "size": 17317,
       "stargazers_count": 0,
       "watchers_count": 0,
       "language": "HTML",
@@ -3950,7 +3950,7 @@
       "releases_url": "https://api.github.com/repos/amiantos/pibar/releases{/id}",
       "deployments_url": "https://api.github.com/repos/amiantos/pibar/deployments",
       "created_at": "2020-05-17T20:12:12Z",
-      "updated_at": "2026-04-04T18:58:12Z",
+      "updated_at": "2026-04-16T10:04:27Z",
       "pushed_at": "2026-04-14T06:50:27Z",
       "git_url": "git://github.com/amiantos/pibar.git",
       "ssh_url": "git@github.com:amiantos/pibar.git",
@@ -3958,8 +3958,8 @@
       "svn_url": "https://github.com/amiantos/pibar",
       "homepage": "",
       "size": 10862,
-      "stargazers_count": 328,
-      "watchers_count": 328,
+      "stargazers_count": 329,
+      "watchers_count": 329,
       "language": "Swift",
       "has_issues": true,
       "has_projects": false,
@@ -3999,7 +3999,7 @@
       "visibility": "public",
       "forks": 5,
       "open_issues": 22,
-      "watchers": 328,
+      "watchers": 329,
       "default_branch": "master"
     },
     {
@@ -5664,10 +5664,38 @@
   ],
   "discourse": {
     "topics": 56,
-    "posts": 724,
+    "posts": 734,
     "users": 6
   },
   "discourseTopics": [
+    {
+      "title": "Gadgets & Technology",
+      "slug": "gadgets-technology",
+      "id": 68,
+      "last_posted_at": "2026-04-17T05:41:28.919Z",
+      "last_posted_at_formatted": "Apr 16"
+    },
+    {
+      "title": "Video Games",
+      "slug": "video-games",
+      "id": 55,
+      "last_posted_at": "2026-04-16T22:26:04.349Z",
+      "last_posted_at_formatted": "Apr 16"
+    },
+    {
+      "title": "Life Saver Screensaver - Devlog",
+      "slug": "life-saver-screensaver-devlog",
+      "id": 86,
+      "last_posted_at": "2026-04-15T22:05:58.178Z",
+      "last_posted_at_formatted": "Apr 15"
+    },
+    {
+      "title": "Artificial Intelligence",
+      "slug": "artificial-intelligence",
+      "id": 53,
+      "last_posted_at": "2026-04-15T15:44:48.919Z",
+      "last_posted_at_formatted": "Apr 15"
+    },
     {
       "title": "C64 Ultimate Toolbox - Devlog",
       "slug": "c64-ultimate-toolbox-devlog",
@@ -5676,44 +5704,16 @@
       "last_posted_at_formatted": "Apr 14"
     },
     {
-      "title": "Video Games",
-      "slug": "video-games",
-      "id": 55,
-      "last_posted_at": "2026-04-14T20:38:26.104Z",
-      "last_posted_at_formatted": "Apr 14"
-    },
-    {
       "title": "PiBar v1.2 - Devlog",
       "slug": "pibar-v1-2-devlog",
       "id": 83,
       "last_posted_at": "2026-04-14T15:53:35.000Z",
       "last_posted_at_formatted": "Apr 14"
-    },
-    {
-      "title": "Life Saver Screensaver - Devlog",
-      "slug": "life-saver-screensaver-devlog",
-      "id": 86,
-      "last_posted_at": "2026-04-14T06:43:17.133Z",
-      "last_posted_at_formatted": "Apr 13"
-    },
-    {
-      "title": "Gadgets & Technology",
-      "slug": "gadgets-technology",
-      "id": 68,
-      "last_posted_at": "2026-04-14T04:23:22.912Z",
-      "last_posted_at_formatted": "Apr 13"
-    },
-    {
-      "title": "Memes / Jokes",
-      "slug": "memes-jokes",
-      "id": 67,
-      "last_posted_at": "2026-04-14T02:49:48.931Z",
-      "last_posted_at_formatted": "Apr 13"
     }
   ],
   "aihorde": {
-    "images_generated": "30,721",
-    "kudos": "3,583,416"
+    "images_generated": "31,215",
+    "kudos": "3,667,758"
   },
   "stairesSongs": [
     {
@@ -5754,6 +5754,18 @@
   ],
   "floatedPosts": [
     {
+      "title": "It took me a long time to become aware of and to...",
+      "link": "https://ihavebeenfloated.org/2026/04/15/it-took-me-a-long-time-to-become-aware-of-and-to/",
+      "pubDate": "Wed, 15 Apr 2026 17:50:00 GMT",
+      "pubDate_formatted": "Apr 15"
+    },
+    {
+      "title": "Unpopular opinion but the amount of value Claude...",
+      "link": "https://ihavebeenfloated.org/2026/04/15/unpopular-opinion-but-the-amount-of-value-claude/",
+      "pubDate": "Wed, 15 Apr 2026 07:04:00 GMT",
+      "pubDate_formatted": "Apr 15"
+    },
+    {
       "title": "\"I hate everything related to AI and I always...",
       "link": "https://ihavebeenfloated.org/2026/04/14/i-hate-everything-related-to-ai-and-i-always-will/",
       "pubDate": "Wed, 15 Apr 2026 03:18:00 GMT",
@@ -5770,18 +5782,6 @@
       "link": "https://ihavebeenfloated.org/2026/04/11/a-friend-of-mine-is-at-a-crossroads-in-their/",
       "pubDate": "Sat, 11 Apr 2026 20:53:00 GMT",
       "pubDate_formatted": "Apr 11"
-    },
-    {
-      "title": "Man, I wish I liked Jon Bernthal as the Punisher....",
-      "link": "https://ihavebeenfloated.org/2026/04/09/man-i-wish-i-liked-jon-bernthal-as-the-punisher/",
-      "pubDate": "Thu, 09 Apr 2026 18:11:00 GMT",
-      "pubDate_formatted": "Apr 9"
-    },
-    {
-      "title": "Nobody tells this to people who are beginners, I...",
-      "link": "https://ihavebeenfloated.org/2026/04/08/nobody-tells-this-to-people-who-are-beginners-i/",
-      "pubDate": "Wed, 08 Apr 2026 17:57:00 GMT",
-      "pubDate_formatted": "Apr 8"
     }
   ],
   "amiantosPosts": [
@@ -5816,5 +5816,5 @@
       "pubDate_formatted": "Oct 8"
     }
   ],
-  "_fetchedAt": 1776232801700
+  "_fetchedAt": 1776405604988
 }
