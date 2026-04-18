@@ -16,6 +16,7 @@
       .then(function (data) {
         var present = !!data.presence;
         status.classList.toggle('bradcam-status--present', present);
+        status.textContent = present ? 'On Air' : 'AFK';
         var pct = Math.round((data.confidence || 0) * 100);
         status.title =
           (present ? 'At desk' : 'Away') +
