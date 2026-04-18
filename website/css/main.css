@@ -443,6 +443,25 @@ img {
   height: auto;
 }
 
+.bradcam-status {
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  line-height: 1;
+  padding: 3px 6px;
+  border: 1px solid var(--text-muted);
+  color: var(--text-muted);
+  cursor: help;
+  transition: color 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.bradcam-status--present {
+  color: var(--red);
+  border-color: var(--red);
+  box-shadow: 0 0 0 1px var(--red);
+}
+
 .dashboard-card--compact {
   padding-bottom: 12px;
 }
