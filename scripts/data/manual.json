@@ -1,9 +1,9 @@
 {
   "games": [
     {
-      "name": "Ultima IV: Quest of the Avatar",
-      "image": "images/games/ultima-iv-quest-of-the-avatar.jpg",
-      "link": "https://www.gog.com/en/game/ultima_iv_quest_of_the_avatar"
+      "name": "Pragmata",
+      "image": "images/games/pragmata.jpg",
+      "link": "https://www.capcom-games.com/pragmata/en-us/"
     }
   ],
   "watching": [
@@ -14,11 +14,6 @@
     }
   ],
   "hidden_repos": [
-    "AI-Horde-Styles-Previews",
-    "multiclock-playdate",
-    "langtonsmap",
-    "textlike",
-    "postalgic",
     "zzz-agents",
     "tyler"
   ]
