@@ -1057,17 +1057,17 @@
       "releases_url": "https://api.github.com/repos/amiantos/bradroot.me/releases{/id}",
       "deployments_url": "https://api.github.com/repos/amiantos/bradroot.me/deployments",
       "created_at": "2018-05-06T02:16:59Z",
-      "updated_at": "2026-04-19T06:00:06Z",
-      "pushed_at": "2026-04-19T06:00:01Z",
+      "updated_at": "2026-04-21T06:00:07Z",
+      "pushed_at": "2026-04-21T06:00:02Z",
       "git_url": "git://github.com/amiantos/bradroot.me.git",
       "ssh_url": "git@github.com:amiantos/bradroot.me.git",
       "clone_url": "https://github.com/amiantos/bradroot.me.git",
       "svn_url": "https://github.com/amiantos/bradroot.me",
       "homepage": "https://bradroot.me",
-      "size": 17394,
+      "size": 17433,
       "stargazers_count": 0,
       "watchers_count": 0,
-      "language": "JavaScript",
+      "language": "HTML",
       "has_issues": true,
       "has_projects": true,
       "has_downloads": true,
@@ -2052,14 +2052,14 @@
       "releases_url": "https://api.github.com/repos/amiantos/gamebookengine/releases{/id}",
       "deployments_url": "https://api.github.com/repos/amiantos/gamebookengine/deployments",
       "created_at": "2019-08-16T01:11:37Z",
-      "updated_at": "2026-04-13T23:14:36Z",
-      "pushed_at": "2026-04-17T23:57:22Z",
+      "updated_at": "2026-04-21T17:39:13Z",
+      "pushed_at": "2026-04-21T17:39:11Z",
       "git_url": "git://github.com/amiantos/gamebookengine.git",
       "ssh_url": "git@github.com:amiantos/gamebookengine.git",
       "clone_url": "https://github.com/amiantos/gamebookengine.git",
       "svn_url": "https://github.com/amiantos/gamebookengine",
       "homepage": "",
-      "size": 13140,
+      "size": 13142,
       "stargazers_count": 103,
       "watchers_count": 103,
       "language": "Swift",
@@ -2073,7 +2073,7 @@
       "mirror_url": null,
       "archived": false,
       "disabled": false,
-      "open_issues_count": 18,
+      "open_issues_count": 19,
       "license": {
         "key": "mpl-2.0",
         "name": "Mozilla Public License 2.0",
@@ -2098,7 +2098,7 @@
       ],
       "visibility": "public",
       "forks": 6,
-      "open_issues": 18,
+      "open_issues": 19,
       "watchers": 103,
       "default_branch": "master"
     },
@@ -2383,7 +2383,7 @@
       "clone_url": "https://github.com/amiantos/homebrew-cask.git",
       "svn_url": "https://github.com/amiantos/homebrew-cask",
       "homepage": "https://brew.sh",
-      "size": 449480,
+      "size": 449422,
       "stargazers_count": 0,
       "watchers_count": 0,
       "language": "Ruby",
@@ -3950,16 +3950,16 @@
       "releases_url": "https://api.github.com/repos/amiantos/pibar/releases{/id}",
       "deployments_url": "https://api.github.com/repos/amiantos/pibar/deployments",
       "created_at": "2020-05-17T20:12:12Z",
-      "updated_at": "2026-04-20T04:34:52Z",
-      "pushed_at": "2026-04-20T05:20:24Z",
+      "updated_at": "2026-04-21T12:56:24Z",
+      "pushed_at": "2026-04-21T02:51:56Z",
       "git_url": "git://github.com/amiantos/pibar.git",
       "ssh_url": "git@github.com:amiantos/pibar.git",
       "clone_url": "https://github.com/amiantos/pibar.git",
       "svn_url": "https://github.com/amiantos/pibar",
       "homepage": "",
-      "size": 12053,
-      "stargazers_count": 333,
-      "watchers_count": 333,
+      "size": 11966,
+      "stargazers_count": 339,
+      "watchers_count": 339,
       "language": "Swift",
       "has_issues": true,
       "has_projects": false,
@@ -3971,7 +3971,7 @@
       "mirror_url": null,
       "archived": false,
       "disabled": false,
-      "open_issues_count": 19,
+      "open_issues_count": 18,
       "license": {
         "key": "mpl-2.0",
         "name": "Mozilla Public License 2.0",
@@ -3998,8 +3998,8 @@
       ],
       "visibility": "public",
       "forks": 5,
-      "open_issues": 19,
-      "watchers": 333,
+      "open_issues": 18,
+      "watchers": 339,
       "default_branch": "master"
     },
     {
@@ -5767,58 +5767,65 @@
   ],
   "discourse": {
     "topics": 57,
-    "posts": 774,
+    "posts": 793,
     "users": 6
   },
   "discourseTopics": [
     {
-      "title": "TheLounge ECONNRESET Issue",
-      "slug": "thelounge-econnreset-issue",
-      "id": 87,
-      "last_posted_at": "2026-04-20T04:22:48.638Z",
-      "last_posted_at_formatted": "Apr 19"
+      "title": "Gadgets & Technology",
+      "slug": "gadgets-technology",
+      "id": 68,
+      "last_posted_at": "2026-04-22T03:44:10.182Z",
+      "last_posted_at_formatted": "Apr 21"
+    },
+    {
+      "title": "Artificial Intelligence",
+      "slug": "artificial-intelligence",
+      "id": 53,
+      "last_posted_at": "2026-04-22T03:10:11.924Z",
+      "last_posted_at_formatted": "Apr 21"
     },
     {
       "title": "Video Games",
       "slug": "video-games",
       "id": 55,
-      "last_posted_at": "2026-04-20T01:18:24.107Z",
-      "last_posted_at_formatted": "Apr 19"
+      "last_posted_at": "2026-04-21T16:15:56.004Z",
+      "last_posted_at_formatted": "Apr 21"
     },
     {
-      "title": "PICO-8 Fantasy Console",
-      "slug": "pico-8-fantasy-console",
-      "id": 81,
-      "last_posted_at": "2026-04-20T01:17:40.958Z",
-      "last_posted_at_formatted": "Apr 19"
+      "title": "Music",
+      "slug": "music",
+      "id": 40,
+      "last_posted_at": "2026-04-21T03:55:02.415Z",
+      "last_posted_at_formatted": "Apr 20"
     },
     {
       "title": "Memes / Jokes",
       "slug": "memes-jokes",
       "id": 67,
-      "last_posted_at": "2026-04-19T21:27:22.607Z",
-      "last_posted_at_formatted": "Apr 19"
+      "last_posted_at": "2026-04-20T23:48:48.650Z",
+      "last_posted_at_formatted": "Apr 20"
     },
     {
-      "title": "PiBar v1.2 - Devlog",
-      "slug": "pibar-v1-2-devlog",
-      "id": 83,
-      "last_posted_at": "2026-04-19T20:06:56.816Z",
-      "last_posted_at_formatted": "Apr 19"
-    },
-    {
-      "title": "Videos",
-      "slug": "videos",
-      "id": 21,
-      "last_posted_at": "2026-04-18T19:17:48.828Z",
-      "last_posted_at_formatted": "Apr 18"
+      "title": "Movies",
+      "slug": "movies",
+      "id": 64,
+      "last_posted_at": "2026-04-20T18:01:16.553Z",
+      "last_posted_at_formatted": "Apr 20"
     }
   ],
   "aihorde": {
-    "images_generated": "31,823",
-    "kudos": "3,754,344"
+    "images_generated": "32,275",
+    "kudos": "3,814,843"
   },
   "stairesSongs": [
+    {
+      "title": "Sufjan Stevens - Will Anybody Ever Love Me?",
+      "link": "https://staires.org/2026/04/20/sufjan-stevens-will-anybody-ever-love-me/",
+      "pubDate": "Tue, 21 Apr 2026 03:35:00 GMT",
+      "youtubeId": "OLeCIRC4taY",
+      "pubDate_formatted": "Apr 20"
+    },
     {
       "title": "Nine Inch Nails - Vessel (Nine Inch Noize Version)",
       "link": "https://staires.org/2026/04/18/nine-inch-nails-vessel-nine-inch-noize-version/",
@@ -5846,13 +5853,6 @@
       "pubDate": "Sat, 04 Apr 2026 19:44:00 GMT",
       "youtubeId": "t_4L_ZIES4g",
       "pubDate_formatted": "Apr 4"
-    },
-    {
-      "title": "Eyehategod - Gates of Steel",
-      "link": "https://staires.org/2026/03/29/eyehategod-gates-of-steel/",
-      "pubDate": "Sun, 29 Mar 2026 18:36:00 GMT",
-      "youtubeId": "Q4gAbxyRi6k",
-      "pubDate_formatted": "Mar 29"
     }
   ],
   "floatedPosts": [
@@ -5919,5 +5919,5 @@
       "pubDate_formatted": "Oct 8"
     }
   ],
-  "_fetchedAt": 1776664802096
+  "_fetchedAt": 1776837602545
 }
