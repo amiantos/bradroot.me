@@ -1057,14 +1057,14 @@
       "releases_url": "https://api.github.com/repos/amiantos/bradroot.me/releases{/id}",
       "deployments_url": "https://api.github.com/repos/amiantos/bradroot.me/deployments",
       "created_at": "2018-05-06T02:16:59Z",
-      "updated_at": "2026-04-23T06:00:06Z",
-      "pushed_at": "2026-04-23T06:00:02Z",
+      "updated_at": "2026-04-25T06:00:05Z",
+      "pushed_at": "2026-04-25T06:00:02Z",
       "git_url": "git://github.com/amiantos/bradroot.me.git",
       "ssh_url": "git@github.com:amiantos/bradroot.me.git",
       "clone_url": "https://github.com/amiantos/bradroot.me.git",
       "svn_url": "https://github.com/amiantos/bradroot.me",
       "homepage": "https://bradroot.me",
-      "size": 17492,
+      "size": 17531,
       "stargazers_count": 0,
       "watchers_count": 0,
       "language": "HTML",
@@ -3492,7 +3492,7 @@
       "releases_url": "https://api.github.com/repos/amiantos/lifesaver/releases{/id}",
       "deployments_url": "https://api.github.com/repos/amiantos/lifesaver/deployments",
       "created_at": "2019-05-18T18:10:08Z",
-      "updated_at": "2026-04-19T04:49:59Z",
+      "updated_at": "2026-04-25T05:08:14Z",
       "pushed_at": "2026-04-13T07:04:49Z",
       "git_url": "git://github.com/amiantos/lifesaver.git",
       "ssh_url": "git@github.com:amiantos/lifesaver.git",
@@ -3500,8 +3500,8 @@
       "svn_url": "https://github.com/amiantos/lifesaver",
       "homepage": "https://discuss.bradroot.me/tags/c/projects/13/life-saver/7",
       "size": 38122,
-      "stargazers_count": 229,
-      "watchers_count": 229,
+      "stargazers_count": 230,
+      "watchers_count": 230,
       "language": "Swift",
       "has_issues": true,
       "has_projects": true,
@@ -3545,7 +3545,7 @@
       "visibility": "public",
       "forks": 12,
       "open_issues": 11,
-      "watchers": 229,
+      "watchers": 230,
       "default_branch": "master"
     },
     {
@@ -3950,7 +3950,7 @@
       "releases_url": "https://api.github.com/repos/amiantos/pibar/releases{/id}",
       "deployments_url": "https://api.github.com/repos/amiantos/pibar/deployments",
       "created_at": "2020-05-17T20:12:12Z",
-      "updated_at": "2026-04-22T12:22:00Z",
+      "updated_at": "2026-04-25T23:30:56Z",
       "pushed_at": "2026-04-21T02:51:56Z",
       "git_url": "git://github.com/amiantos/pibar.git",
       "ssh_url": "git@github.com:amiantos/pibar.git",
@@ -3958,8 +3958,8 @@
       "svn_url": "https://github.com/amiantos/pibar",
       "homepage": "",
       "size": 11966,
-      "stargazers_count": 338,
-      "watchers_count": 338,
+      "stargazers_count": 341,
+      "watchers_count": 341,
       "language": "Swift",
       "has_issues": true,
       "has_projects": false,
@@ -3999,7 +3999,7 @@
       "visibility": "public",
       "forks": 5,
       "open_issues": 18,
-      "watchers": 338,
+      "watchers": 341,
       "default_branch": "master"
     },
     {
@@ -5767,56 +5767,56 @@
   ],
   "discourse": {
     "topics": 58,
-    "posts": 808,
+    "posts": 816,
     "users": 6
   },
   "discourseTopics": [
+    {
+      "title": "Movies",
+      "slug": "movies",
+      "id": 64,
+      "last_posted_at": "2026-04-26T05:27:43.948Z",
+      "last_posted_at_formatted": "Apr 25"
+    },
+    {
+      "title": "Video Games",
+      "slug": "video-games",
+      "id": 55,
+      "last_posted_at": "2026-04-26T05:22:02.288Z",
+      "last_posted_at_formatted": "Apr 25"
+    },
+    {
+      "title": "PiBar v1.2 - Devlog",
+      "slug": "pibar-v1-2-devlog",
+      "id": 83,
+      "last_posted_at": "2026-04-26T02:34:13.885Z",
+      "last_posted_at_formatted": "Apr 25"
+    },
+    {
+      "title": "Food",
+      "slug": "food",
+      "id": 56,
+      "last_posted_at": "2026-04-25T20:52:27.204Z",
+      "last_posted_at_formatted": "Apr 25"
+    },
+    {
+      "title": "Videos",
+      "slug": "videos",
+      "id": 21,
+      "last_posted_at": "2026-04-25T16:23:48.667Z",
+      "last_posted_at_formatted": "Apr 25"
+    },
     {
       "title": "Artificial Intelligence",
       "slug": "artificial-intelligence",
       "id": 53,
       "last_posted_at": "2026-04-23T16:35:29.393Z",
       "last_posted_at_formatted": "Apr 23"
-    },
-    {
-      "title": "Anime / Manga",
-      "slug": "anime-manga",
-      "id": 88,
-      "last_posted_at": "2026-04-23T15:28:11.246Z",
-      "last_posted_at_formatted": "Apr 23"
-    },
-    {
-      "title": "Memes / Jokes",
-      "slug": "memes-jokes",
-      "id": 67,
-      "last_posted_at": "2026-04-22T20:25:55.947Z",
-      "last_posted_at_formatted": "Apr 22"
-    },
-    {
-      "title": "Gadgets & Technology",
-      "slug": "gadgets-technology",
-      "id": 68,
-      "last_posted_at": "2026-04-22T03:44:10.182Z",
-      "last_posted_at_formatted": "Apr 21"
-    },
-    {
-      "title": "Video Games",
-      "slug": "video-games",
-      "id": 55,
-      "last_posted_at": "2026-04-21T16:15:56.004Z",
-      "last_posted_at_formatted": "Apr 21"
-    },
-    {
-      "title": "Music",
-      "slug": "music",
-      "id": 40,
-      "last_posted_at": "2026-04-21T03:55:02.415Z",
-      "last_posted_at_formatted": "Apr 20"
     }
   ],
   "aihorde": {
-    "images_generated": "32,569",
-    "kudos": "3,861,675"
+    "images_generated": "32,798",
+    "kudos": "3,901,500"
   },
   "stairesSongs": [
     {
@@ -5857,6 +5857,18 @@
   ],
   "floatedPosts": [
     {
+      "title": "Sorry I also just want to make fun of John Gruber...",
+      "link": "https://ihavebeenfloated.org/2026/04/24/sorry-i-also-just-want-to-make-fun-of-john-gruber/",
+      "pubDate": "Fri, 24 Apr 2026 18:38:00 GMT",
+      "pubDate_formatted": "Apr 24"
+    },
+    {
+      "title": "John Gruber joins a long lineage in assuming...",
+      "link": "https://ihavebeenfloated.org/2026/04/24/john-gruber-joins-a-long-lineage-in-assuming/",
+      "pubDate": "Fri, 24 Apr 2026 16:22:00 GMT",
+      "pubDate_formatted": "Apr 24"
+    },
+    {
       "title": "It took me a long time to become aware of and to...",
       "link": "https://ihavebeenfloated.org/2026/04/15/it-took-me-a-long-time-to-become-aware-of-and-to/",
       "pubDate": "Wed, 15 Apr 2026 17:50:00 GMT",
@@ -5873,18 +5885,6 @@
       "link": "https://ihavebeenfloated.org/2026/04/14/i-hate-everything-related-to-ai-and-i-always-will/",
       "pubDate": "Wed, 15 Apr 2026 03:18:00 GMT",
       "pubDate_formatted": "Apr 14"
-    },
-    {
-      "title": "Listen, I didn’t have children, so I’m entitled...",
-      "link": "https://ihavebeenfloated.org/2026/04/13/listen-i-didn-t-have-children-so-i-m-entitled-to/",
-      "pubDate": "Mon, 13 Apr 2026 18:27:00 GMT",
-      "pubDate_formatted": "Apr 13"
-    },
-    {
-      "title": "A friend of mine is at a crossroads in their...",
-      "link": "https://ihavebeenfloated.org/2026/04/11/a-friend-of-mine-is-at-a-crossroads-in-their/",
-      "pubDate": "Sat, 11 Apr 2026 20:53:00 GMT",
-      "pubDate_formatted": "Apr 11"
     }
   ],
   "amiantosPosts": [
@@ -5919,5 +5919,5 @@
       "pubDate_formatted": "Oct 8"
     }
   ],
-  "_fetchedAt": 1777010401463
+  "_fetchedAt": 1777183201848
 }
