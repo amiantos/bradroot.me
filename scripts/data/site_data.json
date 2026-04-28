@@ -635,14 +635,14 @@
       "releases_url": "https://api.github.com/repos/amiantos/amiantos/releases{/id}",
       "deployments_url": "https://api.github.com/repos/amiantos/amiantos/deployments",
       "created_at": "2022-01-09T08:54:16Z",
-      "updated_at": "2026-03-23T15:40:05Z",
-      "pushed_at": "2026-03-23T15:40:00Z",
+      "updated_at": "2026-04-26T18:53:38Z",
+      "pushed_at": "2026-04-26T18:53:34Z",
       "git_url": "git://github.com/amiantos/amiantos.git",
       "ssh_url": "git@github.com:amiantos/amiantos.git",
       "clone_url": "https://github.com/amiantos/amiantos.git",
       "svn_url": "https://github.com/amiantos/amiantos",
       "homepage": null,
-      "size": 40,
+      "size": 42,
       "stargazers_count": 0,
       "watchers_count": 0,
       "language": null,
@@ -1057,14 +1057,14 @@
       "releases_url": "https://api.github.com/repos/amiantos/bradroot.me/releases{/id}",
       "deployments_url": "https://api.github.com/repos/amiantos/bradroot.me/deployments",
       "created_at": "2018-05-06T02:16:59Z",
-      "updated_at": "2026-04-25T06:00:05Z",
-      "pushed_at": "2026-04-25T06:00:02Z",
+      "updated_at": "2026-04-27T06:00:06Z",
+      "pushed_at": "2026-04-27T06:00:02Z",
       "git_url": "git://github.com/amiantos/bradroot.me.git",
       "ssh_url": "git@github.com:amiantos/bradroot.me.git",
       "clone_url": "https://github.com/amiantos/bradroot.me.git",
       "svn_url": "https://github.com/amiantos/bradroot.me",
       "homepage": "https://bradroot.me",
-      "size": 17531,
+      "size": 17570,
       "stargazers_count": 0,
       "watchers_count": 0,
       "language": "HTML",
@@ -1160,7 +1160,7 @@
       "releases_url": "https://api.github.com/repos/amiantos/c64-ultimate-toolbox/releases{/id}",
       "deployments_url": "https://api.github.com/repos/amiantos/c64-ultimate-toolbox/deployments",
       "created_at": "2026-03-08T23:05:53Z",
-      "updated_at": "2026-04-23T21:53:28Z",
+      "updated_at": "2026-04-26T07:13:17Z",
       "pushed_at": "2026-04-03T22:34:06Z",
       "git_url": "git://github.com/amiantos/c64-ultimate-toolbox.git",
       "ssh_url": "git@github.com:amiantos/c64-ultimate-toolbox.git",
@@ -1168,8 +1168,8 @@
       "svn_url": "https://github.com/amiantos/c64-ultimate-toolbox",
       "homepage": "https://discuss.bradroot.me/tags/c/projects/13/c64-ultimate-toolbox/36",
       "size": 7536,
-      "stargazers_count": 22,
-      "watchers_count": 22,
+      "stargazers_count": 23,
+      "watchers_count": 23,
       "language": "Swift",
       "has_issues": true,
       "has_projects": false,
@@ -1208,7 +1208,7 @@
       "visibility": "public",
       "forks": 0,
       "open_issues": 0,
-      "watchers": 22,
+      "watchers": 23,
       "default_branch": "main"
     },
     {
@@ -1709,14 +1709,14 @@
       "releases_url": "https://api.github.com/repos/amiantos/dreamers-guild/releases{/id}",
       "deployments_url": "https://api.github.com/repos/amiantos/dreamers-guild/deployments",
       "created_at": "2025-11-16T06:59:54Z",
-      "updated_at": "2026-01-16T02:49:05Z",
-      "pushed_at": "2026-01-15T00:48:36Z",
+      "updated_at": "2026-04-28T03:48:27Z",
+      "pushed_at": "2026-04-28T03:48:23Z",
       "git_url": "git://github.com/amiantos/dreamers-guild.git",
       "ssh_url": "git@github.com:amiantos/dreamers-guild.git",
       "clone_url": "https://github.com/amiantos/dreamers-guild.git",
       "svn_url": "https://github.com/amiantos/dreamers-guild",
       "homepage": "https://dreamers-guild.org/",
-      "size": 1834,
+      "size": 1837,
       "stargazers_count": 3,
       "watchers_count": 3,
       "language": "JavaScript",
@@ -2697,14 +2697,14 @@
       "releases_url": "https://api.github.com/repos/amiantos/impostor/releases{/id}",
       "deployments_url": "https://api.github.com/repos/amiantos/impostor/deployments",
       "created_at": "2023-05-21T01:26:01Z",
-      "updated_at": "2026-04-13T06:48:58Z",
-      "pushed_at": "2026-04-13T06:48:54Z",
+      "updated_at": "2026-04-27T23:18:42Z",
+      "pushed_at": "2026-04-27T23:18:38Z",
       "git_url": "git://github.com/amiantos/impostor.git",
       "ssh_url": "git@github.com:amiantos/impostor.git",
       "clone_url": "https://github.com/amiantos/impostor.git",
       "svn_url": "https://github.com/amiantos/impostor",
       "homepage": "",
-      "size": 592,
+      "size": 712,
       "stargazers_count": 2,
       "watchers_count": 2,
       "language": "JavaScript",
@@ -5158,14 +5158,14 @@
       "releases_url": "https://api.github.com/repos/amiantos/textlike/releases{/id}",
       "deployments_url": "https://api.github.com/repos/amiantos/textlike/deployments",
       "created_at": "2018-02-07T02:04:33Z",
-      "updated_at": "2026-01-14T14:46:50Z",
-      "pushed_at": "2026-01-10T17:55:05Z",
+      "updated_at": "2026-04-26T20:33:03Z",
+      "pushed_at": "2026-04-26T20:32:46Z",
       "git_url": "git://github.com/amiantos/textlike.git",
       "ssh_url": "git@github.com:amiantos/textlike.git",
       "clone_url": "https://github.com/amiantos/textlike.git",
       "svn_url": "https://github.com/amiantos/textlike",
-      "homepage": null,
-      "size": 1154,
+      "homepage": "https://textlike.amiantos.net",
+      "size": 1156,
       "stargazers_count": 4,
       "watchers_count": 4,
       "language": "PHP",
@@ -5603,14 +5603,14 @@
       "releases_url": "https://api.github.com/repos/amiantos/writers-guild/releases{/id}",
       "deployments_url": "https://api.github.com/repos/amiantos/writers-guild/deployments",
       "created_at": "2025-11-07T17:10:43Z",
-      "updated_at": "2026-02-14T06:15:03Z",
-      "pushed_at": "2026-02-14T06:14:59Z",
+      "updated_at": "2026-04-26T20:42:04Z",
+      "pushed_at": "2026-04-26T20:41:59Z",
       "git_url": "git://github.com/amiantos/writers-guild.git",
       "ssh_url": "git@github.com:amiantos/writers-guild.git",
       "clone_url": "https://github.com/amiantos/writers-guild.git",
       "svn_url": "https://github.com/amiantos/writers-guild",
       "homepage": "",
-      "size": 2491,
+      "size": 2496,
       "stargazers_count": 4,
       "watchers_count": 4,
       "language": "JavaScript",
@@ -5767,56 +5767,56 @@
   ],
   "discourse": {
     "topics": 58,
-    "posts": 816,
+    "posts": 839,
     "users": 6
   },
   "discourseTopics": [
     {
-      "title": "Movies",
-      "slug": "movies",
-      "id": 64,
-      "last_posted_at": "2026-04-26T05:27:43.948Z",
-      "last_posted_at_formatted": "Apr 25"
+      "title": "Videos",
+      "slug": "videos",
+      "id": 21,
+      "last_posted_at": "2026-04-28T04:48:24.858Z",
+      "last_posted_at_formatted": "Apr 27"
+    },
+    {
+      "title": "Anime / Manga",
+      "slug": "anime-manga",
+      "id": 88,
+      "last_posted_at": "2026-04-28T02:56:51.906Z",
+      "last_posted_at_formatted": "Apr 27"
+    },
+    {
+      "title": "Gadgets & Technology",
+      "slug": "gadgets-technology",
+      "id": 68,
+      "last_posted_at": "2026-04-27T21:54:59.048Z",
+      "last_posted_at_formatted": "Apr 27"
     },
     {
       "title": "Video Games",
       "slug": "video-games",
       "id": 55,
-      "last_posted_at": "2026-04-26T05:22:02.288Z",
-      "last_posted_at_formatted": "Apr 25"
-    },
-    {
-      "title": "PiBar v1.2 - Devlog",
-      "slug": "pibar-v1-2-devlog",
-      "id": 83,
-      "last_posted_at": "2026-04-26T02:34:13.885Z",
-      "last_posted_at_formatted": "Apr 25"
-    },
-    {
-      "title": "Food",
-      "slug": "food",
-      "id": 56,
-      "last_posted_at": "2026-04-25T20:52:27.204Z",
-      "last_posted_at_formatted": "Apr 25"
-    },
-    {
-      "title": "Videos",
-      "slug": "videos",
-      "id": 21,
-      "last_posted_at": "2026-04-25T16:23:48.667Z",
-      "last_posted_at_formatted": "Apr 25"
+      "last_posted_at": "2026-04-27T19:29:15.343Z",
+      "last_posted_at_formatted": "Apr 27"
     },
     {
       "title": "Artificial Intelligence",
       "slug": "artificial-intelligence",
       "id": 53,
-      "last_posted_at": "2026-04-23T16:35:29.393Z",
-      "last_posted_at_formatted": "Apr 23"
+      "last_posted_at": "2026-04-27T19:27:35.651Z",
+      "last_posted_at_formatted": "Apr 27"
+    },
+    {
+      "title": "Memes / Jokes",
+      "slug": "memes-jokes",
+      "id": 67,
+      "last_posted_at": "2026-04-27T06:53:22.248Z",
+      "last_posted_at_formatted": "Apr 26"
     }
   ],
   "aihorde": {
-    "images_generated": "32,798",
-    "kudos": "3,901,500"
+    "images_generated": "32,959",
+    "kudos": "3,919,850"
   },
   "stairesSongs": [
     {
@@ -5857,6 +5857,12 @@
   ],
   "floatedPosts": [
     {
+      "title": "A problem I have is that I frequently don't want...",
+      "link": "https://ihavebeenfloated.org/2026/04/26/a-problem-i-have-is-that-i-frequently-don-t-want/",
+      "pubDate": "Sun, 26 Apr 2026 18:59:00 GMT",
+      "pubDate_formatted": "Apr 26"
+    },
+    {
       "title": "Sorry I also just want to make fun of John Gruber...",
       "link": "https://ihavebeenfloated.org/2026/04/24/sorry-i-also-just-want-to-make-fun-of-john-gruber/",
       "pubDate": "Fri, 24 Apr 2026 18:38:00 GMT",
@@ -5879,12 +5885,6 @@
       "link": "https://ihavebeenfloated.org/2026/04/15/unpopular-opinion-but-the-amount-of-value-claude/",
       "pubDate": "Wed, 15 Apr 2026 07:04:00 GMT",
       "pubDate_formatted": "Apr 15"
-    },
-    {
-      "title": "\"I hate everything related to AI and I always...",
-      "link": "https://ihavebeenfloated.org/2026/04/14/i-hate-everything-related-to-ai-and-i-always-will/",
-      "pubDate": "Wed, 15 Apr 2026 03:18:00 GMT",
-      "pubDate_formatted": "Apr 14"
     }
   ],
   "amiantosPosts": [
@@ -5919,5 +5919,5 @@
       "pubDate_formatted": "Oct 8"
     }
   ],
-  "_fetchedAt": 1777183201848
+  "_fetchedAt": 1777356002224
 }
