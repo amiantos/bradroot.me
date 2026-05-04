@@ -258,7 +258,7 @@
         "site_admin": false
       },
       "html_url": "https://github.com/amiantos/ai-horde-irc",
-      "description": "An IRC bot for the AI Horde — image generation in #channels with R2-hosted results and a web dashboard.",
+      "description": "An IRC bot for the AI Horde — image generation in #channels with catbox-hosted results and a web dashboard.",
       "fork": false,
       "url": "https://api.github.com/repos/amiantos/ai-horde-irc",
       "forks_url": "https://api.github.com/repos/amiantos/ai-horde-irc/forks",
@@ -298,14 +298,14 @@
       "releases_url": "https://api.github.com/repos/amiantos/ai-horde-irc/releases{/id}",
       "deployments_url": "https://api.github.com/repos/amiantos/ai-horde-irc/deployments",
       "created_at": "2026-04-29T05:07:46Z",
-      "updated_at": "2026-04-29T06:13:31Z",
-      "pushed_at": "2026-04-29T06:13:28Z",
+      "updated_at": "2026-05-02T07:49:32Z",
+      "pushed_at": "2026-05-02T07:49:29Z",
       "git_url": "git://github.com/amiantos/ai-horde-irc.git",
       "ssh_url": "git@github.com:amiantos/ai-horde-irc.git",
       "clone_url": "https://github.com/amiantos/ai-horde-irc.git",
       "svn_url": "https://github.com/amiantos/ai-horde-irc",
       "homepage": "",
-      "size": 105,
+      "size": 113,
       "stargazers_count": 1,
       "watchers_count": 1,
       "language": "JavaScript",
@@ -335,6 +335,8 @@
       "topics": [
         "ai-horde",
         "aihorde",
+        "catbox",
+        "catboxmoe",
         "irc",
         "irc-bot",
         "stable-diffusion"
@@ -1172,14 +1174,14 @@
       "releases_url": "https://api.github.com/repos/amiantos/bradroot.me/releases{/id}",
       "deployments_url": "https://api.github.com/repos/amiantos/bradroot.me/deployments",
       "created_at": "2018-05-06T02:16:59Z",
-      "updated_at": "2026-05-01T06:00:05Z",
-      "pushed_at": "2026-05-01T06:00:01Z",
+      "updated_at": "2026-05-03T06:00:05Z",
+      "pushed_at": "2026-05-03T06:00:01Z",
       "git_url": "git://github.com/amiantos/bradroot.me.git",
       "ssh_url": "git@github.com:amiantos/bradroot.me.git",
       "clone_url": "https://github.com/amiantos/bradroot.me.git",
       "svn_url": "https://github.com/amiantos/bradroot.me",
       "homepage": "https://bradroot.me",
-      "size": 17648,
+      "size": 17688,
       "stargazers_count": 0,
       "watchers_count": 0,
       "language": "HTML",
@@ -2921,14 +2923,14 @@
       "releases_url": "https://api.github.com/repos/amiantos/impostor/releases{/id}",
       "deployments_url": "https://api.github.com/repos/amiantos/impostor/deployments",
       "created_at": "2023-05-21T01:26:01Z",
-      "updated_at": "2026-04-30T00:15:10Z",
-      "pushed_at": "2026-04-30T00:15:07Z",
+      "updated_at": "2026-05-03T17:08:46Z",
+      "pushed_at": "2026-05-03T17:08:43Z",
       "git_url": "git://github.com/amiantos/impostor.git",
       "ssh_url": "git@github.com:amiantos/impostor.git",
       "clone_url": "https://github.com/amiantos/impostor.git",
       "svn_url": "https://github.com/amiantos/impostor",
       "homepage": "",
-      "size": 733,
+      "size": 746,
       "stargazers_count": 2,
       "watchers_count": 2,
       "language": "JavaScript",
@@ -3716,16 +3718,16 @@
       "releases_url": "https://api.github.com/repos/amiantos/lifesaver/releases{/id}",
       "deployments_url": "https://api.github.com/repos/amiantos/lifesaver/deployments",
       "created_at": "2019-05-18T18:10:08Z",
-      "updated_at": "2026-04-25T05:08:14Z",
-      "pushed_at": "2026-04-13T07:04:49Z",
+      "updated_at": "2026-05-03T19:42:34Z",
+      "pushed_at": "2026-05-04T03:55:19Z",
       "git_url": "git://github.com/amiantos/lifesaver.git",
       "ssh_url": "git@github.com:amiantos/lifesaver.git",
       "clone_url": "https://github.com/amiantos/lifesaver.git",
       "svn_url": "https://github.com/amiantos/lifesaver",
       "homepage": "https://discuss.bradroot.me/tags/c/projects/13/life-saver/7",
-      "size": 38122,
-      "stargazers_count": 230,
-      "watchers_count": 230,
+      "size": 38165,
+      "stargazers_count": 231,
+      "watchers_count": 231,
       "language": "Swift",
       "has_issues": true,
       "has_projects": true,
@@ -3769,7 +3771,7 @@
       "visibility": "public",
       "forks": 12,
       "open_issues": 11,
-      "watchers": 230,
+      "watchers": 231,
       "default_branch": "master"
     },
     {
@@ -4294,14 +4296,14 @@
       "releases_url": "https://api.github.com/repos/amiantos/postalgic/releases{/id}",
       "deployments_url": "https://api.github.com/repos/amiantos/postalgic/deployments",
       "created_at": "2023-03-09T08:20:49Z",
-      "updated_at": "2026-05-01T15:19:01Z",
-      "pushed_at": "2026-03-03T04:59:36Z",
+      "updated_at": "2026-05-02T07:44:52Z",
+      "pushed_at": "2026-05-02T07:44:48Z",
       "git_url": "git://github.com/amiantos/postalgic.git",
       "ssh_url": "git@github.com:amiantos/postalgic.git",
       "clone_url": "https://github.com/amiantos/postalgic.git",
       "svn_url": "https://github.com/amiantos/postalgic",
       "homepage": "",
-      "size": 2635,
+      "size": 2709,
       "stargazers_count": 3,
       "watchers_count": 3,
       "language": "JavaScript",
@@ -4849,14 +4851,14 @@
       "releases_url": "https://api.github.com/repos/amiantos/snitch/releases{/id}",
       "deployments_url": "https://api.github.com/repos/amiantos/snitch/deployments",
       "created_at": "2026-04-29T21:25:53Z",
-      "updated_at": "2026-04-30T00:05:21Z",
-      "pushed_at": "2026-04-30T00:05:17Z",
+      "updated_at": "2026-05-02T06:48:39Z",
+      "pushed_at": "2026-05-02T06:48:36Z",
       "git_url": "git://github.com/amiantos/snitch.git",
       "ssh_url": "git@github.com:amiantos/snitch.git",
       "clone_url": "https://github.com/amiantos/snitch.git",
       "svn_url": "https://github.com/amiantos/snitch",
       "homepage": null,
-      "size": 59,
+      "size": 65,
       "stargazers_count": 1,
       "watchers_count": 1,
       "language": "JavaScript",
@@ -6094,58 +6096,65 @@
   ],
   "discourse": {
     "topics": 58,
-    "posts": 853,
+    "posts": 867,
     "users": 6
   },
   "discourseTopics": [
     {
+      "title": "Food",
+      "slug": "food",
+      "id": 56,
+      "last_posted_at": "2026-05-04T04:17:58.838Z",
+      "last_posted_at_formatted": "May 3"
+    },
+    {
+      "title": "Life Saver Screensaver - Devlog",
+      "slug": "life-saver-screensaver-devlog",
+      "id": 86,
+      "last_posted_at": "2026-05-04T04:02:44.726Z",
+      "last_posted_at_formatted": "May 3"
+    },
+    {
       "title": "Video Games",
       "slug": "video-games",
       "id": 55,
-      "last_posted_at": "2026-05-01T21:26:23.308Z",
-      "last_posted_at_formatted": "May 1"
-    },
-    {
-      "title": "Gadgets & Technology",
-      "slug": "gadgets-technology",
-      "id": 68,
-      "last_posted_at": "2026-05-01T16:18:38.136Z",
-      "last_posted_at_formatted": "May 1"
-    },
-    {
-      "title": "Anime / Manga",
-      "slug": "anime-manga",
-      "id": 88,
-      "last_posted_at": "2026-04-29T02:42:19.674Z",
-      "last_posted_at_formatted": "Apr 28"
+      "last_posted_at": "2026-05-03T21:25:56.601Z",
+      "last_posted_at_formatted": "May 3"
     },
     {
       "title": "Artificial Intelligence",
       "slug": "artificial-intelligence",
       "id": 53,
-      "last_posted_at": "2026-04-28T17:33:47.153Z",
-      "last_posted_at_formatted": "Apr 28"
+      "last_posted_at": "2026-05-02T22:07:37.341Z",
+      "last_posted_at_formatted": "May 2"
     },
     {
-      "title": "Memes / Jokes",
-      "slug": "memes-jokes",
-      "id": 67,
-      "last_posted_at": "2026-04-28T15:23:06.157Z",
-      "last_posted_at_formatted": "Apr 28"
+      "title": "Software Engineering",
+      "slug": "software-engineering",
+      "id": 57,
+      "last_posted_at": "2026-05-02T07:59:13.579Z",
+      "last_posted_at_formatted": "May 2"
     },
     {
-      "title": "Videos",
-      "slug": "videos",
-      "id": 21,
-      "last_posted_at": "2026-04-28T04:48:24.858Z",
-      "last_posted_at_formatted": "Apr 27"
+      "title": "Postalgic (Self-Hosted) - Devlog",
+      "slug": "postalgic-self-hosted-devlog",
+      "id": 45,
+      "last_posted_at": "2026-05-02T07:51:56.970Z",
+      "last_posted_at_formatted": "May 2"
     }
   ],
   "aihorde": {
-    "images_generated": "33,334",
-    "kudos": "3,959,972"
+    "images_generated": "33,433",
+    "kudos": "3,993,890"
   },
   "stairesSongs": [
+    {
+      "title": "Gelli Haha - Spit",
+      "link": "https://staires.org/2026/05/01/gelli-haha-spit/",
+      "pubDate": "Sat, 02 May 2026 06:50:00 GMT",
+      "youtubeId": "RDnTe8RNOVw",
+      "pubDate_formatted": "May 1"
+    },
     {
       "title": "Sufjan Stevens - Will Anybody Ever Love Me?",
       "link": "https://staires.org/2026/04/20/sufjan-stevens-will-anybody-ever-love-me/",
@@ -6173,16 +6182,15 @@
       "pubDate": "Mon, 06 Apr 2026 04:00:00 GMT",
       "youtubeId": "FQvwhgcOMdM",
       "pubDate_formatted": "Apr 5"
-    },
-    {
-      "title": "Toni Basil - You Gotta Problem",
-      "link": "https://staires.org/2026/04/04/toni-basil-you-gotta-problem/",
-      "pubDate": "Sat, 04 Apr 2026 19:44:00 GMT",
-      "youtubeId": "t_4L_ZIES4g",
-      "pubDate_formatted": "Apr 4"
     }
   ],
   "floatedPosts": [
+    {
+      "title": "Earlier today the Apple Music auto-mix thing...",
+      "link": "https://ihavebeenfloated.org/2026/05/01/earlier-today-the-apple-music-auto-mix-thing/",
+      "pubDate": "Sat, 02 May 2026 06:44:00 GMT",
+      "pubDate_formatted": "May 1"
+    },
     {
       "title": "A problem I have is that I frequently don't want...",
       "link": "https://ihavebeenfloated.org/2026/04/26/a-problem-i-have-is-that-i-frequently-don-t-want/",
@@ -6205,12 +6213,6 @@
       "title": "It took me a long time to become aware of and to...",
       "link": "https://ihavebeenfloated.org/2026/04/15/it-took-me-a-long-time-to-become-aware-of-and-to/",
       "pubDate": "Wed, 15 Apr 2026 17:50:00 GMT",
-      "pubDate_formatted": "Apr 15"
-    },
-    {
-      "title": "Unpopular opinion but the amount of value Claude...",
-      "link": "https://ihavebeenfloated.org/2026/04/15/unpopular-opinion-but-the-amount-of-value-claude/",
-      "pubDate": "Wed, 15 Apr 2026 07:04:00 GMT",
       "pubDate_formatted": "Apr 15"
     }
   ],
@@ -6246,5 +6248,5 @@
       "pubDate_formatted": "Oct 8"
     }
   ],
-  "_fetchedAt": 1777701601979
+  "_fetchedAt": 1777874401236
 }
