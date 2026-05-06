@@ -1071,7 +1071,7 @@
       "releases_url": "https://api.github.com/repos/amiantos/awesome-macos-screensavers/releases{/id}",
       "deployments_url": "https://api.github.com/repos/amiantos/awesome-macos-screensavers/deployments",
       "created_at": "2019-05-30T17:33:05Z",
-      "updated_at": "2025-12-05T17:28:43Z",
+      "updated_at": "2026-05-05T14:16:15Z",
       "pushed_at": "2023-06-19T19:14:57Z",
       "git_url": "git://github.com/amiantos/awesome-macos-screensavers.git",
       "ssh_url": "git@github.com:amiantos/awesome-macos-screensavers.git",
@@ -1079,8 +1079,8 @@
       "svn_url": "https://github.com/amiantos/awesome-macos-screensavers",
       "homepage": "",
       "size": 22689,
-      "stargazers_count": 2,
-      "watchers_count": 2,
+      "stargazers_count": 3,
+      "watchers_count": 3,
       "language": null,
       "has_issues": false,
       "has_projects": true,
@@ -1103,7 +1103,7 @@
       "visibility": "public",
       "forks": 0,
       "open_issues": 0,
-      "watchers": 2,
+      "watchers": 3,
       "default_branch": "master"
     },
     {
@@ -1174,14 +1174,14 @@
       "releases_url": "https://api.github.com/repos/amiantos/bradroot.me/releases{/id}",
       "deployments_url": "https://api.github.com/repos/amiantos/bradroot.me/deployments",
       "created_at": "2018-05-06T02:16:59Z",
-      "updated_at": "2026-05-03T06:00:05Z",
-      "pushed_at": "2026-05-03T06:00:01Z",
+      "updated_at": "2026-05-05T06:00:06Z",
+      "pushed_at": "2026-05-05T06:00:02Z",
       "git_url": "git://github.com/amiantos/bradroot.me.git",
       "ssh_url": "git@github.com:amiantos/bradroot.me.git",
       "clone_url": "https://github.com/amiantos/bradroot.me.git",
       "svn_url": "https://github.com/amiantos/bradroot.me",
       "homepage": "https://bradroot.me",
-      "size": 17688,
+      "size": 17729,
       "stargazers_count": 0,
       "watchers_count": 0,
       "language": "HTML",
@@ -1940,7 +1940,7 @@
       "releases_url": "https://api.github.com/repos/amiantos/ealain/releases{/id}",
       "deployments_url": "https://api.github.com/repos/amiantos/ealain/deployments",
       "created_at": "2023-06-14T21:41:08Z",
-      "updated_at": "2026-04-01T04:51:04Z",
+      "updated_at": "2026-05-05T14:15:27Z",
       "pushed_at": "2025-02-10T08:30:03Z",
       "git_url": "git://github.com/amiantos/ealain.git",
       "ssh_url": "git@github.com:amiantos/ealain.git",
@@ -1948,8 +1948,8 @@
       "svn_url": "https://github.com/amiantos/ealain",
       "homepage": "",
       "size": 2578,
-      "stargazers_count": 70,
-      "watchers_count": 70,
+      "stargazers_count": 71,
+      "watchers_count": 71,
       "language": "Swift",
       "has_issues": true,
       "has_projects": false,
@@ -1989,7 +1989,7 @@
       "visibility": "public",
       "forks": 2,
       "open_issues": 3,
-      "watchers": 70,
+      "watchers": 71,
       "default_branch": "main"
     },
     {
@@ -2923,14 +2923,14 @@
       "releases_url": "https://api.github.com/repos/amiantos/impostor/releases{/id}",
       "deployments_url": "https://api.github.com/repos/amiantos/impostor/deployments",
       "created_at": "2023-05-21T01:26:01Z",
-      "updated_at": "2026-05-03T17:08:46Z",
-      "pushed_at": "2026-05-03T17:08:43Z",
+      "updated_at": "2026-05-05T18:09:15Z",
+      "pushed_at": "2026-05-05T18:09:10Z",
       "git_url": "git://github.com/amiantos/impostor.git",
       "ssh_url": "git@github.com:amiantos/impostor.git",
       "clone_url": "https://github.com/amiantos/impostor.git",
       "svn_url": "https://github.com/amiantos/impostor",
       "homepage": "",
-      "size": 746,
+      "size": 788,
       "stargazers_count": 2,
       "watchers_count": 2,
       "language": "JavaScript",
@@ -3718,7 +3718,7 @@
       "releases_url": "https://api.github.com/repos/amiantos/lifesaver/releases{/id}",
       "deployments_url": "https://api.github.com/repos/amiantos/lifesaver/deployments",
       "created_at": "2019-05-18T18:10:08Z",
-      "updated_at": "2026-05-03T19:42:34Z",
+      "updated_at": "2026-05-04T09:08:37Z",
       "pushed_at": "2026-05-04T03:55:19Z",
       "git_url": "git://github.com/amiantos/lifesaver.git",
       "ssh_url": "git@github.com:amiantos/lifesaver.git",
@@ -3726,8 +3726,8 @@
       "svn_url": "https://github.com/amiantos/lifesaver",
       "homepage": "https://discuss.bradroot.me/tags/c/projects/13/life-saver/7",
       "size": 38165,
-      "stargazers_count": 231,
-      "watchers_count": 231,
+      "stargazers_count": 232,
+      "watchers_count": 232,
       "language": "Swift",
       "has_issues": true,
       "has_projects": true,
@@ -3771,7 +3771,7 @@
       "visibility": "public",
       "forks": 12,
       "open_issues": 11,
-      "watchers": 231,
+      "watchers": 232,
       "default_branch": "master"
     },
     {
@@ -5829,17 +5829,17 @@
       "releases_url": "https://api.github.com/repos/amiantos/witness/releases{/id}",
       "deployments_url": "https://api.github.com/repos/amiantos/witness/deployments",
       "created_at": "2026-04-18T16:57:12Z",
-      "updated_at": "2026-04-18T17:00:05Z",
-      "pushed_at": "2026-04-18T17:00:01Z",
+      "updated_at": "2026-05-04T07:40:08Z",
+      "pushed_at": "2026-05-04T07:40:03Z",
       "git_url": "git://github.com/amiantos/witness.git",
       "ssh_url": "git@github.com:amiantos/witness.git",
       "clone_url": "https://github.com/amiantos/witness.git",
       "svn_url": "https://github.com/amiantos/witness",
       "homepage": null,
-      "size": 50,
+      "size": 96,
       "stargazers_count": 1,
       "watchers_count": 1,
-      "language": "JavaScript",
+      "language": "Shell",
       "has_issues": true,
       "has_projects": true,
       "has_downloads": true,
@@ -5932,7 +5932,7 @@
       "releases_url": "https://api.github.com/repos/amiantos/writers-guild/releases{/id}",
       "deployments_url": "https://api.github.com/repos/amiantos/writers-guild/deployments",
       "created_at": "2025-11-07T17:10:43Z",
-      "updated_at": "2026-04-26T20:42:04Z",
+      "updated_at": "2026-05-06T02:51:51Z",
       "pushed_at": "2026-04-26T20:41:59Z",
       "git_url": "git://github.com/amiantos/writers-guild.git",
       "ssh_url": "git@github.com:amiantos/writers-guild.git",
@@ -5940,8 +5940,8 @@
       "svn_url": "https://github.com/amiantos/writers-guild",
       "homepage": "",
       "size": 2496,
-      "stargazers_count": 4,
-      "watchers_count": 4,
+      "stargazers_count": 5,
+      "watchers_count": 5,
       "language": "JavaScript",
       "has_issues": true,
       "has_projects": true,
@@ -5979,7 +5979,7 @@
       "visibility": "public",
       "forks": 0,
       "open_issues": 2,
-      "watchers": 4,
+      "watchers": 5,
       "default_branch": "main"
     },
     {
@@ -6096,10 +6096,38 @@
   ],
   "discourse": {
     "topics": 58,
-    "posts": 867,
+    "posts": 873,
     "users": 6
   },
   "discourseTopics": [
+    {
+      "title": "Video Games",
+      "slug": "video-games",
+      "id": 55,
+      "last_posted_at": "2026-05-06T05:12:00.685Z",
+      "last_posted_at_formatted": "May 5"
+    },
+    {
+      "title": "Artificial Intelligence",
+      "slug": "artificial-intelligence",
+      "id": 53,
+      "last_posted_at": "2026-05-06T03:34:43.267Z",
+      "last_posted_at_formatted": "May 5"
+    },
+    {
+      "title": "Anime / Manga",
+      "slug": "anime-manga",
+      "id": 88,
+      "last_posted_at": "2026-05-05T21:00:42.304Z",
+      "last_posted_at_formatted": "May 5"
+    },
+    {
+      "title": "Software Engineering",
+      "slug": "software-engineering",
+      "id": 57,
+      "last_posted_at": "2026-05-04T07:35:51.039Z",
+      "last_posted_at_formatted": "May 4"
+    },
     {
       "title": "Food",
       "slug": "food",
@@ -6113,39 +6141,11 @@
       "id": 86,
       "last_posted_at": "2026-05-04T04:02:44.726Z",
       "last_posted_at_formatted": "May 3"
-    },
-    {
-      "title": "Video Games",
-      "slug": "video-games",
-      "id": 55,
-      "last_posted_at": "2026-05-03T21:25:56.601Z",
-      "last_posted_at_formatted": "May 3"
-    },
-    {
-      "title": "Artificial Intelligence",
-      "slug": "artificial-intelligence",
-      "id": 53,
-      "last_posted_at": "2026-05-02T22:07:37.341Z",
-      "last_posted_at_formatted": "May 2"
-    },
-    {
-      "title": "Software Engineering",
-      "slug": "software-engineering",
-      "id": 57,
-      "last_posted_at": "2026-05-02T07:59:13.579Z",
-      "last_posted_at_formatted": "May 2"
-    },
-    {
-      "title": "Postalgic (Self-Hosted) - Devlog",
-      "slug": "postalgic-self-hosted-devlog",
-      "id": 45,
-      "last_posted_at": "2026-05-02T07:51:56.970Z",
-      "last_posted_at_formatted": "May 2"
     }
   ],
   "aihorde": {
-    "images_generated": "33,433",
-    "kudos": "3,993,890"
+    "images_generated": "33,616",
+    "kudos": "4,032,256"
   },
   "stairesSongs": [
     {
@@ -6186,6 +6186,12 @@
   ],
   "floatedPosts": [
     {
+      "title": "Holy shit, this video is crazy. I could never do...",
+      "link": "https://ihavebeenfloated.org/2026/05/04/holy-shit-this-video-is-crazy-i-could-never-do-a/",
+      "pubDate": "Tue, 05 May 2026 05:52:00 GMT",
+      "pubDate_formatted": "May 4"
+    },
+    {
       "title": "Earlier today the Apple Music auto-mix thing...",
       "link": "https://ihavebeenfloated.org/2026/05/01/earlier-today-the-apple-music-auto-mix-thing/",
       "pubDate": "Sat, 02 May 2026 06:44:00 GMT",
@@ -6208,12 +6214,6 @@
       "link": "https://ihavebeenfloated.org/2026/04/24/john-gruber-joins-a-long-lineage-in-assuming/",
       "pubDate": "Fri, 24 Apr 2026 16:22:00 GMT",
       "pubDate_formatted": "Apr 24"
-    },
-    {
-      "title": "It took me a long time to become aware of and to...",
-      "link": "https://ihavebeenfloated.org/2026/04/15/it-took-me-a-long-time-to-become-aware-of-and-to/",
-      "pubDate": "Wed, 15 Apr 2026 17:50:00 GMT",
-      "pubDate_formatted": "Apr 15"
     }
   ],
   "amiantosPosts": [
@@ -6248,5 +6248,5 @@
       "pubDate_formatted": "Oct 8"
     }
   ],
-  "_fetchedAt": 1777874401236
+  "_fetchedAt": 1778047201889
 }
