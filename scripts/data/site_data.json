@@ -1174,14 +1174,14 @@
       "releases_url": "https://api.github.com/repos/amiantos/bradroot.me/releases{/id}",
       "deployments_url": "https://api.github.com/repos/amiantos/bradroot.me/deployments",
       "created_at": "2018-05-06T02:16:59Z",
-      "updated_at": "2026-05-13T06:00:06Z",
-      "pushed_at": "2026-05-13T06:00:02Z",
+      "updated_at": "2026-05-15T06:00:06Z",
+      "pushed_at": "2026-05-15T06:00:02Z",
       "git_url": "git://github.com/amiantos/bradroot.me.git",
       "ssh_url": "git@github.com:amiantos/bradroot.me.git",
       "clone_url": "https://github.com/amiantos/bradroot.me.git",
       "svn_url": "https://github.com/amiantos/bradroot.me",
       "homepage": "https://bradroot.me",
-      "size": 17890,
+      "size": 17930,
       "stargazers_count": 0,
       "watchers_count": 0,
       "language": "HTML",
@@ -2493,14 +2493,14 @@
       "releases_url": "https://api.github.com/repos/amiantos/hoarder/releases{/id}",
       "deployments_url": "https://api.github.com/repos/amiantos/hoarder/deployments",
       "created_at": "2026-04-28T22:32:40Z",
-      "updated_at": "2026-05-12T23:39:54Z",
-      "pushed_at": "2026-05-12T23:39:50Z",
+      "updated_at": "2026-05-15T20:42:46Z",
+      "pushed_at": "2026-05-15T20:42:42Z",
       "git_url": "git://github.com/amiantos/hoarder.git",
       "ssh_url": "git@github.com:amiantos/hoarder.git",
       "clone_url": "https://github.com/amiantos/hoarder.git",
       "svn_url": "https://github.com/amiantos/hoarder",
       "homepage": null,
-      "size": 58,
+      "size": 60,
       "stargazers_count": 1,
       "watchers_count": 1,
       "language": "JavaScript",
@@ -3718,7 +3718,7 @@
       "releases_url": "https://api.github.com/repos/amiantos/lifesaver/releases{/id}",
       "deployments_url": "https://api.github.com/repos/amiantos/lifesaver/deployments",
       "created_at": "2019-05-18T18:10:08Z",
-      "updated_at": "2026-05-04T09:08:37Z",
+      "updated_at": "2026-05-15T18:41:34Z",
       "pushed_at": "2026-05-04T03:55:19Z",
       "git_url": "git://github.com/amiantos/lifesaver.git",
       "ssh_url": "git@github.com:amiantos/lifesaver.git",
@@ -3726,8 +3726,8 @@
       "svn_url": "https://github.com/amiantos/lifesaver",
       "homepage": "https://discuss.bradroot.me/tags/c/projects/13/life-saver/7",
       "size": 38165,
-      "stargazers_count": 232,
-      "watchers_count": 232,
+      "stargazers_count": 233,
+      "watchers_count": 233,
       "language": "Swift",
       "has_issues": true,
       "has_projects": true,
@@ -3771,7 +3771,7 @@
       "visibility": "public",
       "forks": 12,
       "open_issues": 11,
-      "watchers": 232,
+      "watchers": 233,
       "default_branch": "master"
     },
     {
@@ -6096,23 +6096,30 @@
   ],
   "discourse": {
     "topics": 60,
-    "posts": 901,
+    "posts": 904,
     "users": 7
   },
   "discourseTopics": [
+    {
+      "title": "Artificial Intelligence",
+      "slug": "artificial-intelligence",
+      "id": 53,
+      "last_posted_at": "2026-05-15T15:17:31.840Z",
+      "last_posted_at_formatted": "May 15"
+    },
+    {
+      "title": "Lurker - Devlog",
+      "slug": "lurker-devlog",
+      "id": 89,
+      "last_posted_at": "2026-05-15T07:17:55.119Z",
+      "last_posted_at_formatted": "May 15"
+    },
     {
       "title": "Video Games",
       "slug": "video-games",
       "id": 55,
       "last_posted_at": "2026-05-13T18:39:25.632Z",
       "last_posted_at_formatted": "May 13"
-    },
-    {
-      "title": "Lurker - Devlog",
-      "slug": "lurker-devlog",
-      "id": 89,
-      "last_posted_at": "2026-05-12T09:16:20.287Z",
-      "last_posted_at_formatted": "May 12"
     },
     {
       "title": "Life Share",
@@ -6134,18 +6141,11 @@
       "id": 56,
       "last_posted_at": "2026-05-09T03:41:20.177Z",
       "last_posted_at_formatted": "May 8"
-    },
-    {
-      "title": "Gadgets & Technology",
-      "slug": "gadgets-technology",
-      "id": 68,
-      "last_posted_at": "2026-05-08T22:29:34.432Z",
-      "last_posted_at_formatted": "May 8"
     }
   ],
   "aihorde": {
-    "images_generated": "34,607",
-    "kudos": "4,182,899"
+    "images_generated": "34,716",
+    "kudos": "4,209,375"
   },
   "stairesSongs": [
     {
@@ -6248,5 +6248,5 @@
       "pubDate_formatted": "Oct 8"
     }
   ],
-  "_fetchedAt": 1778738402456
+  "_fetchedAt": 1778911201424
 }
