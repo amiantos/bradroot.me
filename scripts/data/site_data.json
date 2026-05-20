@@ -1174,14 +1174,14 @@
       "releases_url": "https://api.github.com/repos/amiantos/bradroot.me/releases{/id}",
       "deployments_url": "https://api.github.com/repos/amiantos/bradroot.me/deployments",
       "created_at": "2018-05-06T02:16:59Z",
-      "updated_at": "2026-05-17T06:00:05Z",
-      "pushed_at": "2026-05-17T06:00:01Z",
+      "updated_at": "2026-05-19T06:00:06Z",
+      "pushed_at": "2026-05-19T06:00:02Z",
       "git_url": "git://github.com/amiantos/bradroot.me.git",
       "ssh_url": "git@github.com:amiantos/bradroot.me.git",
       "clone_url": "https://github.com/amiantos/bradroot.me.git",
       "svn_url": "https://github.com/amiantos/bradroot.me",
       "homepage": "https://bradroot.me",
-      "size": 17970,
+      "size": 18011,
       "stargazers_count": 0,
       "watchers_count": 0,
       "language": "HTML",
@@ -3718,7 +3718,7 @@
       "releases_url": "https://api.github.com/repos/amiantos/lifesaver/releases{/id}",
       "deployments_url": "https://api.github.com/repos/amiantos/lifesaver/deployments",
       "created_at": "2019-05-18T18:10:08Z",
-      "updated_at": "2026-05-15T18:41:34Z",
+      "updated_at": "2026-05-18T06:14:15Z",
       "pushed_at": "2026-05-04T03:55:19Z",
       "git_url": "git://github.com/amiantos/lifesaver.git",
       "ssh_url": "git@github.com:amiantos/lifesaver.git",
@@ -3726,8 +3726,8 @@
       "svn_url": "https://github.com/amiantos/lifesaver",
       "homepage": "https://discuss.bradroot.me/tags/c/projects/13/life-saver/7",
       "size": 38165,
-      "stargazers_count": 233,
-      "watchers_count": 233,
+      "stargazers_count": 234,
+      "watchers_count": 234,
       "language": "Swift",
       "has_issues": true,
       "has_projects": true,
@@ -3771,7 +3771,7 @@
       "visibility": "public",
       "forks": 12,
       "open_issues": 11,
-      "watchers": 233,
+      "watchers": 234,
       "default_branch": "master"
     },
     {
@@ -3905,7 +3905,7 @@
         "site_admin": false
       },
       "html_url": "https://github.com/amiantos/lurker",
-      "description": "Lurker is a self-hosted modern IRC client with a retro flair, most easily described as \"your personal IRCCloud, with Weechat looks\".",
+      "description": "Lurker is a beautiful self-hosted modern IRC client with a retro flair, most easily described as \"your personal IRCCloud, with Weechat looks\".",
       "fork": false,
       "url": "https://api.github.com/repos/amiantos/lurker",
       "forks_url": "https://api.github.com/repos/amiantos/lurker/forks",
@@ -3945,16 +3945,16 @@
       "releases_url": "https://api.github.com/repos/amiantos/lurker/releases{/id}",
       "deployments_url": "https://api.github.com/repos/amiantos/lurker/deployments",
       "created_at": "2026-05-07T06:56:39Z",
-      "updated_at": "2026-05-18T05:50:13Z",
-      "pushed_at": "2026-05-18T05:50:09Z",
+      "updated_at": "2026-05-19T20:53:27Z",
+      "pushed_at": "2026-05-20T05:45:11Z",
       "git_url": "git://github.com/amiantos/lurker.git",
       "ssh_url": "git@github.com:amiantos/lurker.git",
       "clone_url": "https://github.com/amiantos/lurker.git",
       "svn_url": "https://github.com/amiantos/lurker",
       "homepage": "",
-      "size": 3606,
-      "stargazers_count": 0,
-      "watchers_count": 0,
+      "size": 3087,
+      "stargazers_count": 2,
+      "watchers_count": 2,
       "language": "JavaScript",
       "has_issues": true,
       "has_projects": false,
@@ -3966,19 +3966,19 @@
       "mirror_url": null,
       "archived": false,
       "disabled": false,
-      "open_issues_count": 1,
+      "open_issues_count": 13,
       "license": {
-        "key": "other",
-        "name": "Other",
-        "spdx_id": "NOASSERTION",
-        "url": null,
-        "node_id": "MDc6TGljZW5zZTA="
+        "key": "mpl-2.0",
+        "name": "Mozilla Public License 2.0",
+        "spdx_id": "MPL-2.0",
+        "url": "https://api.github.com/licenses/mpl-2.0",
+        "node_id": "MDc6TGljZW5zZTE0"
       },
       "allow_forking": true,
       "is_template": false,
       "web_commit_signoff_required": false,
       "has_pull_requests": true,
-      "pull_request_creation_policy": "collaborators_only",
+      "pull_request_creation_policy": "all",
       "topics": [
         "express",
         "irc",
@@ -3989,8 +3989,8 @@
       ],
       "visibility": "public",
       "forks": 0,
-      "open_issues": 1,
-      "watchers": 0,
+      "open_issues": 13,
+      "watchers": 2,
       "default_branch": "main"
     },
     {
@@ -4967,14 +4967,14 @@
       "releases_url": "https://api.github.com/repos/amiantos/snitch/releases{/id}",
       "deployments_url": "https://api.github.com/repos/amiantos/snitch/deployments",
       "created_at": "2026-04-29T21:25:53Z",
-      "updated_at": "2026-05-02T06:48:39Z",
-      "pushed_at": "2026-05-02T06:48:36Z",
+      "updated_at": "2026-05-18T06:38:19Z",
+      "pushed_at": "2026-05-18T06:38:15Z",
       "git_url": "git://github.com/amiantos/snitch.git",
       "ssh_url": "git@github.com:amiantos/snitch.git",
       "clone_url": "https://github.com/amiantos/snitch.git",
       "svn_url": "https://github.com/amiantos/snitch",
       "homepage": null,
-      "size": 65,
+      "size": 73,
       "stargazers_count": 1,
       "watchers_count": 1,
       "language": "JavaScript",
@@ -6212,23 +6212,23 @@
   ],
   "discourse": {
     "topics": 60,
-    "posts": 908,
+    "posts": 910,
     "users": 7
   },
   "discourseTopics": [
     {
-      "title": "Lurker - Devlog",
-      "slug": "lurker-devlog",
-      "id": 89,
-      "last_posted_at": "2026-05-17T07:17:14.107Z",
-      "last_posted_at_formatted": "May 17"
-    },
-    {
       "title": "Artificial Intelligence",
       "slug": "artificial-intelligence",
       "id": 53,
-      "last_posted_at": "2026-05-15T15:17:31.840Z",
-      "last_posted_at_formatted": "May 15"
+      "last_posted_at": "2026-05-19T18:14:08.244Z",
+      "last_posted_at_formatted": "May 19"
+    },
+    {
+      "title": "Lurker - Devlog",
+      "slug": "lurker-devlog",
+      "id": 89,
+      "last_posted_at": "2026-05-18T06:50:32.824Z",
+      "last_posted_at_formatted": "May 17"
     },
     {
       "title": "Video Games",
@@ -6260,8 +6260,8 @@
     }
   ],
   "aihorde": {
-    "images_generated": "34,898",
-    "kudos": "4,261,900"
+    "images_generated": "35,319",
+    "kudos": "4,293,761"
   },
   "stairesSongs": [
     {
@@ -6364,5 +6364,5 @@
       "pubDate_formatted": "Oct 8"
     }
   ],
-  "_fetchedAt": 1779084002092
+  "_fetchedAt": 1779256801741
 }
