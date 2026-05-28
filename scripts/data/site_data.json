@@ -1174,14 +1174,14 @@
       "releases_url": "https://api.github.com/repos/amiantos/bradroot.me/releases{/id}",
       "deployments_url": "https://api.github.com/repos/amiantos/bradroot.me/deployments",
       "created_at": "2018-05-06T02:16:59Z",
-      "updated_at": "2026-05-25T06:00:05Z",
-      "pushed_at": "2026-05-25T06:00:01Z",
+      "updated_at": "2026-05-27T06:00:09Z",
+      "pushed_at": "2026-05-27T06:00:03Z",
       "git_url": "git://github.com/amiantos/bradroot.me.git",
       "ssh_url": "git@github.com:amiantos/bradroot.me.git",
       "clone_url": "https://github.com/amiantos/bradroot.me.git",
       "svn_url": "https://github.com/amiantos/bradroot.me",
       "homepage": "https://bradroot.me",
-      "size": 18133,
+      "size": 18174,
       "stargazers_count": 0,
       "watchers_count": 0,
       "language": "HTML",
@@ -3945,14 +3945,14 @@
       "releases_url": "https://api.github.com/repos/amiantos/lurker/releases{/id}",
       "deployments_url": "https://api.github.com/repos/amiantos/lurker/deployments",
       "created_at": "2026-05-07T06:56:39Z",
-      "updated_at": "2026-05-24T18:53:49Z",
-      "pushed_at": "2026-05-24T18:53:46Z",
+      "updated_at": "2026-05-28T05:41:15Z",
+      "pushed_at": "2026-05-28T05:40:53Z",
       "git_url": "git://github.com/amiantos/lurker.git",
       "ssh_url": "git@github.com:amiantos/lurker.git",
       "clone_url": "https://github.com/amiantos/lurker.git",
       "svn_url": "https://github.com/amiantos/lurker",
-      "homepage": "",
-      "size": 4843,
+      "homepage": "https://lurker.chat",
+      "size": 5071,
       "stargazers_count": 4,
       "watchers_count": 4,
       "language": "TypeScript",
@@ -3966,7 +3966,7 @@
       "mirror_url": null,
       "archived": false,
       "disabled": false,
-      "open_issues_count": 19,
+      "open_issues_count": 18,
       "license": {
         "key": "mpl-2.0",
         "name": "Mozilla Public License 2.0",
@@ -3989,7 +3989,7 @@
       ],
       "visibility": "public",
       "forks": 1,
-      "open_issues": 19,
+      "open_issues": 18,
       "watchers": 4,
       "default_branch": "main"
     },
@@ -4967,14 +4967,14 @@
       "releases_url": "https://api.github.com/repos/amiantos/snitch/releases{/id}",
       "deployments_url": "https://api.github.com/repos/amiantos/snitch/deployments",
       "created_at": "2026-04-29T21:25:53Z",
-      "updated_at": "2026-05-18T06:38:19Z",
-      "pushed_at": "2026-05-18T06:38:15Z",
+      "updated_at": "2026-05-26T16:02:00Z",
+      "pushed_at": "2026-05-26T16:01:41Z",
       "git_url": "git://github.com/amiantos/snitch.git",
       "ssh_url": "git@github.com:amiantos/snitch.git",
       "clone_url": "https://github.com/amiantos/snitch.git",
       "svn_url": "https://github.com/amiantos/snitch",
       "homepage": null,
-      "size": 73,
+      "size": 75,
       "stargazers_count": 1,
       "watchers_count": 1,
       "language": "JavaScript",
@@ -6212,7 +6212,7 @@
   ],
   "discourse": {
     "topics": 60,
-    "posts": 916,
+    "posts": 917,
     "users": 7
   },
   "discourseTopics": [
@@ -6220,48 +6220,48 @@
       "title": "Lurker - Devlog",
       "slug": "lurker-devlog",
       "id": 89,
-      "last_posted_at": "2026-05-24T19:00:48.390Z",
-      "last_posted_at_formatted": "May 24"
+      "last_posted_at": "2026-05-28T05:53:05.975Z",
+      "last_posted_at_formatted": "May 27"
     },
     {
-      "title": "Anime / Manga",
-      "slug": "anime-manga",
-      "id": 88,
-      "last_posted_at": "2026-05-21T18:19:57.761Z",
-      "last_posted_at_formatted": "May 21"
+      "title": "PiBar v1.2 - Devlog",
+      "slug": "pibar-v1-2-devlog",
+      "id": 83,
+      "last_posted_at": "2026-05-07T15:32:19.658Z",
+      "last_posted_at_formatted": "May 7"
     },
     {
-      "title": "Artificial Intelligence",
-      "slug": "artificial-intelligence",
-      "id": 53,
-      "last_posted_at": "2026-05-19T18:14:08.244Z",
-      "last_posted_at_formatted": "May 19"
+      "title": "Life Saver Screensaver - Devlog",
+      "slug": "life-saver-screensaver-devlog",
+      "id": 86,
+      "last_posted_at": "2026-05-04T04:02:44.726Z",
+      "last_posted_at_formatted": "May 3"
     },
     {
-      "title": "Video Games",
-      "slug": "video-games",
-      "id": 55,
-      "last_posted_at": "2026-05-13T18:39:25.632Z",
-      "last_posted_at_formatted": "May 13"
+      "title": "Postalgic (Self-Hosted) - Devlog",
+      "slug": "postalgic-self-hosted-devlog",
+      "id": 45,
+      "last_posted_at": "2026-05-02T07:51:56.970Z",
+      "last_posted_at_formatted": "May 2"
     },
     {
-      "title": "Life Share",
-      "slug": "life-share",
-      "id": 90,
-      "last_posted_at": "2026-05-11T17:25:10.851Z",
-      "last_posted_at_formatted": "May 11"
+      "title": "C64 Ultimate Toolbox - Devlog",
+      "slug": "c64-ultimate-toolbox-devlog",
+      "id": 78,
+      "last_posted_at": "2026-04-15T02:11:25.740Z",
+      "last_posted_at_formatted": "Apr 14"
     },
     {
-      "title": "Movies",
-      "slug": "movies",
-      "id": 64,
-      "last_posted_at": "2026-05-11T03:33:51.788Z",
-      "last_posted_at_formatted": "May 10"
+      "title": "Ealain Screensaver - Devlog",
+      "slug": "ealain-screensaver-devlog",
+      "id": 85,
+      "last_posted_at": "2026-04-05T04:13:48.631Z",
+      "last_posted_at_formatted": "Apr 4"
     }
   ],
   "aihorde": {
-    "images_generated": "36,078",
-    "kudos": "4,422,615"
+    "images_generated": "36,300",
+    "kudos": "4,455,800"
   },
   "stairesSongs": [
     {
@@ -6364,5 +6364,5 @@
       "pubDate_formatted": "Oct 8"
     }
   ],
-  "_fetchedAt": 1779775202106
+  "_fetchedAt": 1779948006982
 }
