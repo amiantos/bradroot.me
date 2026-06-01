@@ -1174,14 +1174,14 @@
       "releases_url": "https://api.github.com/repos/amiantos/bradroot.me/releases{/id}",
       "deployments_url": "https://api.github.com/repos/amiantos/bradroot.me/deployments",
       "created_at": "2018-05-06T02:16:59Z",
-      "updated_at": "2026-05-29T06:00:06Z",
-      "pushed_at": "2026-05-29T06:00:02Z",
+      "updated_at": "2026-05-31T06:00:05Z",
+      "pushed_at": "2026-05-31T06:00:02Z",
       "git_url": "git://github.com/amiantos/bradroot.me.git",
       "ssh_url": "git@github.com:amiantos/bradroot.me.git",
       "clone_url": "https://github.com/amiantos/bradroot.me.git",
       "svn_url": "https://github.com/amiantos/bradroot.me",
       "homepage": "https://bradroot.me",
-      "size": 17303,
+      "size": 17320,
       "stargazers_count": 0,
       "watchers_count": 0,
       "language": "HTML",
@@ -2169,7 +2169,7 @@
       "releases_url": "https://api.github.com/repos/amiantos/gamebookengine/releases{/id}",
       "deployments_url": "https://api.github.com/repos/amiantos/gamebookengine/deployments",
       "created_at": "2019-08-16T01:11:37Z",
-      "updated_at": "2026-04-23T19:51:41Z",
+      "updated_at": "2026-05-31T01:29:55Z",
       "pushed_at": "2026-04-23T19:51:38Z",
       "git_url": "git://github.com/amiantos/gamebookengine.git",
       "ssh_url": "git@github.com:amiantos/gamebookengine.git",
@@ -2177,8 +2177,8 @@
       "svn_url": "https://github.com/amiantos/gamebookengine",
       "homepage": "",
       "size": 13149,
-      "stargazers_count": 103,
-      "watchers_count": 103,
+      "stargazers_count": 104,
+      "watchers_count": 104,
       "language": "Swift",
       "has_issues": true,
       "has_projects": false,
@@ -2216,7 +2216,7 @@
       "visibility": "public",
       "forks": 7,
       "open_issues": 18,
-      "watchers": 103,
+      "watchers": 104,
       "default_branch": "master"
     },
     {
@@ -3945,8 +3945,8 @@
       "releases_url": "https://api.github.com/repos/amiantos/lurker/releases{/id}",
       "deployments_url": "https://api.github.com/repos/amiantos/lurker/deployments",
       "created_at": "2026-05-07T06:56:39Z",
-      "updated_at": "2026-05-29T04:07:22Z",
-      "pushed_at": "2026-05-29T04:07:19Z",
+      "updated_at": "2026-06-01T05:46:24Z",
+      "pushed_at": "2026-06-01T05:57:19Z",
       "git_url": "git://github.com/amiantos/lurker.git",
       "ssh_url": "git@github.com:amiantos/lurker.git",
       "clone_url": "https://github.com/amiantos/lurker.git",
@@ -3966,7 +3966,7 @@
       "mirror_url": null,
       "archived": false,
       "disabled": false,
-      "open_issues_count": 19,
+      "open_issues_count": 22,
       "license": {
         "key": "mpl-2.0",
         "name": "Mozilla Public License 2.0",
@@ -3989,7 +3989,7 @@
       ],
       "visibility": "public",
       "forks": 1,
-      "open_issues": 19,
+      "open_issues": 22,
       "watchers": 4,
       "default_branch": "main"
     },
@@ -6260,10 +6260,17 @@
     }
   ],
   "aihorde": {
-    "images_generated": "36,686",
-    "kudos": "4,511,304"
+    "images_generated": "36,903",
+    "kudos": "4,557,237"
   },
   "stairesSongs": [
+    {
+      "title": "Electric Six - Turquoise",
+      "link": "https://staires.org/2026/05/31/electric-six-turquoise/",
+      "pubDate": "Sun, 31 May 2026 19:29:00 GMT",
+      "youtubeId": "A3JAeVqy6Es",
+      "pubDate_formatted": "May 31"
+    },
     {
       "title": "Gelli Haha - Spit",
       "link": "https://staires.org/2026/05/01/gelli-haha-spit/",
@@ -6291,16 +6298,21 @@
       "pubDate": "Sun, 12 Apr 2026 03:26:00 GMT",
       "youtubeId": "WCDchde-ENk",
       "pubDate_formatted": "Apr 11"
-    },
-    {
-      "title": "Devo - Big Mess",
-      "link": "https://staires.org/2026/04/05/devo-big-mess/",
-      "pubDate": "Mon, 06 Apr 2026 04:00:00 GMT",
-      "youtubeId": "FQvwhgcOMdM",
-      "pubDate_formatted": "Apr 5"
     }
   ],
   "floatedPosts": [
+    {
+      "title": "somehow today i got baited into trying to have a...",
+      "link": "https://ihavebeenfloated.org/2026/05/31/somehow-today-i-got-baited-into-trying-to-have-a/",
+      "pubDate": "Sun, 31 May 2026 23:57:00 GMT",
+      "pubDate_formatted": "May 31"
+    },
+    {
+      "title": "Somehow there was a bunch of corn in Viggo’s poop...",
+      "link": "https://ihavebeenfloated.org/2026/05/30/somehow-there-was-a-bunch-of-corn-in-viggo-s-poop/",
+      "pubDate": "Sat, 30 May 2026 16:56:00 GMT",
+      "pubDate_formatted": "May 30"
+    },
     {
       "title": "Who could have known that building a social...",
       "link": "https://ihavebeenfloated.org/2026/05/09/who-could-have-known-that-building-a-social/",
@@ -6318,18 +6330,6 @@
       "link": "https://ihavebeenfloated.org/2026/05/04/holy-shit-this-video-is-crazy-i-could-never-do-a/",
       "pubDate": "Tue, 05 May 2026 05:52:00 GMT",
       "pubDate_formatted": "May 4"
-    },
-    {
-      "title": "Earlier today the Apple Music auto-mix thing...",
-      "link": "https://ihavebeenfloated.org/2026/05/01/earlier-today-the-apple-music-auto-mix-thing/",
-      "pubDate": "Sat, 02 May 2026 06:44:00 GMT",
-      "pubDate_formatted": "May 1"
-    },
-    {
-      "title": "A problem I have is that I frequently don't want...",
-      "link": "https://ihavebeenfloated.org/2026/04/26/a-problem-i-have-is-that-i-frequently-don-t-want/",
-      "pubDate": "Sun, 26 Apr 2026 18:59:00 GMT",
-      "pubDate_formatted": "Apr 26"
     }
   ],
   "amiantosPosts": [
@@ -6364,5 +6364,5 @@
       "pubDate_formatted": "Oct 8"
     }
   ],
-  "_fetchedAt": 1780120802275
+  "_fetchedAt": 1780293601297
 }
