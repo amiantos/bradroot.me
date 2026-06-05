@@ -752,14 +752,14 @@
       "releases_url": "https://api.github.com/repos/amiantos/amiantos/releases{/id}",
       "deployments_url": "https://api.github.com/repos/amiantos/amiantos/deployments",
       "created_at": "2022-01-09T08:54:16Z",
-      "updated_at": "2026-04-26T18:53:38Z",
-      "pushed_at": "2026-04-26T18:53:34Z",
+      "updated_at": "2026-06-04T16:41:26Z",
+      "pushed_at": "2026-06-04T16:41:13Z",
       "git_url": "git://github.com/amiantos/amiantos.git",
       "ssh_url": "git@github.com:amiantos/amiantos.git",
       "clone_url": "https://github.com/amiantos/amiantos.git",
       "svn_url": "https://github.com/amiantos/amiantos",
       "homepage": null,
-      "size": 42,
+      "size": 44,
       "stargazers_count": 0,
       "watchers_count": 0,
       "language": null,
@@ -1174,14 +1174,14 @@
       "releases_url": "https://api.github.com/repos/amiantos/bradroot.me/releases{/id}",
       "deployments_url": "https://api.github.com/repos/amiantos/bradroot.me/deployments",
       "created_at": "2018-05-06T02:16:59Z",
-      "updated_at": "2026-06-02T06:00:07Z",
-      "pushed_at": "2026-06-02T06:00:02Z",
+      "updated_at": "2026-06-04T06:00:06Z",
+      "pushed_at": "2026-06-04T06:00:02Z",
       "git_url": "git://github.com/amiantos/bradroot.me.git",
       "ssh_url": "git@github.com:amiantos/bradroot.me.git",
       "clone_url": "https://github.com/amiantos/bradroot.me.git",
       "svn_url": "https://github.com/amiantos/bradroot.me",
       "homepage": "https://bradroot.me",
-      "size": 17361,
+      "size": 17402,
       "stargazers_count": 0,
       "watchers_count": 0,
       "language": "HTML",
@@ -3945,14 +3945,14 @@
       "releases_url": "https://api.github.com/repos/amiantos/lurker/releases{/id}",
       "deployments_url": "https://api.github.com/repos/amiantos/lurker/deployments",
       "created_at": "2026-05-07T06:56:39Z",
-      "updated_at": "2026-06-03T05:53:33Z",
-      "pushed_at": "2026-06-03T05:53:30Z",
+      "updated_at": "2026-06-05T02:51:39Z",
+      "pushed_at": "2026-06-05T02:51:35Z",
       "git_url": "git://github.com/amiantos/lurker.git",
       "ssh_url": "git@github.com:amiantos/lurker.git",
       "clone_url": "https://github.com/amiantos/lurker.git",
       "svn_url": "https://github.com/amiantos/lurker",
       "homepage": "https://lurker.chat",
-      "size": 5178,
+      "size": 5342,
       "stargazers_count": 4,
       "watchers_count": 4,
       "language": "TypeScript",
@@ -3966,7 +3966,7 @@
       "mirror_url": null,
       "archived": false,
       "disabled": false,
-      "open_issues_count": 20,
+      "open_issues_count": 30,
       "license": {
         "key": "mpl-2.0",
         "name": "Mozilla Public License 2.0",
@@ -3989,7 +3989,7 @@
       ],
       "visibility": "public",
       "forks": 1,
-      "open_issues": 20,
+      "open_issues": 30,
       "watchers": 4,
       "default_branch": "main"
     },
@@ -4061,14 +4061,14 @@
       "releases_url": "https://api.github.com/repos/amiantos/lurker-marketing/releases{/id}",
       "deployments_url": "https://api.github.com/repos/amiantos/lurker-marketing/deployments",
       "created_at": "2026-06-03T02:44:11Z",
-      "updated_at": "2026-06-03T05:22:03Z",
-      "pushed_at": "2026-06-03T05:21:59Z",
+      "updated_at": "2026-06-03T22:37:01Z",
+      "pushed_at": "2026-06-03T22:36:58Z",
       "git_url": "git://github.com/amiantos/lurker-marketing.git",
       "ssh_url": "git@github.com:amiantos/lurker-marketing.git",
       "clone_url": "https://github.com/amiantos/lurker-marketing.git",
       "svn_url": "https://github.com/amiantos/lurker-marketing",
       "homepage": null,
-      "size": 632,
+      "size": 648,
       "stargazers_count": 0,
       "watchers_count": 0,
       "language": "HTML",
@@ -6151,7 +6151,7 @@
       "releases_url": "https://api.github.com/repos/amiantos/writers-guild/releases{/id}",
       "deployments_url": "https://api.github.com/repos/amiantos/writers-guild/deployments",
       "created_at": "2025-11-07T17:10:43Z",
-      "updated_at": "2026-06-01T20:04:39Z",
+      "updated_at": "2026-06-03T17:38:29Z",
       "pushed_at": "2026-05-30T03:06:39Z",
       "git_url": "git://github.com/amiantos/writers-guild.git",
       "ssh_url": "git@github.com:amiantos/writers-guild.git",
@@ -6159,8 +6159,8 @@
       "svn_url": "https://github.com/amiantos/writers-guild",
       "homepage": "",
       "size": 2559,
-      "stargazers_count": 6,
-      "watchers_count": 6,
+      "stargazers_count": 7,
+      "watchers_count": 7,
       "language": "JavaScript",
       "has_issues": true,
       "has_projects": true,
@@ -6168,7 +6168,7 @@
       "has_wiki": true,
       "has_pages": false,
       "has_discussions": false,
-      "forks_count": 0,
+      "forks_count": 1,
       "mirror_url": null,
       "archived": false,
       "disabled": false,
@@ -6196,9 +6196,9 @@
         "writing"
       ],
       "visibility": "public",
-      "forks": 0,
+      "forks": 1,
       "open_issues": 2,
-      "watchers": 6,
+      "watchers": 7,
       "default_branch": "main"
     },
     {
@@ -6315,7 +6315,7 @@
   ],
   "discourse": {
     "topics": 60,
-    "posts": 921,
+    "posts": 922,
     "users": 7
   },
   "discourseTopics": [
@@ -6323,8 +6323,8 @@
       "title": "Lurker - Devlog",
       "slug": "lurker-devlog",
       "id": 89,
-      "last_posted_at": "2026-06-02T18:21:28.976Z",
-      "last_posted_at_formatted": "Jun 2"
+      "last_posted_at": "2026-06-04T06:34:54.493Z",
+      "last_posted_at_formatted": "Jun 3"
     },
     {
       "title": "PiBar v1.2 - Devlog",
@@ -6363,8 +6363,8 @@
     }
   ],
   "aihorde": {
-    "images_generated": "37,630",
-    "kudos": "4,647,948"
+    "images_generated": "38,050",
+    "kudos": "4,718,932"
   },
   "stairesSongs": [
     {
@@ -6405,6 +6405,18 @@
   ],
   "floatedPosts": [
     {
+      "title": "The Drama was so great, and anyone who was upset...",
+      "link": "https://ihavebeenfloated.org/2026/06/04/the-drama-was-so-great-and-anyone-who-was-upset/",
+      "pubDate": "Fri, 05 Jun 2026 04:56:00 GMT",
+      "pubDate_formatted": "Jun 4"
+    },
+    {
+      "title": "wow, that's a helluva compliment, and i'll take...",
+      "link": "https://ihavebeenfloated.org/2026/06/03/wow-that-s-a-helluva-compliment-and-i-ll-take-it/",
+      "pubDate": "Thu, 04 Jun 2026 06:12:00 GMT",
+      "pubDate_formatted": "Jun 3"
+    },
+    {
       "title": "somehow today i got baited into trying to have a...",
       "link": "https://ihavebeenfloated.org/2026/05/31/somehow-today-i-got-baited-into-trying-to-have-a/",
       "pubDate": "Sun, 31 May 2026 23:57:00 GMT",
@@ -6421,18 +6433,6 @@
       "link": "https://ihavebeenfloated.org/2026/05/09/who-could-have-known-that-building-a-social/",
       "pubDate": "Sat, 09 May 2026 16:16:00 GMT",
       "pubDate_formatted": "May 9"
-    },
-    {
-      "title": "I think the real problem with most people is just...",
-      "link": "https://ihavebeenfloated.org/2026/05/06/i-think-the-real-problem-with-most-people-is-just/",
-      "pubDate": "Wed, 06 May 2026 16:47:00 GMT",
-      "pubDate_formatted": "May 6"
-    },
-    {
-      "title": "Holy shit, this video is crazy. I could never do...",
-      "link": "https://ihavebeenfloated.org/2026/05/04/holy-shit-this-video-is-crazy-i-could-never-do-a/",
-      "pubDate": "Tue, 05 May 2026 05:52:00 GMT",
-      "pubDate_formatted": "May 4"
     }
   ],
   "amiantosPosts": [
@@ -6467,5 +6467,5 @@
       "pubDate_formatted": "Oct 8"
     }
   ],
-  "_fetchedAt": 1780466401552
+  "_fetchedAt": 1780639204756
 }
