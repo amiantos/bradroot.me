@@ -1174,14 +1174,14 @@
       "releases_url": "https://api.github.com/repos/amiantos/bradroot.me/releases{/id}",
       "deployments_url": "https://api.github.com/repos/amiantos/bradroot.me/deployments",
       "created_at": "2018-05-06T02:16:59Z",
-      "updated_at": "2026-06-06T06:00:06Z",
-      "pushed_at": "2026-06-06T06:00:02Z",
+      "updated_at": "2026-06-08T06:00:05Z",
+      "pushed_at": "2026-06-08T06:00:02Z",
       "git_url": "git://github.com/amiantos/bradroot.me.git",
       "ssh_url": "git@github.com:amiantos/bradroot.me.git",
       "clone_url": "https://github.com/amiantos/bradroot.me.git",
       "svn_url": "https://github.com/amiantos/bradroot.me",
       "homepage": "https://bradroot.me",
-      "size": 17443,
+      "size": 17485,
       "stargazers_count": 0,
       "watchers_count": 0,
       "language": "HTML",
@@ -3945,14 +3945,14 @@
       "releases_url": "https://api.github.com/repos/amiantos/lurker/releases{/id}",
       "deployments_url": "https://api.github.com/repos/amiantos/lurker/deployments",
       "created_at": "2026-05-07T06:56:39Z",
-      "updated_at": "2026-06-05T19:40:38Z",
-      "pushed_at": "2026-06-05T19:40:35Z",
+      "updated_at": "2026-06-09T05:07:19Z",
+      "pushed_at": "2026-06-09T05:44:39Z",
       "git_url": "git://github.com/amiantos/lurker.git",
       "ssh_url": "git@github.com:amiantos/lurker.git",
       "clone_url": "https://github.com/amiantos/lurker.git",
       "svn_url": "https://github.com/amiantos/lurker",
       "homepage": "https://lurker.chat",
-      "size": 5168,
+      "size": 5322,
       "stargazers_count": 4,
       "watchers_count": 4,
       "language": "TypeScript",
@@ -3966,7 +3966,7 @@
       "mirror_url": null,
       "archived": false,
       "disabled": false,
-      "open_issues_count": 30,
+      "open_issues_count": 25,
       "license": {
         "key": "mpl-2.0",
         "name": "Mozilla Public License 2.0",
@@ -3989,7 +3989,7 @@
       ],
       "visibility": "public",
       "forks": 1,
-      "open_issues": 30,
+      "open_issues": 25,
       "watchers": 4,
       "default_branch": "main"
     },
@@ -6314,8 +6314,8 @@
     }
   ],
   "discourse": {
-    "topics": 60,
-    "posts": 922,
+    "topics": 14,
+    "posts": 879,
     "users": 7
   },
   "discourseTopics": [
@@ -6323,8 +6323,8 @@
       "title": "Lurker - Devlog",
       "slug": "lurker-devlog",
       "id": 89,
-      "last_posted_at": "2026-06-04T06:34:54.493Z",
-      "last_posted_at_formatted": "Jun 3"
+      "last_posted_at": "2026-06-08T07:25:27.440Z",
+      "last_posted_at_formatted": "Jun 8"
     },
     {
       "title": "PiBar v1.2 - Devlog",
@@ -6363,8 +6363,8 @@
     }
   ],
   "aihorde": {
-    "images_generated": "38,362",
-    "kudos": "4,776,311"
+    "images_generated": "38,592",
+    "kudos": "4,804,235"
   },
   "stairesSongs": [
     {
@@ -6467,5 +6467,5 @@
       "pubDate_formatted": "Oct 8"
     }
   ],
-  "_fetchedAt": 1780812002513
+  "_fetchedAt": 1780984802817
 }
