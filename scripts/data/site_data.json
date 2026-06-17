@@ -1174,14 +1174,14 @@
       "releases_url": "https://api.github.com/repos/amiantos/bradroot.me/releases{/id}",
       "deployments_url": "https://api.github.com/repos/amiantos/bradroot.me/deployments",
       "created_at": "2018-05-06T02:16:59Z",
-      "updated_at": "2026-06-14T06:00:05Z",
-      "pushed_at": "2026-06-14T06:00:01Z",
+      "updated_at": "2026-06-16T06:00:06Z",
+      "pushed_at": "2026-06-16T06:00:02Z",
       "git_url": "git://github.com/amiantos/bradroot.me.git",
       "ssh_url": "git@github.com:amiantos/bradroot.me.git",
       "clone_url": "https://github.com/amiantos/bradroot.me.git",
       "svn_url": "https://github.com/amiantos/bradroot.me",
       "homepage": "https://bradroot.me",
-      "size": 17609,
+      "size": 17650,
       "stargazers_count": 0,
       "watchers_count": 0,
       "language": "HTML",
@@ -3945,16 +3945,16 @@
       "releases_url": "https://api.github.com/repos/amiantos/lurker/releases{/id}",
       "deployments_url": "https://api.github.com/repos/amiantos/lurker/deployments",
       "created_at": "2026-05-07T06:56:39Z",
-      "updated_at": "2026-06-15T05:52:40Z",
-      "pushed_at": "2026-06-15T05:04:11Z",
+      "updated_at": "2026-06-17T05:41:17Z",
+      "pushed_at": "2026-06-17T05:41:14Z",
       "git_url": "git://github.com/amiantos/lurker.git",
       "ssh_url": "git@github.com:amiantos/lurker.git",
       "clone_url": "https://github.com/amiantos/lurker.git",
       "svn_url": "https://github.com/amiantos/lurker",
       "homepage": "https://lurker.chat",
-      "size": 5722,
-      "stargazers_count": 45,
-      "watchers_count": 45,
+      "size": 5851,
+      "stargazers_count": 56,
+      "watchers_count": 56,
       "language": "TypeScript",
       "has_issues": true,
       "has_projects": false,
@@ -3962,11 +3962,11 @@
       "has_wiki": false,
       "has_pages": false,
       "has_discussions": false,
-      "forks_count": 4,
+      "forks_count": 5,
       "mirror_url": null,
       "archived": false,
       "disabled": false,
-      "open_issues_count": 37,
+      "open_issues_count": 47,
       "license": {
         "key": "mpl-2.0",
         "name": "Mozilla Public License 2.0",
@@ -3988,9 +3988,9 @@
         "vue"
       ],
       "visibility": "public",
-      "forks": 4,
-      "open_issues": 37,
-      "watchers": 45,
+      "forks": 5,
+      "open_issues": 47,
+      "watchers": 56,
       "default_branch": "main"
     },
     {
@@ -6363,8 +6363,8 @@
     }
   ],
   "aihorde": {
-    "images_generated": "39,409",
-    "kudos": "4,888,059"
+    "images_generated": "40,761",
+    "kudos": "5,017,307"
   },
   "stairesSongs": [
     {
@@ -6405,6 +6405,12 @@
   ],
   "floatedPosts": [
     {
+      "title": "i downloaded the star fox remake demo, i remember...",
+      "link": "https://ihavebeenfloated.org/2026/06/15/i-downloaded-the-star-fox-remake-demo-i-remember/",
+      "pubDate": "Mon, 15 Jun 2026 17:58:00 GMT",
+      "pubDate_formatted": "Jun 15"
+    },
+    {
       "title": "I got my butt kicked a little bit today, still...",
       "link": "https://ihavebeenfloated.org/2026/06/09/i-got-my-butt-kicked-a-little-bit-today-still/",
       "pubDate": "Wed, 10 Jun 2026 06:40:00 GMT",
@@ -6427,12 +6433,6 @@
       "link": "https://ihavebeenfloated.org/2026/06/04/the-drama-was-so-great-and-anyone-who-was-upset/",
       "pubDate": "Fri, 05 Jun 2026 04:56:00 GMT",
       "pubDate_formatted": "Jun 4"
-    },
-    {
-      "title": "wow, that's a helluva compliment, and i'll take...",
-      "link": "https://ihavebeenfloated.org/2026/06/03/wow-that-s-a-helluva-compliment-and-i-ll-take-it/",
-      "pubDate": "Thu, 04 Jun 2026 06:12:00 GMT",
-      "pubDate_formatted": "Jun 3"
     }
   ],
   "amiantosPosts": [
@@ -6467,5 +6467,5 @@
       "pubDate_formatted": "Oct 8"
     }
   ],
-  "_fetchedAt": 1781503204863
+  "_fetchedAt": 1781676007098
 }
