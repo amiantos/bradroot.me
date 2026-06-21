@@ -1174,14 +1174,14 @@
       "releases_url": "https://api.github.com/repos/amiantos/bradroot.me/releases{/id}",
       "deployments_url": "https://api.github.com/repos/amiantos/bradroot.me/deployments",
       "created_at": "2018-05-06T02:16:59Z",
-      "updated_at": "2026-06-18T06:00:05Z",
-      "pushed_at": "2026-06-18T06:00:01Z",
+      "updated_at": "2026-06-20T06:00:05Z",
+      "pushed_at": "2026-06-20T06:00:02Z",
       "git_url": "git://github.com/amiantos/bradroot.me.git",
       "ssh_url": "git@github.com:amiantos/bradroot.me.git",
       "clone_url": "https://github.com/amiantos/bradroot.me.git",
       "svn_url": "https://github.com/amiantos/bradroot.me",
       "homepage": "https://bradroot.me",
-      "size": 17692,
+      "size": 17734,
       "stargazers_count": 0,
       "watchers_count": 0,
       "language": "HTML",
@@ -3945,16 +3945,16 @@
       "releases_url": "https://api.github.com/repos/amiantos/lurker/releases{/id}",
       "deployments_url": "https://api.github.com/repos/amiantos/lurker/deployments",
       "created_at": "2026-05-07T06:56:39Z",
-      "updated_at": "2026-06-19T03:00:57Z",
-      "pushed_at": "2026-06-19T05:40:29Z",
+      "updated_at": "2026-06-21T04:53:34Z",
+      "pushed_at": "2026-06-21T04:54:22Z",
       "git_url": "git://github.com/amiantos/lurker.git",
       "ssh_url": "git@github.com:amiantos/lurker.git",
       "clone_url": "https://github.com/amiantos/lurker.git",
       "svn_url": "https://github.com/amiantos/lurker",
       "homepage": "https://lurker.chat",
-      "size": 6572,
-      "stargazers_count": 57,
-      "watchers_count": 57,
+      "size": 6147,
+      "stargazers_count": 58,
+      "watchers_count": 58,
       "language": "TypeScript",
       "has_issues": true,
       "has_projects": false,
@@ -3966,7 +3966,7 @@
       "mirror_url": null,
       "archived": false,
       "disabled": false,
-      "open_issues_count": 42,
+      "open_issues_count": 39,
       "license": {
         "key": "mpl-2.0",
         "name": "Mozilla Public License 2.0",
@@ -3989,8 +3989,8 @@
       ],
       "visibility": "public",
       "forks": 5,
-      "open_issues": 42,
-      "watchers": 57,
+      "open_issues": 39,
+      "watchers": 58,
       "default_branch": "main"
     },
     {
@@ -5070,14 +5070,14 @@
       "releases_url": "https://api.github.com/repos/amiantos/snitch/releases{/id}",
       "deployments_url": "https://api.github.com/repos/amiantos/snitch/deployments",
       "created_at": "2026-04-29T21:25:53Z",
-      "updated_at": "2026-05-26T16:02:00Z",
-      "pushed_at": "2026-05-26T16:01:41Z",
+      "updated_at": "2026-06-21T03:10:12Z",
+      "pushed_at": "2026-06-21T03:10:09Z",
       "git_url": "git://github.com/amiantos/snitch.git",
       "ssh_url": "git@github.com:amiantos/snitch.git",
       "clone_url": "https://github.com/amiantos/snitch.git",
       "svn_url": "https://github.com/amiantos/snitch",
       "homepage": null,
-      "size": 75,
+      "size": 84,
       "stargazers_count": 1,
       "watchers_count": 1,
       "language": "JavaScript",
@@ -6151,14 +6151,14 @@
       "releases_url": "https://api.github.com/repos/amiantos/writers-guild/releases{/id}",
       "deployments_url": "https://api.github.com/repos/amiantos/writers-guild/deployments",
       "created_at": "2025-11-07T17:10:43Z",
-      "updated_at": "2026-06-03T17:38:29Z",
-      "pushed_at": "2026-05-30T03:06:39Z",
+      "updated_at": "2026-06-20T23:10:09Z",
+      "pushed_at": "2026-06-20T23:10:05Z",
       "git_url": "git://github.com/amiantos/writers-guild.git",
       "ssh_url": "git@github.com:amiantos/writers-guild.git",
       "clone_url": "https://github.com/amiantos/writers-guild.git",
       "svn_url": "https://github.com/amiantos/writers-guild",
       "homepage": "",
-      "size": 2559,
+      "size": 5335,
       "stargazers_count": 7,
       "watchers_count": 7,
       "language": "JavaScript",
@@ -6172,7 +6172,7 @@
       "mirror_url": null,
       "archived": false,
       "disabled": false,
-      "open_issues_count": 3,
+      "open_issues_count": 5,
       "license": {
         "key": "mpl-2.0",
         "name": "Mozilla Public License 2.0",
@@ -6197,7 +6197,7 @@
       ],
       "visibility": "public",
       "forks": 2,
-      "open_issues": 3,
+      "open_issues": 5,
       "watchers": 7,
       "default_branch": "main"
     },
@@ -6315,7 +6315,7 @@
   ],
   "discourse": {
     "topics": 14,
-    "posts": 886,
+    "posts": 888,
     "users": 7
   },
   "discourseTopics": [
@@ -6323,8 +6323,8 @@
       "title": "Lurker - Devlog",
       "slug": "lurker-devlog",
       "id": 89,
-      "last_posted_at": "2026-06-18T05:32:39.299Z",
-      "last_posted_at_formatted": "Jun 17"
+      "last_posted_at": "2026-06-21T05:18:31.836Z",
+      "last_posted_at_formatted": "Jun 20"
     },
     {
       "title": "PiBar v1.2 - Devlog",
@@ -6363,8 +6363,8 @@
     }
   ],
   "aihorde": {
-    "images_generated": "41,395",
-    "kudos": "5,098,322"
+    "images_generated": "41,815",
+    "kudos": "5,138,971"
   },
   "stairesSongs": [
     {
@@ -6467,5 +6467,5 @@
       "pubDate_formatted": "Oct 8"
     }
   ],
-  "_fetchedAt": 1781848804766
+  "_fetchedAt": 1782021602697
 }
