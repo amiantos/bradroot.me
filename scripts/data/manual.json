@@ -1,9 +1,9 @@
 {
   "games": [
     {
-      "name": "Pragmata",
-      "image": "images/games/pragmata.jpg",
-      "link": "https://www.capcom-games.com/pragmata/en-us/"
+      "name": "Xenoblade Chronicles",
+      "image": "images/games/xenoblade-chronicles.jpg",
+      "link": "https://www.nintendo.com/us/store/products/xenoblade-chronicles-definitive-edition-nintendo-switch-2-edition-switch-2/?srsltid=AfmBOoqFg0m-q129KIo0_SO7IdAHAfPPDKeGJIka0p3ui6r1m6IDd_F2"
     }
   ],
   "watching": [
@@ -14,7 +14,13 @@
     }
   ],
   "hidden_repos": [
+    "AI-Horde-Styles-Previews",
     "zzz-agents",
-    "tyler"
+    "hoarder",
+    "impostor",
+    "tyler",
+    "ai-horde-irc",
+    "snitch",
+    "witness"
   ]
 }

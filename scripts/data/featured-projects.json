@@ -1,5 +1,16 @@
 [
   {
+    "name": "Lurker",
+    "repo": "lurker",
+    "tagline": "IRC That's Out Of This World",
+    "description": "Lurker is a beautiful self-hosted modern IRC client with a retro flair, most easily described as \"your personal IRCCloud, with Weechat looks\".",
+    "icon": "images/lurker-icon.png",
+    "links": {
+      "website": "https://lurker.chat",
+      "github": "https://github.com/amiantos/lurker"
+    }
+  },
+  {
     "name": "C64 Ultimate Toolbox",
     "repo": "c64-ultimate-toolbox",
     "tagline": "Commodore 64 Ultimate Companion",
