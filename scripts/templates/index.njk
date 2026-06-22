@@ -39,150 +39,6 @@
       </div>
     </section>
 
-    {# ===== WORK ===== #}
-    <div class="section-divider section-divider--red"></div>
-    <section class="section" id="work">
-      <div class="container">
-        <div class="section-header">
-          <div class="section-header__shape section-header__shape--circle" style="background-color: var(--red);"></div>
-          <h2>Work</h2>
-        </div>
-        <div class="featured-project">
-          <div class="featured-project__header">
-            <img src="images/lingo-icon.png" alt="Lingo" class="featured-project__icon">
-            <div>
-              <h3 class="featured-project__name">Lingo</h3>
-              <p class="featured-project__tagline">Digital Asset Manager</p>
-            </div>
-          </div>
-          <div class="featured-project__body">
-            <p class="featured-project__desc">Since 2018, I've been the backend engineer, devops guy, all-around problem solver, and occasional copywriter for Lingo, a digital asset manager used by Reddit, Duolingo, Snap, and other brands you know and love.</p>
-            <div class="featured-project__links">
-              <a href="https://lingoapp.com">Visit Website</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    {# ===== FEATURED PROJECTS ===== #}
-    <div class="section-divider section-divider--blue"></div>
-    <section class="section" id="projects">
-      <div class="container">
-        <div class="section-header">
-          <div class="section-header__shape section-header__shape--square" style="background-color: var(--blue);"></div>
-          <h2>Featured Projects</h2>
-        </div>
-        {% for project in featured_projects %}
-        <div class="featured-project">
-          <div class="featured-project__header">
-            <img src="{{ project.icon }}" alt="{{ project.name }}" class="featured-project__icon">
-            <div>
-              <h3 class="featured-project__name">{{ project.name }}</h3>
-              <p class="featured-project__tagline">{{ project.tagline }}</p>
-            </div>
-          </div>
-          <div class="featured-project__body">
-            <p class="featured-project__desc">{{ project.description | safe }}</p>
-            <div class="featured-project__links">
-              {% if project.links.appStore %}
-              <a href="{{ project.links.appStore }}">App Store</a>
-              {% endif %}
-              {% if project.links.github %}
-              <a href="{{ project.links.github }}">GitHub</a>
-              {% endif %}
-              {% if project.links.demo %}
-              <a href="{{ project.links.demo }}">Demo</a>
-              {% endif %}
-            </div>
-            {% if project.stars %}
-            <p class="featured-project__stars">★ {{ project.stars }} stars on GitHub</p>
-            {% endif %}
-          </div>
-        </div>
-        {% endfor %}
-      </div>
-    </section>
-
-    {# ===== OTHER PROJECTS ===== #}
-    {% if other_repos and other_repos.length > 0 %}
-    <div class="section-divider section-divider--yellow"></div>
-    <section class="section" id="other-projects">
-      <div class="container">
-        <div class="section-header">
-          <div class="section-header__shape section-header__shape--triangle"></div>
-          <h2>Other Projects</h2>
-        </div>
-        <div class="projects-grid">
-          {% for repo in other_repos %}
-          <div class="project-card">
-            <h3 class="project-card__name"><a href="{{ repo.html_url }}">{{ repo.name }}</a></h3>
-            {% if repo.description %}
-            <p class="project-card__desc">{{ repo.description }}</p>
-            {% endif %}
-            <div class="project-card__meta">
-              {% if repo.language %}<span>{{ repo.language }}</span>{% endif %}
-              <span>★ {{ repo.stargazers_count }}</span>
-            </div>
-          </div>
-          {% endfor %}
-        </div>
-      </div>
-    </section>
-    {% endif %}
-
-    {# ===== BLOGS ===== #}
-    <div class="section-divider section-divider--red"></div>
-    <section class="section" id="blogs">
-      <div class="container">
-        <div class="section-header">
-          <div class="section-header__shape section-header__shape--circle" style="background-color: var(--red);"></div>
-          <h2>Blogs</h2>
-        </div>
-        <div class="blog-grid">
-          <div class="blog-card">
-            <div class="blog-card__info">
-              <h3 class="blog-card__name"><a href="https://staires.org">ſtaires!</a></h3>
-              <p class="blog-card__desc">Since 2008, <em>ſtaires! an adventure in listening</em> is a music blog where I write about music I like. Nothing more, nothing less. Previously syndicated by The Hype Machine.</p>
-              {% if staires_songs and staires_songs.length > 0 %}
-              <ul class="dashboard-card__list">
-                {% for song in staires_songs %}
-                <li><a href="{{ song.link }}">{{ song.title }}</a> <span class="dashboard-card__date">{{ song.pubDate_formatted }}</span></li>
-                {% endfor %}
-              </ul>
-              {% endif %}
-            </div>
-          </div>
-          <div class="blog-card">
-            <div class="blog-card__info">
-              <h3 class="blog-card__name"><a href="https://amiantos.net">amiantos.net</a></h3>
-              <p class="blog-card__desc"><em>Amiantos.net</em> is my personal blog where I write about my ongoing projects, slap together tutorials, and throw up my opinions on all the latest happenings in technology.</p>
-              {% if amiantos_posts and amiantos_posts.length > 0 %}
-              <ul class="dashboard-card__list">
-                {% for post in amiantos_posts %}
-                <li><a href="{{ post.link }}">{{ post.title }}</a> <span class="dashboard-card__date">{{ post.pubDate_formatted }}</span></li>
-                {% endfor %}
-              </ul>
-              {% endif %}
-            </div>
-          </div>
-          <div class="blog-card">
-            <div class="blog-card__info">
-              <h3 class="blog-card__name"><a href="https://ihavebeenfloated.org">ihavebeenfloated.org</a></h3>
-              <p class="blog-card__desc">Since 2004, <em>i have been floated</em> is my microblog where I write about myself, my thoughts, my interests, and anything else I care to spew out onto the internet lazily.</p>
-              {% if floated_posts and floated_posts.length > 0 %}
-              <ul class="dashboard-card__list">
-                {% for post in floated_posts %}
-                <li><a href="{{ post.link }}">{{ post.title }}</a> <span class="dashboard-card__date">{{ post.pubDate_formatted }}</span></li>
-                {% endfor %}
-              </ul>
-              {% endif %}
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
     {# ===== DASHBOARD ===== #}
     <div class="section-divider section-divider--blue"></div>
     <section class="section" id="dashboard">
@@ -225,7 +81,7 @@
             {# Discourse #}
             {% if discourse %}
             <div class="dashboard-card">
-              <h3 class="dashboard-card__title"><a href="https://discuss.bradroot.me">Discourse Forum</a></h3>
+              <h3 class="dashboard-card__title"><a href="https://discuss.bradroot.me">The Eye of Providence</a></h3>
               <div class="dashboard-stat-row">
                 <div>
                   <div class="dashboard-card__stat">{{ discourse.topics | default("—") | abbreviate }}</div>
@@ -303,9 +159,49 @@
               {% endif %}
             </div>
 
-            {# Ealain #}
+            {# Watching #}
             <div class="dashboard-card">
-              <h3 class="dashboard-card__title">Ealain / AI Horde</h3>
+              <h3 class="dashboard-card__title">Watching</h3>
+              {% if watching and watching.length > 0 %}
+              <div class="dashboard-card__media">
+                {% if watching[0].image %}
+                <img src="{{ watching[0].image }}" alt="{{ watching[0].name }}">
+                {% endif %}
+              </div>
+              <div class="dashboard-game__name">
+                {% if watching[0].link %}
+                <a href="{{ watching[0].link }}">{{ watching[0].name }}</a>
+                {% else %}
+                {{ watching[0].name }}
+                {% endif %}
+              </div>
+              {% else %}
+              <div class="dashboard-card__media dashboard-card__media--placeholder"></div>
+              <p class="dashboard-card__empty">Nothing right now</p>
+              {% endif %}
+            </div>
+
+          </div>
+
+          {# Row 3: Webcam + Ealain (two columns) #}
+          <div class="dashboard-row dashboard-row--half">
+            {# Webcam #}
+            <div class="dashboard-card dashboard-card--compact">
+              <h3 class="dashboard-card__title dashboard-card__title--irc">
+                BradCam
+                <span class="bradcam-status" id="bradcam-status" title="Loading presence…">On Air</span>
+              </h3>
+              <div class="dashboard-card__media dashboard-card__media--webcam">
+                <img id="webcam" src="https://cdn.bradroot.me/latest.jpg" alt="Webcam">
+              </div>
+            </div>
+
+            {# Ealain #}
+            <div class="dashboard-card dashboard-card--compact">
+              <h3 class="dashboard-card__title dashboard-card__title--irc">
+                Ealain
+                <a href="https://github.com/amiantos/ealain" target="_blank" rel="noopener" class="irc-chat__join-btn">Learn More</a>
+              </h3>
               {% if ealain_images and ealain_images.length > 1 %}
               <div class="dashboard-card__media ealain-slideshow" data-images='{{ ealain_images | dump | safe }}'>
                 <img class="ealain-slideshow__bottom" src="{{ ealain_images[0] }}" alt="Ealain">
@@ -329,12 +225,179 @@
               </div>
               {% endif %}
             </div>
+          </div>
 
+          {# Row 4: IRC Chat (full width) #}
+          <div class="dashboard-row">
+            <div class="dashboard-card dashboard-card--irc">
+              <h3 class="dashboard-card__title dashboard-card__title--irc">
+                <a href="ircs://irc.libera.chat:6697/#amiantos">#amiantos on Libera.Chat</a>
+                <a href="https://web.libera.chat/#amiantos" target="_blank" rel="noopener" class="irc-chat__join-btn">Join Chat</a>
+              </h3>
+              <div class="irc-chat" id="irc-chat">
+                <div class="irc-chat__messages" id="irc-messages">
+                  <p class="irc-chat__empty">Loading chat log...</p>
+                </div>
+              </div>
+            </div>
           </div>
 
         </div>
       </div>
     </section>
+
+    {# ===== BLOGS ===== #}
+    <div class="section-divider section-divider--red"></div>
+    <section class="section" id="blogs">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-header__shape section-header__shape--circle" style="background-color: var(--red);"></div>
+          <h2>Blogs</h2>
+        </div>
+        <div class="blog-grid">
+          <div class="blog-card">
+            <div class="blog-card__info">
+              <h3 class="blog-card__name"><a href="https://staires.org">ſtaires!</a></h3>
+              <p class="blog-card__desc">Since 2008, <em>ſtaires! an adventure in listening</em> is a music blog where I write about music I like. Nothing more, nothing less. Previously syndicated by The Hype Machine.</p>
+            </div>
+            {% if staires_songs and staires_songs.length > 0 %}
+            <div class="blog-card__posts">
+              <ul class="dashboard-card__list">
+                {% for song in staires_songs %}
+                <li><a href="{{ song.link }}">{{ song.title }}</a> <span class="dashboard-card__date">{{ song.pubDate_formatted }}</span></li>
+                {% endfor %}
+              </ul>
+            </div>
+            {% endif %}
+          </div>
+          <div class="blog-card">
+            <div class="blog-card__info">
+              <h3 class="blog-card__name"><a href="https://amiantos.net">amiantos.net</a></h3>
+              <p class="blog-card__desc"><em>Amiantos.net</em> is my personal blog where I write about my ongoing projects, slap together tutorials, and throw up my opinions on all the latest happenings in technology.</p>
+            </div>
+            {% if amiantos_posts and amiantos_posts.length > 0 %}
+            <div class="blog-card__posts">
+              <ul class="dashboard-card__list">
+                {% for post in amiantos_posts %}
+                <li><a href="{{ post.link }}">{{ post.title }}</a> <span class="dashboard-card__date">{{ post.pubDate_formatted }}</span></li>
+                {% endfor %}
+              </ul>
+            </div>
+            {% endif %}
+          </div>
+          <div class="blog-card">
+            <div class="blog-card__info">
+              <h3 class="blog-card__name"><a href="https://ihavebeenfloated.org">i have been floated</a></h3>
+              <p class="blog-card__desc">Since 2004, <em>i have been floated</em> is my microblog where I write about myself, my thoughts, my interests, and anything else I care to spew out onto the internet lazily.</p>
+            </div>
+            {% if floated_posts and floated_posts.length > 0 %}
+            <div class="blog-card__posts">
+              <ul class="dashboard-card__list">
+                {% for post in floated_posts %}
+                <li><a href="{{ post.link }}">{{ post.title }}</a> <span class="dashboard-card__date">{{ post.pubDate_formatted }}</span></li>
+                {% endfor %}
+              </ul>
+            </div>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+    </section>
+
+    {# ===== WORK ===== #}
+    <div class="section-divider section-divider--blue"></div>
+    <section class="section" id="work">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-header__shape section-header__shape--square" style="background-color: var(--blue);"></div>
+          <h2>Work</h2>
+        </div>
+        <div class="featured-project">
+          <div class="featured-project__header">
+            <img src="images/lingo-icon.png" alt="Lingo" class="featured-project__icon">
+            <div>
+              <h3 class="featured-project__name">Lingo</h3>
+              <p class="featured-project__tagline">Digital Asset Manager</p>
+            </div>
+          </div>
+          <div class="featured-project__body">
+            <p class="featured-project__desc">Since 2018, I've been the backend engineer, devops guy, all-around problem solver, and occasional copywriter for Lingo, a digital asset manager used by Reddit, Duolingo, Snap, and other brands you know and love.</p>
+            <div class="featured-project__links">
+              <a href="https://lingoapp.com">Visit Website</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    {# ===== FEATURED PROJECTS ===== #}
+    <div class="section-divider section-divider--yellow"></div>
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-header__shape section-header__shape--triangle"></div>
+          <h2>Featured Projects</h2>
+        </div>
+        {% for project in featured_projects %}
+        <div class="featured-project">
+          <div class="featured-project__header">
+            <img src="{{ project.icon }}" alt="{{ project.name }}" class="featured-project__icon">
+            <div>
+              <h3 class="featured-project__name">{{ project.name }}</h3>
+              <p class="featured-project__tagline">{{ project.tagline }}</p>
+            </div>
+          </div>
+          <div class="featured-project__body">
+            <p class="featured-project__desc">{{ project.description | safe }}</p>
+            <div class="featured-project__links">
+              {% if project.links.website %}
+              <a href="{{ project.links.website }}">Website</a>
+              {% endif %}
+              {% if project.links.appStore %}
+              <a href="{{ project.links.appStore }}">App Store</a>
+              {% endif %}
+              {% if project.links.github %}
+              <a href="{{ project.links.github }}">GitHub</a>
+              {% endif %}
+              {% if project.links.demo %}
+              <a href="{{ project.links.demo }}">Demo</a>
+              {% endif %}
+            </div>
+            {% if project.stars %}
+            <p class="featured-project__stars">★ {{ project.stars }} stars on GitHub</p>
+            {% endif %}
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </section>
+
+    {# ===== OTHER PROJECTS ===== #}
+    {% if other_repos and other_repos.length > 0 %}
+    <div class="section-divider section-divider--red"></div>
+    <section class="section" id="other-projects">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-header__shape section-header__shape--circle" style="background-color: var(--red);"></div>
+          <h2>Other Projects</h2>
+        </div>
+        <div class="projects-grid">
+          {% for repo in other_repos %}
+          <div class="project-card">
+            <h3 class="project-card__name"><a href="{{ repo.html_url }}">{{ repo.name }}</a></h3>
+            {% if repo.description %}
+            <p class="project-card__desc">{{ repo.description }}</p>
+            {% endif %}
+            <div class="project-card__meta">
+              {% if repo.language %}<span>{{ repo.language }}</span>{% endif %}
+              <span>★ {{ repo.stargazers_count }}</span>
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+    </section>
+    {% endif %}
 
     {# ===== FOOTER ===== #}
     <div class="section-divider section-divider--black"></div>
@@ -349,6 +412,8 @@
 
   <script src="js/bauhaus-bg.js"></script>
   <script src="js/ealain-slideshow.js"></script>
+  <script src="js/webcam.js"></script>
+  <script src="js/irc-chat.js"></script>
   <script async defer src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
   <noscript><img src="https://queue.simpleanalyticscdn.com/noscript.gif" alt="" referrerpolicy="no-referrer-when-downgrade"></noscript>
 </body>

@@ -94,6 +94,7 @@ export function render(siteData = {}) {
     discourse_topics: siteData.discourseTopics || [],
     aihorde: siteData.aihorde || null,
     games: manualData.games || [],
+    watching: manualData.watching || [],
     staires_songs: siteData.stairesSongs || [],
     floated_posts: siteData.floatedPosts || [],
     amiantos_posts: siteData.amiantosPosts || [],

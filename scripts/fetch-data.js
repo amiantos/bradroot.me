@@ -119,13 +119,13 @@ export async function fetchStairesRSS() {
       return [];
     }
     const xml = await res.text();
-    const items = parseRSSItems(xml).slice(0, 3);
+    const items = parseRSSItems(xml).slice(0, 5);
 
     // Try to extract YouTube video ID from description CDATA
     const itemRegex = /<item>([\s\S]*?)<\/item>/g;
     let match;
     let i = 0;
-    while ((match = itemRegex.exec(xml)) !== null && i < 3) {
+    while ((match = itemRegex.exec(xml)) !== null && i < 5) {
       const desc = match[1];
       const ytMatch = desc.match(/youtube\.com\/embed\/([A-Za-z0-9_-]+)/);
       if (ytMatch && items[i]) {
@@ -159,7 +159,7 @@ export async function fetchFloatedRSS() {
       return [];
     }
     const xml = await res.text();
-    const items = parseRSSItems(xml).slice(0, 3);
+    const items = parseRSSItems(xml).slice(0, 5);
 
     for (const item of items) {
       if (item.pubDate) {
@@ -185,7 +185,7 @@ export async function fetchAmiantosRSS() {
       return [];
     }
     const xml = await res.text();
-    const items = parseRSSItems(xml).slice(0, 3);
+    const items = parseRSSItems(xml).slice(0, 5);
 
     for (const item of items) {
       if (item.pubDate) {

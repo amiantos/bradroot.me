@@ -157,6 +157,28 @@
 
     <hr>
 
+    <label>Currently Watching</label>
+    <div id="watching-list">
+      {% for item in watching %}
+      <div class="game-row">
+        <div class="field-label">Title</div>
+        <input type="text" name="watching_name[]" value="{{ item.name }}" placeholder="Movie or TV show title">
+        <div class="field-label">Image URL (paste to download, leave blank to keep existing)</div>
+        <input type="url" name="watching_image_url[]" value="" placeholder="https://example.com/image.jpg">
+        <input type="hidden" name="watching_existing_image[]" value="{{ item.image }}">
+        {% if item.image %}
+        <div class="hint">Current: {{ item.image }}</div>
+        {% endif %}
+        <div class="field-label">Link</div>
+        <input type="url" name="watching_link[]" value="{{ item.link }}" placeholder="https://...">
+        <button type="button" class="remove-btn" onclick="this.closest('.game-row').remove()">Remove</button>
+      </div>
+      {% endfor %}
+    </div>
+    <button type="button" class="add-btn" onclick="addWatching()">+ Add Show/Movie</button>
+
+    <hr>
+
     <label>Hidden Repos</label>
     <p class="hint" style="margin-bottom: 12px;">Check repos to hide them from the "Other Projects" section.</p>
     {% if eligible_repos | length %}
@@ -189,6 +211,22 @@
   </form>
 
   <script>
+    function addWatching() {
+      const row = document.createElement('div');
+      row.className = 'game-row';
+      row.innerHTML = `
+        <div class="field-label">Title</div>
+        <input type="text" name="watching_name[]" placeholder="Movie or TV show title">
+        <div class="field-label">Image URL</div>
+        <input type="url" name="watching_image_url[]" placeholder="https://example.com/image.jpg">
+        <input type="hidden" name="watching_existing_image[]" value="">
+        <div class="field-label">Link</div>
+        <input type="url" name="watching_link[]" placeholder="https://...">
+        <button type="button" class="remove-btn" onclick="this.closest('.game-row').remove()">Remove</button>
+      `;
+      document.getElementById('watching-list').appendChild(row);
+    }
+
     function addGame() {
       const row = document.createElement('div');
       row.className = 'game-row';

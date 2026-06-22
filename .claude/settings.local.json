@@ -10,7 +10,8 @@
       "Bash(node:*)",
       "WebFetch(domain:staires.org)",
       "WebFetch(domain:ihavebeenfloated.org)",
-      "WebFetch(domain:amiantos.net)"
+      "WebFetch(domain:amiantos.net)",
+      "WebFetch(domain:cdn.bradroot.me)"
     ]
   }
 }

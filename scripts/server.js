@@ -17,6 +17,7 @@ const SITE_DATA_FILE = join(DATA_DIR, 'site_data.json');
 const FEATURED_PROJECTS_FILE = join(DATA_DIR, 'featured-projects.json');
 const TEMPLATES_DIR = join(__dirname, 'templates');
 const GAMES_IMG_DIR = join(__dirname, '..', 'website', 'images', 'games');
+const WATCHING_IMG_DIR = join(__dirname, '..', 'website', 'images', 'watching');
 
 const app = express();
 app.use(express.urlencoded({ extended: true }));
@@ -28,9 +29,12 @@ nunjucks.configure(TEMPLATES_DIR, {
   express: app,
 });
 
-// Ensure games image directory exists
+// Ensure image directories exist
 if (!existsSync(GAMES_IMG_DIR)) {
   mkdirSync(GAMES_IMG_DIR, { recursive: true });
+}
+if (!existsSync(WATCHING_IMG_DIR)) {
+  mkdirSync(WATCHING_IMG_DIR, { recursive: true });
 }
 
 function loadManual() {
@@ -76,6 +80,31 @@ async function downloadGameImage(imageUrl, gameName) {
   }
 }
 
+async function downloadWatchingImage(imageUrl, title) {
+  const slug = slugify(title);
+  const filename = `${slug}.jpg`;
+  const localPath = `images/watching/${filename}`;
+  const fullPath = join(WATCHING_IMG_DIR, filename);
+
+  try {
+    const res = await fetch(imageUrl);
+    if (!res.ok) {
+      console.error(`Failed to download image for ${title}: ${res.status}`);
+      return '';
+    }
+    const buffer = Buffer.from(await res.arrayBuffer());
+    await sharp(buffer)
+      .resize(800, 450, { fit: 'cover' })
+      .jpeg({ quality: 85 })
+      .toFile(fullPath);
+    console.log(`Downloaded and resized image for ${title}`);
+    return localPath;
+  } catch (err) {
+    console.error(`Image download failed for ${title}:`, err.message);
+    return '';
+  }
+}
+
 function loadJSON(filepath) {
   try {
     if (existsSync(filepath)) {
@@ -105,6 +134,7 @@ app.get('/', (req, res) => {
   const hiddenRepos = manual.hidden_repos || [];
   res.render('admin.njk', {
     games: manual.games || [],
+    watching: manual.watching || [],
     eligible_repos: eligibleRepos,
     hidden_repos: hiddenRepos,
     message: req.query.message || null,
@@ -141,10 +171,34 @@ app.post('/save', async (req, res) => {
     games.push({ name, image, link });
   }
 
+  // Parse watching from form arrays
+  const watchingNames = [].concat(body['watching_name'] || body['watching_name[]'] || []).filter(Boolean);
+  const watchingImageUrls = [].concat(body['watching_image_url'] || body['watching_image_url[]'] || []);
+  const watchingExistingImages = [].concat(body['watching_existing_image'] || body['watching_existing_image[]'] || []);
+  const watchingLinks = [].concat(body['watching_link'] || body['watching_link[]'] || []);
+
+  const watching = [];
+  for (let i = 0; i < watchingNames.length; i++) {
+    const name = watchingNames[i]?.trim();
+    if (!name) continue;
+
+    const imageUrl = watchingImageUrls[i]?.trim() || '';
+    const existingImage = watchingExistingImages[i]?.trim() || '';
+    const link = watchingLinks[i]?.trim() || '';
+
+    let image = existingImage;
+    if (imageUrl) {
+      const downloaded = await downloadWatchingImage(imageUrl, name);
+      if (downloaded) image = downloaded;
+    }
+
+    watching.push({ name, image, link });
+  }
+
   // Hidden repos
   const hidden_repos = [].concat(body['hidden_repos'] || body['hidden_repos[]'] || []).filter(Boolean);
 
-  saveManual({ games, hidden_repos });
+  saveManual({ games, watching, hidden_repos });
   res.redirect('/?message=Saved successfully');
 });
 
