@@ -1174,17 +1174,17 @@
       "releases_url": "https://api.github.com/repos/amiantos/bradroot.me/releases{/id}",
       "deployments_url": "https://api.github.com/repos/amiantos/bradroot.me/deployments",
       "created_at": "2018-05-06T02:16:59Z",
-      "updated_at": "2026-06-22T02:50:19Z",
-      "pushed_at": "2026-06-22T02:50:15Z",
+      "updated_at": "2026-06-22T06:00:06Z",
+      "pushed_at": "2026-06-22T06:00:02Z",
       "git_url": "git://github.com/amiantos/bradroot.me.git",
       "ssh_url": "git@github.com:amiantos/bradroot.me.git",
       "clone_url": "https://github.com/amiantos/bradroot.me.git",
       "svn_url": "https://github.com/amiantos/bradroot.me",
       "homepage": "https://bradroot.me",
-      "size": 17767,
+      "size": 17999,
       "stargazers_count": 0,
       "watchers_count": 0,
-      "language": "HTML",
+      "language": "JavaScript",
       "has_issues": true,
       "has_projects": true,
       "has_downloads": true,
@@ -3945,16 +3945,16 @@
       "releases_url": "https://api.github.com/repos/amiantos/lurker/releases{/id}",
       "deployments_url": "https://api.github.com/repos/amiantos/lurker/deployments",
       "created_at": "2026-05-07T06:56:39Z",
-      "updated_at": "2026-06-21T04:53:34Z",
-      "pushed_at": "2026-06-21T04:54:22Z",
+      "updated_at": "2026-06-22T23:22:55Z",
+      "pushed_at": "2026-06-23T05:45:07Z",
       "git_url": "git://github.com/amiantos/lurker.git",
       "ssh_url": "git@github.com:amiantos/lurker.git",
       "clone_url": "https://github.com/amiantos/lurker.git",
       "svn_url": "https://github.com/amiantos/lurker",
       "homepage": "https://lurker.chat",
-      "size": 6147,
-      "stargazers_count": 58,
-      "watchers_count": 58,
+      "size": 6405,
+      "stargazers_count": 60,
+      "watchers_count": 60,
       "language": "TypeScript",
       "has_issues": true,
       "has_projects": false,
@@ -3966,7 +3966,7 @@
       "mirror_url": null,
       "archived": false,
       "disabled": false,
-      "open_issues_count": 40,
+      "open_issues_count": 41,
       "license": {
         "key": "mpl-2.0",
         "name": "Mozilla Public License 2.0",
@@ -3989,8 +3989,8 @@
       ],
       "visibility": "public",
       "forks": 5,
-      "open_issues": 40,
-      "watchers": 58,
+      "open_issues": 41,
+      "watchers": 60,
       "default_branch": "main"
     },
     {
@@ -6363,8 +6363,8 @@
     }
   ],
   "aihorde": {
-    "images_generated": "41,980",
-    "kudos": "5,154,852"
+    "images_generated": "42,106",
+    "kudos": "5,173,917"
   },
   "stairesSongs": [
     {
@@ -6405,6 +6405,18 @@
   ],
   "floatedPosts": [
     {
+      "title": "You might ask, how much money is there to divide...",
+      "link": "https://ihavebeenfloated.org/2026/06/22/you-might-ask-how-much-money-is-there-to-divide/",
+      "pubDate": "Mon, 22 Jun 2026 08:20:00 GMT",
+      "pubDate_formatted": "Jun 22"
+    },
+    {
+      "title": "the world is so brutal.\n\nit doesn't make sense to...",
+      "link": "https://ihavebeenfloated.org/2026/06/21/the-world-is-so-brutal-it-doesn-t-make-sense-to-2/",
+      "pubDate": "Mon, 22 Jun 2026 06:20:00 GMT",
+      "pubDate_formatted": "Jun 21"
+    },
+    {
       "title": "i'm having a surreal out of body experience or...",
       "link": "https://ihavebeenfloated.org/2026/06/21/i-m-having-a-surreal-out-of-body-experience-or/",
       "pubDate": "Sun, 21 Jun 2026 07:31:00 GMT",
@@ -6421,18 +6433,6 @@
       "link": "https://ihavebeenfloated.org/2026/06/15/i-downloaded-the-star-fox-remake-demo-i-remember/",
       "pubDate": "Mon, 15 Jun 2026 17:58:00 GMT",
       "pubDate_formatted": "Jun 15"
-    },
-    {
-      "title": "I got my butt kicked a little bit today, still...",
-      "link": "https://ihavebeenfloated.org/2026/06/09/i-got-my-butt-kicked-a-little-bit-today-still/",
-      "pubDate": "Wed, 10 Jun 2026 06:40:00 GMT",
-      "pubDate_formatted": "Jun 9"
-    },
-    {
-      "title": "Holy shit, lol, I can't believe this is actually...",
-      "link": "https://ihavebeenfloated.org/2026/06/08/holy-shit-lol-i-can-t-believe-this-is-actually-a/",
-      "pubDate": "Tue, 09 Jun 2026 06:51:00 GMT",
-      "pubDate_formatted": "Jun 8"
     }
   ],
   "amiantosPosts": [
@@ -6467,5 +6467,5 @@
       "pubDate_formatted": "Oct 8"
     }
   ],
-  "_fetchedAt": 1782096799324
+  "_fetchedAt": 1782194404506
 }
