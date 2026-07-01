@@ -1174,14 +1174,14 @@
       "releases_url": "https://api.github.com/repos/amiantos/bradroot.me/releases{/id}",
       "deployments_url": "https://api.github.com/repos/amiantos/bradroot.me/deployments",
       "created_at": "2018-05-06T02:16:59Z",
-      "updated_at": "2026-06-28T06:00:06Z",
-      "pushed_at": "2026-06-28T06:00:02Z",
+      "updated_at": "2026-06-29T06:00:12Z",
+      "pushed_at": "2026-06-29T06:00:05Z",
       "git_url": "git://github.com/amiantos/bradroot.me.git",
       "ssh_url": "git@github.com:amiantos/bradroot.me.git",
       "clone_url": "https://github.com/amiantos/bradroot.me.git",
       "svn_url": "https://github.com/amiantos/bradroot.me",
       "homepage": "https://bradroot.me",
-      "size": 18225,
+      "size": 18258,
       "stargazers_count": 0,
       "watchers_count": 0,
       "language": "JavaScript",
@@ -3945,16 +3945,16 @@
       "releases_url": "https://api.github.com/repos/amiantos/lurker/releases{/id}",
       "deployments_url": "https://api.github.com/repos/amiantos/lurker/deployments",
       "created_at": "2026-05-07T06:56:39Z",
-      "updated_at": "2026-06-29T05:15:21Z",
-      "pushed_at": "2026-06-29T05:15:18Z",
+      "updated_at": "2026-07-01T03:39:15Z",
+      "pushed_at": "2026-07-01T05:51:54Z",
       "git_url": "git://github.com/amiantos/lurker.git",
       "ssh_url": "git@github.com:amiantos/lurker.git",
       "clone_url": "https://github.com/amiantos/lurker.git",
       "svn_url": "https://github.com/amiantos/lurker",
       "homepage": "https://lurker.chat",
-      "size": 7085,
-      "stargazers_count": 65,
-      "watchers_count": 65,
+      "size": 7193,
+      "stargazers_count": 67,
+      "watchers_count": 67,
       "language": "TypeScript",
       "has_issues": true,
       "has_projects": false,
@@ -3966,7 +3966,7 @@
       "mirror_url": null,
       "archived": false,
       "disabled": false,
-      "open_issues_count": 47,
+      "open_issues_count": 46,
       "license": {
         "key": "mpl-2.0",
         "name": "Mozilla Public License 2.0",
@@ -3989,8 +3989,8 @@
       ],
       "visibility": "public",
       "forks": 8,
-      "open_issues": 47,
-      "watchers": 65,
+      "open_issues": 46,
+      "watchers": 67,
       "default_branch": "main"
     },
     {
@@ -6363,8 +6363,8 @@
     }
   ],
   "aihorde": {
-    "images_generated": "42,883",
-    "kudos": "5,320,005"
+    "images_generated": "43,034",
+    "kudos": "5,390,036"
   },
   "stairesSongs": [
     {
@@ -6405,6 +6405,12 @@
   ],
   "floatedPosts": [
     {
+      "title": "Forza Horizon 6 is gorgeous and fun but the...",
+      "link": "https://ihavebeenfloated.org/2026/06/30/forza-horizon-6-is-gorgeous-and-fun-but-the/",
+      "pubDate": "Tue, 30 Jun 2026 17:59:00 GMT",
+      "pubDate_formatted": "Jun 30"
+    },
+    {
       "title": "when the great ai wars begin, i will be on the...",
       "link": "https://ihavebeenfloated.org/2026/06/23/when-the-great-ai-wars-begin-i-will-be-on-the/",
       "pubDate": "Wed, 24 Jun 2026 06:58:00 GMT",
@@ -6427,12 +6433,6 @@
       "link": "https://ihavebeenfloated.org/2026/06/21/i-m-having-a-surreal-out-of-body-experience-or/",
       "pubDate": "Sun, 21 Jun 2026 07:31:00 GMT",
       "pubDate_formatted": "Jun 21"
-    },
-    {
-      "title": "Personally I am looking forward to Ed Zitron...",
-      "link": "https://ihavebeenfloated.org/2026/06/17/personally-i-am-looking-forward-to-ed-zitron/",
-      "pubDate": "Thu, 18 Jun 2026 04:51:00 GMT",
-      "pubDate_formatted": "Jun 17"
     }
   ],
   "amiantosPosts": [
@@ -6467,5 +6467,5 @@
       "pubDate_formatted": "Oct 8"
     }
   ],
-  "_fetchedAt": 1782712803531
+  "_fetchedAt": 1782885602412
 }
