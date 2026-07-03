@@ -1174,14 +1174,14 @@
       "releases_url": "https://api.github.com/repos/amiantos/bradroot.me/releases{/id}",
       "deployments_url": "https://api.github.com/repos/amiantos/bradroot.me/deployments",
       "created_at": "2018-05-06T02:16:59Z",
-      "updated_at": "2026-06-29T06:00:12Z",
-      "pushed_at": "2026-06-29T06:00:05Z",
+      "updated_at": "2026-07-02T06:00:06Z",
+      "pushed_at": "2026-07-02T06:00:02Z",
       "git_url": "git://github.com/amiantos/bradroot.me.git",
       "ssh_url": "git@github.com:amiantos/bradroot.me.git",
       "clone_url": "https://github.com/amiantos/bradroot.me.git",
       "svn_url": "https://github.com/amiantos/bradroot.me",
       "homepage": "https://bradroot.me",
-      "size": 18258,
+      "size": 18275,
       "stargazers_count": 0,
       "watchers_count": 0,
       "language": "JavaScript",
@@ -3945,14 +3945,14 @@
       "releases_url": "https://api.github.com/repos/amiantos/lurker/releases{/id}",
       "deployments_url": "https://api.github.com/repos/amiantos/lurker/deployments",
       "created_at": "2026-05-07T06:56:39Z",
-      "updated_at": "2026-07-01T03:39:15Z",
-      "pushed_at": "2026-07-01T05:51:54Z",
+      "updated_at": "2026-07-02T05:05:39Z",
+      "pushed_at": "2026-07-02T21:06:18Z",
       "git_url": "git://github.com/amiantos/lurker.git",
       "ssh_url": "git@github.com:amiantos/lurker.git",
       "clone_url": "https://github.com/amiantos/lurker.git",
       "svn_url": "https://github.com/amiantos/lurker",
       "homepage": "https://lurker.chat",
-      "size": 7193,
+      "size": 7335,
       "stargazers_count": 67,
       "watchers_count": 67,
       "language": "TypeScript",
@@ -3966,7 +3966,7 @@
       "mirror_url": null,
       "archived": false,
       "disabled": false,
-      "open_issues_count": 46,
+      "open_issues_count": 52,
       "license": {
         "key": "mpl-2.0",
         "name": "Mozilla Public License 2.0",
@@ -3989,7 +3989,7 @@
       ],
       "visibility": "public",
       "forks": 8,
-      "open_issues": 46,
+      "open_issues": 52,
       "watchers": 67,
       "default_branch": "main"
     },
@@ -6315,7 +6315,7 @@
   ],
   "discourse": {
     "topics": 14,
-    "posts": 890,
+    "posts": 891,
     "users": 7
   },
   "discourseTopics": [
@@ -6323,8 +6323,8 @@
       "title": "Lurker - Devlog",
       "slug": "lurker-devlog",
       "id": 89,
-      "last_posted_at": "2026-06-27T07:34:32.510Z",
-      "last_posted_at_formatted": "Jun 27"
+      "last_posted_at": "2026-07-01T06:25:36.834Z",
+      "last_posted_at_formatted": "Jun 30"
     },
     {
       "title": "PiBar v1.2 - Devlog",
@@ -6363,8 +6363,8 @@
     }
   ],
   "aihorde": {
-    "images_generated": "43,034",
-    "kudos": "5,390,036"
+    "images_generated": "43,286",
+    "kudos": "5,450,813"
   },
   "stairesSongs": [
     {
@@ -6405,6 +6405,12 @@
   ],
   "floatedPosts": [
     {
+      "title": "No one talks about how hard it is for a man to...",
+      "link": "https://ihavebeenfloated.org/2026/06/30/no-one-talks-about-how-hard-it-is-for-a-man-to/",
+      "pubDate": "Wed, 01 Jul 2026 06:51:00 GMT",
+      "pubDate_formatted": "Jun 30"
+    },
+    {
       "title": "Forza Horizon 6 is gorgeous and fun but the...",
       "link": "https://ihavebeenfloated.org/2026/06/30/forza-horizon-6-is-gorgeous-and-fun-but-the/",
       "pubDate": "Tue, 30 Jun 2026 17:59:00 GMT",
@@ -6426,12 +6432,6 @@
       "title": "the world is so brutal.\n\nit doesn't make sense to...",
       "link": "https://ihavebeenfloated.org/2026/06/21/the-world-is-so-brutal-it-doesn-t-make-sense-to-2/",
       "pubDate": "Mon, 22 Jun 2026 06:20:00 GMT",
-      "pubDate_formatted": "Jun 21"
-    },
-    {
-      "title": "i'm having a surreal out of body experience or...",
-      "link": "https://ihavebeenfloated.org/2026/06/21/i-m-having-a-surreal-out-of-body-experience-or/",
-      "pubDate": "Sun, 21 Jun 2026 07:31:00 GMT",
       "pubDate_formatted": "Jun 21"
     }
   ],
@@ -6467,5 +6467,5 @@
       "pubDate_formatted": "Oct 8"
     }
   ],
-  "_fetchedAt": 1782885602412
+  "_fetchedAt": 1783058402719
 }
