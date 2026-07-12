@@ -524,7 +524,7 @@
       "releases_url": "https://api.github.com/repos/amiantos/AI-Horde-Styles-Previews/releases{/id}",
       "deployments_url": "https://api.github.com/repos/amiantos/AI-Horde-Styles-Previews/deployments",
       "created_at": "2024-01-26T22:45:55Z",
-      "updated_at": "2026-03-05T00:38:23Z",
+      "updated_at": "2026-07-11T23:29:30Z",
       "pushed_at": "2026-03-05T00:38:17Z",
       "git_url": "git://github.com/amiantos/AI-Horde-Styles-Previews.git",
       "ssh_url": "git@github.com:amiantos/AI-Horde-Styles-Previews.git",
@@ -532,8 +532,8 @@
       "svn_url": "https://github.com/amiantos/AI-Horde-Styles-Previews",
       "homepage": null,
       "size": 984323,
-      "stargazers_count": 9,
-      "watchers_count": 9,
+      "stargazers_count": 10,
+      "watchers_count": 10,
       "language": "JavaScript",
       "has_issues": true,
       "has_projects": true,
@@ -562,7 +562,7 @@
       "visibility": "public",
       "forks": 1,
       "open_issues": 0,
-      "watchers": 9,
+      "watchers": 10,
       "default_branch": "main"
     },
     {
@@ -1174,14 +1174,14 @@
       "releases_url": "https://api.github.com/repos/amiantos/bradroot.me/releases{/id}",
       "deployments_url": "https://api.github.com/repos/amiantos/bradroot.me/deployments",
       "created_at": "2018-05-06T02:16:59Z",
-      "updated_at": "2026-07-08T06:00:06Z",
-      "pushed_at": "2026-07-08T06:00:02Z",
+      "updated_at": "2026-07-10T06:00:05Z",
+      "pushed_at": "2026-07-10T06:00:01Z",
       "git_url": "git://github.com/amiantos/bradroot.me.git",
       "ssh_url": "git@github.com:amiantos/bradroot.me.git",
       "clone_url": "https://github.com/amiantos/bradroot.me.git",
       "svn_url": "https://github.com/amiantos/bradroot.me",
       "homepage": "https://bradroot.me",
-      "size": 18398,
+      "size": 18439,
       "stargazers_count": 0,
       "watchers_count": 0,
       "language": "JavaScript",
@@ -1277,14 +1277,14 @@
       "releases_url": "https://api.github.com/repos/amiantos/c64-ultimate-toolbox/releases{/id}",
       "deployments_url": "https://api.github.com/repos/amiantos/c64-ultimate-toolbox/deployments",
       "created_at": "2026-03-08T23:05:53Z",
-      "updated_at": "2026-05-22T07:04:01Z",
-      "pushed_at": "2026-04-28T16:03:45Z",
+      "updated_at": "2026-07-10T20:49:49Z",
+      "pushed_at": "2026-07-10T20:49:37Z",
       "git_url": "git://github.com/amiantos/c64-ultimate-toolbox.git",
       "ssh_url": "git@github.com:amiantos/c64-ultimate-toolbox.git",
       "clone_url": "https://github.com/amiantos/c64-ultimate-toolbox.git",
       "svn_url": "https://github.com/amiantos/c64-ultimate-toolbox",
       "homepage": "https://discuss.bradroot.me/tags/c/projects/13/c64-ultimate-toolbox/36",
-      "size": 7539,
+      "size": 7547,
       "stargazers_count": 25,
       "watchers_count": 25,
       "language": "Swift",
@@ -1294,11 +1294,11 @@
       "has_wiki": false,
       "has_pages": false,
       "has_discussions": false,
-      "forks_count": 0,
+      "forks_count": 1,
       "mirror_url": null,
       "archived": false,
       "disabled": false,
-      "open_issues_count": 0,
+      "open_issues_count": 2,
       "license": {
         "key": "mpl-2.0",
         "name": "Mozilla Public License 2.0",
@@ -1323,8 +1323,8 @@
         "ultimate-64"
       ],
       "visibility": "public",
-      "forks": 0,
-      "open_issues": 0,
+      "forks": 1,
+      "open_issues": 2,
       "watchers": 25,
       "default_branch": "main"
     },
@@ -3945,16 +3945,16 @@
       "releases_url": "https://api.github.com/repos/amiantos/lurker/releases{/id}",
       "deployments_url": "https://api.github.com/repos/amiantos/lurker/deployments",
       "created_at": "2026-05-07T06:56:39Z",
-      "updated_at": "2026-07-08T17:10:09Z",
-      "pushed_at": "2026-07-08T08:38:57Z",
+      "updated_at": "2026-07-11T18:49:32Z",
+      "pushed_at": "2026-07-12T01:28:09Z",
       "git_url": "git://github.com/amiantos/lurker.git",
       "ssh_url": "git@github.com:amiantos/lurker.git",
       "clone_url": "https://github.com/amiantos/lurker.git",
       "svn_url": "https://github.com/amiantos/lurker",
       "homepage": "https://lurker.chat",
-      "size": 8008,
-      "stargazers_count": 68,
-      "watchers_count": 68,
+      "size": 7802,
+      "stargazers_count": 71,
+      "watchers_count": 71,
       "language": "TypeScript",
       "has_issues": true,
       "has_projects": false,
@@ -3966,7 +3966,7 @@
       "mirror_url": null,
       "archived": false,
       "disabled": false,
-      "open_issues_count": 49,
+      "open_issues_count": 65,
       "license": {
         "key": "mpl-2.0",
         "name": "Mozilla Public License 2.0",
@@ -3989,8 +3989,8 @@
       ],
       "visibility": "public",
       "forks": 10,
-      "open_issues": 49,
-      "watchers": 68,
+      "open_issues": 65,
+      "watchers": 71,
       "default_branch": "main"
     },
     {
@@ -6151,28 +6151,28 @@
       "releases_url": "https://api.github.com/repos/amiantos/writers-guild/releases{/id}",
       "deployments_url": "https://api.github.com/repos/amiantos/writers-guild/deployments",
       "created_at": "2025-11-07T17:10:43Z",
-      "updated_at": "2026-06-20T23:10:09Z",
-      "pushed_at": "2026-06-20T23:10:05Z",
+      "updated_at": "2026-07-11T17:16:16Z",
+      "pushed_at": "2026-07-11T17:16:00Z",
       "git_url": "git://github.com/amiantos/writers-guild.git",
       "ssh_url": "git@github.com:amiantos/writers-guild.git",
       "clone_url": "https://github.com/amiantos/writers-guild.git",
       "svn_url": "https://github.com/amiantos/writers-guild",
       "homepage": "",
-      "size": 5335,
+      "size": 5166,
       "stargazers_count": 7,
       "watchers_count": 7,
       "language": "JavaScript",
       "has_issues": true,
-      "has_projects": true,
+      "has_projects": false,
       "has_downloads": true,
-      "has_wiki": true,
+      "has_wiki": false,
       "has_pages": false,
       "has_discussions": false,
       "forks_count": 3,
       "mirror_url": null,
       "archived": false,
       "disabled": false,
-      "open_issues_count": 6,
+      "open_issues_count": 10,
       "license": {
         "key": "mpl-2.0",
         "name": "Mozilla Public License 2.0",
@@ -6197,7 +6197,7 @@
       ],
       "visibility": "public",
       "forks": 3,
-      "open_issues": 6,
+      "open_issues": 10,
       "watchers": 7,
       "default_branch": "main"
     },
@@ -6363,10 +6363,17 @@
     }
   ],
   "aihorde": {
-    "images_generated": "43,634",
-    "kudos": "5,533,072"
+    "images_generated": "43,660",
+    "kudos": "5,547,379"
   },
   "stairesSongs": [
+    {
+      "title": "Disq - Cujo Kiddies",
+      "link": "https://staires.org/2026/07/09/disq-cujo-kiddies/",
+      "pubDate": "Thu, 09 Jul 2026 18:14:00 GMT",
+      "youtubeId": "iwjCKeggYXk",
+      "pubDate_formatted": "Jul 9"
+    },
     {
       "title": "TEKE::TEKE - Doppelganger",
       "link": "https://staires.org/2026/07/07/teke-teke-doppelganger/",
@@ -6394,13 +6401,6 @@
       "pubDate": "Sat, 02 May 2026 06:50:00 GMT",
       "youtubeId": "RDnTe8RNOVw",
       "pubDate_formatted": "May 1"
-    },
-    {
-      "title": "Sufjan Stevens - Will Anybody Ever Love Me?",
-      "link": "https://staires.org/2026/04/20/sufjan-stevens-will-anybody-ever-love-me/",
-      "pubDate": "Tue, 21 Apr 2026 03:35:00 GMT",
-      "youtubeId": "OLeCIRC4taY",
-      "pubDate_formatted": "Apr 20"
     }
   ],
   "floatedPosts": [
@@ -6467,5 +6467,5 @@
       "pubDate_formatted": "Oct 8"
     }
   ],
-  "_fetchedAt": 1783576801508
+  "_fetchedAt": 1783836002902
 }
