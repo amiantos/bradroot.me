@@ -1174,14 +1174,14 @@
       "releases_url": "https://api.github.com/repos/amiantos/bradroot.me/releases{/id}",
       "deployments_url": "https://api.github.com/repos/amiantos/bradroot.me/deployments",
       "created_at": "2018-05-06T02:16:59Z",
-      "updated_at": "2026-07-29T06:00:42Z",
-      "pushed_at": "2026-07-29T06:00:02Z",
+      "updated_at": "2026-07-31T06:00:49Z",
+      "pushed_at": "2026-07-31T06:00:02Z",
       "git_url": "git://github.com/amiantos/bradroot.me.git",
       "ssh_url": "git@github.com:amiantos/bradroot.me.git",
       "clone_url": "https://github.com/amiantos/bradroot.me.git",
       "svn_url": "https://github.com/amiantos/bradroot.me",
       "homepage": "https://bradroot.me",
-      "size": 17895,
+      "size": 17938,
       "stargazers_count": 0,
       "watchers_count": 0,
       "language": "HTML",
@@ -4054,14 +4054,14 @@
       "releases_url": "https://api.github.com/repos/amiantos/lurker/releases{/id}",
       "deployments_url": "https://api.github.com/repos/amiantos/lurker/deployments",
       "created_at": "2026-05-07T06:56:39Z",
-      "updated_at": "2026-07-29T07:56:32Z",
-      "pushed_at": "2026-07-30T04:44:11Z",
+      "updated_at": "2026-08-01T04:13:27Z",
+      "pushed_at": "2026-08-01T04:58:58Z",
       "git_url": "git://github.com/amiantos/lurker.git",
       "ssh_url": "git@github.com:amiantos/lurker.git",
       "clone_url": "https://github.com/amiantos/lurker.git",
       "svn_url": "https://github.com/amiantos/lurker",
       "homepage": "https://lurker.chat",
-      "size": 9863,
+      "size": 9872,
       "stargazers_count": 77,
       "watchers_count": 77,
       "language": "TypeScript",
@@ -4075,7 +4075,7 @@
       "mirror_url": null,
       "archived": false,
       "disabled": false,
-      "open_issues_count": 78,
+      "open_issues_count": 86,
       "license": {
         "key": "mpl-2.0",
         "name": "Mozilla Public License 2.0",
@@ -4098,7 +4098,7 @@
       ],
       "visibility": "public",
       "forks": 11,
-      "open_issues": 78,
+      "open_issues": 86,
       "watchers": 77,
       "default_branch": "main"
     },
@@ -4279,14 +4279,14 @@
       "releases_url": "https://api.github.com/repos/amiantos/lurker-ios/releases{/id}",
       "deployments_url": "https://api.github.com/repos/amiantos/lurker-ios/deployments",
       "created_at": "2026-07-14T19:03:44Z",
-      "updated_at": "2026-07-29T07:29:36Z",
-      "pushed_at": "2026-07-30T05:31:40Z",
+      "updated_at": "2026-08-01T04:05:06Z",
+      "pushed_at": "2026-08-01T04:58:20Z",
       "git_url": "git://github.com/amiantos/lurker-ios.git",
       "ssh_url": "git@github.com:amiantos/lurker-ios.git",
       "clone_url": "https://github.com/amiantos/lurker-ios.git",
       "svn_url": "https://github.com/amiantos/lurker-ios",
       "homepage": null,
-      "size": 1633,
+      "size": 1248,
       "stargazers_count": 5,
       "watchers_count": 5,
       "language": "Swift",
@@ -4300,7 +4300,7 @@
       "mirror_url": null,
       "archived": false,
       "disabled": false,
-      "open_issues_count": 16,
+      "open_issues_count": 14,
       "license": {
         "key": "mpl-2.0",
         "name": "Mozilla Public License 2.0",
@@ -4316,7 +4316,7 @@
       "topics": [],
       "visibility": "public",
       "forks": 0,
-      "open_issues": 16,
+      "open_issues": 14,
       "watchers": 5,
       "default_branch": "main"
     },
@@ -6690,8 +6690,8 @@
     }
   ],
   "aihorde": {
-    "images_generated": "44,692",
-    "kudos": "5,682,940"
+    "images_generated": "44,740",
+    "kudos": "5,690,524"
   },
   "stairesSongs": [
     {
@@ -6794,5 +6794,5 @@
       "pubDate_formatted": "Oct 8"
     }
   ],
-  "_fetchedAt": 1785391201824
+  "_fetchedAt": 1785564001658
 }
