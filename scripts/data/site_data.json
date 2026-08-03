@@ -1174,14 +1174,14 @@
       "releases_url": "https://api.github.com/repos/amiantos/bradroot.me/releases{/id}",
       "deployments_url": "https://api.github.com/repos/amiantos/bradroot.me/deployments",
       "created_at": "2018-05-06T02:16:59Z",
-      "updated_at": "2026-07-31T06:00:49Z",
-      "pushed_at": "2026-07-31T06:00:02Z",
+      "updated_at": "2026-08-02T06:00:10Z",
+      "pushed_at": "2026-08-02T06:00:02Z",
       "git_url": "git://github.com/amiantos/bradroot.me.git",
       "ssh_url": "git@github.com:amiantos/bradroot.me.git",
       "clone_url": "https://github.com/amiantos/bradroot.me.git",
       "svn_url": "https://github.com/amiantos/bradroot.me",
       "homepage": "https://bradroot.me",
-      "size": 17938,
+      "size": 17981,
       "stargazers_count": 0,
       "watchers_count": 0,
       "language": "HTML",
@@ -1941,13 +1941,13 @@
       "deployments_url": "https://api.github.com/repos/amiantos/ealain/deployments",
       "created_at": "2023-06-14T21:41:08Z",
       "updated_at": "2026-07-12T22:34:09Z",
-      "pushed_at": "2025-02-10T08:30:03Z",
+      "pushed_at": "2026-08-03T05:59:46Z",
       "git_url": "git://github.com/amiantos/ealain.git",
       "ssh_url": "git@github.com:amiantos/ealain.git",
       "clone_url": "https://github.com/amiantos/ealain.git",
       "svn_url": "https://github.com/amiantos/ealain",
       "homepage": "",
-      "size": 2578,
+      "size": 2600,
       "stargazers_count": 73,
       "watchers_count": 73,
       "language": "Swift",
@@ -3827,7 +3827,7 @@
       "releases_url": "https://api.github.com/repos/amiantos/lifesaver/releases{/id}",
       "deployments_url": "https://api.github.com/repos/amiantos/lifesaver/deployments",
       "created_at": "2019-05-18T18:10:08Z",
-      "updated_at": "2026-07-06T11:44:19Z",
+      "updated_at": "2026-08-02T16:13:23Z",
       "pushed_at": "2026-05-04T03:55:19Z",
       "git_url": "git://github.com/amiantos/lifesaver.git",
       "ssh_url": "git@github.com:amiantos/lifesaver.git",
@@ -3835,8 +3835,8 @@
       "svn_url": "https://github.com/amiantos/lifesaver",
       "homepage": "https://discuss.bradroot.me/tags/c/projects/13/life-saver/7",
       "size": 38165,
-      "stargazers_count": 239,
-      "watchers_count": 239,
+      "stargazers_count": 240,
+      "watchers_count": 240,
       "language": "Swift",
       "has_issues": true,
       "has_projects": true,
@@ -3880,7 +3880,7 @@
       "visibility": "public",
       "forks": 11,
       "open_issues": 11,
-      "watchers": 239,
+      "watchers": 240,
       "default_branch": "master"
     },
     {
@@ -4014,7 +4014,7 @@
         "site_admin": false
       },
       "html_url": "https://github.com/amiantos/lurker",
-      "description": "Lurker is a beautiful self-hosted modern IRC client with a retro flair, most easily described as \"your personal IRCCloud, with Weechat looks\".",
+      "description": "Lurker is a beautiful self-hosted IRC client with a retro aesthetic and modern conveniences.",
       "fork": false,
       "url": "https://api.github.com/repos/amiantos/lurker",
       "forks_url": "https://api.github.com/repos/amiantos/lurker/forks",
@@ -4054,14 +4054,14 @@
       "releases_url": "https://api.github.com/repos/amiantos/lurker/releases{/id}",
       "deployments_url": "https://api.github.com/repos/amiantos/lurker/deployments",
       "created_at": "2026-05-07T06:56:39Z",
-      "updated_at": "2026-08-01T04:13:27Z",
-      "pushed_at": "2026-08-01T04:58:58Z",
+      "updated_at": "2026-08-03T03:03:18Z",
+      "pushed_at": "2026-08-03T05:10:14Z",
       "git_url": "git://github.com/amiantos/lurker.git",
       "ssh_url": "git@github.com:amiantos/lurker.git",
       "clone_url": "https://github.com/amiantos/lurker.git",
       "svn_url": "https://github.com/amiantos/lurker",
       "homepage": "https://lurker.chat",
-      "size": 9872,
+      "size": 10960,
       "stargazers_count": 77,
       "watchers_count": 77,
       "language": "TypeScript",
@@ -4075,7 +4075,7 @@
       "mirror_url": null,
       "archived": false,
       "disabled": false,
-      "open_issues_count": 86,
+      "open_issues_count": 89,
       "license": {
         "key": "mpl-2.0",
         "name": "Mozilla Public License 2.0",
@@ -4098,7 +4098,7 @@
       ],
       "visibility": "public",
       "forks": 11,
-      "open_issues": 86,
+      "open_issues": 89,
       "watchers": 77,
       "default_branch": "main"
     },
@@ -4279,14 +4279,14 @@
       "releases_url": "https://api.github.com/repos/amiantos/lurker-ios/releases{/id}",
       "deployments_url": "https://api.github.com/repos/amiantos/lurker-ios/deployments",
       "created_at": "2026-07-14T19:03:44Z",
-      "updated_at": "2026-08-01T04:05:06Z",
-      "pushed_at": "2026-08-01T04:58:20Z",
+      "updated_at": "2026-08-03T02:48:22Z",
+      "pushed_at": "2026-08-03T02:48:18Z",
       "git_url": "git://github.com/amiantos/lurker-ios.git",
       "ssh_url": "git@github.com:amiantos/lurker-ios.git",
       "clone_url": "https://github.com/amiantos/lurker-ios.git",
       "svn_url": "https://github.com/amiantos/lurker-ios",
       "homepage": null,
-      "size": 1248,
+      "size": 1573,
       "stargazers_count": 5,
       "watchers_count": 5,
       "language": "Swift",
@@ -4300,7 +4300,7 @@
       "mirror_url": null,
       "archived": false,
       "disabled": false,
-      "open_issues_count": 14,
+      "open_issues_count": 12,
       "license": {
         "key": "mpl-2.0",
         "name": "Mozilla Public License 2.0",
@@ -4316,7 +4316,7 @@
       "topics": [],
       "visibility": "public",
       "forks": 0,
-      "open_issues": 14,
+      "open_issues": 12,
       "watchers": 5,
       "default_branch": "main"
     },
@@ -6690,8 +6690,8 @@
     }
   ],
   "aihorde": {
-    "images_generated": "44,740",
-    "kudos": "5,690,524"
+    "images_generated": "44,904",
+    "kudos": "5,714,914"
   },
   "stairesSongs": [
     {
@@ -6794,5 +6794,5 @@
       "pubDate_formatted": "Oct 8"
     }
   ],
-  "_fetchedAt": 1785564001658
+  "_fetchedAt": 1785736802957
 }
