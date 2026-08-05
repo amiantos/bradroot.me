@@ -1174,14 +1174,14 @@
       "releases_url": "https://api.github.com/repos/amiantos/bradroot.me/releases{/id}",
       "deployments_url": "https://api.github.com/repos/amiantos/bradroot.me/deployments",
       "created_at": "2018-05-06T02:16:59Z",
-      "updated_at": "2026-08-02T06:00:10Z",
-      "pushed_at": "2026-08-02T06:00:02Z",
+      "updated_at": "2026-08-04T06:00:28Z",
+      "pushed_at": "2026-08-04T06:00:02Z",
       "git_url": "git://github.com/amiantos/bradroot.me.git",
       "ssh_url": "git@github.com:amiantos/bradroot.me.git",
       "clone_url": "https://github.com/amiantos/bradroot.me.git",
       "svn_url": "https://github.com/amiantos/bradroot.me",
       "homepage": "https://bradroot.me",
-      "size": 17981,
+      "size": 18023,
       "stargazers_count": 0,
       "watchers_count": 0,
       "language": "HTML",
@@ -1900,7 +1900,7 @@
         "site_admin": false
       },
       "html_url": "https://github.com/amiantos/ealain",
-      "description": "Ealain is a macOS screensaver that displays abstract, bauhaus style art generated with Stable Diffusion",
+      "description": "Ealain is a macOS & Windows screensaver that displays abstract, bauhaus style art generated with Stable Diffusion",
       "fork": false,
       "url": "https://api.github.com/repos/amiantos/ealain",
       "forks_url": "https://api.github.com/repos/amiantos/ealain/forks",
@@ -1940,17 +1940,17 @@
       "releases_url": "https://api.github.com/repos/amiantos/ealain/releases{/id}",
       "deployments_url": "https://api.github.com/repos/amiantos/ealain/deployments",
       "created_at": "2023-06-14T21:41:08Z",
-      "updated_at": "2026-07-12T22:34:09Z",
-      "pushed_at": "2026-08-03T05:59:46Z",
+      "updated_at": "2026-08-03T19:53:58Z",
+      "pushed_at": "2026-08-03T06:12:03Z",
       "git_url": "git://github.com/amiantos/ealain.git",
       "ssh_url": "git@github.com:amiantos/ealain.git",
       "clone_url": "https://github.com/amiantos/ealain.git",
       "svn_url": "https://github.com/amiantos/ealain",
       "homepage": "",
-      "size": 2600,
-      "stargazers_count": 73,
-      "watchers_count": 73,
-      "language": "Swift",
+      "size": 2614,
+      "stargazers_count": 74,
+      "watchers_count": 74,
+      "language": "C#",
       "has_issues": true,
       "has_projects": false,
       "has_downloads": false,
@@ -1978,18 +1978,20 @@
         "ai-horde",
         "aihorde",
         "art",
+        "csharp",
         "image-generation",
         "macos",
         "nodejs",
         "screensaver",
         "stable-diffusion",
         "stable-horde",
-        "swift"
+        "swift",
+        "windows"
       ],
       "visibility": "public",
       "forks": 2,
       "open_issues": 3,
-      "watchers": 73,
+      "watchers": 74,
       "default_branch": "main"
     },
     {
@@ -3827,7 +3829,7 @@
       "releases_url": "https://api.github.com/repos/amiantos/lifesaver/releases{/id}",
       "deployments_url": "https://api.github.com/repos/amiantos/lifesaver/deployments",
       "created_at": "2019-05-18T18:10:08Z",
-      "updated_at": "2026-08-02T16:13:23Z",
+      "updated_at": "2026-08-05T00:08:09Z",
       "pushed_at": "2026-05-04T03:55:19Z",
       "git_url": "git://github.com/amiantos/lifesaver.git",
       "ssh_url": "git@github.com:amiantos/lifesaver.git",
@@ -3835,8 +3837,8 @@
       "svn_url": "https://github.com/amiantos/lifesaver",
       "homepage": "https://discuss.bradroot.me/tags/c/projects/13/life-saver/7",
       "size": 38165,
-      "stargazers_count": 240,
-      "watchers_count": 240,
+      "stargazers_count": 241,
+      "watchers_count": 241,
       "language": "Swift",
       "has_issues": true,
       "has_projects": true,
@@ -3880,7 +3882,7 @@
       "visibility": "public",
       "forks": 11,
       "open_issues": 11,
-      "watchers": 240,
+      "watchers": 241,
       "default_branch": "master"
     },
     {
@@ -4054,14 +4056,14 @@
       "releases_url": "https://api.github.com/repos/amiantos/lurker/releases{/id}",
       "deployments_url": "https://api.github.com/repos/amiantos/lurker/deployments",
       "created_at": "2026-05-07T06:56:39Z",
-      "updated_at": "2026-08-03T03:03:18Z",
-      "pushed_at": "2026-08-03T05:10:14Z",
+      "updated_at": "2026-08-05T01:42:23Z",
+      "pushed_at": "2026-08-05T02:23:19Z",
       "git_url": "git://github.com/amiantos/lurker.git",
       "ssh_url": "git@github.com:amiantos/lurker.git",
       "clone_url": "https://github.com/amiantos/lurker.git",
       "svn_url": "https://github.com/amiantos/lurker",
       "homepage": "https://lurker.chat",
-      "size": 10960,
+      "size": 11858,
       "stargazers_count": 77,
       "watchers_count": 77,
       "language": "TypeScript",
@@ -4075,7 +4077,7 @@
       "mirror_url": null,
       "archived": false,
       "disabled": false,
-      "open_issues_count": 89,
+      "open_issues_count": 78,
       "license": {
         "key": "mpl-2.0",
         "name": "Mozilla Public License 2.0",
@@ -4098,7 +4100,7 @@
       ],
       "visibility": "public",
       "forks": 11,
-      "open_issues": 89,
+      "open_issues": 78,
       "watchers": 77,
       "default_branch": "main"
     },
@@ -4279,14 +4281,14 @@
       "releases_url": "https://api.github.com/repos/amiantos/lurker-ios/releases{/id}",
       "deployments_url": "https://api.github.com/repos/amiantos/lurker-ios/deployments",
       "created_at": "2026-07-14T19:03:44Z",
-      "updated_at": "2026-08-03T02:48:22Z",
-      "pushed_at": "2026-08-03T02:48:18Z",
+      "updated_at": "2026-08-05T01:23:01Z",
+      "pushed_at": "2026-08-05T02:28:55Z",
       "git_url": "git://github.com/amiantos/lurker-ios.git",
       "ssh_url": "git@github.com:amiantos/lurker-ios.git",
       "clone_url": "https://github.com/amiantos/lurker-ios.git",
       "svn_url": "https://github.com/amiantos/lurker-ios",
       "homepage": null,
-      "size": 1573,
+      "size": 1577,
       "stargazers_count": 5,
       "watchers_count": 5,
       "language": "Swift",
@@ -4300,7 +4302,7 @@
       "mirror_url": null,
       "archived": false,
       "disabled": false,
-      "open_issues_count": 12,
+      "open_issues_count": 13,
       "license": {
         "key": "mpl-2.0",
         "name": "Mozilla Public License 2.0",
@@ -4316,7 +4318,7 @@
       "topics": [],
       "visibility": "public",
       "forks": 0,
-      "open_issues": 12,
+      "open_issues": 13,
       "watchers": 5,
       "default_branch": "main"
     },
@@ -6690,8 +6692,8 @@
     }
   ],
   "aihorde": {
-    "images_generated": "44,904",
-    "kudos": "5,714,914"
+    "images_generated": "45,165",
+    "kudos": "5,765,235"
   },
   "stairesSongs": [
     {
@@ -6732,6 +6734,12 @@
   ],
   "floatedPosts": [
     {
+      "title": "Just in case there was any doubt the LAPD and all...",
+      "link": "https://ihavebeenfloated.org/2026/08/03/just-in-case-there-was-any-doubt-the-lapd-and-all/",
+      "pubDate": "Tue, 04 Aug 2026 02:47:00 GMT",
+      "pubDate_formatted": "Aug 3"
+    },
+    {
       "title": "tfw you argue with someone online and then you...",
       "link": "https://ihavebeenfloated.org/2026/07/07/tfw-you-argue-with-someone-online-and-then-you/",
       "pubDate": "Tue, 07 Jul 2026 18:10:00 GMT",
@@ -6754,12 +6762,6 @@
       "link": "https://ihavebeenfloated.org/2026/06/30/forza-horizon-6-is-gorgeous-and-fun-but-the/",
       "pubDate": "Tue, 30 Jun 2026 17:59:00 GMT",
       "pubDate_formatted": "Jun 30"
-    },
-    {
-      "title": "when the great ai wars begin, i will be on the...",
-      "link": "https://ihavebeenfloated.org/2026/06/23/when-the-great-ai-wars-begin-i-will-be-on-the/",
-      "pubDate": "Wed, 24 Jun 2026 06:58:00 GMT",
-      "pubDate_formatted": "Jun 23"
     }
   ],
   "amiantosPosts": [
@@ -6794,5 +6796,5 @@
       "pubDate_formatted": "Oct 8"
     }
   ],
-  "_fetchedAt": 1785736802957
+  "_fetchedAt": 1785909602076
 }
