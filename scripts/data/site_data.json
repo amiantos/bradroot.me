@@ -1174,14 +1174,14 @@
       "releases_url": "https://api.github.com/repos/amiantos/bradroot.me/releases{/id}",
       "deployments_url": "https://api.github.com/repos/amiantos/bradroot.me/deployments",
       "created_at": "2018-05-06T02:16:59Z",
-      "updated_at": "2026-08-20T06:01:03Z",
-      "pushed_at": "2026-08-20T06:00:02Z",
+      "updated_at": "2026-08-22T06:00:10Z",
+      "pushed_at": "2026-08-22T06:00:02Z",
       "git_url": "git://github.com/amiantos/bradroot.me.git",
       "ssh_url": "git@github.com:amiantos/bradroot.me.git",
       "clone_url": "https://github.com/amiantos/bradroot.me.git",
       "svn_url": "https://github.com/amiantos/bradroot.me",
       "homepage": "https://bradroot.me",
-      "size": 18368,
+      "size": 18412,
       "stargazers_count": 0,
       "watchers_count": 0,
       "language": "HTML",
@@ -4056,16 +4056,16 @@
       "releases_url": "https://api.github.com/repos/amiantos/lurker/releases{/id}",
       "deployments_url": "https://api.github.com/repos/amiantos/lurker/deployments",
       "created_at": "2026-05-07T06:56:39Z",
-      "updated_at": "2026-08-20T23:04:17Z",
-      "pushed_at": "2026-08-20T23:03:39Z",
+      "updated_at": "2026-08-22T21:47:59Z",
+      "pushed_at": "2026-08-22T23:24:01Z",
       "git_url": "git://github.com/amiantos/lurker.git",
       "ssh_url": "git@github.com:amiantos/lurker.git",
       "clone_url": "https://github.com/amiantos/lurker.git",
       "svn_url": "https://github.com/amiantos/lurker",
       "homepage": "https://lurker.chat",
-      "size": 10970,
-      "stargazers_count": 81,
-      "watchers_count": 81,
+      "size": 10940,
+      "stargazers_count": 83,
+      "watchers_count": 83,
       "language": "TypeScript",
       "has_issues": true,
       "has_projects": false,
@@ -4077,7 +4077,7 @@
       "mirror_url": null,
       "archived": false,
       "disabled": false,
-      "open_issues_count": 78,
+      "open_issues_count": 80,
       "license": {
         "key": "mpl-2.0",
         "name": "Mozilla Public License 2.0",
@@ -4100,8 +4100,8 @@
       ],
       "visibility": "public",
       "forks": 11,
-      "open_issues": 78,
-      "watchers": 81,
+      "open_issues": 80,
+      "watchers": 83,
       "default_branch": "main"
     },
     {
@@ -4281,7 +4281,7 @@
       "releases_url": "https://api.github.com/repos/amiantos/lurker-ios/releases{/id}",
       "deployments_url": "https://api.github.com/repos/amiantos/lurker-ios/deployments",
       "created_at": "2026-07-14T19:03:44Z",
-      "updated_at": "2026-08-20T23:04:13Z",
+      "updated_at": "2026-08-22T12:18:10Z",
       "pushed_at": "2026-08-20T23:03:44Z",
       "git_url": "git://github.com/amiantos/lurker-ios.git",
       "ssh_url": "git@github.com:amiantos/lurker-ios.git",
@@ -4289,8 +4289,8 @@
       "svn_url": "https://github.com/amiantos/lurker-ios",
       "homepage": null,
       "size": 1822,
-      "stargazers_count": 5,
-      "watchers_count": 5,
+      "stargazers_count": 6,
+      "watchers_count": 6,
       "language": "Swift",
       "has_issues": true,
       "has_projects": false,
@@ -4302,7 +4302,7 @@
       "mirror_url": null,
       "archived": false,
       "disabled": false,
-      "open_issues_count": 14,
+      "open_issues_count": 15,
       "license": {
         "key": "mpl-2.0",
         "name": "Mozilla Public License 2.0",
@@ -4318,8 +4318,8 @@
       "topics": [],
       "visibility": "public",
       "forks": 0,
-      "open_issues": 14,
-      "watchers": 5,
+      "open_issues": 15,
+      "watchers": 6,
       "default_branch": "main"
     },
     {
@@ -6801,8 +6801,8 @@
     }
   ],
   "aihorde": {
-    "images_generated": "46,330",
-    "kudos": "5,855,730"
+    "images_generated": "46,447",
+    "kudos": "5,864,844"
   },
   "stairesSongs": [
     {
@@ -6843,6 +6843,12 @@
   ],
   "floatedPosts": [
     {
+      "title": "I was arguing with people about AI on IRC, as I...",
+      "link": "https://ihavebeenfloated.org/2026/08/21/i-was-arguing-with-people-about-ai-on-irc-as-i/",
+      "pubDate": "Sat, 22 Aug 2026 00:41:00 GMT",
+      "pubDate_formatted": "Aug 21"
+    },
+    {
       "title": "Just in case there was any doubt the LAPD and all...",
       "link": "https://ihavebeenfloated.org/2026/08/03/just-in-case-there-was-any-doubt-the-lapd-and-all/",
       "pubDate": "Tue, 04 Aug 2026 02:47:00 GMT",
@@ -6864,12 +6870,6 @@
       "title": "No one talks about how hard it is for a man to...",
       "link": "https://ihavebeenfloated.org/2026/06/30/no-one-talks-about-how-hard-it-is-for-a-man-to/",
       "pubDate": "Wed, 01 Jul 2026 06:51:00 GMT",
-      "pubDate_formatted": "Jun 30"
-    },
-    {
-      "title": "Forza Horizon 6 is gorgeous and fun but the...",
-      "link": "https://ihavebeenfloated.org/2026/06/30/forza-horizon-6-is-gorgeous-and-fun-but-the/",
-      "pubDate": "Tue, 30 Jun 2026 17:59:00 GMT",
       "pubDate_formatted": "Jun 30"
     }
   ],
@@ -6905,5 +6905,5 @@
       "pubDate_formatted": "Oct 8"
     }
   ],
-  "_fetchedAt": 1787292000907
+  "_fetchedAt": 1787464801336
 }
