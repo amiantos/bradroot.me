@@ -33,59 +33,6 @@ export async function fetchGitHubRepos(username) {
   return repos;
 }
 
-export async function fetchDiscourseStats() {
-  try {
-    const res = await fetch('https://discuss.bradroot.me/about.json', {
-      headers: { 'Accept': 'application/json' },
-    });
-    if (!res.ok) {
-      console.error(`Discourse API error: ${res.status}`);
-      return null;
-    }
-    const data = await res.json();
-    const stats = data.about?.stats;
-    if (!stats) return null;
-    return {
-      topics: stats.topics_count,
-      posts: stats.posts_count,
-      users: stats.users_count,
-    };
-  } catch (err) {
-    console.error('Discourse fetch failed:', err.message);
-    return null;
-  }
-}
-
-export async function fetchDiscourseTopics() {
-  try {
-    const res = await fetch('https://discuss.bradroot.me/latest.json', {
-      headers: { 'Accept': 'application/json' },
-    });
-    if (!res.ok) {
-      console.error(`Discourse topics API error: ${res.status}`);
-      return [];
-    }
-    const data = await res.json();
-    const topics = (data.topic_list?.topics || [])
-      .filter(t => !t.pinned && !t.pinned_globally)
-      .slice(0, 6)
-      .map(t => ({
-        title: t.title,
-        slug: t.slug,
-        id: t.id,
-        last_posted_at: t.last_posted_at,
-        last_posted_at_formatted: new Date(t.last_posted_at).toLocaleDateString('en-US', {
-          month: 'short', day: 'numeric', timeZone: 'America/Los_Angeles', timeZone: 'America/Los_Angeles',
-        }),
-      }));
-    console.log(`Fetched ${topics.length} Discourse topics`);
-    return topics;
-  } catch (err) {
-    console.error('Discourse topics fetch failed:', err.message);
-    return [];
-  }
-}
-
 function decodeHTMLEntities(str) {
   return str
     .replace(/&#(\d+);/g, (_, code) => String.fromCharCode(code))
@@ -235,17 +182,15 @@ export function loadManualData() {
 
 export async function fetchAllData() {
   console.log('Fetching all data...');
-  const [repos, discourse, discourseTopics, aihorde, stairesSongs, floatedPosts, amiantosPosts] = await Promise.all([
+  const [repos, aihorde, stairesSongs, floatedPosts, amiantosPosts] = await Promise.all([
     fetchGitHubRepos('amiantos'),
-    fetchDiscourseStats(),
-    fetchDiscourseTopics(),
     fetchAIHordeStats(),
     fetchStairesRSS(),
     fetchFloatedRSS(),
     fetchAmiantosRSS(),
   ]);
 
-  return { repos, discourse, discourseTopics, aihorde, stairesSongs, floatedPosts, amiantosPosts };
+  return { repos, aihorde, stairesSongs, floatedPosts, amiantosPosts };
 }
 
 // Run directly for testing

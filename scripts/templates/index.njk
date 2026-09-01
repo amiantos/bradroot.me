@@ -49,66 +49,7 @@
         </div>
         <div class="dashboard-grid">
 
-          {# Row 1: Recent Repos + Discourse (side by side) #}
-          <div class="dashboard-row dashboard-row--half">
-
-            {# GitHub Activity #}
-            {% if recent_repos and recent_repos.length > 0 %}
-            <div class="dashboard-card">
-              <h3 class="dashboard-card__title"><a href="https://github.com/amiantos">GitHub Activity</a></h3>
-              <div class="dashboard-stat-row">
-                <div>
-                  <div class="dashboard-card__stat">{{ github_stats.repos | abbreviate }}</div>
-                  <div class="dashboard-card__stat-label">Repos</div>
-                </div>
-                <div>
-                  <div class="dashboard-card__stat">{{ github_stats.stars | abbreviate }}</div>
-                  <div class="dashboard-card__stat-label">Stars</div>
-                </div>
-                <div>
-                  <div class="dashboard-card__stat">{{ github_stats.forks | abbreviate }}</div>
-                  <div class="dashboard-card__stat-label">Forks</div>
-                </div>
-              </div>
-              <ul class="dashboard-card__list">
-                {% for repo in recent_repos %}
-                <li><a href="{{ repo.html_url }}">{{ repo.name }}</a> <span class="dashboard-card__date">updated {{ repo.pushed_at_formatted }}</span></li>
-                {% endfor %}
-              </ul>
-            </div>
-            {% endif %}
-
-            {# Discourse #}
-            {% if discourse %}
-            <div class="dashboard-card">
-              <h3 class="dashboard-card__title"><a href="https://discuss.bradroot.me">The Eye of Providence</a></h3>
-              <div class="dashboard-stat-row">
-                <div>
-                  <div class="dashboard-card__stat">{{ discourse.topics | default("—") | abbreviate }}</div>
-                  <div class="dashboard-card__stat-label">Topics</div>
-                </div>
-                <div>
-                  <div class="dashboard-card__stat">{{ discourse.posts | default("—") | abbreviate }}</div>
-                  <div class="dashboard-card__stat-label">Posts</div>
-                </div>
-                <div>
-                  <div class="dashboard-card__stat">{{ discourse.users | default("—") | abbreviate }}</div>
-                  <div class="dashboard-card__stat-label">Users</div>
-                </div>
-              </div>
-              {% if discourse_topics and discourse_topics.length > 0 %}
-              <ul class="dashboard-card__list">
-                {% for topic in discourse_topics %}
-                <li><a href="https://discuss.bradroot.me/t/{{ topic.slug }}/{{ topic.id }}">{{ topic.title }}</a> <span class="dashboard-card__date">{{ topic.last_posted_at_formatted }}</span></li>
-                {% endfor %}
-              </ul>
-              {% endif %}
-            </div>
-            {% endif %}
-
-          </div>
-
-          {# Row 2: Playing + Listening + Ealain (three columns) #}
+          {# Row 1: Playing + Listening + Watching (three columns) #}
           <div class="dashboard-row dashboard-row--third">
 
             {# Playing #}
@@ -183,18 +124,33 @@
 
           </div>
 
-          {# Row 3: Webcam + Ealain (two columns) #}
+          {# Row 2: GitHub Activity + Ealain (two columns) #}
           <div class="dashboard-row dashboard-row--half">
-            {# Webcam #}
-            <div class="dashboard-card dashboard-card--compact">
-              <h3 class="dashboard-card__title dashboard-card__title--irc">
-                BradCam
-                <span class="bradcam-status" id="bradcam-status" title="Loading presence…">On Air</span>
-              </h3>
-              <div class="dashboard-card__media dashboard-card__media--webcam">
-                <img id="webcam" src="https://cdn.bradroot.me/latest.jpg" alt="Webcam">
+            {# GitHub Activity #}
+            {% if recent_repos and recent_repos.length > 0 %}
+            <div class="dashboard-card">
+              <h3 class="dashboard-card__title"><a href="https://github.com/amiantos">GitHub Activity</a></h3>
+              <div class="dashboard-stat-row">
+                <div>
+                  <div class="dashboard-card__stat">{{ github_stats.repos | abbreviate }}</div>
+                  <div class="dashboard-card__stat-label">Repos</div>
+                </div>
+                <div>
+                  <div class="dashboard-card__stat">{{ github_stats.stars | abbreviate }}</div>
+                  <div class="dashboard-card__stat-label">Stars</div>
+                </div>
+                <div>
+                  <div class="dashboard-card__stat">{{ github_stats.forks | abbreviate }}</div>
+                  <div class="dashboard-card__stat-label">Forks</div>
+                </div>
               </div>
+              <ul class="dashboard-card__list">
+                {% for repo in recent_repos %}
+                <li><a href="{{ repo.html_url }}">{{ repo.name }}</a> <span class="dashboard-card__date">updated {{ repo.pushed_at_formatted }}</span></li>
+                {% endfor %}
+              </ul>
             </div>
+            {% endif %}
 
             {# Ealain #}
             <div class="dashboard-card dashboard-card--compact">
@@ -227,7 +183,7 @@
             </div>
           </div>
 
-          {# Row 4: IRC Chat (full width) #}
+          {# Row 3: IRC Chat (full width) #}
           <div class="dashboard-row">
             <div class="dashboard-card dashboard-card--irc">
               <h3 class="dashboard-card__title dashboard-card__title--irc">
@@ -412,7 +368,6 @@
 
   <script src="js/bauhaus-bg.js"></script>
   <script src="js/ealain-slideshow.js"></script>
-  <script src="js/webcam.js"></script>
   <script src="js/irc-chat.js"></script>
   <script async defer src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
   <noscript><img src="https://queue.simpleanalyticscdn.com/noscript.gif" alt="" referrerpolicy="no-referrer-when-downgrade"></noscript>

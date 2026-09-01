@@ -90,8 +90,6 @@ export function render(siteData = {}) {
     featured_projects: featuredProjects,
     other_repos: otherRepos,
     recent_repos: recentRepos,
-    discourse: siteData.discourse || null,
-    discourse_topics: siteData.discourseTopics || [],
     aihorde: siteData.aihorde || null,
     games: manualData.games || [],
     watching: manualData.watching || [],
