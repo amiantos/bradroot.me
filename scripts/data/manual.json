@@ -15,12 +15,15 @@
   ],
   "hidden_repos": [
     "AI-Horde-Styles-Previews",
+    "lurker-ios",
+    "lurker-android",
     "zzz-agents",
     "hoarder",
     "impostor",
+    "lurker-previews",
+    "snitch",
     "tyler",
     "ai-horde-irc",
-    "snitch",
     "witness"
   ]
 }
