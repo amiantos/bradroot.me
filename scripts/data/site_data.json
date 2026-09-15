@@ -1174,14 +1174,14 @@
       "releases_url": "https://api.github.com/repos/amiantos/bradroot.me/releases{/id}",
       "deployments_url": "https://api.github.com/repos/amiantos/bradroot.me/deployments",
       "created_at": "2018-05-06T02:16:59Z",
-      "updated_at": "2026-09-12T06:00:06Z",
-      "pushed_at": "2026-09-12T06:00:02Z",
+      "updated_at": "2026-09-14T06:00:05Z",
+      "pushed_at": "2026-09-14T06:00:02Z",
       "git_url": "git://github.com/amiantos/bradroot.me.git",
       "ssh_url": "git@github.com:amiantos/bradroot.me.git",
       "clone_url": "https://github.com/amiantos/bradroot.me.git",
       "svn_url": "https://github.com/amiantos/bradroot.me",
       "homepage": "https://bradroot.me",
-      "size": 17811,
+      "size": 17854,
       "stargazers_count": 0,
       "watchers_count": 0,
       "language": "HTML",
@@ -1843,7 +1843,7 @@
       "has_wiki": true,
       "has_pages": true,
       "has_discussions": false,
-      "forks_count": 0,
+      "forks_count": 1,
       "mirror_url": null,
       "archived": false,
       "disabled": false,
@@ -1867,7 +1867,7 @@
         "stable-diffusion"
       ],
       "visibility": "public",
-      "forks": 0,
+      "forks": 1,
       "open_issues": 8,
       "watchers": 3,
       "default_branch": "main"
@@ -3037,14 +3037,14 @@
       "releases_url": "https://api.github.com/repos/amiantos/inneal/releases{/id}",
       "deployments_url": "https://api.github.com/repos/amiantos/inneal/deployments",
       "created_at": "2024-03-25T06:43:08Z",
-      "updated_at": "2026-08-11T01:20:03Z",
-      "pushed_at": "2025-09-27T18:41:19Z",
+      "updated_at": "2026-09-13T17:08:28Z",
+      "pushed_at": "2026-09-13T17:08:22Z",
       "git_url": "git://github.com/amiantos/inneal.git",
       "ssh_url": "git@github.com:amiantos/inneal.git",
       "clone_url": "https://github.com/amiantos/inneal.git",
       "svn_url": "https://github.com/amiantos/inneal",
       "homepage": "",
-      "size": 44742,
+      "size": 44756,
       "stargazers_count": 45,
       "watchers_count": 45,
       "language": "Swift",
@@ -3058,7 +3058,7 @@
       "mirror_url": null,
       "archived": false,
       "disabled": false,
-      "open_issues_count": 27,
+      "open_issues_count": 26,
       "license": {
         "key": "gpl-3.0",
         "name": "GNU General Public License v3.0",
@@ -3084,7 +3084,7 @@
       ],
       "visibility": "public",
       "forks": 5,
-      "open_issues": 27,
+      "open_issues": 26,
       "watchers": 45,
       "default_branch": "main"
     },
@@ -4056,14 +4056,14 @@
       "releases_url": "https://api.github.com/repos/amiantos/lurker/releases{/id}",
       "deployments_url": "https://api.github.com/repos/amiantos/lurker/deployments",
       "created_at": "2026-05-07T06:56:39Z",
-      "updated_at": "2026-09-11T22:16:14Z",
-      "pushed_at": "2026-09-12T20:49:50Z",
+      "updated_at": "2026-09-15T05:49:57Z",
+      "pushed_at": "2026-09-15T05:49:54Z",
       "git_url": "git://github.com/amiantos/lurker.git",
       "ssh_url": "git@github.com:amiantos/lurker.git",
       "clone_url": "https://github.com/amiantos/lurker.git",
       "svn_url": "https://github.com/amiantos/lurker",
       "homepage": "https://lurker.chat",
-      "size": 13805,
+      "size": 16110,
       "stargazers_count": 89,
       "watchers_count": 89,
       "language": "TypeScript",
@@ -4281,14 +4281,14 @@
       "releases_url": "https://api.github.com/repos/amiantos/lurker-ios/releases{/id}",
       "deployments_url": "https://api.github.com/repos/amiantos/lurker-ios/deployments",
       "created_at": "2026-07-14T19:03:44Z",
-      "updated_at": "2026-09-12T19:37:52Z",
-      "pushed_at": "2026-09-12T20:44:12Z",
+      "updated_at": "2026-09-14T03:58:02Z",
+      "pushed_at": "2026-09-14T03:58:00Z",
       "git_url": "git://github.com/amiantos/lurker-ios.git",
       "ssh_url": "git@github.com:amiantos/lurker-ios.git",
       "clone_url": "https://github.com/amiantos/lurker-ios.git",
       "svn_url": "https://github.com/amiantos/lurker-ios",
       "homepage": null,
-      "size": 3118,
+      "size": 3309,
       "stargazers_count": 6,
       "watchers_count": 6,
       "language": "Swift",
@@ -4302,7 +4302,7 @@
       "mirror_url": null,
       "archived": false,
       "disabled": false,
-      "open_issues_count": 16,
+      "open_issues_count": 12,
       "license": {
         "key": "mpl-2.0",
         "name": "Mozilla Public License 2.0",
@@ -4318,7 +4318,7 @@
       "topics": [],
       "visibility": "public",
       "forks": 0,
-      "open_issues": 16,
+      "open_issues": 12,
       "watchers": 6,
       "default_branch": "main"
     },
@@ -6589,14 +6589,14 @@
       "releases_url": "https://api.github.com/repos/amiantos/writers-guild/releases{/id}",
       "deployments_url": "https://api.github.com/repos/amiantos/writers-guild/deployments",
       "created_at": "2025-11-07T17:10:43Z",
-      "updated_at": "2026-08-27T21:29:03Z",
-      "pushed_at": "2026-09-12T08:21:29Z",
+      "updated_at": "2026-09-15T04:52:00Z",
+      "pushed_at": "2026-09-15T04:51:57Z",
       "git_url": "git://github.com/amiantos/writers-guild.git",
       "ssh_url": "git@github.com:amiantos/writers-guild.git",
       "clone_url": "https://github.com/amiantos/writers-guild.git",
       "svn_url": "https://github.com/amiantos/writers-guild",
       "homepage": "",
-      "size": 5451,
+      "size": 6001,
       "stargazers_count": 12,
       "watchers_count": 12,
       "language": "JavaScript",
@@ -6606,11 +6606,11 @@
       "has_wiki": false,
       "has_pages": false,
       "has_discussions": true,
-      "forks_count": 3,
+      "forks_count": 5,
       "mirror_url": null,
       "archived": false,
       "disabled": false,
-      "open_issues_count": 11,
+      "open_issues_count": 12,
       "license": {
         "key": "mpl-2.0",
         "name": "Mozilla Public License 2.0",
@@ -6634,8 +6634,8 @@
         "writing"
       ],
       "visibility": "public",
-      "forks": 3,
-      "open_issues": 11,
+      "forks": 5,
+      "open_issues": 12,
       "watchers": 12,
       "default_branch": "main"
     },
@@ -6752,8 +6752,8 @@
     }
   ],
   "aihorde": {
-    "images_generated": "48,871",
-    "kudos": "6,125,379"
+    "images_generated": "49,034",
+    "kudos": "6,137,657"
   },
   "stairesSongs": [
     {
@@ -6794,6 +6794,12 @@
   ],
   "floatedPosts": [
     {
+      "title": "What a fantastic read, mirrors my thoughts...",
+      "link": "https://ihavebeenfloated.org/2026/09/14/what-a-fantastic-read-mirrors-my-thoughts-exactly/",
+      "pubDate": "Mon, 14 Sep 2026 20:10:00 GMT",
+      "pubDate_formatted": "Sep 14"
+    },
+    {
       "title": "...since I'm making a trend of archiving my...",
       "link": "https://ihavebeenfloated.org/2026/09/10/since-i-m-making-a-trend-of-archiving-my-comments/",
       "pubDate": "Fri, 11 Sep 2026 04:08:00 GMT",
@@ -6816,12 +6822,6 @@
       "link": "https://ihavebeenfloated.org/2026/09/06/blood-of-the-dawnwalker-is-awesome-beautiful/",
       "pubDate": "Sun, 06 Sep 2026 20:55:00 GMT",
       "pubDate_formatted": "Sep 6"
-    },
-    {
-      "title": "Aw, cute, thinly veiled violent threats, how...",
-      "link": "https://ihavebeenfloated.org/2026/09/01/aw-cute-thinly-veiled-violent-threats-how-adorbz/",
-      "pubDate": "Wed, 02 Sep 2026 04:54:00 GMT",
-      "pubDate_formatted": "Sep 1"
     }
   ],
   "amiantosPosts": [
@@ -6856,5 +6856,5 @@
       "pubDate_formatted": "Oct 8"
     }
   ],
-  "_fetchedAt": 1789279201929
+  "_fetchedAt": 1789452002036
 }
