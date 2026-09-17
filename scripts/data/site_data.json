@@ -1174,14 +1174,14 @@
       "releases_url": "https://api.github.com/repos/amiantos/bradroot.me/releases{/id}",
       "deployments_url": "https://api.github.com/repos/amiantos/bradroot.me/deployments",
       "created_at": "2018-05-06T02:16:59Z",
-      "updated_at": "2026-09-14T06:00:05Z",
-      "pushed_at": "2026-09-14T06:00:02Z",
+      "updated_at": "2026-09-16T06:00:06Z",
+      "pushed_at": "2026-09-16T06:00:02Z",
       "git_url": "git://github.com/amiantos/bradroot.me.git",
       "ssh_url": "git@github.com:amiantos/bradroot.me.git",
       "clone_url": "https://github.com/amiantos/bradroot.me.git",
       "svn_url": "https://github.com/amiantos/bradroot.me",
       "homepage": "https://bradroot.me",
-      "size": 17854,
+      "size": 17897,
       "stargazers_count": 0,
       "watchers_count": 0,
       "language": "HTML",
@@ -4056,14 +4056,14 @@
       "releases_url": "https://api.github.com/repos/amiantos/lurker/releases{/id}",
       "deployments_url": "https://api.github.com/repos/amiantos/lurker/deployments",
       "created_at": "2026-05-07T06:56:39Z",
-      "updated_at": "2026-09-15T05:49:57Z",
-      "pushed_at": "2026-09-15T05:49:54Z",
+      "updated_at": "2026-09-17T05:52:15Z",
+      "pushed_at": "2026-09-17T05:52:12Z",
       "git_url": "git://github.com/amiantos/lurker.git",
       "ssh_url": "git@github.com:amiantos/lurker.git",
       "clone_url": "https://github.com/amiantos/lurker.git",
       "svn_url": "https://github.com/amiantos/lurker",
       "homepage": "https://lurker.chat",
-      "size": 16110,
+      "size": 13904,
       "stargazers_count": 89,
       "watchers_count": 89,
       "language": "TypeScript",
@@ -4073,11 +4073,11 @@
       "has_wiki": false,
       "has_pages": false,
       "has_discussions": false,
-      "forks_count": 14,
+      "forks_count": 15,
       "mirror_url": null,
       "archived": false,
       "disabled": false,
-      "open_issues_count": 70,
+      "open_issues_count": 67,
       "license": {
         "key": "mpl-2.0",
         "name": "Mozilla Public License 2.0",
@@ -4099,8 +4099,8 @@
         "vue"
       ],
       "visibility": "public",
-      "forks": 14,
-      "open_issues": 70,
+      "forks": 15,
+      "open_issues": 67,
       "watchers": 89,
       "default_branch": "main"
     },
@@ -6589,16 +6589,16 @@
       "releases_url": "https://api.github.com/repos/amiantos/writers-guild/releases{/id}",
       "deployments_url": "https://api.github.com/repos/amiantos/writers-guild/deployments",
       "created_at": "2025-11-07T17:10:43Z",
-      "updated_at": "2026-09-15T04:52:00Z",
-      "pushed_at": "2026-09-15T04:51:57Z",
+      "updated_at": "2026-09-16T03:32:03Z",
+      "pushed_at": "2026-09-16T03:31:59Z",
       "git_url": "git://github.com/amiantos/writers-guild.git",
       "ssh_url": "git@github.com:amiantos/writers-guild.git",
       "clone_url": "https://github.com/amiantos/writers-guild.git",
       "svn_url": "https://github.com/amiantos/writers-guild",
       "homepage": "",
-      "size": 6001,
-      "stargazers_count": 12,
-      "watchers_count": 12,
+      "size": 6244,
+      "stargazers_count": 13,
+      "watchers_count": 13,
       "language": "JavaScript",
       "has_issues": true,
       "has_projects": false,
@@ -6636,7 +6636,7 @@
       "visibility": "public",
       "forks": 5,
       "open_issues": 12,
-      "watchers": 12,
+      "watchers": 13,
       "default_branch": "main"
     },
     {
@@ -6752,8 +6752,8 @@
     }
   ],
   "aihorde": {
-    "images_generated": "49,034",
-    "kudos": "6,137,657"
+    "images_generated": "49,132",
+    "kudos": "6,152,586"
   },
   "stairesSongs": [
     {
@@ -6826,6 +6826,12 @@
   ],
   "amiantosPosts": [
     {
+      "title": "Edinburgh Fringe 2026",
+      "link": "https://amiantos.net/edinburgh-fringe-2026/",
+      "pubDate": "Thu, 17 Sep 2026 05:41:43 +0000",
+      "pubDate_formatted": "Sep 16"
+    },
+    {
       "title": "Sven Trümper is Not a Nice Person",
       "link": "https://amiantos.net/sven-trumper-is-not-a-nice-person/",
       "pubDate": "Wed, 15 Apr 2026 00:16:09 +0000",
@@ -6848,13 +6854,7 @@
       "link": "https://amiantos.net/introducing-the-eye-of-providence/",
       "pubDate": "Sun, 15 Feb 2026 18:57:29 +0000",
       "pubDate_formatted": "Feb 15"
-    },
-    {
-      "title": "A Lodge is No Place for a Leftist",
-      "link": "https://amiantos.net/a-lodge-is-no-place-for-a-leftist/",
-      "pubDate": "Wed, 08 Oct 2025 20:06:34 +0000",
-      "pubDate_formatted": "Oct 8"
     }
   ],
-  "_fetchedAt": 1789452002036
+  "_fetchedAt": 1789624802411
 }
