@@ -1174,17 +1174,17 @@
       "releases_url": "https://api.github.com/repos/amiantos/bradroot.me/releases{/id}",
       "deployments_url": "https://api.github.com/repos/amiantos/bradroot.me/deployments",
       "created_at": "2018-05-06T02:16:59Z",
-      "updated_at": "2026-09-18T06:00:07Z",
-      "pushed_at": "2026-09-18T06:00:04Z",
+      "updated_at": "2026-09-20T06:00:05Z",
+      "pushed_at": "2026-09-20T06:00:01Z",
       "git_url": "git://github.com/amiantos/bradroot.me.git",
       "ssh_url": "git@github.com:amiantos/bradroot.me.git",
       "clone_url": "https://github.com/amiantos/bradroot.me.git",
       "svn_url": "https://github.com/amiantos/bradroot.me",
       "homepage": "https://bradroot.me",
-      "size": 17939,
+      "size": 17981,
       "stargazers_count": 0,
       "watchers_count": 0,
-      "language": "JavaScript",
+      "language": "HTML",
       "has_issues": true,
       "has_projects": true,
       "has_downloads": false,
@@ -4056,16 +4056,16 @@
       "releases_url": "https://api.github.com/repos/amiantos/lurker/releases{/id}",
       "deployments_url": "https://api.github.com/repos/amiantos/lurker/deployments",
       "created_at": "2026-05-07T06:56:39Z",
-      "updated_at": "2026-09-19T01:47:45Z",
-      "pushed_at": "2026-09-18T18:32:17Z",
+      "updated_at": "2026-09-21T04:08:34Z",
+      "pushed_at": "2026-09-21T05:28:15Z",
       "git_url": "git://github.com/amiantos/lurker.git",
       "ssh_url": "git@github.com:amiantos/lurker.git",
       "clone_url": "https://github.com/amiantos/lurker.git",
       "svn_url": "https://github.com/amiantos/lurker",
       "homepage": "https://lurker.chat",
-      "size": 14101,
-      "stargazers_count": 91,
-      "watchers_count": 91,
+      "size": 14592,
+      "stargazers_count": 92,
+      "watchers_count": 92,
       "language": "TypeScript",
       "has_issues": true,
       "has_projects": false,
@@ -4077,7 +4077,7 @@
       "mirror_url": null,
       "archived": false,
       "disabled": false,
-      "open_issues_count": 60,
+      "open_issues_count": 63,
       "license": {
         "key": "mpl-2.0",
         "name": "Mozilla Public License 2.0",
@@ -4100,8 +4100,8 @@
       ],
       "visibility": "public",
       "forks": 15,
-      "open_issues": 60,
-      "watchers": 91,
+      "open_issues": 63,
+      "watchers": 92,
       "default_branch": "main"
     },
     {
@@ -6752,8 +6752,8 @@
     }
   ],
   "aihorde": {
-    "images_generated": "49,326",
-    "kudos": "6,177,235"
+    "images_generated": "49,538",
+    "kudos": "6,196,277"
   },
   "stairesSongs": [
     {
@@ -6794,6 +6794,12 @@
   ],
   "floatedPosts": [
     {
+      "title": "This final Hard Fork episode is pissing me off....",
+      "link": "https://ihavebeenfloated.org/2026/09/20/this-final-hard-fork-episode-is-pissing-me-off/",
+      "pubDate": "Sun, 20 Sep 2026 19:35:00 GMT",
+      "pubDate_formatted": "Sep 20"
+    },
+    {
       "title": "What a fantastic read, mirrors my thoughts...",
       "link": "https://ihavebeenfloated.org/2026/09/14/what-a-fantastic-read-mirrors-my-thoughts-exactly/",
       "pubDate": "Mon, 14 Sep 2026 20:10:00 GMT",
@@ -6816,12 +6822,6 @@
       "link": "https://ihavebeenfloated.org/2026/09/09/it-s-amazing-how-quickly-slop-has-turned-into-the/",
       "pubDate": "Wed, 09 Sep 2026 19:11:00 GMT",
       "pubDate_formatted": "Sep 9"
-    },
-    {
-      "title": "Blood of the Dawnwalker is awesome. Beautiful...",
-      "link": "https://ihavebeenfloated.org/2026/09/06/blood-of-the-dawnwalker-is-awesome-beautiful/",
-      "pubDate": "Sun, 06 Sep 2026 20:55:00 GMT",
-      "pubDate_formatted": "Sep 6"
     }
   ],
   "amiantosPosts": [
@@ -6856,5 +6856,5 @@
       "pubDate_formatted": "Feb 15"
     }
   ],
-  "_fetchedAt": 1789797602076
+  "_fetchedAt": 1789970402403
 }
