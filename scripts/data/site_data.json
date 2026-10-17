@@ -1174,14 +1174,14 @@
       "releases_url": "https://api.github.com/repos/amiantos/bradroot.me/releases{/id}",
       "deployments_url": "https://api.github.com/repos/amiantos/bradroot.me/deployments",
       "created_at": "2018-05-06T02:16:59Z",
-      "updated_at": "2026-10-14T06:00:05Z",
-      "pushed_at": "2026-10-14T06:00:02Z",
+      "updated_at": "2026-10-16T06:00:05Z",
+      "pushed_at": "2026-10-16T06:00:01Z",
       "git_url": "git://github.com/amiantos/bradroot.me.git",
       "ssh_url": "git@github.com:amiantos/bradroot.me.git",
       "clone_url": "https://github.com/amiantos/bradroot.me.git",
       "svn_url": "https://github.com/amiantos/bradroot.me",
       "homepage": "https://bradroot.me",
-      "size": 18489,
+      "size": 18531,
       "stargazers_count": 0,
       "watchers_count": 0,
       "language": "JavaScript",
@@ -3037,7 +3037,7 @@
       "releases_url": "https://api.github.com/repos/amiantos/inneal/releases{/id}",
       "deployments_url": "https://api.github.com/repos/amiantos/inneal/deployments",
       "created_at": "2024-03-25T06:43:08Z",
-      "updated_at": "2026-09-13T17:08:28Z",
+      "updated_at": "2026-10-15T21:10:33Z",
       "pushed_at": "2026-09-13T17:08:22Z",
       "git_url": "git://github.com/amiantos/inneal.git",
       "ssh_url": "git@github.com:amiantos/inneal.git",
@@ -3045,8 +3045,8 @@
       "svn_url": "https://github.com/amiantos/inneal",
       "homepage": "",
       "size": 44756,
-      "stargazers_count": 45,
-      "watchers_count": 45,
+      "stargazers_count": 46,
+      "watchers_count": 46,
       "language": "Swift",
       "has_issues": true,
       "has_projects": false,
@@ -3085,7 +3085,7 @@
       "visibility": "public",
       "forks": 5,
       "open_issues": 26,
-      "watchers": 45,
+      "watchers": 46,
       "default_branch": "main"
     },
     {
@@ -4056,16 +4056,16 @@
       "releases_url": "https://api.github.com/repos/amiantos/lurker/releases{/id}",
       "deployments_url": "https://api.github.com/repos/amiantos/lurker/deployments",
       "created_at": "2026-05-07T06:56:39Z",
-      "updated_at": "2026-10-15T05:00:08Z",
-      "pushed_at": "2026-10-15T05:00:04Z",
+      "updated_at": "2026-10-17T02:58:54Z",
+      "pushed_at": "2026-10-17T05:21:54Z",
       "git_url": "git://github.com/amiantos/lurker.git",
       "ssh_url": "git@github.com:amiantos/lurker.git",
       "clone_url": "https://github.com/amiantos/lurker.git",
       "svn_url": "https://github.com/amiantos/lurker",
       "homepage": "https://lurker.chat",
-      "size": 23494,
-      "stargazers_count": 100,
-      "watchers_count": 100,
+      "size": 23405,
+      "stargazers_count": 101,
+      "watchers_count": 101,
       "language": "TypeScript",
       "has_issues": true,
       "has_projects": false,
@@ -4077,7 +4077,7 @@
       "mirror_url": null,
       "archived": false,
       "disabled": false,
-      "open_issues_count": 83,
+      "open_issues_count": 80,
       "license": {
         "key": "mpl-2.0",
         "name": "Mozilla Public License 2.0",
@@ -4100,8 +4100,8 @@
       ],
       "visibility": "public",
       "forks": 17,
-      "open_issues": 83,
-      "watchers": 100,
+      "open_issues": 80,
+      "watchers": 101,
       "default_branch": "main"
     },
     {
@@ -6589,16 +6589,16 @@
       "releases_url": "https://api.github.com/repos/amiantos/writers-guild/releases{/id}",
       "deployments_url": "https://api.github.com/repos/amiantos/writers-guild/deployments",
       "created_at": "2025-11-07T17:10:43Z",
-      "updated_at": "2026-10-13T06:14:15Z",
-      "pushed_at": "2026-10-13T06:21:00Z",
+      "updated_at": "2026-10-16T17:47:12Z",
+      "pushed_at": "2026-10-16T05:54:37Z",
       "git_url": "git://github.com/amiantos/writers-guild.git",
       "ssh_url": "git@github.com:amiantos/writers-guild.git",
       "clone_url": "https://github.com/amiantos/writers-guild.git",
       "svn_url": "https://github.com/amiantos/writers-guild",
       "homepage": "",
-      "size": 20182,
-      "stargazers_count": 15,
-      "watchers_count": 15,
+      "size": 20251,
+      "stargazers_count": 14,
+      "watchers_count": 14,
       "language": "JavaScript",
       "has_issues": true,
       "has_projects": false,
@@ -6610,7 +6610,7 @@
       "mirror_url": null,
       "archived": false,
       "disabled": false,
-      "open_issues_count": 5,
+      "open_issues_count": 9,
       "license": {
         "key": "mpl-2.0",
         "name": "Mozilla Public License 2.0",
@@ -6635,8 +6635,8 @@
       ],
       "visibility": "public",
       "forks": 5,
-      "open_issues": 5,
-      "watchers": 15,
+      "open_issues": 9,
+      "watchers": 14,
       "default_branch": "main"
     },
     {
@@ -6752,7 +6752,7 @@
     }
   ],
   "aihorde": {
-    "images_generated": "50,935",
+    "images_generated": "51,060",
     "kudos": null
   },
   "stairesSongs": [
@@ -6856,5 +6856,5 @@
       "pubDate_formatted": "Feb 15"
     }
   ],
-  "_fetchedAt": 1792044001087
+  "_fetchedAt": 1792216802343
 }
