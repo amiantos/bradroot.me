@@ -1174,14 +1174,14 @@
       "releases_url": "https://api.github.com/repos/amiantos/bradroot.me/releases{/id}",
       "deployments_url": "https://api.github.com/repos/amiantos/bradroot.me/deployments",
       "created_at": "2018-05-06T02:16:59Z",
-      "updated_at": "2026-10-24T06:00:05Z",
-      "pushed_at": "2026-10-24T06:00:01Z",
+      "updated_at": "2026-10-26T06:00:05Z",
+      "pushed_at": "2026-10-26T06:00:01Z",
       "git_url": "git://github.com/amiantos/bradroot.me.git",
       "ssh_url": "git@github.com:amiantos/bradroot.me.git",
       "clone_url": "https://github.com/amiantos/bradroot.me.git",
       "svn_url": "https://github.com/amiantos/bradroot.me",
       "homepage": "https://bradroot.me",
-      "size": 18700,
+      "size": 17742,
       "stargazers_count": 0,
       "watchers_count": 0,
       "language": "JavaScript",
@@ -2171,7 +2171,7 @@
       "releases_url": "https://api.github.com/repos/amiantos/gamebookengine/releases{/id}",
       "deployments_url": "https://api.github.com/repos/amiantos/gamebookengine/deployments",
       "created_at": "2019-08-16T01:11:37Z",
-      "updated_at": "2026-09-24T02:41:25Z",
+      "updated_at": "2026-10-26T04:03:56Z",
       "pushed_at": "2026-09-29T01:56:37Z",
       "git_url": "git://github.com/amiantos/gamebookengine.git",
       "ssh_url": "git@github.com:amiantos/gamebookengine.git",
@@ -2179,8 +2179,8 @@
       "svn_url": "https://github.com/amiantos/gamebookengine",
       "homepage": "",
       "size": 13212,
-      "stargazers_count": 106,
-      "watchers_count": 106,
+      "stargazers_count": 107,
+      "watchers_count": 107,
       "language": "Swift",
       "has_issues": true,
       "has_projects": false,
@@ -2218,7 +2218,7 @@
       "visibility": "public",
       "forks": 7,
       "open_issues": 21,
-      "watchers": 106,
+      "watchers": 107,
       "default_branch": "master"
     },
     {
@@ -2925,14 +2925,14 @@
       "releases_url": "https://api.github.com/repos/amiantos/impostor/releases{/id}",
       "deployments_url": "https://api.github.com/repos/amiantos/impostor/deployments",
       "created_at": "2023-05-21T01:26:01Z",
-      "updated_at": "2026-09-11T23:04:29Z",
-      "pushed_at": "2026-09-11T23:04:25Z",
+      "updated_at": "2026-10-27T05:36:09Z",
+      "pushed_at": "2026-10-27T05:36:05Z",
       "git_url": "git://github.com/amiantos/impostor.git",
       "ssh_url": "git@github.com:amiantos/impostor.git",
       "clone_url": "https://github.com/amiantos/impostor.git",
       "svn_url": "https://github.com/amiantos/impostor",
       "homepage": "",
-      "size": 852,
+      "size": 474,
       "stargazers_count": 2,
       "watchers_count": 2,
       "language": "JavaScript",
@@ -4056,16 +4056,16 @@
       "releases_url": "https://api.github.com/repos/amiantos/lurker/releases{/id}",
       "deployments_url": "https://api.github.com/repos/amiantos/lurker/deployments",
       "created_at": "2026-05-07T06:56:39Z",
-      "updated_at": "2026-10-25T03:56:01Z",
-      "pushed_at": "2026-10-25T05:59:55Z",
+      "updated_at": "2026-10-27T02:36:04Z",
+      "pushed_at": "2026-10-25T21:27:10Z",
       "git_url": "git://github.com/amiantos/lurker.git",
       "ssh_url": "git@github.com:amiantos/lurker.git",
       "clone_url": "https://github.com/amiantos/lurker.git",
       "svn_url": "https://github.com/amiantos/lurker",
       "homepage": "https://lurker.chat",
-      "size": 29027,
-      "stargazers_count": 103,
-      "watchers_count": 103,
+      "size": 29918,
+      "stargazers_count": 106,
+      "watchers_count": 106,
       "language": "TypeScript",
       "has_issues": true,
       "has_projects": false,
@@ -4077,7 +4077,7 @@
       "mirror_url": null,
       "archived": false,
       "disabled": false,
-      "open_issues_count": 84,
+      "open_issues_count": 81,
       "license": {
         "key": "mpl-2.0",
         "name": "Mozilla Public License 2.0",
@@ -4102,8 +4102,8 @@
       ],
       "visibility": "public",
       "forks": 17,
-      "open_issues": 84,
-      "watchers": 103,
+      "open_issues": 81,
+      "watchers": 106,
       "default_branch": "main"
     },
     {
@@ -4174,14 +4174,14 @@
       "releases_url": "https://api.github.com/repos/amiantos/lurker-android/releases{/id}",
       "deployments_url": "https://api.github.com/repos/amiantos/lurker-android/deployments",
       "created_at": "2026-07-14T19:03:17Z",
-      "updated_at": "2026-10-23T18:17:11Z",
-      "pushed_at": "2026-10-23T18:21:17Z",
+      "updated_at": "2026-10-27T04:16:18Z",
+      "pushed_at": "2026-10-27T04:16:16Z",
       "git_url": "git://github.com/amiantos/lurker-android.git",
       "ssh_url": "git@github.com:amiantos/lurker-android.git",
       "clone_url": "https://github.com/amiantos/lurker-android.git",
       "svn_url": "https://github.com/amiantos/lurker-android",
       "homepage": null,
-      "size": 3946,
+      "size": 4060,
       "stargazers_count": 6,
       "watchers_count": 6,
       "language": "Kotlin",
@@ -4195,7 +4195,7 @@
       "mirror_url": null,
       "archived": false,
       "disabled": false,
-      "open_issues_count": 4,
+      "open_issues_count": 3,
       "license": {
         "key": "mpl-2.0",
         "name": "Mozilla Public License 2.0",
@@ -4211,7 +4211,7 @@
       "topics": [],
       "visibility": "public",
       "forks": 0,
-      "open_issues": 4,
+      "open_issues": 3,
       "watchers": 6,
       "default_branch": "main"
     },
@@ -4283,14 +4283,14 @@
       "releases_url": "https://api.github.com/repos/amiantos/lurker-ios/releases{/id}",
       "deployments_url": "https://api.github.com/repos/amiantos/lurker-ios/deployments",
       "created_at": "2026-07-14T19:03:44Z",
-      "updated_at": "2026-10-23T18:17:23Z",
-      "pushed_at": "2026-10-23T18:17:20Z",
+      "updated_at": "2026-10-27T04:14:23Z",
+      "pushed_at": "2026-10-27T04:14:21Z",
       "git_url": "git://github.com/amiantos/lurker-ios.git",
       "ssh_url": "git@github.com:amiantos/lurker-ios.git",
       "clone_url": "https://github.com/amiantos/lurker-ios.git",
       "svn_url": "https://github.com/amiantos/lurker-ios",
       "homepage": null,
-      "size": 5131,
+      "size": 5367,
       "stargazers_count": 7,
       "watchers_count": 7,
       "language": "Swift",
@@ -6754,10 +6754,17 @@
     }
   ],
   "aihorde": {
-    "images_generated": "51,518",
+    "images_generated": "51,778",
     "kudos": null
   },
   "stairesSongs": [
+    {
+      "title": "Formal Sppeedwear - Indecent",
+      "link": "https://staires.org/2026/10/25/formal-sppeedwear-indecent/",
+      "pubDate": "Sun, 25 Oct 2026 18:25:00 GMT",
+      "youtubeId": "IXhOi6937vU",
+      "pubDate_formatted": "Oct 25"
+    },
     {
       "title": "The Dresden Dolls - Sex Changes",
       "link": "https://staires.org/2026/08/10/the-dresden-dolls-sex-changes/",
@@ -6785,16 +6792,15 @@
       "pubDate": "Tue, 23 Jun 2026 05:29:00 GMT",
       "youtubeId": "tDjL-A15Pbk",
       "pubDate_formatted": "Jun 22"
-    },
-    {
-      "title": "Electric Six - Turquoise",
-      "link": "https://staires.org/2026/05/31/electric-six-turquoise/",
-      "pubDate": "Sun, 31 May 2026 19:29:00 GMT",
-      "youtubeId": "A3JAeVqy6Es",
-      "pubDate_formatted": "May 31"
     }
   ],
   "floatedPosts": [
+    {
+      "title": "Sense and Sensibility (2026)",
+      "link": "https://ihavebeenfloated.org/2026/10/26/sense-and-sensibility-2026/",
+      "pubDate": "Mon, 26 Oct 2026 07:05:00 GMT",
+      "pubDate_formatted": "Oct 26"
+    },
     {
       "title": "Reddit the past few days has basically turned...",
       "link": "https://ihavebeenfloated.org/2026/10/20/reddit-the-past-few-days-has-basically-turned/",
@@ -6818,12 +6824,6 @@
       "link": "https://ihavebeenfloated.org/2026/09/14/what-a-fantastic-read-mirrors-my-thoughts-exactly/",
       "pubDate": "Mon, 14 Sep 2026 20:10:00 GMT",
       "pubDate_formatted": "Sep 14"
-    },
-    {
-      "title": "...since I'm making a trend of archiving my...",
-      "link": "https://ihavebeenfloated.org/2026/09/10/since-i-m-making-a-trend-of-archiving-my-comments/",
-      "pubDate": "Fri, 11 Sep 2026 04:08:00 GMT",
-      "pubDate_formatted": "Sep 10"
     }
   ],
   "amiantosPosts": [
@@ -6858,5 +6858,5 @@
       "pubDate_formatted": "Feb 15"
     }
   ],
-  "_fetchedAt": 1792908001978
+  "_fetchedAt": 1793080801687
 }
