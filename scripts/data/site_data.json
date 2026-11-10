@@ -1174,14 +1174,14 @@
       "releases_url": "https://api.github.com/repos/amiantos/bradroot.me/releases{/id}",
       "deployments_url": "https://api.github.com/repos/amiantos/bradroot.me/deployments",
       "created_at": "2018-05-06T02:16:59Z",
-      "updated_at": "2026-11-07T06:00:06Z",
-      "pushed_at": "2026-11-07T06:00:02Z",
+      "updated_at": "2026-11-09T06:00:05Z",
+      "pushed_at": "2026-11-09T06:00:01Z",
       "git_url": "git://github.com/amiantos/bradroot.me.git",
       "ssh_url": "git@github.com:amiantos/bradroot.me.git",
       "clone_url": "https://github.com/amiantos/bradroot.me.git",
       "svn_url": "https://github.com/amiantos/bradroot.me",
       "homepage": "https://bradroot.me",
-      "size": 17972,
+      "size": 18014,
       "stargazers_count": 0,
       "watchers_count": 0,
       "language": "JavaScript",
@@ -2925,14 +2925,14 @@
       "releases_url": "https://api.github.com/repos/amiantos/impostor/releases{/id}",
       "deployments_url": "https://api.github.com/repos/amiantos/impostor/deployments",
       "created_at": "2023-05-21T01:26:01Z",
-      "updated_at": "2026-11-06T05:01:03Z",
-      "pushed_at": "2026-11-06T05:00:59Z",
+      "updated_at": "2026-11-09T23:55:56Z",
+      "pushed_at": "2026-11-09T23:55:52Z",
       "git_url": "git://github.com/amiantos/impostor.git",
       "ssh_url": "git@github.com:amiantos/impostor.git",
       "clone_url": "https://github.com/amiantos/impostor.git",
       "svn_url": "https://github.com/amiantos/impostor",
       "homepage": "",
-      "size": 1394,
+      "size": 1464,
       "stargazers_count": 3,
       "watchers_count": 3,
       "language": "JavaScript",
@@ -2942,7 +2942,7 @@
       "has_wiki": true,
       "has_pages": false,
       "has_discussions": false,
-      "forks_count": 2,
+      "forks_count": 3,
       "mirror_url": null,
       "archived": false,
       "disabled": false,
@@ -2974,7 +2974,7 @@
         "sqlite"
       ],
       "visibility": "public",
-      "forks": 2,
+      "forks": 3,
       "open_issues": 2,
       "watchers": 3,
       "default_branch": "main"
@@ -4066,14 +4066,14 @@
       "releases_url": "https://api.github.com/repos/amiantos/lurker/releases{/id}",
       "deployments_url": "https://api.github.com/repos/amiantos/lurker/deployments",
       "created_at": "2026-05-07T06:56:39Z",
-      "updated_at": "2026-11-08T03:08:18Z",
-      "pushed_at": "2026-11-07T20:55:22Z",
+      "updated_at": "2026-11-09T23:50:31Z",
+      "pushed_at": "2026-11-09T23:50:27Z",
       "git_url": "git://github.com/amiantos/lurker.git",
       "ssh_url": "git@github.com:amiantos/lurker.git",
       "clone_url": "https://github.com/amiantos/lurker.git",
       "svn_url": "https://github.com/amiantos/lurker",
       "homepage": "https://lurker.chat",
-      "size": 31360,
+      "size": 30137,
       "stargazers_count": 110,
       "watchers_count": 110,
       "language": "TypeScript",
@@ -4087,7 +4087,7 @@
       "mirror_url": null,
       "archived": false,
       "disabled": false,
-      "open_issues_count": 95,
+      "open_issues_count": 89,
       "license": {
         "key": "mpl-2.0",
         "name": "Mozilla Public License 2.0",
@@ -4112,7 +4112,7 @@
       ],
       "visibility": "public",
       "forks": 19,
-      "open_issues": 95,
+      "open_issues": 89,
       "watchers": 110,
       "default_branch": "main"
     },
@@ -4184,14 +4184,14 @@
       "releases_url": "https://api.github.com/repos/amiantos/lurker-android/releases{/id}",
       "deployments_url": "https://api.github.com/repos/amiantos/lurker-android/deployments",
       "created_at": "2026-07-14T19:03:17Z",
-      "updated_at": "2026-11-07T06:40:15Z",
-      "pushed_at": "2026-11-07T20:58:00Z",
+      "updated_at": "2026-11-09T23:50:46Z",
+      "pushed_at": "2026-11-09T23:50:43Z",
       "git_url": "git://github.com/amiantos/lurker-android.git",
       "ssh_url": "git@github.com:amiantos/lurker-android.git",
       "clone_url": "https://github.com/amiantos/lurker-android.git",
       "svn_url": "https://github.com/amiantos/lurker-android",
       "homepage": null,
-      "size": 3639,
+      "size": 4000,
       "stargazers_count": 7,
       "watchers_count": 7,
       "language": "Kotlin",
@@ -4205,7 +4205,7 @@
       "mirror_url": null,
       "archived": false,
       "disabled": false,
-      "open_issues_count": 7,
+      "open_issues_count": 6,
       "license": {
         "key": "mpl-2.0",
         "name": "Mozilla Public License 2.0",
@@ -4221,7 +4221,7 @@
       "topics": [],
       "visibility": "public",
       "forks": 0,
-      "open_issues": 7,
+      "open_issues": 6,
       "watchers": 7,
       "default_branch": "main"
     },
@@ -4293,14 +4293,14 @@
       "releases_url": "https://api.github.com/repos/amiantos/lurker-ios/releases{/id}",
       "deployments_url": "https://api.github.com/repos/amiantos/lurker-ios/deployments",
       "created_at": "2026-07-14T19:03:44Z",
-      "updated_at": "2026-11-07T06:40:09Z",
-      "pushed_at": "2026-11-07T20:57:55Z",
+      "updated_at": "2026-11-09T23:50:37Z",
+      "pushed_at": "2026-11-09T23:50:35Z",
       "git_url": "git://github.com/amiantos/lurker-ios.git",
       "ssh_url": "git@github.com:amiantos/lurker-ios.git",
       "clone_url": "https://github.com/amiantos/lurker-ios.git",
       "svn_url": "https://github.com/amiantos/lurker-ios",
       "homepage": null,
-      "size": 6368,
+      "size": 4032,
       "stargazers_count": 7,
       "watchers_count": 7,
       "language": "Swift",
@@ -4314,7 +4314,7 @@
       "mirror_url": null,
       "archived": false,
       "disabled": false,
-      "open_issues_count": 15,
+      "open_issues_count": 13,
       "license": {
         "key": "mpl-2.0",
         "name": "Mozilla Public License 2.0",
@@ -4330,7 +4330,7 @@
       "topics": [],
       "visibility": "public",
       "forks": 0,
-      "open_issues": 15,
+      "open_issues": 13,
       "watchers": 7,
       "default_branch": "main"
     },
@@ -6727,7 +6727,7 @@
       "has_wiki": false,
       "has_pages": false,
       "has_discussions": false,
-      "forks_count": 6,
+      "forks_count": 5,
       "mirror_url": null,
       "archived": false,
       "disabled": false,
@@ -6755,7 +6755,7 @@
         "writing"
       ],
       "visibility": "public",
-      "forks": 6,
+      "forks": 5,
       "open_issues": 10,
       "watchers": 14,
       "default_branch": "main"
@@ -6873,10 +6873,17 @@
     }
   ],
   "aihorde": {
-    "images_generated": "52,599",
+    "images_generated": "52,742",
     "kudos": null
   },
   "stairesSongs": [
+    {
+      "title": "Emitt Rhodes - With My Face On The Floor",
+      "link": "https://staires.org/2026/11/09/emitt-rhodes-with-my-face-on-the-floor/",
+      "pubDate": "Mon, 09 Nov 2026 21:30:00 GMT",
+      "youtubeId": "wctYnjv9S2w",
+      "pubDate_formatted": "Nov 9"
+    },
     {
       "title": "Turbowolf - Solid Gold",
       "link": "https://staires.org/2026/11/03/turbowolf-solid-gold/",
@@ -6904,13 +6911,6 @@
       "pubDate": "Thu, 09 Jul 2026 18:14:00 GMT",
       "youtubeId": "iwjCKeggYXk",
       "pubDate_formatted": "Jul 9"
-    },
-    {
-      "title": "TEKE::TEKE - Doppelganger",
-      "link": "https://staires.org/2026/07/07/teke-teke-doppelganger/",
-      "pubDate": "Tue, 07 Jul 2026 18:13:00 GMT",
-      "youtubeId": "O2S7t58RAJs",
-      "pubDate_formatted": "Jul 7"
     }
   ],
   "floatedPosts": [
@@ -6977,5 +6977,5 @@
       "pubDate_formatted": "Feb 15"
     }
   ],
-  "_fetchedAt": 1794117601735
+  "_fetchedAt": 1794290402294
 }
