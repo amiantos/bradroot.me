@@ -1174,14 +1174,14 @@
       "releases_url": "https://api.github.com/repos/amiantos/bradroot.me/releases{/id}",
       "deployments_url": "https://api.github.com/repos/amiantos/bradroot.me/deployments",
       "created_at": "2018-05-06T02:16:59Z",
-      "updated_at": "2026-11-09T06:00:05Z",
-      "pushed_at": "2026-11-09T06:00:01Z",
+      "updated_at": "2026-11-11T07:00:06Z",
+      "pushed_at": "2026-11-11T06:00:02Z",
       "git_url": "git://github.com/amiantos/bradroot.me.git",
       "ssh_url": "git@github.com:amiantos/bradroot.me.git",
       "clone_url": "https://github.com/amiantos/bradroot.me.git",
       "svn_url": "https://github.com/amiantos/bradroot.me",
       "homepage": "https://bradroot.me",
-      "size": 18014,
+      "size": 18057,
       "stargazers_count": 0,
       "watchers_count": 0,
       "language": "JavaScript",
@@ -1940,7 +1940,7 @@
       "releases_url": "https://api.github.com/repos/amiantos/ealain/releases{/id}",
       "deployments_url": "https://api.github.com/repos/amiantos/ealain/deployments",
       "created_at": "2023-06-14T21:41:08Z",
-      "updated_at": "2026-09-01T10:30:38Z",
+      "updated_at": "2026-11-10T19:40:04Z",
       "pushed_at": "2026-08-03T06:12:03Z",
       "git_url": "git://github.com/amiantos/ealain.git",
       "ssh_url": "git@github.com:amiantos/ealain.git",
@@ -1948,8 +1948,8 @@
       "svn_url": "https://github.com/amiantos/ealain",
       "homepage": "",
       "size": 2614,
-      "stargazers_count": 75,
-      "watchers_count": 75,
+      "stargazers_count": 76,
+      "watchers_count": 76,
       "language": "C#",
       "has_issues": true,
       "has_projects": false,
@@ -1991,7 +1991,7 @@
       "visibility": "public",
       "forks": 2,
       "open_issues": 3,
-      "watchers": 75,
+      "watchers": 76,
       "default_branch": "main"
     },
     {
@@ -2926,7 +2926,7 @@
       "deployments_url": "https://api.github.com/repos/amiantos/impostor/deployments",
       "created_at": "2023-05-21T01:26:01Z",
       "updated_at": "2026-11-09T23:55:56Z",
-      "pushed_at": "2026-11-09T23:55:52Z",
+      "pushed_at": "2026-11-12T05:49:29Z",
       "git_url": "git://github.com/amiantos/impostor.git",
       "ssh_url": "git@github.com:amiantos/impostor.git",
       "clone_url": "https://github.com/amiantos/impostor.git",
@@ -4066,14 +4066,14 @@
       "releases_url": "https://api.github.com/repos/amiantos/lurker/releases{/id}",
       "deployments_url": "https://api.github.com/repos/amiantos/lurker/deployments",
       "created_at": "2026-05-07T06:56:39Z",
-      "updated_at": "2026-11-09T23:50:31Z",
-      "pushed_at": "2026-11-09T23:50:27Z",
+      "updated_at": "2026-11-12T02:18:30Z",
+      "pushed_at": "2026-11-12T01:18:27Z",
       "git_url": "git://github.com/amiantos/lurker.git",
       "ssh_url": "git@github.com:amiantos/lurker.git",
       "clone_url": "https://github.com/amiantos/lurker.git",
       "svn_url": "https://github.com/amiantos/lurker",
       "homepage": "https://lurker.chat",
-      "size": 30137,
+      "size": 30802,
       "stargazers_count": 110,
       "watchers_count": 110,
       "language": "TypeScript",
@@ -4083,11 +4083,11 @@
       "has_wiki": false,
       "has_pages": false,
       "has_discussions": false,
-      "forks_count": 19,
+      "forks_count": 20,
       "mirror_url": null,
       "archived": false,
       "disabled": false,
-      "open_issues_count": 89,
+      "open_issues_count": 92,
       "license": {
         "key": "mpl-2.0",
         "name": "Mozilla Public License 2.0",
@@ -4111,8 +4111,8 @@
         "xdcc"
       ],
       "visibility": "public",
-      "forks": 19,
-      "open_issues": 89,
+      "forks": 20,
+      "open_issues": 92,
       "watchers": 110,
       "default_branch": "main"
     },
@@ -4614,14 +4614,14 @@
       "releases_url": "https://api.github.com/repos/amiantos/lurker-previews/releases{/id}",
       "deployments_url": "https://api.github.com/repos/amiantos/lurker-previews/deployments",
       "created_at": "2026-08-11T02:36:17Z",
-      "updated_at": "2026-11-02T00:56:00Z",
-      "pushed_at": "2026-11-03T06:14:49Z",
+      "updated_at": "2026-11-11T20:25:28Z",
+      "pushed_at": "2026-11-11T20:01:32Z",
       "git_url": "git://github.com/amiantos/lurker-previews.git",
       "ssh_url": "git@github.com:amiantos/lurker-previews.git",
       "clone_url": "https://github.com/amiantos/lurker-previews.git",
       "svn_url": "https://github.com/amiantos/lurker-previews",
       "homepage": null,
-      "size": 406,
+      "size": 458,
       "stargazers_count": 2,
       "watchers_count": 2,
       "language": "TypeScript",
@@ -4631,11 +4631,11 @@
       "has_wiki": true,
       "has_pages": false,
       "has_discussions": false,
-      "forks_count": 0,
+      "forks_count": 1,
       "mirror_url": null,
       "archived": false,
       "disabled": false,
-      "open_issues_count": 3,
+      "open_issues_count": 1,
       "license": {
         "key": "mpl-2.0",
         "name": "Mozilla Public License 2.0",
@@ -4650,8 +4650,8 @@
       "pull_request_creation_policy": "all",
       "topics": [],
       "visibility": "public",
-      "forks": 0,
-      "open_issues": 3,
+      "forks": 1,
+      "open_issues": 1,
       "watchers": 2,
       "default_branch": "main"
     },
@@ -6731,7 +6731,7 @@
       "mirror_url": null,
       "archived": false,
       "disabled": false,
-      "open_issues_count": 10,
+      "open_issues_count": 9,
       "license": {
         "key": "mpl-2.0",
         "name": "Mozilla Public License 2.0",
@@ -6756,7 +6756,7 @@
       ],
       "visibility": "public",
       "forks": 5,
-      "open_issues": 10,
+      "open_issues": 9,
       "watchers": 14,
       "default_branch": "main"
     },
@@ -6873,10 +6873,17 @@
     }
   ],
   "aihorde": {
-    "images_generated": "52,742",
+    "images_generated": "52,816",
     "kudos": null
   },
   "stairesSongs": [
+    {
+      "title": "Combat Naps - Nothing Ever Happens",
+      "link": "https://staires.org/2026/11/10/combat-naps-nothing-ever-happens/",
+      "pubDate": "Tue, 10 Nov 2026 22:20:00 GMT",
+      "youtubeId": "ejyU9YXAdrM",
+      "pubDate_formatted": "Nov 10"
+    },
     {
       "title": "Emitt Rhodes - With My Face On The Floor",
       "link": "https://staires.org/2026/11/09/emitt-rhodes-with-my-face-on-the-floor/",
@@ -6904,13 +6911,6 @@
       "pubDate": "Tue, 11 Aug 2026 03:33:00 GMT",
       "youtubeId": "E6jqR_NBxOE",
       "pubDate_formatted": "Aug 10"
-    },
-    {
-      "title": "Disq - Cujo Kiddies",
-      "link": "https://staires.org/2026/07/09/disq-cujo-kiddies/",
-      "pubDate": "Thu, 09 Jul 2026 18:14:00 GMT",
-      "youtubeId": "iwjCKeggYXk",
-      "pubDate_formatted": "Jul 9"
     }
   ],
   "floatedPosts": [
@@ -6977,5 +6977,5 @@
       "pubDate_formatted": "Feb 15"
     }
   ],
-  "_fetchedAt": 1794290402294
+  "_fetchedAt": 1794463202707
 }
