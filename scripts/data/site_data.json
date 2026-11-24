@@ -1175,13 +1175,13 @@
       "deployments_url": "https://api.github.com/repos/amiantos/bradroot.me/deployments",
       "created_at": "2018-05-06T02:16:59Z",
       "updated_at": "2026-11-12T07:00:09Z",
-      "pushed_at": "2026-11-21T06:00:02Z",
+      "pushed_at": "2026-11-23T06:00:02Z",
       "git_url": "git://github.com/amiantos/bradroot.me.git",
       "ssh_url": "git@github.com:amiantos/bradroot.me.git",
       "clone_url": "https://github.com/amiantos/bradroot.me.git",
       "svn_url": "https://github.com/amiantos/bradroot.me",
       "homepage": "https://bradroot.me",
-      "size": 18272,
+      "size": 18315,
       "stargazers_count": 0,
       "watchers_count": 0,
       "language": "JavaScript",
@@ -2925,7 +2925,7 @@
       "releases_url": "https://api.github.com/repos/amiantos/impostor/releases{/id}",
       "deployments_url": "https://api.github.com/repos/amiantos/impostor/deployments",
       "created_at": "2023-05-21T01:26:01Z",
-      "updated_at": "2026-11-12T06:49:32Z",
+      "updated_at": "2026-11-23T13:17:14Z",
       "pushed_at": "2026-11-12T05:49:29Z",
       "git_url": "git://github.com/amiantos/impostor.git",
       "ssh_url": "git@github.com:amiantos/impostor.git",
@@ -2933,8 +2933,8 @@
       "svn_url": "https://github.com/amiantos/impostor",
       "homepage": "",
       "size": 1466,
-      "stargazers_count": 3,
-      "watchers_count": 3,
+      "stargazers_count": 2,
+      "watchers_count": 2,
       "language": "JavaScript",
       "has_issues": true,
       "has_projects": true,
@@ -2976,7 +2976,7 @@
       "visibility": "public",
       "forks": 3,
       "open_issues": 2,
-      "watchers": 3,
+      "watchers": 2,
       "default_branch": "main"
     },
     {
@@ -4067,13 +4067,13 @@
       "deployments_url": "https://api.github.com/repos/amiantos/lurker/deployments",
       "created_at": "2026-05-07T06:56:39Z",
       "updated_at": "2026-11-21T05:25:46Z",
-      "pushed_at": "2026-11-21T18:01:09Z",
+      "pushed_at": "2026-11-24T03:50:25Z",
       "git_url": "git://github.com/amiantos/lurker.git",
       "ssh_url": "git@github.com:amiantos/lurker.git",
       "clone_url": "https://github.com/amiantos/lurker.git",
       "svn_url": "https://github.com/amiantos/lurker",
       "homepage": "https://lurker.chat",
-      "size": 30521,
+      "size": 30522,
       "stargazers_count": 113,
       "watchers_count": 113,
       "language": "TypeScript",
@@ -4087,7 +4087,7 @@
       "mirror_url": null,
       "archived": false,
       "disabled": false,
-      "open_issues_count": 97,
+      "open_issues_count": 109,
       "license": {
         "key": "mpl-2.0",
         "name": "Mozilla Public License 2.0",
@@ -4112,7 +4112,7 @@
       ],
       "visibility": "public",
       "forks": 21,
-      "open_issues": 97,
+      "open_issues": 109,
       "watchers": 113,
       "default_branch": "main"
     },
@@ -4724,13 +4724,13 @@
       "deployments_url": "https://api.github.com/repos/amiantos/multiclock/deployments",
       "created_at": "2021-12-24T09:44:11Z",
       "updated_at": "2026-09-07T10:33:18Z",
-      "pushed_at": "2023-01-25T23:09:07Z",
+      "pushed_at": "2026-11-22T17:13:40Z",
       "git_url": "git://github.com/amiantos/multiclock.git",
       "ssh_url": "git@github.com:amiantos/multiclock.git",
       "clone_url": "https://github.com/amiantos/multiclock.git",
       "svn_url": "https://github.com/amiantos/multiclock",
       "homepage": "",
-      "size": 1729,
+      "size": 1924,
       "stargazers_count": 145,
       "watchers_count": 145,
       "language": "Swift",
@@ -4954,7 +4954,7 @@
       "releases_url": "https://api.github.com/repos/amiantos/pibar/releases{/id}",
       "deployments_url": "https://api.github.com/repos/amiantos/pibar/deployments",
       "created_at": "2020-05-17T20:12:12Z",
-      "updated_at": "2026-11-21T12:36:46Z",
+      "updated_at": "2026-11-23T09:44:40Z",
       "pushed_at": "2026-09-22T08:19:44Z",
       "git_url": "git://github.com/amiantos/pibar.git",
       "ssh_url": "git@github.com:amiantos/pibar.git",
@@ -4962,8 +4962,8 @@
       "svn_url": "https://github.com/amiantos/pibar",
       "homepage": "",
       "size": 11969,
-      "stargazers_count": 343,
-      "watchers_count": 343,
+      "stargazers_count": 344,
+      "watchers_count": 344,
       "language": "Swift",
       "has_issues": true,
       "has_projects": false,
@@ -5003,7 +5003,7 @@
       "visibility": "public",
       "forks": 5,
       "open_issues": 17,
-      "watchers": 343,
+      "watchers": 344,
       "default_branch": "master"
     },
     {
@@ -6873,7 +6873,7 @@
     }
   ],
   "aihorde": {
-    "images_generated": "53,653",
+    "images_generated": "54,694",
     "kudos": null
   },
   "stairesSongs": [
@@ -6977,5 +6977,5 @@
       "pubDate_formatted": "Feb 15"
     }
   ],
-  "_fetchedAt": 1795327202945
+  "_fetchedAt": 1795500002752
 }
