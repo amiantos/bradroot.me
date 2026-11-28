@@ -1175,13 +1175,13 @@
       "deployments_url": "https://api.github.com/repos/amiantos/bradroot.me/deployments",
       "created_at": "2018-05-06T02:16:59Z",
       "updated_at": "2026-11-12T07:00:09Z",
-      "pushed_at": "2026-11-25T06:00:02Z",
+      "pushed_at": "2026-11-27T06:00:02Z",
       "git_url": "git://github.com/amiantos/bradroot.me.git",
       "ssh_url": "git@github.com:amiantos/bradroot.me.git",
       "clone_url": "https://github.com/amiantos/bradroot.me.git",
       "svn_url": "https://github.com/amiantos/bradroot.me",
       "homepage": "https://bradroot.me",
-      "size": 18358,
+      "size": 18401,
       "stargazers_count": 0,
       "watchers_count": 0,
       "language": "JavaScript",
@@ -3385,13 +3385,13 @@
       "deployments_url": "https://api.github.com/repos/amiantos/ircv3.github.io/deployments",
       "created_at": "2026-07-24T19:43:22Z",
       "updated_at": "2026-07-26T18:27:17Z",
-      "pushed_at": "2026-07-26T18:27:13Z",
+      "pushed_at": "2026-11-26T22:26:54Z",
       "git_url": "git://github.com/amiantos/ircv3.github.io.git",
       "ssh_url": "git@github.com:amiantos/ircv3.github.io.git",
       "clone_url": "https://github.com/amiantos/ircv3.github.io.git",
       "svn_url": "https://github.com/amiantos/ircv3.github.io",
       "homepage": "https://ircv3.net",
-      "size": 3185,
+      "size": 3211,
       "stargazers_count": 0,
       "watchers_count": 0,
       "language": "HTML",
@@ -4066,16 +4066,16 @@
       "releases_url": "https://api.github.com/repos/amiantos/lurker/releases{/id}",
       "deployments_url": "https://api.github.com/repos/amiantos/lurker/deployments",
       "created_at": "2026-05-07T06:56:39Z",
-      "updated_at": "2026-11-25T21:26:38Z",
-      "pushed_at": "2026-11-26T03:20:49Z",
+      "updated_at": "2026-11-27T12:37:50Z",
+      "pushed_at": "2026-11-28T05:28:19Z",
       "git_url": "git://github.com/amiantos/lurker.git",
       "ssh_url": "git@github.com:amiantos/lurker.git",
       "clone_url": "https://github.com/amiantos/lurker.git",
       "svn_url": "https://github.com/amiantos/lurker",
       "homepage": "https://lurker.chat",
-      "size": 33561,
-      "stargazers_count": 114,
-      "watchers_count": 114,
+      "size": 31264,
+      "stargazers_count": 115,
+      "watchers_count": 115,
       "language": "TypeScript",
       "has_issues": true,
       "has_projects": false,
@@ -4087,7 +4087,7 @@
       "mirror_url": null,
       "archived": false,
       "disabled": false,
-      "open_issues_count": 111,
+      "open_issues_count": 118,
       "license": {
         "key": "mpl-2.0",
         "name": "Mozilla Public License 2.0",
@@ -4112,8 +4112,8 @@
       ],
       "visibility": "public",
       "forks": 21,
-      "open_issues": 111,
-      "watchers": 114,
+      "open_issues": 118,
+      "watchers": 115,
       "default_branch": "main"
     },
     {
@@ -4205,7 +4205,7 @@
       "mirror_url": null,
       "archived": false,
       "disabled": false,
-      "open_issues_count": 1,
+      "open_issues_count": 2,
       "license": {
         "key": "mpl-2.0",
         "name": "Mozilla Public License 2.0",
@@ -4221,7 +4221,7 @@
       "topics": [],
       "visibility": "public",
       "forks": 1,
-      "open_issues": 1,
+      "open_issues": 2,
       "watchers": 7,
       "default_branch": "main"
     },
@@ -4314,7 +4314,7 @@
       "mirror_url": null,
       "archived": false,
       "disabled": false,
-      "open_issues_count": 1,
+      "open_issues_count": 2,
       "license": {
         "key": "mpl-2.0",
         "name": "Mozilla Public License 2.0",
@@ -4330,7 +4330,7 @@
       "topics": [],
       "visibility": "public",
       "forks": 0,
-      "open_issues": 1,
+      "open_issues": 2,
       "watchers": 9,
       "default_branch": "main"
     },
@@ -6711,13 +6711,13 @@
       "deployments_url": "https://api.github.com/repos/amiantos/writers-guild/deployments",
       "created_at": "2025-11-07T17:10:43Z",
       "updated_at": "2026-10-16T17:47:12Z",
-      "pushed_at": "2026-11-20T05:55:34Z",
+      "pushed_at": "2026-11-27T05:55:21Z",
       "git_url": "git://github.com/amiantos/writers-guild.git",
       "ssh_url": "git@github.com:amiantos/writers-guild.git",
       "clone_url": "https://github.com/amiantos/writers-guild.git",
       "svn_url": "https://github.com/amiantos/writers-guild",
       "homepage": "",
-      "size": 20141,
+      "size": 20153,
       "stargazers_count": 14,
       "watchers_count": 14,
       "language": "JavaScript",
@@ -6873,7 +6873,7 @@
     }
   ],
   "aihorde": {
-    "images_generated": "54,873",
+    "images_generated": "54,964",
     "kudos": null
   },
   "stairesSongs": [
@@ -6915,6 +6915,12 @@
   ],
   "floatedPosts": [
     {
+      "title": "lol, some follow up on this... today I interacted...",
+      "link": "https://ihavebeenfloated.org/2026/11/26/lol-some-follow-up-on-this-https-ihavebeenfloated/",
+      "pubDate": "Fri, 27 Nov 2026 06:38:00 GMT",
+      "pubDate_formatted": "Nov 26"
+    },
+    {
       "title": "I don't think hate mobs of any kind, no matter...",
       "link": "https://ihavebeenfloated.org/2026/11/24/i-don-t-think-hate-mobs-of-any-kind-no-matter-how/",
       "pubDate": "Wed, 25 Nov 2026 05:48:00 GMT",
@@ -6937,12 +6943,6 @@
       "link": "https://ihavebeenfloated.org/2026/10/06/if-i-thought-i-was-mad-about-one-of-the-last-hard/",
       "pubDate": "Tue, 06 Oct 2026 07:16:00 GMT",
       "pubDate_formatted": "Oct 6"
-    },
-    {
-      "title": "This final Hard Fork episode is pissing me off....",
-      "link": "https://ihavebeenfloated.org/2026/09/20/this-final-hard-fork-episode-is-pissing-me-off/",
-      "pubDate": "Sun, 20 Sep 2026 19:35:00 GMT",
-      "pubDate_formatted": "Sep 20"
     }
   ],
   "amiantosPosts": [
@@ -6977,5 +6977,5 @@
       "pubDate_formatted": "Feb 15"
     }
   ],
-  "_fetchedAt": 1795672802256
+  "_fetchedAt": 1795845601759
 }
